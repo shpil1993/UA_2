@@ -1,0 +1,989 @@
+﻿l_english:
+ ####################################
+ #	Pop factions
+ ####################################
+ # Demand TITLES are run straight from a pop faction with no
+ # assembled event scope, [Owner.GetName] to get country name.
+ # Tooltips, DESCS and events use the usual [Root.Owner.GetName]
+
+
+ ### NEW FACTIONS
+
+ # Descriptors
+ pft_supremacist:2 "Супремасисти"
+ pft_supremacist_desc:5 "Фракції супремасистів бажають переваги раси, що заснувала їхню державу. Вони хочуть, щоб політика давала переваги їхній власній расі і ставила в невигідне становище інші раси.\n\n§LПринцип Ксенофобія§!"
+ pft_traditionalist:0 "Традиціоналісти"
+ pft_traditionalist_desc:2 "Фракції традиціоналістів бажають повернення до традиційних цінностей, що могли колись існувати (чи ні) ще до того, як держава почала підкорювати зірки. Вони схильні до аскетизму і зневажають певні технічні досягнення та цінності, які не мають відношення до спіритуалізму.\n\n§LПринцип Спіритуалізм§!"
+ pft_progressive:0 "Прогресисти"
+ pft_progressive_desc:2 "Фракції прогресистів бажають відсутності дискримінації в існуючих соціальних структурах і не сприймають непредставницькі форми правління. \n\n§LПринцип Егалітаризм§!"
+ pft_imperialist:0 "Імперіалісти"
+ pft_imperialist_desc:2 "Фракції імперіалістів бажають панування над іншими державами. Вони обожнюють суперництво, прагнуть захоплювати інші держави і не люблять на когось покладатися.\n\n§LПринцип Мілітаризм§!"
+ pft_isolationist:0 "Ізоляціоністи"
+ pft_isolationist_desc:3 "Фракції ізоляціоністів бажають ізоляції, прагнучи мати справу з іншими державами якомога рідше. Вони не сприймають агресивних війн і не люблять, коли їх розцінюють як легку мішень."\n\n§LПринцип Ксенофобія§!"
+ pft_technologist:0 "Технологісти"
+ pft_technologist_desc:1 "Фракції технологів бажають, щоб уся держава обирала науковий прогрес і користувалася плодами технічних досягнень. Вони не сприймають політично вмотивовані заборони щодо певних напрямків досліджень і не люблять, коли інші держави випереджають їх у розвитку."\n\n§LПринцип Матеріалізм§!"
+ pft_totalitarian:0 "Тоталітаристи"
+ pft_totalitarian_desc:2 "Фракції тоталітаристів бажають, щоб суспільство було чітко поділене на верстви і очолювалося сильною особистістю або впливовою групою.\n\n§LПринцип Авторитаризм§!"
+ pft_xenoist:0 "Ксенофіли"
+ pft_xenoist_desc:2 "Фракції ксенофілів бажають, щоб інопланетному життю і культурі надавали більш високу цінність. Вони виступають за різноманітність населення і взаємодію з іншими расами. Вони не сприймають рабство і геноцид у рамках цілої раси.\n\n§LПринцип Ксенофілія§!"
+ pft_prosperity:0 "Фракція процвітання"
+ pft_prosperity_desc:3 "Фракції процвітання прагнуть до економічного зростання і придбання ресурсів. Вони люблять енергокредити і рідкісні ресурси і не сприймають збройні конфлікти, що перешкоджають внутрішньому розвитку.\n\n§LПринцип Пацифізм§!"
+ pft_democratic_election_1:0 "Демократи"
+ pft_democratic_election_1_desc:0 "Фракції демократичної партії з'являються під час імперських виборів і розпадаються незабаром після цього, слугуючи засобом висування певних популярних лідерів на політичну сцену."
+ pft_democratic_election_2:0 "$pft_democratic_election_1$"
+ pft_democratic_election_2_desc:0 "$pft_democratic_election_1_desc$"
+ pft_democratic_election_3:0 "$pft_democratic_election_1$"
+ pft_democratic_election_3_desc:0 "$pft_democratic_election_1_desc$"
+ pft_democratic_election_4:0 "$pft_democratic_election_1$"
+ pft_democratic_election_4_desc:0 "$pft_democratic_election_1_desc$"
+
+ # SUPREMACISTS
+ SUPREMACIST_RULER_SAME_SPECIES:0 "Root.Owner.GetRulerTitle] [Root.Owner.GetSpeciesAdj&fem,gen] раси"
+ SUPREMACIST_RULER_NOT_SAME_SPECIES:0 "[Root.Owner.GetRulerTitle] - чужинець"
+ SUPREMACIST_RULER_NOT_SAME_SPECIES_DESC:0 "[Root.GetName] хочуть, щоб наш правитель належав до їхньої раси, і розгніваються, якщо [Root.Owner.GetRulerTitle] буде не з раси [Root.Owner.GetSpeciesName]."
+ SUPREMACIST_UNRESTRICTED_STUDY:0 "Агресивне вивчення чужинців"
+ SUPREMACIST_UNRESTRICTED_STUDY_DESC:0 "[Root.GetName] будуть раді максимально інтенсивній експлуатації примітивних цивілізацій чужинців за рахунок ухвалення законів, які дозволяють необмежене втручання в примітивні світи."
+ SUPREMACIST_NO_UNRESTRICTED_STUDY:0 "$SUPREMACIST_UNRESTRICTED_STUDY$"
+ SUPREMACIST_SLAVERY_ALLOWED:0 "Потенціал рабів"
+ SUPREMACIST_SLAVERY_ALLOWED_DESC:0 "[Root.GetName] не думають, що одні громадяни мають більшу цінність, ніж інші, а лише вважають, що деякі краще підходять для виконання певних завдань, ніж інші. Законодавча заборона §Yрабства§! їм не сподобається."
+ SUPREMACIST_SLAVERY_OUTLAWED:0 "Рабство заборонено законом"
+ SUPREMACIST_HAS_ALIEN_SLAVES:0 "Доступ до рабів-чужинців"
+ SUPREMACIST_NO_ALIEN_SLAVES:0 "Відсутність рабів-чужинців"
+ SUPREMACIST_NO_FREE_ALIENS:1 "Чужинці позбавлені громадянських прав"
+ SUPREMACIST_HAS_FREE_ALIENS:0 "$SUPREMACIST_NO_FREE_ALIENS$"
+ SUPREMACIST_ALIEN_SLAVES_DESC:1 "[Root.GetName] Будуть задоволені, якщо раси чужинців будуть наділені всіма правами як повноцінні громадяни нашої держави."
+ SUPREMACIST_ALL_SLAVERY_ALLOWED:0 "Рабство для раси [Root.Owner.GetSpeciesName] дозволено"
+ SUPREMACIST_ALL_SLAVERY_DESC:0 "[Root.GetName] розгнівані самою ідеєю, що [Root.Owner.GetSpeciesName] може бути для когось рабом, і хочуть, щоб рабство стосувалося тільки чужинців."
+ LEADER_IS_OWNER_SPECIES:0 "[Root.Owner.GetRulerTitle] - [Root.Owner.GetSpeciesName]"
+ SUPREMACIST_NO_MIGRATION_TREATIES:0 "Немає імміграції"
+ SUPREMACIST_MIGRATION_TREATIES:0 "$SUPREMACIST_NO_MIGRATION_TREATIES$"
+ SUPREMACIST_NO_MIGRATION_TREATIES_DESC:0 "[Root.GetName] будуть незадоволені в разі підписання будь-яких §Yдоговорів про міграцію§!".
+ SUPREMACIST_CORE_WORLD_EXCLUSIVITY:0 "Винятковість основних світів"
+ SUPREMACIST_CORE_WORLD_EXCLUSIVITY_DESC:0 "[Root.GetName] будуть задоволені, якщо тільки [Root.Owner.GetSpeciesNamePlural] і їхні раби отримають привілей експлуатувати основні світи нашої держави."
+ SUPREMACIST_CORE_WORLD_NONEXCLUSIVITY:0 "$SUPREMACIST_CORE_WORLD_EXCLUSIVITY$"
+ SUPREMACIST_DOMINATION:0 "Ствердження переваги"
+ SUPREMACIST_DOMINATION_DESC:0 "[Root.GetName] будуть певний час задоволені в разі оголошення війни одній або кільком державам чужинців."
+ SUPREMACIST_NO_DOMINATION:0 "$SUPREMACIST_DOMINATION$"
+ SUPREMACIST_GENE_MOD:0 "Генетична чистота"
+ SUPREMACIST_GENE_MOD_DESC:2 "[Root.GetName] будуть задоволені, маючи впевненість у тому, що всі поселення раси [Root.Owner.GetSpeciesNamePlural] мають однакові генетичні ознаки."
+ SUPREMACIST_IMPURE:0 "[Root.Owner.GetSpeciesAdj&fem] порочність"
+ SUPREMACIST_NO_HARMONY:0 "Відсутність гармонії"
+ SUPREMACIST_HARMONY:0 "$SUPREMACIST_NO_HARMONY$"
+ SUPREMACIST_NO_HARMONY_DESC:0 "[Root.GetName] будуть незадоволені в разі прийняття традицій гармонії, що натякають на уявну рівність нижчих рас із вищими."
+ SUPREMACIST_FANATIC_PURIFIERS:1 "$civic_fanatic_purifiers$"
+ SUPREMACIST_NOT_FANATIC_PURIFIERS:1 "$civic_fanatic_purifiers$"
+ SUPREMACIST_FANATIC_PURIFIERS_DESC:1 "$civic_fanatic_purifiers_desc$"
+ SUPREMACIST_DOMINATION_TRADITION:0 "Традиційне панування"
+ SUPREMACIST_NO_DOMINATION_TRADITION:1 "$SUPREMACIST_DOMINATION_TRADITION$"
+ SUPREMACIST_DOMINATION_TRADITION_DESC:0 "[Root.GetName] будуть задоволені в разі прийняття будь-яких традицій, які надають особливого значення §Yгосподству§!".
+ SUPREMACIST_GIANT_MASSACRE:0 "Винищення гігантів"
+ SUPREMACIST_NO_GIANT_MASSACRE:0 "$SUPREMACIST_GIANT_MASSACRE$"
+ SUPREMACIST_GIANT_MASSACRE_DESC:0 "[Root.GetName] будуть певний час задоволені в разі позбавлення від мук якихось гігантських чужинців-§Yлевіафанів§!".
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION:0 "Сильні поодинці"
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION_DESC:1 "[Root.GetName] будуть незадоволені, якщо [Root.Owner.GetName] §Yвступить§! у федерацію і тим самим дозволить чужинцям використовувати їх у своїх інтересах."
+ SUPREMACIST_ISOLATIONIST_FEDERATION:1 "$SUPREMACIST_ISOLATIONIST_NO_FEDERATION$"
+ SUPREMACIST_PROCLAIM_SUPREMACY:0 "Презирство до історії"
+ SUPREMACIST_NO_PROCLAIM_SUPREMACY:0 "$SUPREMACIST_PROCLAIM_SUPREMACY$"
+ SUPREMACIST_PROCLAIM_SUPREMACY_DESC:0 "[Root.GetName] будуть певний час задоволені в разі демонстрації зневаги до стародавніх цивілізацій за допомогою знищення їхніх малих артефактів."
+ SUPREMACIST_CELEBRATE_DIVERSITY:0 "Прославляння слабкості"
+ SUPREMACIST_NO_CELEBRATE_DIVERSITY:0 "$SUPREMACIST_CELEBRATE_DIVERSITY$"
+ SUPREMACIST_CELEBRATE_DIVERSITY_DESC:0 "[Root.GetName] будуть певний час незадоволені в разі демонстрації малих артефактів нижчих цивілізацій."
+ SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Агресивні протоколи першого контакту"
+ SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
+ SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "[Root.GetName] вимагають, щоб у нас було право вживати всіх можливих заходів проти невідомих загроз, з якими ми можемо зіткнутися під час міжзоряних перельотів."
+ SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "Пригнічувальна політика підпорядкування"
+ SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Наші піддані повинні служити нам, ось і нехай знають своє місце. [Root.GetName] не сприймають м'якого підходу."
+
+ # XENOISTS
+ XENOIST_PASSIVE_STUDY:0 "Непрямі ксенологічні дослідження"
+ XENOIST_PASSIVE_STUDY_DESC:0 "[Root.GetName] будуть задоволені в разі ухвалення законів про пасивне вивчення під час втручання в справи [root.owner.GetPreFTLLowerPlural&pl,gen] цивілізацій."
+ XENOIST_NO_PASSIVE_STUDY:0 "$XENOIST_PASSIVE_STUDY$"
+ XENOIST_NO_SLAVES:1 "Немає рабства за расовою ознакою"
+ XENOIST_NO_SLAVES_DESC:3 "[Root.GetName] будуть дуже незадоволені в разі нашої нездатності оголосити поза законом масове поневолення цілої раси."
+ XENOIST_SLAVES:0 "$XENOIST_NO_SLAVES$"
+ XENOIST_NO_PURGE:1 "Немає геноциду"
+ XENOIST_NO_PURGE_DESC:2 "[Root.GetName] будуть дуже незадоволені в разі нашої нездатності оголосити поза законом масовий геноцид раси."
+ XENOIST_PURGE:0 "$XENOIST_NO_PURGE$"
+ XENOIST_ENCLAVE_BORDERS:0 "Включення анклавів"
+ XENOIST_ENCLAVE_BORDERS_DESC:0 "[Root.GetName] будуть задоволені в разі полегшення культурного обміну завдяки збереженню будь-яких станцій анклаву в наших кордонах."
+ XENOIST_NO_ENCLAVE_BORDERS:1 "$XENOIST_ENCLAVE_BORDERS$"
+ XENOIST_MULTICULTURALISM:0 "Багатокультурне суспільство"
+ XENOIST_MULTICULTURALISM_DESC:0 "[Root.GetName] будуть задоволені, якщо ми дамо притулок у нашій державі хоча б §Y4§! унікальним расам."
+ XENOIST_NO_MULTICULTURALISM:0 "$XENOIST_MULTICULTURALISM$"
+ XENOIST_REFUGEES_WELCOME:0 "Прийом усіх біженців"
+ XENOIST_REFUGEES_WELCOME_DESC:0 "[Root.GetName] будуть задоволені, якщо політика щодо біженців дасть змогу приймати всіх без винятку представників чужих рас, що рятуються від воєн і геноциду."
+ XENOIST_REFUGEES_UNWELCOME:0 "$XENOIST_REFUGEES_WELCOME$"
+ XENOIST_DIPLO_TIES:0 "Зовнішні зв'язки"
+ XENOIST_DIPLO_TIES_DESC:0 "[Root.GetName] будуть задоволені, якщо ми встановимо дипломатичні зв'язки з усіма безпосередніми сусідами."
+ XENOIST_FEW_DIPLO_TIES:0 "$XENOIST_DIPLO_TIES$"
+ XENOIST_RECENT_UPLIFT:0 "Нещодавнє перетворення"
+ XENOIST_RECENT_UPLIFT_DESC:0 "[Root.GetName] будуть певний час задоволені в разі перетворення раси інопланетних тварин до набуття ними розуму."
+ XENOIST_NO_RECENT_UPLIFT:0 "$XENOIST_RECENT_UPLIFT$"
+ XENOIST_RECENT_ENLIGHTENMENT:0 "Недавня просвіта"
+ XENOIST_RECENT_ENLIGHTENMENT_DESC:0 "[Root.GetName] будуть певний час задоволені в разі просвіти примітивних інопланетних істот щодо чудес космічної ери якомога менш агресивним способом."
+ XENOIST_NO_RECENT_ENLIGHTENMENT:0 "$XENOIST_RECENT_ENLIGHTENMENT$"
+ XENOIST_DIPLOMACY_TRADITION:1 "Традиції: [Root.GetDiplomacyTraditionName]"
+ XENOIST_NO_DIPLOMACY_TRADITION:0 "$XENOIST_DIPLOMACY_TRADITION$"
+ XENOIST_DIPLOMACY_TRADITION_DESC:1 "[Root.GetName] будуть задоволені в разі прийняття наступних традицій: §Y[Root.GetDiplomacyTraditionName]§!".
+ XENOIST_PRE_SAPIENT_SURVIVAL:0 "Виживання передрозумних істот"
+ XENOIST_NO_PRE_SAPIENT_SURVIVAL:0 "$XENOIST_PRE_SAPIENT_SURVIVAL$"
+ XENOIST_PRE_SAPIENT_SURVIVAL_DESC:0 "[Root.GetName] будуть незадоволені в разі нездатності законодавчо забезпечити виживання розумних істот."
+ XENOIST_NO_PRIMITIVE_INVASION:0 "Заперечення проти захоплення земель"
+ XENOIST_PRIMITIVE_INVASION:0 "$XENOIST_NO_PRIMITIVE_INVASION$"
+ XENOIST_NO_PRIMITIVE_INVASION_DESC:0 "[Root.GetName] будуть незадоволені в разі відкритого вторгнення у світи з примітивними істотами."
+ XENOIST_FEDERATED:0 "Знаходження у федерації"
+ XENOIST_NOT_FEDERATED:0 "$XENOIST_FEDERATED$"
+ XENOIST_FEDERATED_DESC:0 "[Root.GetName] будуть задоволені в разі вступу до §Yфедерації§!".
+ XENOIST_RECENT_COMMS:0 "Новий контакт"
+ XENOIST_NO_RECENT_COMMS:0 "$XENOIST_RECENT_COMMS$"
+ XENOIST_RECENT_COMMS_DESC:0 "[Root.GetName] будуть певний час задоволені в разі встановлення зв'язку з іншими державами."
+ XENOIST_CELEBRATE_DIVERSITY:0 "Прославляння різноманітності"
+ XENOIST_NO_CELEBRATE_DIVERSITY:0 "$XENOIST_CELEBRATE_DIVERSITY$"
+ XENOIST_CELEBRATE_DIVERSITY_DESC:0 "[Root.GetName] будуть певний час задоволені в разі прославляння розмаїття життя у всесвіті за допомогою демонстрації малих артефактів."
+ XENOIST_PROCLAIM_SUPREMACY:0 "Спалювач книг"
+ XENOIST_NO_PROCLAIM_SUPREMACY:0 "$XENOIST_PROCLAIM_SUPREMACY$"
+ XENOIST_PROCLAIM_SUPREMACY_DESC:0 "[Root.GetName] будуть певний час незадоволені в разі знищення малих артефактів в ім'я посилення ксенофобії."
+ XENOIST_PROACTIVE_FIRST_CONTACT_POLICY:0 "Активні протоколи першого контакту"
+ XENOIST_ADOPT_PROACTIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_PROACTIVE_FIRST_CONTACT_POLICY$"
+ XENOIST_PROACTIVE_FIRST_CONTACT_POLICY_DESC:0 "Законодавчо закріпивши мирний і §Yактивний§! підхід до встановлення першого контакту, ми отримаємо схвалення фракції [Root.GetName] на весь період дослідження галактики."
+ XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Агресивні протоколи першого контакту"
+ XENOIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
+ XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "Якщо ми не закріпимо в законах §Yагресивний§! підхід до всіх, кого ми зустріли під час подорожей, то отримаємо несхвалення фракції [Root.GetName] на весь період дослідження галактики."
+ XENOIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "Пригнічувальна політика підпорядкування"
+ XENOIST_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$XENOIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ XENOIST_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Наша мета - принести просвіту і процвітання в галактику. Підданих треба плекати, і гноблення [Root.GetName] не потерплять."
+ XENOIST_BENEVOLENT_SUBJUGATION_POLICY:0 "Доброзичлива політика підпорядкування"
+ XENOIST_ADOPT_BENEVOLENT_SUBJUGATION_POLICY:0 "$XENOIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ XENOIST_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "[Root.GetName] схвалюють турботу про підданих і допомогу їм."
+ XENOIST_XENOLOGICAL_CONSERVATION:0 "Збереження ксенофауни"
+ XENOIST_NO_XENOLOGICAL_CONSERVATION:0 "$XENOIST_XENOLOGICAL_CONSERVATION$"
+ XENOIST_XENOLOGICAL_CONSERVATION_DESC:0 "[root.GetName] будуть раді, якщо ми побудуємо $building_xeno_zoo$ в ім'я науки та збереження природи." # returns 'an Alien Zoo'
+
+
+ # IMPERIALISTS
+ IMPERIALIST_PHILOSOPHY:0 "Агресивна дипломатія"
+ IMPERIALIST_PHILOSOPHY_DESC:2 "[Root.GetName] будуть незадоволені в разі неможливості вести наступальні війни."
+ IMPERIALIST_NO_PHILOSOPHY:0 "$IMPERIALIST_PHILOSOPHY$"
+ IMPERIALIST_CONQUEST:2 "Підкорення"
+ IMPERIALIST_CONQUEST_DESC:1 "[Root.GetName] будуть якийсь час задоволені в разі захоплення чужих планет."
+ IMPERIALIST_NO_CONQUEST:0 "$IMPERIALIST_CONQUEST$"
+ IMPERIALIST_FRONTIER_OUTPOSTS:0 "Розширення кордонів"
+ IMPERIALIST_FRONTIER_OUTPOSTS_DESC:1 "[Root.GetName] будуть певний час задоволені в разі будівництва §Yприкордонного форпосту§! для розширення нашої території."
+ IMPERIALIST_NO_RECENT_FRONTIER_OUTPOSTS:0 "$IMPERIALIST_FRONTIER_OUTPOSTS$"
+ IMPERIALIST_RIVALS1:0 "Місцеве суперництво"
+ IMPERIALIST_RIVALS_DESC1:1 "[Root.GetName] будуть задоволені, якщо ми оголосимо себе суперником щонайменше §Yодної держави§!."
+ IMPERIALIST_FEW_RIVALS1:0 "$IMPERIALIST_RIVALS1$"
+ IMPERIALIST_RIVALS2:0 "Суперництво між сусідами"
+ IMPERIALIST_RIVALS_DESC2:1 "[Root.GetName] будуть задоволені, якщо ми оголосимо себе суперником щонайменше §Yдвох держав§!".
+ IMPERIALIST_FEW_RIVALS2:0 "$IMPERIALIST_RIVALS2$"
+ IMPERIALIST_RIVALS3:0 "Галактичні закляті вороги"
+ IMPERIALIST_RIVALS_DESC3:1 "[Root.GetName] будуть задоволені, якщо ми оголосимо себе суперником щонайменше §Yтрьох держав§!".
+ IMPERIALIST_FEW_RIVALS3:0 "$IMPERIALIST_RIVALS3$"
+ IMPERIALIST_OVERLORD:0 "Імперська гегемонія"
+ IMPERIALIST_NOT_OVERLORD:0 "$IMPERIALIST_OVERLORD$"
+ IMPERIALIST_OVERLORD_DESC:0 "[Root.GetName] будуть задоволені, якщо ми станемо §Yсюзереном§! однієї або кількох іноземних держав."
+ IMPERIALIST_SUPREMACY_TRADITION:0 "Традиційна перевага"
+ IMPERIALIST_NO_SUPREMACY_TRADITION:0 "$IMPERIALIST_SUPREMACY_TRADITION$"
+ IMPERIALIST_SUPREMACY_TRADITION_DESC:0 "[Root.GetName] будуть задоволені в разі прийняття будь-яких традицій, які надають особливого значення §Yперевосходству§!".
+ IMPERIALIST_SLAYER:0 "Вбивця левіафанів"
+ IMPRERIALIST_NOT_SLAYER:0 "$IMPERIALIST_SLAYER$"
+ IMPERIALIST_SLAYER_DESC:1 "[Root.GetName] будуть задоволені в разі знищення живучого в космосі §Yлевіафана§!".
+ IMPERIALIST_UNDERLING:0 "Статус підданого"
+ IMPERIALIST_NOT_UNDERLING:0 "$IMPERIALIST_UNDERLING$"
+ IMPERIALIST_UNDERLING_DESC:0 "[Root.GetName] будуть незадоволені, якщо ми станемо підданими якогось §Yсюзерена§!-чужинця."
+ IMPERIALIST_BULWARK:0 "$IMPERIALIST_UNDERLING$"
+ IMPERIALIST_NOT_BULWARK:0 "$IMPERIALIST_UNDERLING$"
+ IMPERIALIST_BULWARK_DESC:0 "[Root.GetName] будуть незадоволені, якщо ми станемо підданим будь-якого типу, окрім бастіону, будь-якого §Yсюзерена§!-чужинця."
+ IMPERIALIST_MILITARY_APPLICATIONS:0 "Військова експропріація артефактів"
+ IMPERIALIST_NO_MILITARY_APPLICATIONS:0 "$IMPERIALIST_MILITARY_APPLICATIONS$"
+ IMPERIALIST_MILITARY_APPLICATIONS_DESC:0 "[Root.GetName] будуть певний час задоволені в разі знаходження можливостей військового застосування для ваших малих артефактів."
+ IMPERIALIST_PEACEFUL_APPLICATIONS:0 "Порожня трата артефактів"
+ IMPERIALIST_NO_PEACEFUL_APPLICATIONS:0 "$IMPERIALIST_PEACEFUL_APPLICATIONS$"
+ IMPERIALIST_PEACEFUL_APPLICATIONS_DESC:0 "[Root.GetName] будуть певний час незадоволені в разі марнотратства малих артефактів на повсякденні речі."
+ IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY:0 "Доброзичлива політика підпорядкування"
+ IMPERIALIST_NO_BENEVOLENT_SUBJUGATION_POLICY:0 "$IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "Сильні правлять, слабкі служать. [Root.GetName] будуть незадоволені, якщо ми проявимо співчуття до підданих."
+ IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "Пригнічувальна політика підпорядкування"
+ IMPERIALIST_ADOPT_OPPRESSIVE_SUBJUGATION_POLICY:0 "$IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Залізний кулак у залізній рукавичці. [Root.GetName] раді, коли піддані знають своє місце."
+ IMPERIALIST_FEDERATION:0 "$military_federation$"
+ IMPERIALIST_FEDERATION_NOT_MILITARIST:0 "$military_federation$"
+ IMPERIALIST_FEDERATION_DESC:0 "[Root.GetName] будуть задоволені, якщо нас прийме $military_federation$."
+ IMPERIALIST_FLEET_USAGE_HIGH:0 "Висока заповненість місткості флотилії"
+ IMPERIALIST_FLEET_USAGE_NOT_HIGH:0 "$IMPERIALIST_FLEET_USAGE_HIGH$"
+ IMPERIALIST_FLEET_USAGE_HIGH_DESC:0 "[Root.GetName] будуть раді, якщо ми заповнимо нашу місткість флотилії."
+ IMPERIALIST_FLEET_USAGE_LOW:0 "Низька заповненість місткості флотилії"
+ IMPERIALIST_FLEET_USAGE_NOT_LOW:0 "$IMPERIALIST_FLEET_USAGE_LOW$"
+ IMPERIALIST_FLEET_USAGE_LOW_DESC:0 "[Root.GetName] будуть дуже незадоволені, якщо ми задіємо лише малу частину нашої місткості флотилії."
+
+ # ISOLATIONISTS
+ ISOLATIONIST_PHILOSOPHY:0 "Міцна оборона"
+ ISOLATIONIST_PHILOSOPHY_DESC:1 "[Root.GetName] будуть задоволені в разі заборони §Y необмежених воєн§!".
+ ISOLATIONIST_NO_PHILOSOPHY:0 "$ISOLATIONIST_PHILOSOPHY$"
+ ISOLATIONIST_NO_AGGRESSIVE_WAR:0 "Небажана агресія"
+ ISOLATIONIST_AGGRESSIVE_WAR:0 "$ISOLATIONIST_NO_AGGRESSIVE_WAR$"
+ ISOLATIONIST_NO_AGGRESSIVE_WAR_DESC:0 "[Root.GetName] будуть вкрай незадоволені, якщо [Root.Owner.GetAdj&neut] держава виявиться втягнутою в галактичні неприємності, взявши участь у наступальній війні."
+ ISOLATIONIST_NO_DEFENSIVE_WAR:0 "Небажаний опір"
+ ISOLATIONIST_DEFENSIVE_WAR:0 "$ISOLATIONIST_NO_DEFENSIVE_WAR$"
+ ISOLATIONIST_NO_DEFENSIVE_WAR_DESC:0 "[Root.GetName] будуть певний час незадоволені в разі використання зброї, навіть якщо це необхідно для нашого захисту."
+ ISOLATIONIST_NO_DIPLO:0 "Мінімальна дипломатія"
+ ISOLATIONIST_NO_DIPLO_DESC:1 "[Root.GetName] будуть незадоволені в разі неможливості розриву несуттєвих зв'язків (таких як договори про міграцію, угоди про дослідження і пакти про взаємний захист) з іноземними державами."
+ ISOLATIONIST_DIPLO:0 "$ISOLATIONIST_NO_DIPLO$"
+ ISOLATIONIST_MOVEMENT_RESTRICTED:0 "Обмежене переміщення"
+ ISOLATIONIST_MOVEMENT_UNRESTRICTED:0 "$ISOLATIONIST_MOVEMENT_RESTRICTED$"
+ ISOLATIONIST_MOVEMENT_RESTRICTED_DESC:0 "[Root.GetName] будуть певний час незадоволені в разі будь-якого напливу чужинців - чи то біженці, чи то іммігранти, допущені за договором про міграцію."
+ ISOLATIONIST_REFUGEES_RESTRICTED:0 "Обмеження для біженців"
+ ISOLATIONIST_REFUGEES_RESTRICTED_DESC:1 "[Root.GetName] будуть незадоволені в разі неможливості обмеження потоку біженців у нашу державу."
+ ISOLATIONIST_REFUGEES_UNRESTRICTED:0 "$ISOLATIONIST_REFUGEES_RESTRICTED$"
+ ISOLATIONIST_NON_AGGRESSION1:0 "Пакт про ненапад"
+ ISOLATIONIST_NON_AGGRESSION_DESC1:1 "[Root.GetName] будуть задоволені в разі укладення §Yпакту про ненапад§! з іншою державою."
+ ISOLATIONIST_FEW_NON_AGGRESSION1:0 "$ISOLATIONIST_NON_AGGRESSION1$"
+ ISOLATIONIST_NON_AGGRESSION2:0 "Угода про ненапад"
+ ISOLATIONIST_NON_AGGRESSION_DESC2:1 "Пакти про ненапад з іншими державами - це необхідність, і [Root.GetName] будуть задоволені, якщо ми укладемо щонайменше §Yдва§!"
+ ISOLATIONIST_FEW_NON_AGGRESSION2:0 "$ISOLATIONIST_NON_AGGRESSION2$"
+ ISOLATIONIST_NON_AGGRESSION3:0 "Протокол про ненапад"
+ ISOLATIONIST_NON_AGGRESSION_DESC3:1 "Пакти про ненапад з іншими державами - це необхідність, і [Root.GetName] будуть задоволені, якщо ми укладемо щонайменше §Yтри§!"
+ ISOLATIONIST_FEW_NON_AGGRESSION3:0 "$ISOLATIONIST_NON_AGGRESSION3$"
+ ISOLATIONIST_PEACE1:0 "Мир"
+ ISOLATIONIST_PEACE_DESC1:0 "[Root.GetName] будуть задоволені, якщо ми не братимемо участі в жодному великомасштабному галактичному конфлікті протягом щонайменше десяти років§!".
+ ISOLATIONIST_NO_PEACE1:0 "$ISOLATIONIST_PEACE1$"
+ ISOLATIONIST_PEACE2:0 "Тривалий мир"
+ ISOLATIONIST_PEACE_DESC2:0 "[Root.GetName] Будуть задоволені, якщо ми не братимемо участі в жодному великомасштабному галактичному конфлікті протягом щонайменше двадцяти п'яти років §Yкак мінімум двадцяти п'яти років§!".
+ ISOLATIONIST_NO_PEACE2:0 "$ISOLATIONIST_PEACE2$"
+ ISOLATIONIST_PEACE3:0 "Вічний мир"
+ ISOLATIONIST_PEACE_DESC3:0 "[Root.GetName] Будуть задоволені, якщо ми не братимемо участі в жодному великомасштабному галактичному конфлікті протягом щонайменше п'ятдесяти років§!".
+ ISOLATIONIST_NO_PEACE3:0 "$ISOLATIONIST_PEACE3$"
+ ISOLATIONIST_STRONG_ARMY:0 "Регулярна армія"
+ ISOLATIONIST_STRONG_ARMY_DESC:0 "[Root.GetName] будуть задоволені в разі утримання щонайменше §Yтрьох§! оборонних армій на всіх [Root.Owner.GetAdj&pl,gen] світах з §Yп'ятьма§! і більше поселеннями."
+ ISOLATIONIST_WEAK_ARMY:0 "Недостатньо зброї"
+ ISOLATIONIST_DEFENSIVE_STATIONS:0 "Космічна оборона"
+ ISOLATIONIST_DEFENSIVE_STATIONS_DESC:0 "[Root.GetName] будуть задоволені в разі розміщення щонайменше §Yодної§! військової станції в кожній колонізованій системі."
+ ISOLATIONIST_FEW_DEFENSIVE_STATIONS:0 "$ISOLATIONIST_DEFENSIVE_STATIONS$"
+ ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY:0 "Активні протоколи першого контакту"
+ ISOLATIONIST_NO_PROACTIVE_FIRST_CONTACT_POLICY:0 "$ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY$"
+ ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY_DESC:0 "[Root.GetName] вважають недоречним транслювати відомості про нас у космос, де про них може дізнатися хто завгодно."
+
+ # TRADITIONALISTS
+ TRADITIONALIST_NO_ROBOTS:0 "Органічне життя"
+ TRADITIONALIST_NO_ROBOTS_DESC:1 "[Root.GetName] будуть незадоволені в разі, якщо ми допустимо заміну органічного життя і органічних робітників на бездушні машини."
+ TRADITIONALIST_ROBOTS:0 "Порожні оболонки"
+ TRADITIONALIST_NO_ROBOT_RIGHTS:0 "Безправ'я синтетиків"
+ TRADITIONALIST_NO_ROBOT_RIGHTS_DESC:0 "[Root.GetName] будуть вкрай незадоволені, якщо ми не зможемо оголосити поза законом непотребство, яким є думаючі машини."
+ TRADITIONALIST_ROBOT_RIGHTS:0 "$TRADITIONALIST_NO_ROBOT_RIGHTS$"
+ TRADITIONALIST_NO_FULL_ROBOT_RIGHTS:0 "Безправність синтетиків"
+ TRADITIONALIST_NO_FULL_ROBOT_RIGHTS_DESC:0 "[Root.GetName] обуряться, якщо бездушні синтетики отримають повні громадянські права."
+ TRADITIONALIST_FULL_ROBOT_RIGHTS:0 "Нечестиві машини"
+ TRADITIONALIST_SPIRITUALIST_GOVERNMENT:0 "Побожне правління"
+ TRADITIONALIST_SPIRITUALIST_GOVERNMENT_DESC:1 "[Root.GetName] будуть раді відображенню спіритуалістичних цінностей у керівних принципах нашої держави."
+ TRADITIONALIST_SECULAR_GOVERNMENT:0 "Світська держава"
+ TRADITIONALIST_SPIRITUALIST_POPS:0 "Однорідність"
+ TRADITIONALIST_SPIRITUALIST_POPS_DESC:0 "Побожні уми мислять схоже, і [Root.GetName] будуть задоволені, якщо хоча б §Y25%§! нашого населення стануть прихильниками будь-якої форми спіритуалізму."
+ TRADITIONALIST_FEW_SPIRITUALIST_POPS:0 "$TRADITIONALIST_SPIRITUALIST_POPS$"
+ TRADITIONALIST_UNSPIRITUALIST:0 "Утискувана меншість"
+ TRADITIONALIST_NOT_UNSPIRITUALIST:0 "$TRADITIONALIST_UNSPIRITUALIST$"
+ TRADITIONALIST_UNSPIRITUALIST_DESC:0 "[Root.GetName] будуть незадоволені, якщо спіритуалістичні переконання стануть вважатися проблемою меншини у [Root.Owner.GetName&prep]."
+ TRADITIONALIST_FRUGALITY:0 "Ощадливість"
+ TRADITIONALIST_FRUGALITY_DESC:0 "[Root.GetName] будуть задоволені в разі забезпечення низьких витрат на товари масового попиту."
+ TRADITIONALIST_BIG_SPENDING:0 "Надмірні надмірності"
+ TRADITIONALIST_NO_TOMB_WORLDS:0 "Грішна земля"
+ TRADITIONALIST_NO_TOMB_WORLDS_DESC:1 "[Root.GetName] будуть засмучені, якщо ми прибудемо в якийсь із §Yспустошених світів§!, навіть із метою тераформування."
+ TRADITIONALIST_TOMB_WORLDS:0 "$TRADITIONALIST_NO_TOMB_WORLDS$"
+ TRADITIONALIST_GAIA_WORLDS:1 "Священний світ"
+ TRADITIONALIST_GAIA_WORLDS_DESC:2 "[Root.GetName] будуть задоволені в разі освячення §Yосвячення§! будь-якого незіпсованого цивілізацією §Yідеального світу§! в наших кордонах."
+ TRADITIONALIST_NO_GAIA_WORLDS:0 "$TRADITIONALIST_GAIA_WORLDS$"
+ TRADITIONALIST_UNBLISSED:0 "Благословенні без блаженства"
+ TRADITIONALIST_BLISSED:0 "$TRADITIONALIST_UNBLISSED$"
+ TRADITIONALIST_UNBLISSED_DESC:0 "[Root.GetName] будуть задоволені в разі забезпечення розуміння й усвідомлення населенням його функцій та обов'язків завдяки тому, що нікого не змушуватимуть жити з Хімічним блаженством."
+ TRADITIONALIST_PLANETBOUND:0 "Приземлені житла"
+ TRADITIONALIST_PLANETBOUND_DESC:0 "[Root.GetName] будуть задоволені, якщо ми обмежимося планетарними поселеннями і станемо уникати місць проживання в космосі."
+ TRADITIONALIST_SPACEBOUND:0 "Життя в темряві"
+ TRADITIONALIST_FLESH_IS_STRONG:0 "Плоть сильна"
+ TRADITIONALIST_FLESH_IS_STRONG_DESC:0 "[Root.GetName] будуть вкрай незадоволені, якщо ми станемо оскверняти тіла, даровані нам природою, кібернетичними імплантатами."
+ TRADITIONALIST_FLESH_IS_WEAK:0 "Плоть слабка"
+ TRADITIONALIST_PURITY_TRADITION:0 "Традиційна чистота"
+ TRADITIONALIST_NO_PURITY_TRADITION:0 "$TRADITIONALIST_PURITY_TRADITION$"
+ TRADITIONALIST_PURITY_TRADITION_DESC:0 "[Root.GetName] будуть задоволені в разі прийняття будь-яких традицій, що надають особливого значення §Yчистоті§!".
+ TRADITIONALIST_PSIONIC_PURSUIT:2 "Псіонічні прагнення"
+ TRADITIONALIST_NO_PSIONIC_PURSUIT:1 "$TRADITIONALIST_PSIONIC_PURSUIT$"
+ TRADITIONALIST_PSIONIC_PURSUIT_DESC:2 "[Root.GetName] будуть задоволені в разі прийняття бонусу за прагнення §YРозум вищий за матерію§!.".
+ TRADITIONALIST_PSIONIC_TEACHINGS:0 "Псіонічні вчення"
+ TRADITIONALIST_NO_PSIONIC_TEACHINGS:0 "$TRADITIONALIST_PSIONIC_TEACHINGS$"
+ TRADITIONALIST_PSIONIC_TEACHINGS_DESC:0 "Вивчення технології £society£ §Y$tech_psionic_theory$§! обрадує [Root.GetName]."
+ TRADITIONALIST_SHROUD_BOON:0 "Благотворний Покров"
+ TRADITIONALIST_NO_SHROUD_BOON:0 "$TRADITIONALIST_SHROUD_BOON$"
+ TRADITIONALIST_SHROUD_BOON_DESC:0 "[Root.GetName] будуть певний час задоволені в разі отримання корисних нагород від Покрови."
+ TRADITIONALIST_SHROUD_CURSE:0 "Згубний Покров"
+ TRADITIONALIST_NO_SHROUD_CURSE:0 "$TRADITIONALIST_SHROUD_CURSE$"
+ TRADITIONALIST_SHROUD_CURSE_DESC:0 "[Root.GetName] будуть певний час незадоволені в разі отримання шкідливих нагород від Покрова."
+ TRADITIONALIST_HARMONY:0 "Гармонійна держава"
+ TRADITIONALIST_NO_HARMONY:0 "$TRADITIONALIST_HARMONY$"
+ TRADITIONALIST_HARMONY_DESC:0 "[Root.GetName] будуть задоволені в разі прийняття традицій §Yгармонії§!".
+ TRADITIONALIST_RELIGIOUS_FINDING:0 "Розрада в минулому"
+ TRADITIONALIST_NO_RELIGIOUS_FINDING:0 "$TRADITIONALIST_RELIGIOUS_FINDING$"
+ TRADITIONALIST_RELIGIOUS_FINDING_DESC:0 "[Root.GetName] будуть певний час задоволені в разі знаходження релігійної значущості для малих артефактів."
+ TRADITIONALIST_FEDERATION:0 "$spiritualist_federation$"
+ TRADITIONALIST_FEDERATION_NOT_SPIRITUALIST:0 "$spiritualist_federation$"
+ TRADITIONALIST_FEDERATION_DESC:0 "[Root.GetName] будуть задоволені, якщо нас прийме $spiritualist_federation$."
+ TRADITIONALIST_FEDERATION_ANTI:0 "$research_federation$"
+ TRADITIONALIST_FEDERATION_ANTI_NOT_RESEARCH:0 "$research_federation$"
+ TRADITIONALIST_FEDERATION_ANTI_DESC:0 "[Root.GetName] будуть незадоволені, якщо нас прийме $research_federation$."
+
+ # TECHNOLOGISTS
+ TECHNOLOGIST_ROBOTS:0 "Любов до машин"
+ TECHNOLOGIST_ROBOTS_DESC:0 "[Root.GetName] будуть задоволені в разі утримання щонайменше §Yшести§! поселень роботів."
+ TECHNOLOGIST_FEW_ROBOTS:0 "$TECHNOLOGIST_ROBOTS$"
+ TECHNOLOGIST_ROBOTS_ALLOWED:0 "ШІ дозволено"
+ TECHNOLOGIST_ROBOTS_ALLOWED_DESC:1 "Дозволяється розробка і вивчення робототехніки та штучного інтелекту"
+ TECHNOLOGIST_ROBOTS_BANNED:0 "ШІ поза законом"
+ TECHNOLOGIST_TECH_LEAP:0 "Передові рубежі"
+ TECHNOLOGIST_TECH_LEAP_DESC:0 "[Root.GetName] будуть задоволені, якщо ми залишимося на передових позиціях і не дозволимо іншим державам виходити за межі технічного рівня, §Yаналогічного§! нашому."
+ TECHNOLOGIST_TECH_LAG:0 "Затримка прогресу"
+ TECHNOLOGIST_RESEARCH_TREATIES:0 "Наука без кордонів"
+ TECHNOLOGIST_RESEARCH_TREATIES_DESC:0 "[Root.GetName] будуть задоволені в разі підписання договорів про наукову співпрацю щонайменше з §Трьома§! іншими державами."
+ TECHNOLOGIST_FEW_RESEARCH_TREATIES:0 "$TECHNOLOGIST_RESEARCH_TREATIES$"
+ TECHNOLOGIST_NO_SYNTH_ENVY:0 "Заздрість до синтетиків"
+ TECHNOLOGIST_NO_SYNTH_ENVY_DESC:0 "[Root.GetName], напевно, будуть незадоволені, якщо побачать, що інші зоряні держави хваляться будь-якими різними роботами, а в жодному з наших світів нічого подібного не буде."
+ TECHNOLOGIST_SYNTH_ENVY:0 "$TECHNOLOGIST_NO_SYNTH_ENVY$"
+ TECHNOLOGIST_DISCOVERY:0 "Традиційне відкриття"
+ TECHNOLOGIST_NO_DISCOVERY:0 "$TECHNOLOGIST_DISCOVERY$"
+ TECHNOLOGIST_DISCOVERY_DESC:0 "[Root.GetName] будуть задоволені в разі прийняття §Yтрадицій відкриття§!".
+ TECHNOLOGIST_SECRET_KNOWLEDGE:0 "Таємні знання"
+ TECHNOLOGIST_NO_SECRET_KNOWLEDGE:0 "$TECHNOLOGIST_SECRET_KNOWLEDGE$"
+ TECHNOLOGIST_SECRET_KNOWLEDGE_DESC:0 "[Root.GetName] будуть задоволені в разі одержання доступу до таємних знань - якого-небудь стародавнього §Yодкровення§! або §Yбанку даних§!".
+ TECHNOLOGIST_ARCANA:0 "Знання про минуле"
+ TECHNOLOGIST_NO_ARCANA:0 "$TECHNOLOGIST_ARCANA$"
+ TECHNOLOGIST_ARCANA_DESC:0 "[Root.GetName] будуть якийсь час задоволені в разі вивчення малих артефактів."
+ TECHNOLOGIST_PRECURSOR_SECRETS:0 "Таємниці предтеч"
+ TECHNOLOGIST_NO_PRECURSOR_SECRETS:0 "$TECHNOLOGIST_PRECURSOR_SECRETS$"
+ TECHNOLOGIST_PRECURSOR_SECRETS_DESC:0 "[Root.GetName] будуть задоволені в разі розкриття стародавніх таємниць предтеч."
+ TECHNOLOGIST_FEDERATION:0 "$research_federation$"
+ TECHNOLOGIST_FEDERATION_NOT_RESEARCH:0 "$research_federation$"
+ TECHNOLOGIST_FEDERATION_DESC:0 "[Root.GetName] будуть задоволені, якщо нас прийме $research_federation$."
+ TECHNOLOGIST_FEDERATION_ANTI:0 "$spiritualist_federation$"
+ TECHNOLOGIST_FEDERATION_ANTI_NOT_SPIRITUALIST:0 "$spiritualist_federation$"
+ TECHNOLOGIST_FEDERATION_ANTI_DESC:0 "[Root.GetName] будуть незадоволені, якщо нас прийме $spiritualist_federation$."
+
+ # PROGRESSIVES
+ PROGRESSIVE_NO_AUTO:0 "Проти автократії"
+ PROGRESSIVE_AUTO:0 "$PROGRESSIVE_NO_AUTO$"
+ PROGRESSIVE_DEMOCRATIC_GOVERNMENT_DESC:1 "[Root.GetName] будуть задоволені номінально обраним урядом."
+ PROGRESSIVE_FREE_MOVEMENT:0 "Вільне переміщення"
+ PROGRESSIVE_NO_FREE_MOVEMENT:0 "$PROGRESSIVE_FREE_MOVEMENT$"
+ PROGRESSIVE_FREE_MOVEMENT_DESC:1 "[Root.GetName] виграє від вільного переміщення поселень, заборони на примусове переселення і скасування засобів контролю міграції."
+ PROGRESSIVE_REPRODUCTIVE_FREEDOM:0 "Репродуктивна свобода"
+ PROGRESSIVE_REPRODUCTIVE_FREEDOM_DESC:2 "[Root.GetName] будуть задоволені, якщо вибіркове регулювання чисельності буде заборонено."
+ PROGRESSIVE_NO_REPRODUCTIVE_FREEDOM:1 "$PROGRESSIVE_REPRODUCTIVE_FREEDOM$"
+ PROGRESSIVE_SLAVERY_BANNED:1 "Рабство заборонено"
+ PROGRESSIVE_SLAVERY_BANNED_DESC:1 "[Root.GetName] будуть незадоволені в разі неможливості заборони рабства."
+ PROGRESSIVE_SLAVERY_ALLOWED:0 "Рабство дозволено"
+ PROGRESSIVE_NO_STRATIFIED:0 "Заборона стратифікації"
+ PROGRESSIVE_NO_STRATIFIED_DESC:0 "[Root.GetName] будуть вкрай незадоволені, якщо будь-якому жителю нашої держави дозволять жити в рамках §Yстратифікованої економіки§!".
+ PROGRESSIVE_STRATIFIED:0 "$PROGRESSIVE_NO_STRATIFIED$"
+ PROGRESSIVE_NO_ELITISM:0 "Народжені рівними"
+ PROGRESSIVE_NO_ELITISM_DESC:0 "[Root.GetName] будуть задоволені, якщо ми утримаємось від слідування політиці, яка підтримує правлячу еліту."
+ PROGRESSIVE_ELITISM:0 "$PROGRESSIVE_NO_ELITISM$"
+ PROGRESSIVE_SOCIAL_EQUALITY:0 "Рівне громадянство"
+ PROGRESSIVE_SOCIAL_EQUALITY_DESC:0 "[Root.GetName] будуть задоволені в разі забезпечення представникам усіх рас нашої держави статусу повноправного громадянина."
+ PROGRESSIVE_NO_SOCIAL_EQUALITY:0 "$PROGRESSIVE_SOCIAL_EQUALITY$"
+ PROGRESSIVE_BENEVOLENT_SUBJUGATION_POLICY:0 "Доброзичлива політика підпорядкування"
+ PROGRESSIVE_BENEVOLENT_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$PROGRESSIVE_BENEVOLENT_SUBJUGATION_POLICY$"
+ PROGRESSIVE_BENEVOLENT_NO_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Наші піддані звертаються до нас за захистом і повчанням, і ми повинні відповідати на їхню довіру збереженням їхніх свобод. [Root.GetName] будуть задоволені, якщо ми виберемо доброзичливий підхід до підпорядкування."
+ PROGRESSIVE_FEDERATION:0 "$hegemony_federation$"
+ PROGRESSIVE_FEDERATION_NOT_HEGEMONY:0 "$hegemony_federation$"
+ PROGRESSIVE_FEDERATION_DESC:0 "[Root.GetName] будуть незадоволені, якщо нас прийме $hegemony_federation$."
+
+ # TOTALITARIANS
+ TOTALITARIAN_AUTOCRACY:0 "Автократія"
+ TOTALITARIAN_AUTOCRACY_DESC:0 "[Root.GetName] будуть задоволені авторитарною формою правління - §Yімперською або диктаторською владою§!".
+ TOTALITARIAN_NO_AUTOCRACY:0 "$TOTALITARIAN_AUTOCRACY$"
+ TOTALITARIAN_DEMOCRACY:0 "Антидемократія"
+ TOTALITARIAN_DEMOCRACY_DESC:0 "[Root.GetName] будуть дуже незадоволені життям при §Yдемократичній владі§!".
+ TOTALITARIAN_NO_DEMOCRACY:0 "$TOTALITARIAN_DEMOCRACY$"
+ TOTALITARIAN_STRATIFICATION:0 "Соціальні верстви"
+ TOTALITARIAN_STRATIFICATION_DESC:1 "[Root.GetName] будуть задоволені в разі посилення стратифікації суспільства - чи то кастова система, чи то дискримінація прав деяких громадян, чи то рабство, чи то навіть геноцид."
+ TOTALITARIAN_NO_STRATIFICATION:0 "$TOTALITARIAN_STRATIFICATION$"
+ TOTALITARIAN_SLAVERY:0 "Мінімальне рабство"
+ TOTALITARIAN_SLAVERY_DESC:0 "[Root.GetName] будуть задоволені, якщо збережуть хоча б §Yдванадцять§! поневолених поселень."
+ TOTALITARIAN_NO_SLAVERY:0 "$TOTALITARIAN_SLAVERY$"
+ TOTALITARIAN_ELITISM:0 "Елітизм"
+ TOTALITARIAN_ELITISM_DESC:0 "[Root.GetName] будуть задоволені політикою, яка дозволяє посилення позицій наших лідерів."
+ TOTALITARIAN_NO_ELITISM:0 "$TOTALITARIAN_ELITISM$"
+ TOTALITARIAN_GOVERNORS:0 "Регіональне управління"
+ TOTALITARIAN_GOVERNORS_DESC:0 "[Root.GetName] будуть задоволені, якщо кожним сектором правитиме §Yгубернатор§!, який триматиме все під контролем."
+ TOTALITARIAN_FEW_GOVERNORS:0 "$TOTALITARIAN_GOVERNORS$"
+ TOTALITARIAN_STRONG_ARMY:0 "Військова дисципліна"
+ TOTALITARIAN_STRONG_ARMY_DESC:0 "[Root.GetName] будуть задоволені в разі утримання щонайменше §Yшести§! армій будь-якого типу в усіх [Root.Owner.GetAdj&pl,gen] світах із шістьма і більше поселеннями."
+ TOTALITARIAN_WEAK_ARMY:0 "$TOTALITARIAN_STRONG_ARMY$"
+ TOTALITARIAN_DOMINATION:0 "Традиційне панування"
+ TOTALITARIAN_NO_DOMINATION:0 "$TOTALITARIAN_DOMINATION$"
+ TOTALITARIAN_DOMINATION_DESC:0 "[Root.GetName] будуть задоволені в разі прийняття §Yтрадицій панування§!".
+ TOTALITARIAN_EXTRANATIONAL_AUTHORITY:0 "Позанаціональна влада"
+ TOTALITARIAN_NO_EXTRANATIONAL_AUTHORITY:0 "$TOTALITARIAN_EXTRANATIONAL_AUTHORITY$"
+ TOTALITARIAN_EXTRANATIONAL_AUTHORITY_DESC:0 "[Root.GetName] будуть задоволені в разі розширення нашого впливу з подальшим пануванням над §Y-підданими§!".
+ TOTALITARIAN_UNDERLING:0 "Прислужники"
+ TOTALITARIAN_NOT_UNDERLING:0 "$TOTALITARIAN_UNDERLING$"
+ TOTALITARIAN_UNDERLING_DESC:0 "[Root.GetName] будуть незадоволені, якщо ми станемо підданими якогось §Yсюзерена§!-чужинця."
+ TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY:0 "Доброзичлива політика підпорядкування"
+ TOTALITARIAN_NO_BENEVOLENT_SUBJUGATION_POLICY:0 "$TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY$"
+ TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "Що твердіше [Owner.Species.GetHandName], то легше керувати підданими, інакше вони стають ледачими й розслабленими. [Root.GetName] будуть незадоволені, якщо ми подаруємо їм занадто багато свобод."
+ TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY:1 "Пригнічувальна політика підпорядкування"
+ TOTALITARIAN_ADOPT_OPPRESSIVE_SUBJUGATION_POLICY:0 "$TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY$"
+ TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Як і [Owner.Species.GetSpawnNamePlural], наші піддані потребують настанови і контролю. [Root.GetName] схвалять, якщо ми триматимемо їх на короткому повідку."
+ TOTALITARIAN_FEDERATION:0 "$hegemony_federation$"
+ TOTALITARIAN_FEDERATION_NOT_HEGEMONY:0 "$hegemony_federation$"
+ TOTALITARIAN_FEDERATION_DESC:0 "[Root.GetName] будуть задоволені, якщо нас прийме $hegemony_federation$."
+
+ # PROSPERITY
+ PROSPERITY_PHILOSOPHY:0 "Оборонна тактика"
+ PROSPERITY_PHILOSOPHY_DESC:0 "[Root.GetName] будуть задоволені, що ми обмежуємося політикою §YТільки оборонні війни§!".
+ PROSPERITY_NO_PHILOSOPHY:0 "$PROSPERITY_PHILOSOPHY$"
+ PROSPERITY_LIQUIDITY:0 "Стійка ліквідність"
+ PROSPERITY_NO_LIQUIDITY:0 "$PROSPERITY_LIQUIDITY$"
+ PROSPERITY_LIQUIDITY_DESC:1 "[Root.GetName] будуть задоволені при постійному збереженні запасів енергії хоча б на рівні £energy£ §Y5000§!".
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE1:0 "Отримання рідкісних ресурсів"
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE2:0 "Контроль рідкісних ресурсів"
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE3:0 "Влада над рідкісними ресурсами"
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE_DESC1:0 "[Root.GetName] будуть раді мати контроль хоча б над §Y1§! рідкісним ресурсом."
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE_DESC2:0 "[Root.GetName] будуть раді мати контроль хоча б над §Y5§! рідкісними ресурсами."
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE_DESC3:0 "[Root.GetName] будуть раді мати контроль хоча б над §Y10§! рідкісними ресурсами."
+ PROSPERITY_NO_STRATEGIC_RESOURCE1:0 "$PROSPERITY_WANTS_STRATEGIC_RESOURCE1$"
+ PROSPERITY_NO_STRATEGIC_RESOURCE2:0 "$PROSPERITY_WANTS_STRATEGIC_RESOURCE2$"
+ PROSPERITY_NO_STRATEGIC_RESOURCE3:0 "$PROSPERITY_WANTS_STRATEGIC_RESOURCE3$"
+ PROSPERITY_TRADITION:0 "Традиційне процвітання"
+ PROSPERITY_NO_TRADITION:0 "$PROSPERITY_TRADITION$"
+ PROSPERITY_TRADITION_DESC:0 "[Root.GetName] будуть задоволені в разі прийняття будь-яких традицій, що надають особливого значення §Yпроцвітанню§!".
+ PROSPERITY_PEACE:0 "Збереження миру"
+ PROSPERITY_NO_PEACE:0 "$PROSPERITY_PEACE$"
+ PROSPERITY_PEACE_DESC:0 "Розвиток вимагає стабільності, тому [Root.GetName] будуть задоволені, якщо ми не братимемо участі у війнах."
+ PROSPERITY_NOT_AGGRESSOR:0 "Відмова від насильства"
+ PROSPERITY_AGGRESSOR:0 "$PROSPERITY_NOT_AGGRESSOR$"
+ PROSPERITY_NOT_AGGRESSOR_DESC:0 "[Root.GetName] будуть вкрай незадоволені в разі втрат живої сили і витрати ресурсів в агресивних війнах."
+ PROSPERITY_MILITARY_APPLICATIONS:0 "Порожня трата артефактів"
+ PROSPERITY_NO_MILITARY_APPLICATIONS:0 "$PROSPERITY_MILITARY_APPLICATIONS$"
+ PROSPERITY_MILITARY_APPLICATIONS_DESC:0 "[Root.GetName] будуть певний час незадоволені в разі знаходження можливостей військового застосування для малих артефактів."
+ PROSPERITY_PEACEFUL_APPLICATIONS:0 "Поліпшення суспільства"
+ PROSPERITY_NO_PEACEFUL_APPLICATIONS:0 "$PROSPERITY_PEACEFUL_APPLICATIONS$"
+ PROSPERITY_PEACEFUL_APPLICATIONS_DESC:0 "[Root.GetName] будуть певний час задоволені в разі знаходження можливостей цивільного застосування для малих артефактів."
+ PROSPERITY_FEDERATION:0 "$military_federation$"
+ PROSPERITY_FEDERATION_NOT_MILITARIST:0 "$military_federation$"
+ PROSPERITY_FEDERATION_DESC:0 "[Root.GetName] будуть незадоволені, якщо нас прийме $military_federation$."
+
+ FACTION_COUNTRY_SEPARATIST:0 "[parameter:owner.GetSpeciesAdj&pl] сепаратисти"
+
+ # Generic Actions
+ FACTION_ACTION_SUPPRESS_FOLLOWERS:0 "Утиск послідовників"
+ FACTION_ACTION_SUPPRESS_FOLLOWERS_DESC:0 "Ускладнивши життя послідовникам, ви можете відбити у них бажання підтримувати фракцію."
+ FACTION_ACTION_SUPPRESS_FOLLOWERS_VALID:0 ""
+ FACTION_ACTION_ASSASSINATE_LEADER:0 "Вбивство лідера"
+ FACTION_ACTION_ASSASSINATE_LEADER_DESC:0 "Залишивши фракцію без лідера, ви на деякий час заткнете їй рота."
+ FACTION_ACTION_ASSASSINATE_LEADER_INVALID:1 "За останні три місяці не було жодного замаху на лідерів фракцій."
+ FACTION_ACTION_FAVOR:0 "Прихильність"
+ FACTION_ACTION_FAVOR_DESC:0 "Підтримка тих, хто зберігає вірність режиму."
+ FACTION_ACTION_FAVOR_TOOLTIP:0 "Додає модифікатор §Yблагословення§! всім поселенням планети §Y[Root.GetName]§!, дещо підвищуючи їхнє щастя."
+ FACTION_ACTION_FAVOR_INVALID:0 "Наше благовоління може бути дароване тільки раз на рік, а інакше воно стане неефективним."
+ FACTION_ACTION_TYRANNIZE:0 "Тиранія"
+ FACTION_ACTION_TYRANNIZE_DESC:0 "Добровільне зниження народної підтримки правлячого режиму."
+ FACTION_ACTION_TYRANNIZE_TOOLTIP:0 "Додає модифікатор §Yтиранія§! усім поселенням планети §Y[Root.GetName]§!, різко зменшуючи їхнє щастя.\n"
+ FACTION_ACTION_TYRANNIZE_INVALID:0 "Ми можемо бути тираном по відношенню до нашого підданого тільки раз на півроку, а інакше це стане неефективним."
+ ACCEPT_DEMANDS_NO_ACTIVE_DEMANDS:1 "§RЦя фракція не має вимог§!"
+
+ # Generic Support Effects
+ SUPPORT_EFFECT_RADICALIZATION:0 "Ризик радикалізації"
+ SUPPORT_EFFECT_RADICALIZATION_DESC:0 "Різкий сплеск радикальних настроїв підвищує войовничість цієї фракції."
+ SUPPORT_EFFECT_REVOLT:0 "Ризик повстання"
+ SUPPORT_EFFECT_REVOLT_DESC:0 "Фракція намагається підняти збройне повстання в колонії."
+ SUPPORT_EFFECT_RIOT:0 "Ризик бунту"
+ SUPPORT_EFFECT_RIOT_DESC:1 "Фракція влаштовує бунт і знищує частину майна колонії."
+
+ # No Demands
+ POP_FACTION_NO_DEMANDS:1 "Немає вимог"
+ POP_FACTION_NO_DEMANDS_DESC:1 "$FACTION$ демонструє відданість по відношенню до держави $COUNTRY$ і не має жодних вимог."
+ POP_FACTION_NO_CURRENT_DEMANDS:1 "Поточних вимог немає"
+ POP_FACTION_NO_CURRENT_DEMANDS_DESC:1 "$FACTION$ не має вимог на даний момент."
+
+# No effects
+ POP_FACTION_NO_EFFECTS:0 "Немає ефектів"
+ POP_FACTION_NO_EFFECTS_DESC:0 "$FACTION$ ніколи не матиме жодних ефектів."
+ POP_FACTION_NO_CURRENT_EFFECTS:0 "Поточних ефектів немає"
+ POP_FACTION_NO_CURRENT_EFFECTS_DESC:0 "$FACTION$ не має ефектів на даний момент."
+
+# Ruler and Councilor Ethics demands
+ faction_demand_HAPPY_WE_RULE:0 "Правитель із тим самим принципом"
+ faction_demand_HAPPY_WE_RULE_desc:0 "[Root.GetName] задоволені, що у правителя той самий принцип."
+ faction_demand_HATE_RULER_ETHICS:0 "Принцип правителя не повинен бути іншим"
+ faction_demand_HATE_RULER_ETHICS_desc:0 "[Root.GetName] незадоволені, що у правителя інший принцип."
+ faction_demand_ACCEPTABLE_RULER_ETHICS:0 "У правителя державний принцип"
+ faction_demand_ACCEPTABLE_RULER_ETHICS_desc:0 "[Root.GetName] приймають правителів, чиї принципи збігаються з державними.\n\nЯкщо це їхній власний принцип, навіть краще."
+ faction_demand_REPRESENTED_ON_COUNCIL:0 "Представлення в раді"
+ faction_demand_REPRESENTED_ON_COUNCIL_desc:0 "[Root.GetName] будуть раді правителю чи раднику, які сповідують їхні власні принципи."
+
+ ### SEPARATIST
+
+ # Separatist Demands
+ POP_FACTION_SEPARATIST_DEMAND_TITLE_1:0 "Планета §H[parameter:planet.GetName]§! є автономією"
+ POP_FACTION_SEPARATIST_DEMAND_DESC_1:0 "Створити новий сектор зі столицею на планеті §H[parameter:planet.GetName]§!."
+ POP_FACTION_SEPARATIST_DEMAND_TITLE_2:0 "Планета §H[parameter:planet.GetName]§! є незалежною"
+ POP_FACTION_SEPARATIST_DEMAND_DESC_2:0 "Зробити планету §H[parameter:planet.GetName]§! столицею незалежної держави"
+
+ ### PLANET SEPARATISTS
+ POP_FACTION_PLANET_SEPARATIST_DEMAND_TITLE:1 "Незалежна планета [parameter:Planet.GetName]"
+ POP_FACTION_PLANET_SEPARATIST_DEMAND_DESC:0 "Сепаратисти хочуть, щоб планета §Y[parameter:Planet.GetName]§! була незалежною."
+ POP_FACTION_PLANET_SEPARATIST_STRIKES_TITLE:0 "Страйк"
+ POP_FACTION_PLANET_SEPARATIST_STRIKES_DESC:0 "Планетарне виробництво знижено через брак робочої сили."
+ POP_FACTION_PLANET_SEPARATIST_REBELLION_TITLE:0 "Повстання"
+ POP_FACTION_PLANET_SEPARATIST_OCCUPIED:0 "Планета окупована"
+ POP_FACTION_PLANET_SEPARATIST_COMBAT:0 "Наземні битви"
+ POP_FACTION_PLANET_SEPARATIST_LEADER_IS_RULER:0 "Лідер фракції є правителем"
+ POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC:1 "Кожне поселення, що приєдналося до повстання, формує §Rнаступальну армію§! і намагається отримати контроль над планетою."
+ POP_FACTION_PLANET_SEPARATIST_GATHER_SUPPORT:0 "Зміцнення підтримки"
+ POP_FACTION_PLANET_SEPARATIST_GATHER_SUPPORT_DESC:0 "Сепаратисти підвищують рівень підтримки шляхом зміни принципів або зниження щастя інших поселень."
+ POP_FACTION_PLANET_SEPARATIST_REORGANIZING:0 "Реорганізація"
+ POP_FACTION_PLANET_SEPARATIST_RECENTLY_FULL_SUPPORT:1 "Усі поселення планети перебувають у фракції"
+ POP_FACTION_PLANET_SEPARATIST_IS_NOT_OCCUPIED:0 "Планета не окупована"
+ POP_FACTION_PLANET_SEPARATIST_NO_GROUND_COMBAT:0 "На планеті немає наземних битв"
+ POP_FACTION_PLANET_SEPARATIST_GRANT_INDEPENDENCE_TITLE:0 "Дарувати суверенітет"
+ POP_FACTION_PLANET_SEPARATIST_GRANT_INDEPENDENCE_DESC:0 "Дарувати колонії на планеті §Y[parameter:Planet.GetName]§! суверенітет в якості васальної держави."
+ POP_FACTION_PLANET_SEPARATIST_SABOTAGE_TITLE:0 "Бунти"
+ POP_FACTION_PLANET_SEPARATIST_RECENT_SABOTAGE:0 "Нещодавні бунти"
+ POP_FACTION_PLANET_SEPARATIST_SABOTAGE_DESC:0 "Бунти на планеті §Rруйнують§! споруду."
+ POP_FACTION_PLANET_SEPARATIST_NOTHING_TO_RUIN:0 "Немає вцілілих споруд"
+
+ ### Sector separatists
+ pft_sector_separatists:0 "Сепаратисти сектора"
+ pft_sector_separatists_desc:0 "Сепаратисти сектора можуть з'являтися на різних планетах сектора, прагнучи звільнити свою зоряну територію від імперської влади. За достатнього рівня народної підтримки вони можуть навіть узятися за зброю."\n\n§НСепаратисти сектора ніколи не з'являться в нашому основному секторі.§!"
+ POP_FACTION_SECTOR_SEPARATIST_DEMAND_TITLE:1 "Незалежний сектор [parameter:sector.GetName]"
+ POP_FACTION_SECTOR_SEPARATIST_DEMAND_DESC:0 "Сепаратисти хочуть, щоб сектор §Y[parameter:sector.GetName]§! був незалежним."
+ POP_FACTION_SECTOR_SEPARATIST_GRANT_INDEPENDENCE_TITLE:0 "Дарувати суверенітет"
+ POP_FACTION_SECTOR_SEPARATIST_GRANT_INDEPENDENCE_DESC:0 "Дарувати суверенітет колоніям сектора §Y[parameter:sector.GetName]§!"
+ POP_FACTION_SECTOR_SEPARATIST_IS_NOT_OCCUPIED:0 "Жодна планета в секторі не окупована"
+ POP_FACTION_SECTOR_SEPARATIST_NO_GROUND_COMBAT:0 "На жодній планеті в секторі немає наземних битв"
+
+
+
+ ### NATIONALISTS
+
+ pft_nationalist:0 "Репатріаційна фракція"
+ pft_nationalist_desc:0 "Поселення, які перебувають у репатріаційних фракціях, прагнуть вийти зі складу нашої держави як незалежні держави, а потім інтегруватися в державу, частиною якої вони колись були. До них можуть приєднатися й інші поселення, якщо вони вирішать, що чужа влада більш приваблива, ніж наша."
+
+ POP_FACTION_NATIONALIST_DEMAND_TITLE:0 "Повернути §Y[parameter:country.GetName&dat]§!"
+ POP_FACTION_NATIONALIST_DEMAND_DESC:0 "Повернути §H[parameter:country.GetName&dat]§! всі планети з поселеннями, що належать цій фракції."
+ POP_FACTION_NATIONALIST_SABOTAGE_TITLE:0 "Диверсія"
+ POP_FACTION_NATIONALIST_SABOTAGE_DESC:0 "Члени цієї фракції §Rруйнують§! споруду."
+ POP_FACTION_NATIONALIST_CORRUPTION_TITLE:0 "Корупція"
+ POP_FACTION_NATIONALIST_CORRUPTION_DESC:1 "На всіх планетах з поселеннями, що належать цій фракції, знижується виробництво."
+ POP_FACTION_NATIONALIST_REBELLION_TITLE:0 "Повстання"
+ POP_FACTION_NATIONALIST_REBELLION_DESC:1 "$POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC$"
+ POP_FACTION_NATIONALIST_LEADER_IS_RULER:1 "Лідер фракції є правителем"
+ POP_FACTION_NATIONALIST_RECENT_SABOTAGE:0 "Нещодавня диверсія"
+ POP_FACTION_NATIONALIST_MEMBERS_OCCUPIED:0 "Окупації"
+ POP_FACTION_NATIONALIST_MEMBERS_GROUND_COMBAT:0 "Наземні битви"
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_1_TITLE:0 "Кампанія з інтеграції 1"
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_1_DESC:0 "Можна зменшити почуття розчарування у націоналістів, якщо допомогти їм інтегруватися в їхнє нове суспільство."
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_2_TITLE:0 "Кампанія з інтеграції 2"
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_2_DESC:0 "Можна зменшити почуття розчарування у націоналістів, якщо допомогти їм інтегруватися в їхнє нове суспільство."
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_3_TITLE:0 "Кампанія з інтеграції 3"
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_3_DESC:0 "Можна зменшити почуття розчарування у націоналістів, якщо допомогти їм інтегруватися в їхнє нове суспільство."
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_TITLE:0 "Повернути планети"
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_DESC:0 "Повернути §Y[parameter:country.GetName&dat]§! всі планети з поселеннями, що належать цій фракції."
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_OCCUPIED:0 "Жодна з планет не окупована"
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_COMBAT:0 "На жодній з планет немає наземних битв"
+
+ ### SLAVES
+
+ slave_attraction_title:0 "§R---§!"
+ docile_slaves_attraction_desc:0 "Поневолені поселення, за винятком поселень нерозумних роботів, завжди входять до фракції рабів. Інші поселення приєднатися не можуть.\n\n§HЦе значення показує привабливість покірних рабів для поневолених поселень.§!"
+
+ malcontent_slaves_attraction_desc:0 "Поневолені поселення, за винятком поселень нерозумних роботів, завжди входять до фракції рабів. Інші поселення приєднатися не можуть.\n\n§HЦе значення показує привабливість незадоволених рабів для поневолених поселень.§!"
+
+ purged_attraction_title:1 "§R---§!"
+ purged_attraction_desc:1 "Поселення, що піддаються геноциду, завжди входять в антигеноцидну фракцію, за винятком поселень роботів.\n\nІнші поселення приєднатися не можуть."
+
+ # Slave Demands
+ pft_slave:1 "Фракція рабів"
+ pft_slave_desc:1 "Фракція рабів складається з поневолених поселень нашої держави. Їхня основна вимога - свобода.\n\n§HДо цієї фракції автоматично приєднуються всі поневолені поселення.§!"
+
+ pft_docile_slaves:0 "Фракція покірних рабів"
+ pft_docile_slaves_desc:0 "Фракція покірних рабів складається з частини або всіх поневолених поселень нашої держави. Вони зазвичай слухняні і хочуть тільки поліпшення умов праці.\n\n§HВсі раби відносяться або до покірних, або до незадоволених.§!"
+
+ pft_malcontent_slaves:0 "Фракція незадоволених рабів"
+ pft_malcontent_slaves_desc:0 "Фракція незадоволених рабів складається з частини або всіх поневолених поселень нашої держави. Вони бунтівні і хочуть звільнення.\n\n§HВсі раби відносяться або до покірних, або до незадоволених.§!"
+
+ pft_emancipation:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
+ pft_emancipation_desc:1 "Ця фракція прагне покласти край рабству."
+
+ POP_FACTION_DOCILE_SLAVES_DEMAND_TITLE_1:0 "Регульоване поневолення"
+ POP_FACTION_DOCILE_SLAVES_DEMAND_DESC_1:0 "Поселення, що входять в цю фракцію, хочуть трохи більш комфортного життя в рабстві в рамках політики §Нерегульоване поневолення§!".
+
+ POP_FACTION_MALCONTENT_SLAVES_DEMAND_TITLE_1:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
+ POP_FACTION_MALCONTENT_SLAVES_DEMAND_DESC_1:0 "$POP_FACTION_SLAVE_DEMAND_DESC_1$"
+
+ POP_FACTION_SLAVE_DEMAND_TITLE_1:1 "Звільнення"
+ POP_FACTION_SLAVE_DEMAND_DESC_1:1 "Поселення, що входять до цієї фракції, вимагають тільки одного - свободи."
+ FACTION_ACTION_SLAVE_EMANCIPATE_ALL:0 "Звільнити рабів"
+ FACTION_ACTION_SLAVE_EMANCIPATE_ALL_DESC:1 "Звільнити кожне поневолене поселення."
+
+ # Slave Actions
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_1:0 "У фракції не менше §R4§! поселень."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2:1 "У фракції не менше §R6§! поселень."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3:1 "У фракції не менше §R8§! поселень."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:1 "У фракції більше §R10§! поселень."
+
+
+ FACTION_ACTION_SLAVE_HARSH_TREATMENT:0 "Жорстоке поводження"
+ FACTION_ACTION_SLAVE_HARSH_TREATMENT_DESC:0 "Вказати рабам на їхнє місце."
+ FACTION_ACTION_SLAVE_FORCE_FEEDING:0 "Примусове харчування"
+ FACTION_ACTION_SLAVE_FORCE_FEEDING_DESC:0 "Примусово забезпечувати всіх голодуючих необхідним харчуванням."
+
+ docile_slaves_demand_fulfilled:0 "Вимоги цієї фракції виконані, тому від неї більше не буде ніяких ефектів і проти них не буде вжито жодних дій."
+
+ ### EMANCIPATION MOVEMENT
+
+ # Emancipation Movement Demands
+ POP_FACTION_EMANCIPATION_DEMAND_TITLE_1:0 "Шестигодинний робочий день для рабів"
+ POP_FACTION_EMANCIPATION_DEMAND_TITLE_2:0 "Звільнити всіх рабів"
+ POP_FACTION_EMANCIPATION_DEMAND_TITLE_3:0 "Заборонити рабство"
+ POP_FACTION_EMANCIPATION_DEMAND_DESC_1:0 "Збільшити мінімальний час відпочинку."
+ POP_FACTION_EMANCIPATION_DEMAND_DESC_2:0 "Звільнити всіх рабів в: [Root.Owner.GetName]."
+ POP_FACTION_EMANCIPATION_DEMAND_DESC_3:0 "Відмінити політику §YВизволити рабство§!".
+
+ # Emancipation Movement Actions
+
+ # Emancipation Movement Support Effects
+
+ POP_FACTION_EMANCIPATION_STOKING_THE_FIRE:0 "Розпалювання вогню"
+ POP_FACTION_EMANCIPATION_STOKING_THE_FIRE_DESC:0 "Агенти фракції працюють над тим, щоб радикалізувати і озброїти поневолені поселення."
+ POP_FACTION_EMANCIPATION_RECENT_STOKING_THE_FIRE:0 "Після успішних дій з радикалізації рух тепер заліг на дно."
+ SUPPORT_EFFECT_EMANCIPATION_RADICALIZE_SLAVES:0 "Радикалізація рабів"
+ SUPPORT_EFFECT_EMANCIPATION_RADICALIZE_SLAVES_DESC:0 "Таємна, але скоординована спроба організувати повстання рабів."
+ SUPPORT_EFFECT_EMANCIPATION_SMUGGLE_OFF_WORLD:0 "Міжгалактична залізниця"
+ SUPPORT_EFFECT_EMANCIPATION_SMUGGLE_OFF_WORLD_DESC:0 "Поневолене поселення вивозять за межі планети куди подалі."
+
+ ### PEACE MOVEMENT
+
+ ## Demands
+ POP_FACTION_PEACE_DEMAND_TITLE_1:0 "Завершення війни"
+ POP_FACTION_PEACE_DEMAND_DESC_1:0 "Розірвати всі дипломатичні зв'язки, що вимагають участі в конфлікті з [parameter:enemy.GetName&inst] і оголосити мир на умовах статус-кво."
+
+ # Actions
+
+ # Support Effects
+ SUPPORT_EFFECT_PEACE_STRIKE:0 "Страйк"
+ SUPPORT_EFFECT_PEACE_STRIKE_DESC:0 "Учасники мирної акції протесту не ходять на роботу, що на деякий час знижує загальну продуктивність."
+ SUPPORT_EFFECT_PEACE_SABOTAGE:0 "Диверсія"
+ SUPPORT_EFFECT_PEACE_SABOTAGE_DESC:0 "Чуєте, хлопці, це саботаж!"
+
+ ### PURGED
+
+ pft_purged:0 "Антигеноцидна фракція"
+ pft_purged_desc:1 "Антигеноцидна фракція складається з усіх поселень, що піддаються геноциду в нашій державі, а також тих, що співчувають цій біді. Їхня основна вимога - щоб їм дозволили жити."\n\n§До цієї фракції автоматично приєднуються всі поселення, які зазнають геноциду.§!"
+
+ # Demands
+ POP_FACTION_PURGED_DEMAND_TITLE_1:0 "Припинення геноциду"
+ POP_FACTION_PURGED_DEMAND_DESC_1:0 "Повністю припинити винищувальні заходи в: [Root.Owner.GetName]."
+
+ # Support Effects
+
+ SUPPORT_EFFECT_PURGED_DEATH_STRUGGLE:0 "Боротьба до кінця"
+ SUPPORT_EFFECT_PURGED_DEATH_STRUGGLE_DESC:0 "Ті, кому загрожує чистка, і ті, хто їм співчуває, можуть піти на вчинення терактів."
+ SUPPORT_EFFECT_PURGED_DEATH_REBELLION:0 "Повстання проти чистки"
+ SUPPORT_EFFECT_PURGED_DEATH_REBELLION_DESC:0 "Ті, кому загрожує чистка, не бажають помирати, не покладаючи рук, а створюють повстанські загони."
+
+ ### LIBERATE
+
+ # Demands
+ POP_FACTION_LIBERATE_DEMAND_TITLE_1:0 "Звільнити планету §H[parameter:planet.GetName]§!".
+ POP_FACTION_LIBERATE_DEMAND_DESC_1:0 "Оголосити війну [parameter.enemy.GetName&dat], щоб повернути планету [parameter:planet.GetPlanetMoon]у [parameter:planet.GetName]."
+
+ # Support Effects
+ SUPPORT_EFFECT_LIBERATE_INSULT_HIJACK:0 "Радіоперехоплення"
+ SUPPORT_EFFECT_LIBERATE_INSULT_HIJACK_DESC:0 "[Root.GetName] отруює наші дипломатичні відносини з §H[parameter:enemy.GetName&inst]§!."
+ SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS:0 "Ризик збройного повстання"
+ SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS_DESC:0 "[Root.GetName] піднімає бунт проти слабких [Root.Owner.GetSpeciesAdj&pl,gen] правителів."
+
+ ### XENOSLAVER
+
+ # Demands
+ POP_FACTION_XENOSLAVER_DEMAND_TITLE_1:0 "Поневолення чужинців"
+ POP_FACTION_XENOSLAVER_DEMAND_DESC_1:0 "Поневолити всі §H[parameter:xeno.GetSpeciesAdj&pl]§! §Yпоселення§!."
+
+ # Actions
+
+ # Support Effects
+ SUPPORT_EFFECT_XENOSLAVER_TAKE_SLAVES:0 "Незаконне поневолення"
+ SUPPORT_EFFECT_XENOSLAVER_TAKE_SLAVES_DESC:0 "Члени войовничих фракцій можуть незаконно примушувати поселення діяти в їхніх інтересах."
+ SUPPORT_EFFECT_XENOSLAVER_SLAVER_CONFEDERACY:0 "Конфедерація рабовласників"
+ SUPPORT_EFFECT_XENOSLAVER_SLAVER_CONFEDERACY_DESC:0 "Фракція намагається підняти збройне повстання."
+
+ ### CRUSADER
+
+ # Demands
+ POP_FACTION_CRUSADE_DEMAND_TITLE_1:0 "Хрестовий похід"
+ POP_FACTION_CRUSADE_DEMAND_DESC_1:0 "Розв'язати священну війну проти єретичної [parameter:heathens.GetName&gen]."
+
+ # Actions
+
+ # Support Effects
+ SUPPORT_EFFECT_CRUSADE_INSULT:0 "Навмисне блюзнірство"
+ SUPPORT_EFFECT_CRUSADE_INSULT_DESC:0 "[Root.GetName] публічно виступає проти [parameter:heathens.GetName&gen], погіршуючи дипломатичні відносини."
+ SUPPORT_EFFECT_CRUSADE_INSURRECTION:0 "Повстання культу"
+ SUPPORT_EFFECT_CRUSADE_INSURRECTION_DESC:0 "[Root.GetName] намагається влаштувати переворот у колонії."
+
+ ### CONQUEROR
+
+ # Support Effects
+ SUPPORT_EFFECT_CONQUER_INSULT:0 "Образливе комюніке"
+ SUPPORT_EFFECT_CONQUER_INSULT_DESC:0 "[Root.GetName] направляє образливе комюніке, що посилює напруженість між нами і державою §H[parameter:foreign_power.GetName&inst]§!."
+
+ ### PRETENDER
+
+ pft_pretender:0 "Фракція претендента"
+ pft_pretender_desc:0 "Ця фракція приваблює прихильників поточного претендента, які прагнуть зробити його правителем."
+
+ POP_FACTION_PRETENDER_ATTRITION_TITLE:0 "Відсів"
+ POP_FACTION_PRETENDER_ATTRITION_DESC:0 "Поселення втрачає інтерес до справи і §Gпокидає фракцію§!".
+ POP_FACTION_PRETENDER_DEMAND_TITLE:0 "Відмовитися від трону на користь: §Y[parameter:pretender.GetName]§!"
+ POP_FACTION_PRETENDER_DEMAND_DESC:0 "[Root.Owner.GetRulerTitle] §Y[Root.Owner.GetRulerName]§! відправляється у вигнання, а на престол сходить §Y[parameter:pretender.GetName]§!".
+ POP_FACTION_PRETENDER_INSTALL_TITLE:0 "Поставити при владі претендента"
+ POP_FACTION_PRETENDER_INSTALL_DESC:0 "§Y[parameter:pretender.GetName]§! стає новим правителем"
+
+ ########################################
+ # FACTION EVENTS
+ ########################################
+
+ ### New Events
+ factions.1.title:0 "Заснована фракція"
+ factions.1.desc:1 "Нова фракція набирає ваги на нашій політичній арені. Це [Root.GetName], які мають намір твердо відстоювати свої інтереси в тих галузях, де вони бажають змін.\n\nБезумовно, [Root.Owner.GetName] ще не раз стане свідком появи нових фракцій. Населення держави зростає, і політичні погляди наших співгромадян стають дедалі різноманітнішими. Фракції, незадоволені нинішнім станом справ, можуть виявитися джерелом неприємностей, але ті, хто схвалює дії уряду, безсумнівно, стануть вельми корисними..."
+ factions.1.desc.start:1 "Останнім часом нова фракція набирає обертів на внутрішній політичній арені [Root.Owner.GetName&gen]. [Root.Leader.GetAXX:Очолив|||fem:Очолила] їх §H[Root.Leader.GetTitle] [Root.Leader.GetName]§!, а самі себе вони називають §H[Root.GetName]§!. "
+ factions.1.desc.firstfinisher:0 "Незадоволена фракція стає джерелом проблем, але ті, хто схвалює дії уряду, можуть стати в пригоді..."
+ factions.1.desc.imperialist:0 "Їхні члени наполегливо домагаються від нас підтвердження нашої військової переваги над іншими частинами галактики.\n\n"
+ factions.1.desc.isolationist:0 "Їхні члени виступають за закриття кордонів і невтручання в галактичні справи.\n\n"
+ factions.1.desc.progressive:0 "Їхні члени прагнуть рівності та правосуддя для всіх жителів нашої держави.\n\n"
+ factions.1.desc.prosperity:1 "Їхні члени виступають за спрямованість нації на фінансове зростання і стабільність мирними засобами."
+ factions.1.desc.supremacist:0 "Їхні члени прагнуть затвердити [Root.Owner.GetSpeciesAdj&neut] перевагу, урізавши за необхідності права чужинців.\n\n"
+ factions.1.desc.technologist:0 "Їхні члени наполегливо домагаються розвитку різних наук.\n\n"
+ factions.1.desc.totalitarian:0 "Їхні члени наполегливо домагаються крайньої централізації політичної та військової влади.\n\n"
+ factions.1.desc.traditionalist:0 "Їхні члени підтримують спіритуалістичні та консервативні цінності.\n\n"
+ factions.1.desc.xenoist:0 "Їхні члени наполегливо домагаються встановлення дружніх відносин з інопланетними расами.\n\n"
+
+ factions.2000.title:0 "Зміна принципів у [TargetFaction.Owner.GetName&prep]"
+ factions.2000.desc.start:0 "Після довгого періоду, протягом якого фракція §Y[TargetFaction.GetName]§! користувалася дедалі більшою підтримкою, [TargetFaction.Owner.GetName:§Y<1>§! нарешті прийняв|||fem:§Y<1>§! нарешті прийняла|||neut:§Y<1>§! нарешті прийняло|||pl:§Y<1>§! нарешті прийняли] її разом з основними цінностями та політикою."
+ factions.2000.desc.imperialist:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HМілітаризм§!.\n\n"
+ factions.2000.desc.isolationist:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HКсенофобія§!.\n\n"
+ factions.2000.desc.progressive:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HЕгалітаризм§!.\n\n"
+ factions.2000.desc.prosperity:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HПацифізм§!.\n\n"
+ factions.2000.desc.supremacist:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HКсенофобія§!.\n\n"
+ factions.2000.desc.technologist:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HМатеріалізм§!.\n\n"
+ factions.2000.desc.totalitarian:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HАвторитаризм§!.\n\n"
+ factions.2000.desc.traditionalist:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HСпіритуалізм§!.\n\n"
+ factions.2000.desc.xenoist:0 "У результаті залучення цієї фракції до нашого уряду він тепер більш явно сповідує принцип §HКсенофілія§!.\n\n"
+
+ factions.3000.name:0 "Політична цілина"
+ factions.3000.desc:0 "Традиційні фракції та молоді рухи виявляють несподіваний інтерес до нашої нової колонії на планеті §Y[root.GetName]§!. З того моменту, як ми оголосили, що ця скромна [root.GetPlanetHabitat] стане місцем для нового поселення, не висловилися про нього лише найледачіші наші політики.\n\nНаші аналітики не очікують, що на планеті [root.GetName] може зародитися якийсь радикальний рух, але вони все одно радять проявити обережність. Очевидно, що цей молодий світ скоро стане ареною запеклих баталій найрізноманітніших політичних утворень."
+ factions.3000.a.demo:1 "Такі жваві дебати потрібно тільки вітати!"
+ factions.3000.a.auth:0 "Слідкуйте уважно за цими активістами."
+ factions.3000.b:0 "Ризик занадто великий. Посилити охорону."
+ factions.3000.b.auth:0 "Цього допускати не можна."
+ planet_political_frontier:0 "Політична цілина"
+ planet_political_frontier_desc:0 "У цій колонії триває активна агітація фракцій усього політичного спектра."
+ planet_political_safezone:0 "Політичні перепони"
+ planet_political_safezone_desc:0 "Політичним фракціям рекомендується не вести агітацію в цій колонії."
+ planet_political_crackdown:0 "Політичні заборони"
+ planet_political_crackdown_desc:0 "Політичним фракціям заборонено вести агітацію в цій колонії."
+
+ factions.3005.name:0 "Доповідь: політична обстановка на планеті [root.GetName]"
+ factions.3005.desc.1:0 "Наші інформатори в колонії [root.GetName] шлють нам регулярні доповіді про розвиток політичної ситуації в колонії. Коротко: тенденція загалом сприятлива.\n\nМісцеві правоохоронці та політичні агенти змогли малими силами звести відкрите інакомислення до мінімуму. Зокрема, непокірні фракції практично не змогли знайти прихильників серед колоністів. У результаті політична ситуація в колонії залишається під нашим контролем."
+ factions.3005.a:0 "Ці патріоти заслуговують на похвалу."
+ factions.3005.desc.2:0 "Ті, що приходять із колонії [root.GetName] ддані щодо політичної ситуації дають підґрунтя для занепокоєння. Політичні кампанії маргінального спрямування знайшли відгук серед місцевого населення. Громадяни повелися на солодкі обіцянки рівності та соціальної мобільності й почали зневажати базові принципи нашого суспільства.\n\nАле незважаючи ні на що, це все одно можна вважати гарною новиною. Ми зібрали багато даних спостережень, які допоможуть нам краще зрозуміти устрій [owner.GetAdj&masc,gen] колоніального політичного дискурсу. Крім того, виманивши на поверхню ці маргінальні елементи, ми оголили ці небезпечні течії задовго до того, як вони змогли вкоренитися в столиці."
+ factions.3005.b:0 "Але... що якщо в цих ідеях щось є?"
+ planet_political_admittance:0 "Лояльна політика"
+ planet_political_admittance_desc:0 "У цій колонії дозволені більш радикальні форми політичного дискурсу, які тут простіше вивчати."
+ factions.3005.desc.3:0 "Інформація про політичні рухи в колонії [root.GetName] дозволила побудувати цікаві прогнози. Ми спостерігаємо тенденцію до більшої готовності приймати нові ідеї, що виходять за рамки того, що видається нам розумною політичною думкою. Але при цьому будь-якої значної радикалізації не очікується.\n\nМожна побоюватися, що таке відхилення від нашої генеральної лінії послабить нашу владу, але це все одно можна вважати гарною новиною. Ми зібрали багато даних спостережень, які допоможуть нам краще зрозуміти, як влаштований колоніальний політичний дискурс. Крім того, ми довели, що навіть якщо дати голос маргінальним політичним рухам, [owner.GetAdj&masc] народ відкидає їхні найрадикальніші елементи і загалом підтримує принципи нашої держави."
+ factions.3005.c:0 "Тоді цю практику слід заохочувати."
+
+ factions.3010.desc.1:0 "[root.GetName] становить великий інтерес для наших політологів. Утім, незважаючи на всю бурхливу агітацію і гучний галас у ЗМІ, майбутнє політичного ландшафту цієї колонії видається їм досить типовим.\n\nНаші дослідники зазначають, що відсутність новин тут теж вважається хорошими новинами. Незважаючи на заяви окремих маргінальних елементів нашого суспільства, [root.GetName] ще не скоро стане розсадником автократії. Поки що тут ще править демократія."
+ factions.3010.a:0 "Возможно, нужно их немного встряхнуть."
+ factions.3010.desc.2:0 "Схоже, колонія [root.GetName] стала свого роду плацдармом для деяких авторитарно налаштованих політичних утворень. Їхні агітатори були помічені серед тих, хто обрав своєю метою цю молоду колонію. Незважаючи на те, що деякі початкові успіхи - ще не привід бити на сполох, наші політологи ставляться до того, що відбувається, з обережністю. Можливо, [root.owner.GetAdj&masc] погляд на демократію не такий уже й непорушний."
+ factions.3010.b:0 "Гідне випробування наших методів правління!"
+ factions.3010.c:0 "Потрібно стати на захист ідеалів демократії."
+ factions.3010.desc.3:0 "[root.GetName] вже тривалий час перебуває під наглядом наших політологів. Вони повідомляють, що в місцевому суспільстві вкоренилися найрізноманітніші політичні погляди.\n\nПоки що не спостерігається ознак, що [root.GetName] скотиться в анархію або будь-яку іншу, настільки ж радикальну ідеологію. Однак [root.owner.GetAdj&masc] демократичний метод правління в таких умовах стикається з серйозними труднощами, що загрожують перерости в справжні ризики, якщо якась радикальна фракція набере силу."
+ factions.3010.frontier.tt:0 "Модифікатор «§Y$planet_political_frontier$§!» діятиме приблизно §Y9§! років. $MOD_POP_ETHICS_SHIFT_SPEED$ збільшується на §G50%§!."
+ factions.3010.d:0 "Ці ризики занадто великі."
+
+ ### Loyalists
+ faction.4.title:0 "Вимоги лоялістів"
+ faction.4.desc:0 "[Root.Owner.GetRulerTitle] [Root.Owner.GetRulerName] з [Root.Owner.GetName&gen] користується підтримкою лоялістів, які не висувають жодних вимог."
+
+ ### Slaves
+ faction.6.title:0 "Голодування!"
+ faction.6.desc:0 "Раби планети [Root.Owner.GetName] вирішили знищити наші виробничі потужності - свої тіла - під час добровільного голодування. Члени фракції [Root.GetName], по суті, §Yуничтожают! себе на планеті [Root.Owner.GetName].\n\nЯкщо ми не вживемо заходів, то втратимо левову частку поневоленого населення. Ми можемо почекати, поки нещасні помруть або знайти інший спосіб приборкати непокірну фракцію."
+
+ faction.7.title:0 "Повстання рабів!"
+ faction.7.desc:0 "Раби з планети [slave_planet.GetName] повстали проти господарів і створили нелегальну бунтівну коаліцію, щоб звільнитися від своїх законних власників - [Root.Owner.GetName]!"
+
+ faction.8.title:0 "Примусове харчування"
+ faction.8.desc:0 "Раб не має права ушкоджувати або пригнічувати своє тіло.\n\nІх безглуздий самогеноцид завершився, і всі, хто взяв у ньому участь, отримали відповідні дози поживних речовин."
+
+ faction.10.title:0 "Хвилювання рабів!"
+ faction.10.desc:0 "Повсюдні заворушення серед рабів на планеті [unrest_planet.GetName] негативно впливають на їхні обсяги виробництва."
+ faction.10.desc.colle:0 "Серед поневолених поселень [Root.Owner.GetName&gen] поширюється невдоволення, причому центром є планета [unrest_planet.GetName]."
+ faction.10.a.tooltip:0 "§НП поневолені поселення§! на планеті §H[unrest_planet.GetName]§! отримують модифікатор §RВолнення рабів§! на §Y4 роки§!".
+
+ faction.15.title:0 "Насильство серед рабів!"
+ faction.15.desc:0 "Бродячі натовпи, що складаються з недбайливих рабів, вступили в жорстоке протистояння з іншими представниками населення на планеті [roving_gangs_planet.GetName], що призвело до знищення одного поселення.\n\nПоки ще незрозуміло, як на те, що трапилося, відреагують товариші загиблих."
+ faction.15.a.tooltip:0 "[roving_gangs_planet]:\n§Y1 поселення§! §Rпогибає§!".
+
+ faction.50.title:0 "Міжгалактична залізниця!"
+ faction.50.desc:0 "Схоже, деякі з більш радикальних елементів серед наших рабів об'єдналися, щоб вивезти рабів із [Root.Owner.GetAdj&fem,gen] території.\n\nМи не знаємо, як був скоєний злочин такого масштабу, але ми цілком упевнені, що раби тепер вільні й перебувають десь за межами [Root.Owner.GetAdj&pl,gen] володінь."
+ faction.50.desc.colle:0 "Одна заплутана фракція вважала за потрібне образити [Root.Owner.GetName&acc] за допомогою усунення кількох рабів від виконання їхніх обов'язків і вивезення їх за межі [Root.Owner.GetAdj&pl,gen] територій.\n\n Згодом ми зцілимось і сподіваємося, що заблукалі врешті-решт повернуться назад у [Root.Owner.GetName&acc] і зрозуміють своє істинне призначення."
+ faction.50.a:0 "Прикро."
+ faction.50.1.tooltip:0 "[Root.Owner.GetName]:\nПравополонені поселення: §R-1§!"
+ faction.50.3.tooltip:0 "[Root.Owner.GetName]:\nПоневолені поселення: §R-3§!"
+ faction.50.4.tooltip:0 "[Root.Owner.GetName]:\nПоневолені поселення: §R-4§!"
+ faction.50.5.tooltip:0 "[Root.Owner.GetName]:\nПоневолені поселення: §R-5§!"
+
+ faction.55.title:0 "Бунт невдоволених рабів!"
+ faction.55.desc.colle:0 "Деякі елементи у фракції [Root.GetName] загорілися бажанням завдати шкоди [Root.Owner.GetName&dat], знищивши виробничий об'єкт на планеті [riots_planet.GetName]. Ми можемо тільки припустити, шкодити самим собі таким чином їх спонукають ті ж самі дефекти, що заважають їм зайняти гідне місце в [Root.Owner.GetAdj&fem,gen] ієрархії."
+ faction.55.desc:0 "Раби-бунтівники зруйнували споруду на планеті [riots_planet.GetName], і її потрібно відремонтувати, щоб можна було відновити виробництво."
+
+ faction.60.title:0 "Повстання незадоволених рабів!"
+ faction.60.desc:0 "Більш радикальні елементи серед наших рабів повстали - як і слід було очікувати, на думку декого, - зі зброєю в руках проти нашого законного правління... Згідно з повідомленнями, що надійшли, заворушення почалися на планеті [revolt_planet.GetName] і, можливо, вже поширилися за її межі."
+ faction.60.desc.colle:0 "Невдоволення серед тих, кого призначили виконувати чорну роботу заради слави і благополуччя [Root.Owner.GetName&gen], досягло критичної точки кипіння... Їхня нездатність побачити ширшу картину і своє місце в ній призвела до відкритого повстання на планеті [revolt_planet.GetName], - і за нею можуть незабаром послідувати й інші світи, якщо цього вже не сталося."
+ faction.60.a:0 "Це катастрофа."
+ faction.60.b:0 "Невігласи і дурні..."
+ faction.60.a.tooltip:0 "Фракція §Hнезадоволених рабів§! §Yповстала§!"
+
+ faction.80.title:0 "Радикалізація рабів!"
+ faction.80.desc:0 "Члени місцевого осередку фракції [Root.GetName], схоже, успішно провели радикалізацію кількох [Root.Owner.GetAdj&pl,gen] рабів, поповнивши тим самим ряди незадоволених."
+
+ ### Separatists
+ # From = pop faction
+ # Параметри = планета
+
+ pft_planet_separatists:0 "Фракція сепаратистів планети"
+ pft_planet_separatists_desc:0 "Сепаратисти планети можуть з'являтися на колонізованих планетах і прагнуть звільнити свою планету від імперської влади. За достатнього рівня народної підтримки вони можуть навіть узятися за зброю."\n\n§Непаратисти планети з'являються тільки на безпосередньо керованих планетах.§!"
+
+ # Separatists rebel
+ faction.100.title:0 "Сепаратисти підняли бунт!"
+ faction.100.desc:3 "Заворушення на планеті [planet.GetName] досягли критичної позначки. Місцева фракція сепаратистів піднялася у збройній спробі захопити планету."
+
+ # Separatists riot
+ faction.101.title:1 "Повстання сепаратистів!"
+ faction.101.desc:1 "Народний гнів на планеті §Y[planet.GetName]§! сягнув точки кипіння, і члени фракції §Y[Root.GetName]§! вийшли на вулиці, підпалюючи будівлі та мародерствуючи."\n\nЗа нашими даними, головне підприємство колонії знищено."
+
+ # Separatist leader assassinated
+ faction.102.title:1 "Лідера фракції вбито!"
+ faction.102.desc:1 "Фракція [Root.GetName] охоплена панікою після того, як раптово загинув її лідер [Root.Leader.GetName].\n\n[Root.Owner.GetSpeciesAdj&masc,inst] громадянам представлять цю подію як підсумок боротьби за владу всередині фракції [Root.GetName]. Незважаючи на появу нового лідера, народна підтримка фракції зменшилася."
+
+ # Сепаратистський сектор створено
+ faction.103.title:0 "Сектор створено!"
+ faction.103.desc:0 "Фракція [Root.GetName] отримала у своє розпорядження напівнезалежний сектор з урядом на планеті [parameter:planet.GetName]."
+
+ faction.104.title:0 "Державу звільнено!"
+ faction.104.desc:0 "Щоб догодити і, по суті, усунути сепаратистів, колонія на планеті [parameter:planet.GetName] здобула незалежність від [Root.Owner.GetName&gen].\n\nФракція [Root.GetName] тепер є окремою державою."
+
+ ### Хрестоносці
+
+ #Хрестоносці хочуть здійснити хрестовий похід проти язичників, завоювати їхню столицю
+ faction.200.title:0 "Фракція [Root.GetName] затаврувала єретиків [parameter:heathens.GetName]!"
+ faction.200.desc:1 "вони вказують іноземну столицю як важливий об'єкт і хочуть її захопити."
+
+ holy_war_title:0 "Священна війна"
+ holy_war_desc:0 "Очолити хрестовий похід проти: [parameter:heathens.GetName]."
+ holy_war_1_poi:0 "Головна система"
+ holy_war_1_poi_desc:0 "Планета єретиків."
+ profane_planets_seized:0 "Єретичні планети очищені"
+
+ # Capital conquered
+ faction.201.title:0 "Столицю єретиків захоплено!"
+ faction.201.desc:0 "Їхні храми осквернені, а їхні боги відвернулися від них."
+
+ faction.202.title:0 "Образа [parameter:heathens.GetName&gen]"
+ faction.202.desc:1 "Через прикрий промах у системі безпеки фракція [Root.GetName] ненадовго отримала доступ до наших каналів дипломатичного зв'язку. Вони використали цю можливість, щоб образити [parameter:heathens.GetName&acc], звинувативши [parameter:heathens.GetName:його|||fem:її|||pl:їх] у єресі та аморальних діяннях.\n\nГлибоко релігійні [parameter:heathens.GetSpeciesNamePlural] вкрай незадоволені цим інцидентом."
+ faction.202.a:0 "Яка ганьба."
+ faction.202.a.tooltip:0 "§Y[parameter:enemy.GetName]§! додає модифікатор відношення §YОбраза фракції§! до §Yнашої держави§!."
+ faction.203.title:0 "Спроба образи"
+ faction.203.desc:1 "Унаслідок чергового вкрай неприємного промаху в системі безпеки фракція [Root.GetName] ненадовго отримала доступ до наших каналів дипломатичного зв'язку. Вони використали цю можливість, щоб знову принизити релігійні погляди [parameter:heathens.GetName&gen].\n\nНа щастя, держава [parameter:heathens.GetSpeciesNamePlural] не сприйняло всерйоз цей повторний інцидент і, схоже, проігнорувало його."
+ faction.203.a:0 "Пронесло..."
+
+ faction.204.title:0 "Релігійний бунт!"
+ faction.204.desc:0 "Ми отримали повідомлення про те, що радикально налаштовані елементи фракції [Root.GetName] готують збройне повстання на планеті [planet.GetName].\n\nПідготовка лише розпочалася, тож ми ще маємо можливість задушити бунт у зародку."
+ faction.204.a:0 "Ну що ж..."
+ faction.204.a.tooltip:0 "[planet.GetName]:\nПовстання!"
+
+ ### Nationalists
+ faction.301.title:2 "Диверсія націоналістів!"
+ faction.301.desc:2 "Радикали-[Root.GetName] зруйнували споруду на планеті [planet.GetName]."
+ faction.301.desc.phobe:0 "Чужинці-громили з фракції [Root.GetName] зруйнували споруду на планеті [planet.GetName] з розрахунком нашкодити [Root.Owner.GetAdj&pl,dat] інтересам і з очевидною метою знищити наш спосіб життя."
+ faction.301.desc.phile:0 "В усьому іншому прекрасні члени фракції [Root.GetName] визнали за потрібне висловити своє невдоволення нашим правлінням, вивівши з ладу комплекс - або, на думку деяких, провівши диверсію - на планеті [planet.GetName]."
+
+ faction.302.title:1 "Повстання націоналістів!"
+ faction.302.desc:3 "Натхненний повсюдною підтримкою народ [Root.GetName] взявся за зброю і намагається силою повернути свої території."
+ faction.302.desc.phobe:0 "Чужинці-бунтарі з фракції [Root.GetName] хочуть повалити [Root.Owner.GetAdj&neut] правління під час відкритого повстання!"
+ faction.302.desc.phile:0 "Внаслідок того, що ми постійно ігнорували їхні вимоги, фракція [Root.GetName] перейшла до відкритого повстання."
+
+ ### Peace Movement
+
+ faction.400.title:0 "Диверсія на флоті!"
+ faction.400.desc:0 "У якийсь момент радикально налаштовані члени фракції [From.GetName] успішно проникли на щонайменше один [Root.Owner.GetSpeciesAdj&masc] військовий корабель і встановили вибухівку. Вони детонували вибухівку, повністю знищивши [Root.GetName].\n\n[From.Leader.GetName], лідер фракції [From.GetName], вважає цю дію наочним прикладом неприпустимості будь-якого насильства, зокрема, війни, до якої втягнуті [Root.Owner.GetName] і [From.parameter:enemy.GetName]."
+ faction.400.a:0 "Яке лукавство."
+ faction.400.a.tooltip:0 "§R[Root.GetName] знищено.§!"
+
+ faction.401.title:0 "Припинення вогню"
+ faction.401.desc:0 "Усі дипломатичні зв'язки, що зобов'язують продовжувати війну з [From.parameter:enemy.GetName&inst], розірвано, і ми запропонували мир на умовах статус-кво."
+ faction.401.a:0 "Ми сподіваємося, вони цим задоволені."
+
+ faction.402.title:0 "Припинення вогню"
+ faction.402.desc:0 "Ми запропонували мир на умовах статус-кво [From.parameter:enemy.GetName&gen] в надії покласти край війні."
+ faction.402.a:0 "Навіщо нам ця війна?"
+
+ ### Liberation Faction
+
+ faction.501.title:0 "Образа [parameter:enemy.GetName&gen]"
+ faction.501.desc:1 "Через прикрий промах у системі безпеки фракція [Root.GetName] ненадовго отримала доступ до наших каналів дипломатичного зв'язку. Вони використали цю можливість, щоб глибоко образити [parameter:enemy.GetName&acc] і зажадати негайного повернення планети [parameter:planet.GetName].\n\nДержава [parameter:enemy.GetSpeciesNamePlural] вкрай невдоволена тим, що сталося."
+ faction.501.a:0 "Яка ганьба."
+ faction.501.a.tooltip:0 "§Y[parameter:enemy.GetName]§! додає модифікатор відношення §YОскорбленість фракції§! до §Yнашої держави§!".
+ faction.502.title:0 "Спроба образи"
+ faction.502.desc:1 "У результаті чергового вкрай неприємного промаху в системі безпеки фракція [Root.GetName] ненадовго отримала доступ до наших каналів дипломатичного зв'язку. Вони використали цю можливість, щоб знову принизити [parameter:enemy.GetName&acc] і зажадати негайного повернення планети [parameter:planet.GetName]."\n\n\nНа щастя, держава [parameter:enemy.GetSpeciesNamePlural] не сприйняла всерйоз цей повторний інцидент і, схоже, проігнорувала його."
+ faction.502.a:0 "Пронесло..."
+ faction.503.title:0 "Войовничі заколотники!"
+ faction.503.desc:0 "Ми отримали повідомлення про те, що радикально налаштовані елементи фракції [Root.GetName] створили добре організовані загони заколотників на планеті [planet.GetName].\n\n\nПідготовка лише розпочалася, тож ми ще маємо можливість задушити бунт у зародку."
+ faction.503.a:0 "Ну що ж..."
+ faction.503.a.tooltip:0 "[planet.GetName]:\n§RПовстання!§!"
+
+ ### Emancipation Faction
+ faction.600.title:0 "Радикалізація рабів"
+ faction.600.desc:0 "Є дані, що члени фракції [Root.GetName] сіють смуту серед рабів. За деякими чутками, вони навчають і навіть озброюють відщепенців із фракції [parameter:slave_faction.GetName], хоча це звучить занадто дико, щоб бути правдою."
+ faction.600.a:0 "Але це все одно тривожить."
+ faction.600.a.tooltip:0 "[parameter:slave_faction.GetName]:\n§R+50%§! Войовничість\n§R+30%§! Підтримка"
+ faction.601.title:0 "Міжгалактична залізниця"
+ faction.601.desc:0 "До нас дійшли чутки, що кілька радикально налаштованих членів фракції [Root.GetName] визволили групу рабів на планеті [railroad_planet.GetName] і відвезли їх туди, куди [Root.Owner.GetName] не зможе дотягтися."
+ faction.601.a:0 "Треба уважніше за ними стежити."
+ faction.601.a.tooltip:0 "[railroad_planet.GetName]:\nПравополонені поселення: §R-1§!"
+
+ ### Xenoslaver Faction
+ faction.700.title:0 "Рабів захоплено!"
+ faction.700.desc:0 "З чуток, збожеволіла фракція [Root.GetName] поневолила жителів [Root.Owner.GetName&gen], які не належать до [Root.Owner.GetSpeciesAdj&fem,gen] раси."
+ faction.700.a:0 "Це обурливо!"
+ faction.700.a.tooltip:0 "Раби:\n§Y+2§! поселення"
+
+ faction.701.title:0 "Фракція [parameter:rebelling_faction.GetName] бунтує!"
+ faction.701.desc:0 "Втомившись від того, наскільки м'яко [Root.Owner.GetName] обходиться з знахабнілими чужинцями, колишні рабовласники з планети [parameter:planet.GetName] зібралися разом, створили конфедерацію громад і оголосили про свою незалежність."
+ faction.701.a:0 "Це дуже, дуже, дуже обурливо."
+
+ ### Purged Faction
+ faction.801.title:0 "Боротьба до кінця"
+ faction.801.desc:0 "Доведені до відчаю громадяни планети [riot_planet.GetName], яким загрожує чистка, вирішили атакувати і зруйнувати одне з підприємств планети."
+
+ faction.803.title:0 "[Root.GetName] бунтує!"
+ faction.803.desc:0 "Доведені до відчаю громадяни, яким загрожує чистка на планеті [death_planet.GetName], повстали зі зброєю в руках проти влади [Root.Owner.GetName&gen] і створили слабкий повстанський рух."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ henrik.1234.name:0 "§НЗміщене в часі примітивне суспільство§!: зведення"
+ henrik.1234.desc:0 "Станція спостереження на орбіті аномального примітивного світу §YТерра-1444§! надала звіт про нещодавні події.\n\n\n§S--- --- ---§! \n\n\nПланетарний рік §Y1698§!:\n§YНеймовірний дипломатичний союз§! несподівано відвернув §Yзагрозу війни§! з§Yмолодим правителем§! на§Yпівночі Європи§!.  .\n\n\n§S--- --- ---§!\n\n\nПланетарний рік §Y1702§!:\nПорушення балансу сил у §Yзахідній і південно-західній Європі§! зрештою §Yпривело до кривавого конфлікту§!"
+ henrik.1234.a:0 "Ми молимося, щоб ці дикуни ніколи не покинули свою планету."
+ henrik.12344.name:0 "§НПримітивне суспільство§!: зведення"
+ henrik.12344.desc:0 "Після завершення §Y34-ї агресивної війни Рюкю§! примітивний світ §YЗемля-5§! близький до глобального об'єднання під владою єдиного уряду."
+ henrik.12344.b:0 "Не при нас, сьогун §RDDRJake§!".
+ henrik.12344.b.tooltip:0 "Приготувати всі доступні армії до Зоряного вторгнення§!".
+ henrik.12344.a:0 "Ми молимося, щоб ці дикуни ніколи не покинули свою планету."

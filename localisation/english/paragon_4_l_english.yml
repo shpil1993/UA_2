@@ -1,0 +1,1394 @@
+﻿l_english:
+
+ # Gestalt trait names and desc
+ leader_trait_fallible_hive:0 "Схильний помилятися"
+ leader_trait_fallible_hive_desc:0 "Ця одиниця Розуму страждає від ірраціональної поведінки, що може призвести до проблем у майбутньому."
+ leader_trait_fallible_machine:0 "Дефекти"
+ leader_trait_fallible_machine_desc:0 "Цей модуль страждає від незначних збоїв, які можуть призвести до проблем у майбутньому."
+
+ leader_trait_stubborn_machine:0 "Жорстка програма"
+ leader_trait_stubborn_machine_desc:1 "Цей модуль вирізняється жорсткою програмою, яка вкрай рідко дозволяє модифікувати поведінку."
+ leader_trait_stubborn_hive:0 "Жорсткий інтерфейс"
+ leader_trait_stubborn_hive_desc:1 "Ця одиниця Розуму вирізняється закостенілістю мислення і не піддається модифікаціям поведінки."
+
+ leader_trait_destructive_hive_desc:1 "Ця одиниця Розуму халатно ставиться до регулярного обслуговування обладнання, що призводить до серйозних поломок."
+ leader_trait_destructive_machine_desc:1 "Цей модуль не проводить регулярного обслуговування обладнання, що призводить до серйозних поломок."
+
+ leader_trait_lavish_lifestyle_hive:0 "Дороге обслуговування"
+ leader_trait_lavish_lifestyle_hive_desc:0 "Неврівноважена поведінка цієї одиниці Розуму робить її вкрай неефективною."
+ leader_trait_lavish_lifestyle_machine:0 "Дороге обслуговування"
+ leader_trait_lavish_lifestyle_machine_desc:0 "Програмні збої цього модуля роблять його вкрай неефективним."
+
+ leader_trait_tyrannical_hive:0 "Дозування"
+ leader_trait_tyrannical_hive_desc:1 "Цей вузол надає зайвого значення економному витрачанню ресурсів."
+ leader_trait_tyrannical_machine:0 "Дозування"
+ leader_trait_tyrannical_machine_desc:1 "Цей модуль надає зайвого значення економному витрачанню ресурсів."
+
+ leader_trait_righteous_hive:0 "Несхильність до псування"
+ leader_trait_righteous_hive_desc:0 "Ця одиниця Розуму не схильна до псування і обмежує девіантну поведінку у вулику."
+ leader_trait_righteous_machine:0 "Установник оновлень"
+ leader_trait_righteous_machine_desc:0 "Цей модуль часто встановлює патчі та оновлення на інші модулі."
+
+ leader_trait_embezzler_hive:0 "Втрата енергії"
+ leader_trait_embezzler_hive_desc:1 "Ця одиниця Розуму має фізіологічну особливість, що змушує її використовувати надмірну кількість енергії."
+ leader_trait_embezzler_machine:0 "Втрата енергії"
+ leader_trait_embezzler_machine_desc:0 "Цей модуль має системний дефект, через який він споживає надмірно високу кількість енергії."
+
+ leader_trait_gullible_hive:0 "Витік даних"
+ leader_trait_gullible_hive_desc:1 "Цей вузол вирізняється зайвою довірливістю, що робить його загрозою безпеці."
+ leader_trait_gullible_machine:0 "Витік даних"
+ leader_trait_gullible_machine_desc:0 "В операційній системі цього вузла є серйозна вразливість."
+
+ leader_trait_bureaucratic_hive:0 "Порушення комунікації"
+ leader_trait_bureaucratic_hive_desc:1 "Цей вузол страждає від порушення комунікації при злитті вищої свідомості з окремими одиницями Розуму."
+ leader_trait_bureaucratic_machine:0 "Помилки передачі"
+ leader_trait_bureaucratic_machine_desc:1 "Цей вузол страждає від помилок передачі під час з'єднання з окремими одиницями Розуму."
+
+ leader_trait_micromanager_hive:0 "Розсинхронізація"
+ leader_trait_micromanager_hive_desc:0 "Ця одиниця Розуму недостатньо ефективно синхронізується при виконанні складних флотських маневрів."
+ leader_trait_micromanager_machine:0 "Рассинхронизация"
+ leader_trait_micromanager_machine_desc:0 "Цей модуль недостатньо ефективно синхронізується при виконанні складних флотських маневрів."
+
+ leader_trait_reckless_hive:0 "Помилка в розрахунках"
+ leader_trait_reckless_hive_desc:1 "Ця одиниця Розуму помиляється при розрахунку ризиків і продовжує битися в ситуаціях, коли логічніше було б відступити, провести ремонт і перегрупуватися."
+ leader_trait_reckless_machine:0 "Помилка при обчисленні ризиків"
+ leader_trait_reckless_machine_desc:1 "Цей модуль помиляється під час розрахунку ризиків і продовжує битися в ситуаціях, коли логічніше було б відступити, провести ремонт і перегрупуватися."
+
+ leader_trait_slipshod_hive:0 "Ослаблена оборона"
+ leader_trait_slipshod_hive_desc:0 "Ця одиниця Розуму володіє ірраціональною і неефективною бойовою свідомістю, що послаблює оборонні можливості флотилії."
+ leader_trait_slipshod_machine:0 "Ослаблена оборона"
+ leader_trait_slipshod_machine_desc:0 "Цей модуль має ірраціональну та неефективну бойову програму, що послаблює оборонні можливості флотилії."
+
+ leader_trait_slothful_hive:0 "Інертна тактика"
+ leader_trait_slothful_hive_desc:1 "Загальмованість і помилки в поведінці цієї одиниці Розуму наражають армії на непотрібну небезпеку."
+ leader_trait_slothful_machine:0 "Бойові алгоритми, що дають збої"
+ leader_trait_slothful_machine_desc:1 "Схильність до збоїв і помилки в алгоритмах цього модуля наражають наші механічні війська на непотрібну небезпеку."
+
+ leader_trait_victory_or_death_hive:0 "Перемога або смерть"
+ leader_trait_victory_or_death_hive_desc:1 "Ця одиниця Розуму позбавлена інстинкту самозбереження і продовжує битися до кінця."
+ leader_trait_victory_or_death_machine:0 "Протокол невиходу з бою"
+ leader_trait_victory_or_death_machine_desc:1 "Цей модуль використовує несправний протокол виходу з бою і продовжить битися до кінця."
+
+ leader_trait_disorganized_hive:0 "Нечіткі накази"
+ leader_trait_disorganized_hive_desc:1 "Ця одиниця Розуму діє нелогічно і віддає нечіткі тактичні накази."
+ leader_trait_disorganized_machine:0 "Логістична помилка"
+ leader_trait_disorganized_machine_desc:1 "Цей модуль діє, виходячи з помилкових логістичних обчислень, які збільшують витрати на армію."
+
+ leader_trait_paranoid_hive:0 "Приховані накази"
+ leader_trait_paranoid_hive_desc:1 "Цей вузол демонструє складну поведінку для захисту інформації, чим знижує швидкість досліджень."
+ leader_trait_paranoid_machine:0 "Фанатичні протоколи безпеки"
+ leader_trait_paranoid_machine_desc:1 "Цей модуль демонструє складну поведінку для захисту інформації, чим знижує швидкість досліджень."
+
+ leader_trait_narrow_minded_hive:1 "Упереджений"
+ leader_trait_narrow_minded_hive_desc:1 "Ця одиниця Розуму займається тільки вузькопрофільними дослідженнями і вважає інші варіанти марними."
+ leader_trait_narrow_minded_machine:0 "Помилка мейнфрейма"
+ leader_trait_narrow_minded_machine_desc:1 "Функції центрального процесора ізольовані, що призводить до стереотипності в ухваленні рішень."
+
+ leader_trait_neurotic_hive:0 "Хаотичне дослідження"
+ leader_trait_neurotic_hive_desc:0 "Розум цієї одиниці Розуму незібраний і хаотичний."
+ leader_trait_neurotic_machine:0 "Дефективні протоколи дослідження"
+ leader_trait_neurotic_machine_desc:1 "Дослідницькі протоколи цього модуля хаотичні."
+
+ leader_trait_opinionated_hive:0 "Конфлікт синапсів"
+ leader_trait_opinionated_hive_desc:1 "У цієї одиниці Розуму є мутація в синапсах, яка ускладнює збір і синтез інформації."
+ leader_trait_opinionated_machine:0 "Конфлікт даних"
+ leader_trait_opinionated_machine_desc:1 "Цей модуль неефективно компілює дані."
+
+ leader_trait_profligate_hive:0 "Дорогі одиниці"
+ leader_trait_profligate_hive_desc:1 "Ця одиниця Розуму має дефект, що збільшує витрати на утримання всіх інших одиниць Розуму на планеті."
+ leader_trait_profligate_machine:0 "Збільшене утримання дронів"
+ leader_trait_profligate_machine_desc:1 "У програму цього модуля прокралася помилка, що збільшує вартість обслуговування всіх інших модулів на планеті."
+
+ leader_trait_procrastinator_hive:0 "Будівельна стагнація"
+ leader_trait_procrastinator_hive_desc:1 "Ця одиниця Розуму неефективно контролює планетарні будівельні проекти."
+ leader_trait_procrastinator_machine:0 "Будівельна стагнація"
+ leader_trait_procrastinator_machine_desc:1 "Цей модуль неефективно контролює планетарні будівельні проєкти."
+
+ leader_trait_insider_trading_hive:0 "Неефективна продуктивність одиниць"
+ leader_trait_insider_trading_hive_desc:1 "Ця одиниця Розуму неефективно управляє планетарними одиницями."
+ leader_trait_insider_trading_machine:0 "Неефективна продуктивність одиниць"
+ leader_trait_insider_trading_machine_desc:1 "Цей модуль неефективно управляє планетарними одиницями."
+
+ leader_trait_eager_machine:0 "Досконалий робот"
+ leader_trait_eager_machine_desc:1 "Цей модуль перебуває в прекрасному стані і потребує значно менших витрат на утримання."
+ leader_trait_eager_hive:0 "Досконала одиниця"
+ leader_trait_eager_hive_desc:0 "Ця одиниця Розуму вирізняється здоров'ям і потребує значно менших витрат на підтримання максимальної ефективності."
+
+ leader_trait_martinet_hive:0 "Суворий керівник"
+ leader_trait_martinet_hive_desc:0 "Пильний спостерігач, що вимагає беззаперечної покори, ця одиниця Розуму славиться вмінням боротися з відхиленнями."
+ leader_trait_martinet_machine:0 "Суворий керівник"
+ leader_trait_martinet_machine_desc:0 "Завдяки видатній здатності до спостереження цей модуль домагається беззаперечної покори. Він славиться вмінням боротися зі збоями."
+
+ trait_ruler_charismatic_hive:0 "Посилені підпроцеси"
+ trait_ruler_charismatic_hive_desc:1 "Посилені підпроцеси цього вузла дають йому змогу коригувати й розширювати укази в більшому діапазоні."
+ trait_ruler_charismatic_machine:0 "Посилені підпроцеси"
+ trait_ruler_charismatic_machine_desc:1 "Посилені підпроцеси цього модуля дають йому змогу коригувати і розширювати укази в більшому діапазоні."
+
+ trait_ruler_warlike_hive:0 "Військовий розум"
+ trait_ruler_warlike_hive_desc:0 "Цей вузол спеціалізується на космічних і наземних боях."
+ trait_ruler_warlike_machine:0 "Військові алгоритми"
+ trait_ruler_warlike_machine_desc:0 "Цей вузол спеціалізується на космічних і наземних боях."
+
+ trait_ruler_warlike_2_hive:0 "$trait_ruler_warlike_hive$ II"
+ trait_ruler_warlike_2_hive_desc:0 "$trait_ruler_warlike_hive_desc$"
+ trait_ruler_warlike_2_machine:0 "$trait_ruler_warlike_machine$ II"
+ trait_ruler_warlike_2_machine_desc:0 "$trait_ruler_warlike_machine_desc$"
+
+ trait_ruler_logistic_understanding_hive:0 "Розуміння логістики"
+ trait_ruler_logistic_understanding_hive_desc:0 "Цей вузол ефективно знижує вартість утримання армій і кораблів."
+ trait_ruler_logistic_understanding_machine:0 "Запрограмована логістика"
+ trait_ruler_logistic_understanding_machine_desc:1 "Цей модуль ефективно знижує вартість утримання армій і кораблів."
+
+ trait_ruler_logistic_understanding_2_hive:0 "$trait_ruler_logistic_understanding_hive$ II"
+ trait_ruler_logistic_understanding_2_hive_desc:0 "$trait_ruler_logistic_understanding_hive_desc$"
+ trait_ruler_logistic_understanding_2_machine:0 "$trait_ruler_logistic_understanding_machine$ II"
+ trait_ruler_logistic_understanding_2_machine_desc:0 "$trait_ruler_logistic_understanding_machine_desc$"
+
+ trait_ruler_eye_for_talent_hive:0 "Збір інформації"
+ trait_ruler_eye_for_talent_hive_desc:0 "Ця одиниця Розуму збирає й обробляє інформацію, застосовуючи нові методи в прагненні до досконалості."
+ trait_ruler_eye_for_talent_machine:0 "Обробка інформації"
+ trait_ruler_eye_for_talent_machine_desc:0 "Цей модуль збирає й обробляє інформацію, застосовуючи нові методи в прагненні до досконалості."
+
+ trait_ruler_eye_for_talent_2_hive:0 "$trait_ruler_eye_for_talent_hive$ II"
+ trait_ruler_eye_for_talent_2_hive_desc:0 "$trait_ruler_eye_for_talent_hive_desc$"
+ trait_ruler_eye_for_talent_2_machine:0 "$trait_ruler_eye_for_talent_machine$ II"
+ trait_ruler_eye_for_talent_2_machine_desc:0 "$trait_ruler_eye_for_talent_machine_desc$"
+
+ leader_trait_gifted_hive:0 "Обдарований"
+ leader_trait_gifted_hive_desc:1 "Завдяки незвичайному зростанню синаптичних зв'язків функціональність цієї одиниці Розуму значно розширена."
+ leader_trait_gifted_machine:0 "Покращення"
+ leader_trait_gifted_machine_desc:1 "Завдяки експериментальному вдосконаленню функціональність цього модуля значно розширена."
+
+ leader_trait_educator_hive:0 "Розширене знання"
+ leader_trait_educator_machine:0 "Розширені банки даних"
+
+ leader_trait_fleet_organizer_hive:0 "Спеціаліст з організації флоту"
+ leader_trait_fleet_organizer_hive_desc:1 "Цей вузол організовує і розширює можливості своєї флотилії."
+ leader_trait_fleet_organizer_machine:0 "Спеціаліст з організації флоту"
+ leader_trait_fleet_organizer_machine_desc:1 "Цей модуль організовує і розширює можливості своєї флотилії."
+
+ leader_trait_fleet_organizer_2_hive:0 "$leader_trait_fleet_organizer_hive$ II"
+ leader_trait_fleet_organizer_2_hive_desc:0 "$leader_trait_fleet_organizer_hive_desc$"
+ leader_trait_fleet_organizer_2_machine:0 "$leader_trait_fleet_organizer_machine$ II"
+ leader_trait_fleet_organizer_2_machine_desc:0 "$leader_trait_fleet_organizer_machine_desc$"
+
+ leader_trait_skirmisher_hive:0 "Застрільник"
+ leader_trait_skirmisher_hive_desc:0 "Цей вузол підвищує ефективність усіх кораблів у флотилії."
+ leader_trait_skirmisher_machine:0 "Застрільник"
+ leader_trait_skirmisher_machine_desc:1 "Цей вузол підвищує ефективність усіх кораблів у флотилії, здійснюючи просунуті тактики бою."
+
+ leader_trait_skirmisher_2_hive:0 "$leader_trait_skirmisher_hive$ II"
+ leader_trait_skirmisher_2_hive_desc:0 "$leader_trait_skirmisher_hive_desc$"
+ leader_trait_skirmisher_2_machine:0 "$leader_trait_skirmisher_machine$ II"
+ leader_trait_skirmisher_2_machine_desc:0 "$leader_trait_skirmisher_machine_desc$"
+
+ leader_trait_aggressive_hive:0 "Агресивна атакувальна формація"
+ leader_trait_aggressive_hive_desc:1 "Ця одиниця Розуму використовує агресивні атакуючі формації в боях флотилій."
+ leader_trait_aggressive_machine:0 "Агресивна атакувальна формація"
+ leader_trait_aggressive_machine_desc:1 "Цей модуль використовує агресивні атакуючі формації в боях флотилій."
+
+ leader_trait_aggressive_2_hive:0 "$leader_trait_aggressive_hive$ II"
+ leader_trait_aggressive_2_hive_desc:0 "$leader_trait_aggressive_hive_desc$"
+ leader_trait_aggressive_2_machine:0 "$leader_trait_aggressive_machine$ II"
+ leader_trait_aggressive_2_machine_desc:0 "$leader_trait_aggressive_machine_desc$"
+
+ leader_trait_engineer_hive:0 "Автоматичні ремонтні системи"
+ leader_trait_engineer_hive_desc:1 "Ця одиниця Розуму задіює автоматизовані системи для ремонту корпусів суден поза доками."
+ leader_trait_engineer_machine:0 "Автоматичні ремонтні системи"
+ leader_trait_engineer_machine_desc:1 "Цей модуль задіює автоматизовані системи для ремонту корпусів суден поза доками."
+
+ leader_trait_engineer_2_hive:0 "$leader_trait_engineer_hive$ II"
+ leader_trait_engineer_2_hive_desc:0 "$leader_trait_engineer_hive_desc$"
+ leader_trait_engineer_2_machine:0 "$leader_trait_engineer_machine$ II"
+ leader_trait_engineer_2_machine_desc:0 "$leader_trait_engineer_machine_desc$"
+
+ leader_trait_annihilator_hive:0 "Анігілятор"
+ leader_trait_annihilator_hive_desc:1 "Ця одиниця Розуму спеціалізується на швидкому знищенні планетарних оборонних систем, спалює фортеці дотла."
+ leader_trait_annihilator_machine:0 "Анігілятор"
+ leader_trait_annihilator_machine_desc:1 "Цей модуль ставить собі за мету якомога швидше знищувати планетарні оборонні споруди, спалювати фортеці дотла."
+
+ leader_trait_artillerist_hive:0 "Артилерист"
+ leader_trait_artillerist_hive_desc:0 "Ця одиниця Розуму здатна керувати гарматними системами флоту з неймовірною точністю і смертоносністю."
+ leader_trait_artillerist_machine:0 "Артилерист"
+ leader_trait_artillerist_machine_desc:0 "Цей модуль здатний керувати гарматними системами флоту з неймовірною точністю і смертоносністю."
+
+ leader_trait_artillerist_2_hive:0 "$leader_trait_artillerist_hive$ II"
+ leader_trait_artillerist_2_hive_desc:0 "$leader_trait_artillerist_hive_desc$"
+ leader_trait_artillerist_2_machine:0 "$leader_trait_artillerist_machine$ II"
+ leader_trait_artillerist_2_machine_desc:0 "$leader_trait_artillerist_machine_desc$"
+
+ leader_trait_commanding_presence_hive:0 "Структура командування"
+ leader_trait_commanding_presence_hive_desc:1 "Ця одиниця Розуму спеціалізується на командуванні великими флотиліями та їх утриманні."
+ leader_trait_commanding_presence_machine:0 "Командний мейнфрейм"
+ leader_trait_commanding_presence_machine_desc:1 "Цей модуль спеціалізується на командуванні великими флотиліями та їх утриманні."
+
+ leader_trait_commanding_presence_2_hive:0 "$leader_trait_commanding_presence_hive$ II"
+ leader_trait_commanding_presence_2_hive_desc:0 "$leader_trait_commanding_presence_hive_desc$"
+ leader_trait_commanding_presence_2_machine:0 "$leader_trait_commanding_presence_machine$ II"
+ leader_trait_commanding_presence_2_machine_desc:0 "$leader_trait_commanding_presence_machine_desc$"
+
+ leader_trait_corsair_hive:0 "Розбирач"
+ leader_trait_corsair_hive_desc:0 "Ця одиниця Розуму розбирає ворожі кораблі і знімає з них все цінне."
+ leader_trait_corsair_machine:0 "Розбирач"
+ leader_trait_corsair_machine_desc:0 "Цей модуль розбирає ворожі кораблі і знімає з них все цінне."
+
+ leader_trait_par_zealot_hive:0 "Адаптивна поведінка"
+ leader_trait_par_zealot_hive_desc:0 "Ця одиниця Розуму настільки віддана справі нашого подальшого виживання, що зрівнятися з нею може тільки її завзяття зрозуміти мотиви вчинків наших ворогів, щоб зробити життя вулика кращим."
+ leader_trait_par_zealot_machine:0 "Прийоми адаптивного навчання"
+ leader_trait_par_zealot_machine_desc:0 "Цей модуль розроблено для того, щоб аналізувати мотиви вчинків ворожих рас і робити життя свідомості кращим."
+
+ leader_trait_demolisher_hive:0 "Знищувач"
+ leader_trait_demolisher_hive_desc:1 "Ця одиниця Розуму спеціалізується на знищенні космічних баз і оборонних платформ."
+ leader_trait_demolisher_machine:0 "Знищувач"
+ leader_trait_demolisher_machine_desc:1 "Програма цього модуля оптимізована для знищення космічних баз і оборонних платформ."
+
+ leader_trait_shipbreaker_hive:0 "Переробник суден"
+ leader_trait_shipbreaker_hive_desc:0 "Ця одиниця Розуму витягує цінні сплави зі знищених ворожих кораблів."
+ leader_trait_shipbreaker_machine:0 "Переробник суден"
+ leader_trait_shipbreaker_machine_desc:0 "Цей модуль витягує цінні сплави зі знищених ворожих кораблів."
+
+ leader_trait_shipbreaker_2_hive:0 "$leader_trait_shipbreaker_hive$ II"
+ leader_trait_shipbreaker_2_hive_desc:0 "$leader_trait_shipbreaker_hive_desc$"
+ leader_trait_shipbreaker_2_machine:0 "$leader_trait_shipbreaker_machine$ II"
+ leader_trait_shipbreaker_2_machine_desc:0 "$leader_trait_shipbreaker_machine_desc$"
+
+ leader_trait_artillery_focus_hive_desc:0 "Ця одиниця Розуму спеціалізується на артилерійських знаряддях."
+ leader_trait_artillery_specialization_hive_desc:0 "$leader_trait_artillery_focus_hive_desc$"
+ leader_trait_artillery_focus_machine_desc:0 "Цей модуль спеціалізується на артилерійських знаряддях."
+ leader_trait_artillery_specialization_machine_desc:0 "$leader_trait_artillery_focus_machine_desc$"
+
+ leader_trait_carrier_focus_hive_desc:0 "Ця одиниця Розуму спеціалізується на штурмовиках."
+ leader_trait_carrier_specialization_hive_desc:0 "$leader_trait_carrier_focus_hive_desc$"
+ leader_trait_carrier_focus_machine_desc:0 "Цей модуль спеціалізується на штурмовиках."
+ leader_trait_carrier_specialization_machine_desc:0 "$leader_trait_carrier_focus_machine_desc$"
+
+ leader_trait_rocketry_focus_hive_desc:0 "Ця одиниця Розуму спеціалізується на озброєнні вибухового типу."
+ leader_trait_rocketry_specialization_hive_desc:0 "$leader_trait_rocketry_focus_hive_desc$"
+ leader_trait_rocketry_focus_machine_desc:0 "Цей модуль спеціалізується на озброєнні вибухового типу."
+ leader_trait_rocketry_specialization_machine_desc:0 "$leader_trait_rocketry_focus_machine_desc$"
+
+ leader_trait_gunship_focus_hive_desc:0 "Ця одиниця Розуму спеціалізується на кораблях вогневої підтримки."
+ leader_trait_gunship_specialization_hive_desc:0 "$leader_trait_gunship_focus_hive_desc$"
+ leader_trait_gunship_focus_machine_desc:0 "Цей модуль спеціалізується на кораблях вогневої підтримки."
+ leader_trait_gunship_specialization_machine_desc:0 "$leader_trait_gunship_focus_machine_desc$"
+
+ leader_trait_juryrigger_hive:1 "Саморобкін"
+ leader_trait_juryrigger_hive_desc:0 "Ця одиниця Розуму використовує уламки ворожих суден для ремонту кораблів флоту."
+ leader_trait_juryrigger_machine:1 "Саморобкін"
+ leader_trait_juryrigger_machine_desc:0 "Цей модуль використовує уламки ворожих суден для ремонту кораблів флоту."
+
+ leader_trait_juryrigger_2_hive:0 "$leader_trait_juryrigger_hive$ II"
+ leader_trait_juryrigger_2_hive_desc:0 "$leader_trait_juryrigger_hive_desc$"
+ leader_trait_juryrigger_2_machine:0 "$leader_trait_juryrigger_machine$ II"
+ leader_trait_juryrigger_2_machine_desc:0 "$leader_trait_juryrigger_machine_desc$"
+
+ leader_trait_surgical_bombardment_hive:0 "Точкове бомбардування"
+ leader_trait_surgical_bombardment_hive_desc:1 "Ця одиниця Розуму завдає руйнівних ударів по наземних арміях з мінімальною супутньою втратою, керуючись даними точних сенсорів."
+ leader_trait_surgical_bombardment_machine:0 "Точкове бомбардування"
+ leader_trait_surgical_bombardment_machine_desc:1 "Цей модуль завдає руйнівних ударів по наземних арміях з мінімальною супутньою втратою, керуючись даними точних сенсорів."
+
+ leader_trait_scout_hive:0 "Розвідник"
+ leader_trait_scout_hive_desc:1 "Ця одиниця Розуму спеціалізується на розвідці, вона витягує максимальну користь з показань встановлених на космічних кораблях датчиків з великою дальністю дії."
+ leader_trait_scout_machine:0 "Розвідник"
+ leader_trait_scout_machine_desc:1 "Цей модуль призначений для розвідки, він отримує максимальну користь з показань встановлених на космічних кораблях датчиків з великою дальністю дії."
+
+ leader_trait_scholar_of_war_hive:1 "Тактичний аналітик"
+ leader_trait_scholar_of_war_hive_desc:1 "Ця одиниця Розуму аналізує великі дані з полів битв і з часом підвищує свою ефективність."
+ leader_trait_scholar_of_war_machine:1 "Тактичний аналітик"
+ leader_trait_scholar_of_war_machine_desc:1 "Цей модуль аналізує великі дані з полів битв і з часом підвищує свою ефективність."
+
+ leader_trait_scholar_of_war_2_hive:0 "$leader_trait_scholar_of_war_hive$ II"
+ leader_trait_scholar_of_war_2_hive_desc:0 "$leader_trait_scholar_of_war_hive_desc$"
+ leader_trait_scholar_of_war_2_machine:0 "$leader_trait_scholar_of_war_machine$ II"
+ leader_trait_scholar_of_war_2_machine_desc:0 "$leader_trait_scholar_of_war_machine_desc$"
+
+ leader_trait_gale_speed_hive:0 "Швидкість вихору"
+ leader_trait_gale_speed_hive_desc:1 "Цей вузол підвищує субсвітлову швидкість всіх кораблів за рахунок поліпшених датчиків."
+ leader_trait_gale_speed_machine:0 "Швидкість вихору"
+ leader_trait_gale_speed_machine_desc:1 "Цей модуль підвищує субсвітлову швидкість всіх кораблів за рахунок поліпшених датчиків."
+
+ leader_trait_gale_speed_2_hive:0 "$leader_trait_gale_speed_hive$ II"
+ leader_trait_gale_speed_2_hive_desc:0 "$leader_trait_gale_speed_hive_desc$"
+ leader_trait_gale_speed_2_machine:0 "$leader_trait_gale_speed_machine$ II"
+ leader_trait_gale_speed_2_machine_desc:0 "$leader_trait_gale_speed_machine_desc$"
+
+ trait_ruler_fortifier_hive:0 "Фортифікатор"
+ trait_ruler_fortifier_hive_desc:0 "Цей вузол спеціалізується на оборонних протоколах, які здешевлюють будівництво космічних баз і оборонних платформ."
+ trait_ruler_fortifier_machine:0 "Фортифікатор"
+ trait_ruler_fortifier_machine_desc:1 "Цей модуль спеціалізується на оборонних протоколах, які здешевлюють будівництво космічних баз і оборонних платформ."
+
+ trait_ruler_fortifier_2_hive:0 "$trait_ruler_fortifier_hive$ II"
+ trait_ruler_fortifier_2_hive_desc:0 "$trait_ruler_fortifier_hive_desc$"
+ trait_ruler_fortifier_2_machine:0 "$trait_ruler_fortifier_machine$ II"
+ trait_ruler_fortifier_2_machine_desc:0 "$trait_ruler_fortifier_machine_desc$"
+
+ leader_trait_armada_logistician_hive:0 "Спеціаліст з логістики армади"
+ leader_trait_armada_logistician_hive_desc:1 "Цей вузол оптимізує утримання флоту завдяки взаємозамінним модулям кораблів і ремонтних одиниць Розуму."
+ leader_trait_armada_logistician_machine:0 "Спеціаліст з логістики армади"
+ leader_trait_armada_logistician_machine_desc:1 "Цей модуль оптимізує утримання флоту завдяки взаємозамінним модулям кораблів і ремонтних дронів."
+
+ leader_trait_armada_logistician_2_hive:0 "$leader_trait_armada_logistician_hive$ II"
+ leader_trait_armada_logistician_2_hive_desc:0 "$leader_trait_armada_logistician_hive_desc$"
+ leader_trait_armada_logistician_2_machine:0 "$leader_trait_armada_logistician_machine$ II"
+ leader_trait_armada_logistician_2_machine_desc:0 "$leader_trait_armada_logistician_machine_desc$"
+
+ trait_ruler_military_pioneer_hive:0 "Модульна конструкція корабля"
+ trait_ruler_military_pioneer_hive_desc:1 "Цей вузол служить для підтримки та розвитку модульної системи складання кораблів, що дає змогу знизити вартість поліпшення та будівництва кораблів."
+ trait_ruler_military_pioneer_machine:0 "Модульна конструкція корабля"
+ trait_ruler_military_pioneer_machine_desc:1 "Цей модуль служить для підтримки та розвитку модульної системи складання кораблів, яка дає змогу знизити вартість поліпшення та будівництва кораблів."
+
+ trait_ruler_military_pioneer_2_hive:0 "$trait_ruler_military_pioneer_hive$ II"
+ trait_ruler_military_pioneer_2_hive_desc:0 "$trait_ruler_military_pioneer_hive_desc$"
+ trait_ruler_military_pioneer_2_machine:0 "$trait_ruler_military_pioneer_machine$ II"
+ trait_ruler_military_pioneer_2_machine_desc:0 "$trait_ruler_military_pioneer_machine_desc$"
+
+ leader_trait_defence_engineer_hive:0 "Технологія "Оборонна платформа""
+ leader_trait_defence_engineer_hive_desc:1 "Цей вузол оптимізує поліпшення оборонних платформ."
+ leader_trait_defence_engineer_machine:0 "Технологія "Оборонна платформа""
+ leader_trait_defence_engineer_machine_desc:1 "Цей модуль оптимізує поліпшення оборонних платформ."
+
+ leader_trait_defence_engineer_2_hive:0 "$leader_trait_defence_engineer_hive$ II"
+ leader_trait_defence_engineer_2_hive_desc:0 "$leader_trait_defence_engineer_hive_desc$"
+ leader_trait_defence_engineer_2_machine:0 "$leader_trait_defence_engineer_machine$ II"
+ leader_trait_defence_engineer_2_machine_desc:0 "$leader_trait_defence_engineer_machine_desc$"
+
+ leader_trait_spycraft_hive:0 "Збір розвідданих"
+ leader_trait_spycraft_hive_desc:1 "Цей вузол обробляє інформацію, здобуту на шпигунських операціях."
+ leader_trait_spycraft_machine:0 "Шпигунські підпрограми"
+ leader_trait_spycraft_machine_desc:1 "Цей вузол обробляє інформацію, здобуту на шпигунських операціях."
+
+ leader_trait_spycraft_2_hive:0 "$leader_trait_spycraft_hive$ II"
+ leader_trait_spycraft_2_hive_desc:0 "$leader_trait_spycraft_hive_desc$"
+ leader_trait_spycraft_2_machine:0 "$leader_trait_spycraft_machine$ II"
+ leader_trait_spycraft_2_machine_desc:0 "$leader_trait_spycraft_machine_desc$"
+
+ leader_trait_butcher_hive:0 "Руйнівник"
+ leader_trait_butcher_hive_desc:1 "Ця одиниця Розуму відправляє війська в атаку потужними руйнівними хвилями, завдаючи значної супутньої шкоди."
+ leader_trait_butcher_machine:0 "Руйнівник"
+ leader_trait_butcher_machine_desc:1 "Цей модуль відправляє війська в атаку потужними руйнівними хвилями, завдаючи значної супутньої шкоди."
+
+ leader_trait_butcher_2_hive:0 "$leader_trait_butcher_hive$ II"
+ leader_trait_butcher_2_hive_desc:0 "$leader_trait_butcher_hive_desc$"
+ leader_trait_butcher_2_machine:0 "$leader_trait_butcher_machine$ II"
+ leader_trait_butcher_2_machine_desc:0 "$leader_trait_butcher_machine_desc$"
+
+ leader_trait_butcher_3_hive:0 "$leader_trait_butcher_hive$ III"
+ leader_trait_butcher_3_hive_desc:0 "$leader_trait_butcher_hive_desc$"
+ leader_trait_butcher_3_machine:0 "$leader_trait_butcher_machine$ III"
+ leader_trait_butcher_3_machine_desc:0 "$leader_trait_butcher_machine_desc$"
+
+ trait_ruler_investor_hive:0 "Оптимізатор одиниць"
+ trait_ruler_investor_hive_desc:1 "Цей вузол відповідає за максимальне підвищення ефективності одиниць Розуму."
+ trait_ruler_investor_2_hive:0 "$trait_ruler_investor_hive$ II"
+ trait_ruler_investor_2_hive_desc:0 "$trait_ruler_investor_hive_desc$"
+ trait_ruler_investor_3_hive:0 "$trait_ruler_investor_hive$ III"
+ trait_ruler_investor_3_hive_desc:0 "$trait_ruler_investor_hive_desc$"
+
+ trait_ruler_investor_machine:0 "Модуль оптимізації"
+ trait_ruler_investor_machine_desc:1 "Цей модуль відповідає за максимальне підвищення ефективності робочих модулів."
+ trait_ruler_investor_2_machine:0 "$trait_ruler_investor_machine$ II"
+ trait_ruler_investor_2_machine_desc:0 "$trait_ruler_investor_machine_desc$"
+ trait_ruler_investor_3_machine:0 "$trait_ruler_investor_machine$ III"
+ trait_ruler_investor_3_machine_desc:0 "$trait_ruler_investor_machine_desc$"
+
+ leader_trait_army_logistician_hive:0 "Спеціаліст з військової логістики"
+ leader_trait_army_logistician_hive_desc:1 "Ця одиниця Розуму оптимізує розклади для зниження вартості утримання армії."
+ leader_trait_army_logistician_machine:0 "Спеціаліст з військової логістики"
+ leader_trait_army_logistician_machine_desc:1 "Цей модуль оптимізує розклади для зниження вартості утримання армії."
+
+ leader_trait_army_logistician_2_hive:0 "$leader_trait_army_logistician_hive$ II"
+ leader_trait_army_logistician_2_hive_desc:0 "$leader_trait_army_logistician_hive_desc$"
+ leader_trait_army_logistician_2_machine:0 "$leader_trait_army_logistician_machine$ II"
+ leader_trait_army_logistician_2_machine_desc:0 "$leader_trait_army_logistician_machine_desc$"
+
+ leader_trait_restrained_hive:0 "Обчислення"
+ leader_trait_restrained_hive_desc:1 "Ця одиниця Розуму розраховує наступальні плани так, щоб мінімізувати супутню шкоду."
+ leader_trait_restrained_machine:0 "Обчислення"
+ leader_trait_restrained_machine_desc:1 "Цей модуль розраховує наступальні плани так, щоб мінімізувати супутню шкоду."
+
+ leader_trait_restrained_2_hive:0 "$leader_trait_restrained_hive$ II"
+ leader_trait_restrained_2_hive_desc:0 "$leader_trait_restrained_hive_desc$"
+ leader_trait_restrained_2_machine:0 "$leader_trait_restrained_machine$ II"
+ leader_trait_restrained_2_machine_desc:0 "$leader_trait_restrained_machine_desc$"
+
+ leader_trait_restrained_3_hive:0 "$leader_trait_restrained_hive$ III"
+ leader_trait_restrained_3_hive_desc:0 "$leader_trait_restrained_hive_desc$"
+ leader_trait_restrained_3_machine:0 "$leader_trait_restrained_machine$ III"
+ leader_trait_restrained_3_machine_desc:0 "$leader_trait_restrained_machine_desc$"
+
+ leader_trait_inspiring_hive:0 "Непохитний"
+ leader_trait_inspiring_hive_desc:1 "Армії під управлінням цієї одиниці Розуму стійкі до деморалізації."
+
+ leader_trait_inspiring_2_hive:0 "$leader_trait_inspiring_hive$ II"
+ leader_trait_inspiring_2_hive_desc:0 "$leader_trait_inspiring_hive_desc$"
+
+ leader_trait_glory_seeker_hive:0 "Колективна воля"
+ leader_trait_glory_seeker_hive_desc:1 "Армії під управлінням цього вузла демонструють ідеальну злагодженість дій."
+ leader_trait_glory_seeker_machine:0 "Колективна воля"
+ leader_trait_glory_seeker_machine_desc:1 "Армії під управлінням цього модуля діють абсолютно злагоджено."
+
+ leader_trait_glory_seeker_2_hive:0 "$leader_trait_glory_seeker_hive$ II"
+ leader_trait_glory_seeker_2_hive_desc:0 "$leader_trait_glory_seeker_hive_desc$"
+ leader_trait_glory_seeker_2_machine:0 "$leader_trait_glory_seeker_machine$ II"
+ leader_trait_glory_seeker_2_machine_desc:0 "$leader_trait_glory_seeker_machine_desc$"
+
+ leader_trait_dreaded_hive:0 "Деморалізатор"
+ leader_trait_dreaded_hive_desc:1 "Армії під управлінням цієї одиниці Розуму ефективно деморалізують ворога."
+ leader_trait_dreaded_machine:0 "Деморалізатор"
+ leader_trait_dreaded_machine_desc:1 "Армії під управлінням цього модуля ефективно деморалізують ворога."
+
+ leader_trait_dreaded_2_hive:0 "$leader_trait_dreaded_hive$ II"
+ leader_trait_dreaded_2_hive_desc:0 "$leader_trait_dreaded_hive_desc$"
+ leader_trait_dreaded_2_machine:0 "$leader_trait_dreaded_machine$ II"
+ leader_trait_dreaded_2_machine_desc:0 "$leader_trait_dreaded_machine_desc$"
+
+ leader_trait_hardy_hive:0 "Загартований"
+ leader_trait_hardy_hive_desc:1 "Під управлінням цієї одиниці Розуму захист армій від шкоди значно підвищується."
+ leader_trait_hardy_machine:0 "Загартований"
+ leader_trait_hardy_machine_desc:1 "Під управлінням цього модуля захист армій від шкоди значно підвищується."
+
+ leader_trait_hardy_2_hive:0 "$leader_trait_hardy_hive$ II"
+ leader_trait_hardy_2_hive_desc:0 "$leader_trait_hardy_hive_desc$"
+ leader_trait_hardy_2_machine:0 "$leader_trait_hardy_machine$ II"
+ leader_trait_hardy_2_machine_desc:0 "$leader_trait_hardy_machine_desc$"
+
+ leader_trait_heavy_hitter_hive:0 "Важкоатлет"
+ leader_trait_heavy_hitter_hive_desc:1 "Ця одиниця Розуму застосовує тактику масованого наступу для нанесення величезної шкоди ворожим арміям."
+ leader_trait_heavy_hitter_machine:0 "Важкоатлет"
+ leader_trait_heavy_hitter_machine_desc:1 "Цей модуль застосовує тактику масованого наступу для нанесення величезної шкоди ворожим арміям."
+
+ leader_trait_heavy_hitter_2_hive:0 "$leader_trait_heavy_hitter_hive$ II"
+ leader_trait_heavy_hitter_2_hive_desc:0 "$leader_trait_heavy_hitter_hive_desc$"
+ leader_trait_heavy_hitter_2_machine:0 "$leader_trait_heavy_hitter_machine$ II"
+ leader_trait_heavy_hitter_2_machine_desc:0 "$leader_trait_heavy_hitter_machine_desc$"
+
+ leader_trait_scrambler_hive:0 "Блокувальник"
+ leader_trait_scrambler_hive_desc:1 "Ця одиниця Розуму блокує зв'язок і створює перешкоди сенсорам під час захоплення ворожих колоній."
+ leader_trait_scrambler_machine:0 "Блокувальник"
+ leader_trait_scrambler_machine_desc:1 "Цей модуль блокує зв'язок і створює перешкоди сенсорам під час захоплення ворожих колоній."
+
+ leader_trait_kidnapper_machine: "Поневолювач"
+ leader_trait_kidnapper_machine_desc: "Цей юніт захоплює і поневолює частину ворожого населення під час окупації планети."
+
+ #leader_trait_kidnapper_2_machine: "$leader_trait_kidnapper_machine$ II"
+ #leader_trait_kidnapper_2_machine_desc: "$leader_trait_kidnapper_machine_desc$"
+
+ trait_ruler_deep_connections_hive:0 "Глибокий розум"
+ trait_ruler_deep_connections_hive_desc:1 "Цей вузол без жодних зусиль орієнтується в заплутаній мережі колективної свідомості та сприяє гармонійній співпраці."
+ trait_ruler_deep_connections_2_hive:0 "$trait_ruler_deep_connections_hive$ II"
+ trait_ruler_deep_connections_2_hive_desc:0 "$trait_ruler_deep_connections_hive_desc$"
+
+ trait_ruler_deep_connections_machine:0 "Підпрограми глибокого аналізу"
+ trait_ruler_deep_connections_machine_desc:1 "Цей модуль без жодних зусиль орієнтується в заплутаній мережі колективного розуму та забезпечує плавне з'єднання."
+ trait_ruler_deep_connections_2_machine:0 "$trait_ruler_deep_connections_machine$ II"
+ trait_ruler_deep_connections_2_machine_desc:0 "$trait_ruler_deep_connections_machine_desc$"
+
+ leader_trait_interrogator_hive:0 "Допитувач"
+ leader_trait_interrogator_hive_desc:1 "Ця одиниця Розуму спеціалізується на технологіях допитів населення окупованих територій. Зібрані дані допомагають у проведенні розвідувальних операцій."
+ leader_trait_interrogator_machine:0 "Допитувач"
+ leader_trait_interrogator_machine_desc:1 "Цей модуль спеціалізується на технологіях допитів населення окупованих територій. Зібрані дані допомагають у проведенні розвідувальних операцій."
+
+ leader_trait_interrogator_2_hive:0 "$leader_trait_interrogator_hive$ II"
+ leader_trait_interrogator_2_hive_desc:0 "$leader_trait_interrogator_hive_desc$"
+ leader_trait_interrogator_2_machine:0 "$leader_trait_interrogator_machine$ II"
+ leader_trait_interrogator_2_machine_desc:0 "$leader_trait_interrogator_machine_desc$"
+
+ leader_trait_crusader_hive:0 "Потужні феромони"
+ leader_trait_crusader_hive_desc:0 "Ця одиниця Розуму має модифіковану залозу, що виділяє заспокійливі феромони для активних бойових одиниць."
+ leader_trait_crusader_2_hive:0 "$leader_trait_crusader_hive$ II"
+ leader_trait_crusader_2_hive_desc:0 "$leader_trait_crusader_hive_desc$"
+ leader_trait_crusader_machine:0 "Тактик"
+ leader_trait_crusader_machine_desc:0 "Програмне забезпечення цього модуля модифіковано для посилення згуртованості активних бойових модулів."
+ leader_trait_crusader_2_machine:0 "$leader_trait_crusader_machine$ II"
+ leader_trait_crusader_2_machine_desc:0 "$leader_trait_crusader_machine_desc$"
+
+ leader_trait_industrial_espionage_hive:0 "Техно-розбірник"
+ leader_trait_industrial_espionage_hive_desc:1 "Ця одиниця Розуму розбирає інопланетні технології під час окупації ворожої колонії."
+ leader_trait_industrial_espionage_machine:0 "Техно-екстрактор"
+ leader_trait_industrial_espionage_machine_desc:1 "Цей модуль розбирає інопланетні технології при окупації ворожої колонії."
+
+ leader_trait_industrial_espionage_2_hive:0 "$leader_trait_industrial_espionage_hive$ II"
+ leader_trait_industrial_espionage_2_hive_desc:0 "$leader_trait_industrial_espionage_hive_desc$"
+ leader_trait_industrial_espionage_2_machine:0 "$leader_trait_industrial_espionage_machine$ II"
+ leader_trait_industrial_espionage_2_machine_desc:0 "$leader_trait_industrial_espionage_machine_desc$"
+
+ leader_trait_warden_hive:0 "Охоронець безпеки"
+ leader_trait_warden_hive_desc:1 "Ця одиниця Розуму командує кількома оборонними арміями для зміцнення оборони планети."
+ leader_trait_warden_machine:0 "Охоронець безпеки"
+ leader_trait_warden_machine_desc:1 "Цей модуль командує кількома оборонними арміями для зміцнення оборони планети."
+
+ leader_trait_warden_2_hive:0 "$leader_trait_warden_hive$ II"
+ leader_trait_warden_2_hive_desc:0 "$leader_trait_warden_hive_desc$"
+ leader_trait_warden_2_machine:0 "$leader_trait_warden_machine$ II"
+ leader_trait_warden_2_machine_desc:0 "$leader_trait_warden_machine_desc$"
+
+ leader_trait_reinforcer_hive:0 "Зміцнювач"
+ leader_trait_reinforcer_hive_desc:1 "Ця одиниця Розуму зміцнює пошкоджені бойові модулі захисним спорядженням."
+ leader_trait_reinforcer_machine:0 "Зміцнювач"
+ leader_trait_reinforcer_machine_desc:1 "Цей модуль застосовує спеціальні бойові протоколи для зміцнення пошкоджених бойових захисним спорядженням."
+
+ leader_trait_reinforcer_2_hive:0 "$leader_trait_reinforcer_hive$ II"
+ leader_trait_reinforcer_2_hive_desc:0 "$leader_trait_reinforcer_hive_desc$"
+ leader_trait_reinforcer_2_machine:0 "$leader_trait_reinforcer_machine$ II"
+ leader_trait_reinforcer_2_machine_desc:0 "$leader_trait_reinforcer_machine_desc$"
+
+ leader_trait_guardian_hive:0 "Страж"
+ leader_trait_guardian_hive_desc:1 "Ця одиниця Розуму контролює космічну базу й оборонні платформи в системі, підвищуючи їхній захисний потенціал."
+ leader_trait_guardian_machine:0 "Страж"
+ leader_trait_guardian_machine_desc:0 "Цей модуль під'єднується до космічної бази та оборонних платформ системи, підвищуючи їхній захисний потенціал."
+
+ leader_trait_guardian_2_hive:0 "$leader_trait_guardian_hive$ II"
+ leader_trait_guardian_2_hive_desc:0 "$leader_trait_guardian_hive_desc$"
+ leader_trait_guardian_2_machine:0 "$leader_trait_guardian_machine$ II"
+ leader_trait_guardian_2_machine_desc:0 "$leader_trait_guardian_machine_desc$"
+
+ leader_trait_conscripter_hive:0 "Приріст армії"
+ leader_trait_conscripter_hive_desc:1 "Ця одиниця Розуму прискорює приріст армії на планеті і наділяє нові одиниці Розуму поліпшеними бойовими алгоритмами."
+ leader_trait_conscripter_machine:0 "Збирач армії"
+ leader_trait_conscripter_machine_desc:1 "Цей модуль прискорює виробництво армій на планеті і завантажує в нові бойові одиниці просунуті тактичні бойові протоколи."
+
+ trait_ruler_from_the_ranks_hive:0 "Бойові знання"
+ trait_ruler_from_the_ranks_hive_desc:1 "Цей вузол підвищує ефективність і здатність до навчання всіх наземних бойових одиниць."
+ trait_ruler_from_the_ranks_machine:0 "Бойові знання"
+ trait_ruler_from_the_ranks_machine_desc:1 "Цей модуль підвищує ефективність і здатність до навчання всіх наземних бойових одиниць."
+
+ trait_ruler_recruiter_hive:0 "Інфектор"
+ trait_ruler_recruiter_hive_desc:1 "Цей вузол спеціалізується на циклах зараження, що дає змогу швидко і дешево вирощувати армії."
+ trait_ruler_recruiter_machine:0 "Протоколи військового виробництва"
+ trait_ruler_recruiter_machine_desc:1 "Цей модуль впроваджує виробничі протоколи, що дають змогу швидко і дешево будувати великі армії."
+
+ leader_trait_science_communicator_hive:0 "Підсилювач наукових одиниць"
+ leader_trait_science_communicator_hive_desc:1 "Завдяки доступу до постійного потоку нових знань цей вузол підвищує швидкість досліджень інших лідерів одиниць Розуму."
+ leader_trait_science_communicator_machine:0 "Підсилювач наукових модулів"
+ leader_trait_science_communicator_machine_desc:1 "Завдяки доступу до постійного потоку нових знань цей модуль підвищує швидкість досліджень інших лідерів одиниць Розуму."
+
+ leader_trait_science_communicator_2_hive:0 "$leader_trait_science_communicator_hive$ II"
+ leader_trait_science_communicator_2_hive_desc:0 "$leader_trait_science_communicator_hive_desc$"
+ leader_trait_science_communicator_2_machine:0 "$leader_trait_science_communicator_machine$ II"
+ leader_trait_science_communicator_2_machine_desc:0 "$leader_trait_science_communicator_machine_desc$"
+
+ leader_trait_carefree_hive:0 "Швидкий"
+ leader_trait_carefree_hive_desc:1 "Ця одиниця Розуму ефективно аналізує дані при дослідженні невідомих феноменів."
+ leader_trait_carefree_machine:0 "Швидкі розрахунки"
+ leader_trait_carefree_machine_desc:1 "Цей модуль ефективно аналізує дані при дослідженні невідомих феноменів."
+
+ leader_trait_carefree_2_hive:0 "$leader_trait_carefree_hive$ II"
+ leader_trait_carefree_2_hive_desc:0 "$leader_trait_carefree_hive_desc$"
+ leader_trait_carefree_2_machine:0 "$leader_trait_carefree_machine$ II"
+ leader_trait_carefree_2_machine_desc:0 "$leader_trait_carefree_machine_desc$"
+
+ leader_trait_civil_engineer_hive:0 "Мислення архітектора"
+ leader_trait_civil_engineer_hive_desc:0 "Ця одиниця Розуму прискорює будівництво районів і споруд."
+ leader_trait_civil_engineer_machine:0 "Архітектурні розрахунки"
+ leader_trait_civil_engineer_machine_desc:0 "Цей модуль застосовує просунуті алгоритми розрахунків для прискорення будівництва районів і споруд."
+
+ leader_trait_civil_engineer_2_hive:0 "$leader_trait_civil_engineer_hive$ II"
+ leader_trait_civil_engineer_2_hive_desc:0 "$leader_trait_civil_engineer_hive_desc$"
+ leader_trait_civil_engineer_2_machine:0 "$leader_trait_civil_engineer_machine$ II"
+ leader_trait_civil_engineer_2_machine_desc:0 "$leader_trait_civil_engineer_machine_desc$"
+
+ leader_trait_collaborator_hive:0 "Синаптичний зв'язок"
+ leader_trait_collaborator_hive_desc:1 "Ця одиниця Розуму особливо ефективна при обміні інформацією з іншими областями колективного розуму."
+ leader_trait_collaborator_machine:0 "Комп'ютерна мережа"
+ leader_trait_collaborator_machine_desc:1 "Цей модуль особливо ефективний при обміні інформацією з іншими областями мережі."
+
+ leader_trait_collaborator_2_hive:0 "$leader_trait_collaborator_hive$ II"
+ leader_trait_collaborator_2_hive_desc:0 "$leader_trait_collaborator_hive_desc$"
+ leader_trait_collaborator_2_machine:0 "$leader_trait_collaborator_machine$ II"
+ leader_trait_collaborator_2_machine_desc:0 "$leader_trait_collaborator_machine_desc$"
+
+ leader_trait_engineering_focus_hive:0 "Спеціалізація на інженерній справі"
+ leader_trait_engineering_focus_hive_desc:0 "Цей вузол зайнятий інженерними дослідженнями."
+ leader_trait_engineering_focus_machine:0 "Спеціалізація на інженерній справі"
+ leader_trait_engineering_focus_machine_desc:1 "Цей модуль займається інженерними дослідженнями."
+
+ leader_trait_engineering_focus_2_hive:0 "$leader_trait_engineering_focus_hive$ II"
+ leader_trait_engineering_focus_2_hive_desc:0 "$leader_trait_engineering_focus_hive_desc$"
+ leader_trait_engineering_focus_2_machine:0 "$leader_trait_engineering_focus_machine$ II"
+ leader_trait_engineering_focus_2_machine_desc:0 "$leader_trait_engineering_focus_machine_desc$"
+
+ trait_ruler_explorer_hive:0 "Розуміння аномалій"
+ trait_ruler_explorer_hive_desc:1 "Цей вузол добре пристосований для вивчення незвичайних явищ у космосі."
+ trait_ruler_explorer_machine:0 "Аналіз аномалій"
+ trait_ruler_explorer_machine_desc:1 "Цей модуль добре пристосований для вивчення незвичайних явищ у космосі."
+
+ trait_ruler_explorer_2_hive:0 "$trait_ruler_explorer_hive$ II"
+ trait_ruler_explorer_2_hive_desc:0 "$trait_ruler_explorer_hive_desc$"
+ trait_ruler_explorer_2_machine:0 "$trait_ruler_explorer_machine$ II"
+ trait_ruler_explorer_2_machine_desc:0 "$trait_ruler_explorer_machine_desc$"
+
+ trait_ruler_expansionist_hive:1 "Фіксація на експансії"
+ trait_ruler_expansionist_hive_desc:1 "Цей вузол пристосований для швидкого розширення наших кордонів."
+ trait_ruler_expansionist_machine:0 "Експансивний розрахунок"
+ trait_ruler_expansionist_machine_desc:1 "Цей модуль пристосований для швидкого розширення наших кордонів."
+
+ trait_ruler_expansionist_2_hive:0 "$trait_ruler_expansionist_hive$ II"
+ trait_ruler_expansionist_2_hive_desc:0 "$trait_ruler_expansionist_hive_desc$"
+ trait_ruler_expansionist_2_machine:0 "$trait_ruler_expansionist_machine$ II"
+ trait_ruler_expansionist_2_machine_desc:0 "$trait_ruler_expansionist_machine_desc$"
+
+ leader_trait_experimenter_hive:0 "Експериментатор"
+ leader_trait_experimenter_hive_desc:1 "Ця одиниця Розуму проводить корисні експерименти на благо вулика."
+ leader_trait_experimenter_machine:0 "Експериментальний симулятор"
+ leader_trait_experimenter_machine_desc:1 "Ця одиниця Розуму проводить корисні експерименти на благо мережі."
+
+ leader_trait_experimenter_2_hive:0 "$leader_trait_experimenter_hive$ II"
+ leader_trait_experimenter_2_hive_desc:0 "$leader_trait_experimenter_hive_desc$"
+ leader_trait_experimenter_2_machine:0 "$leader_trait_experimenter_machine$ II"
+ leader_trait_experimenter_2_machine_desc:0 "$leader_trait_experimenter_machine_desc$"
+
+ leader_trait_inquisitive_hive:0 "Розширений інтелект"
+ leader_trait_inquisitive_hive_desc:1 "Завдяки широким синаптичним зв'язкам цей вузол відкрив новий напрямок технологічних досліджень."
+ leader_trait_inquisitive_machine:0 "Аналітик"
+ leader_trait_inquisitive_machine_desc:1 "Завдяки аналітичному ПЗ цей модуль відкрив новий напрямок технологічних досліджень."
+
+ leader_trait_insightful_hive:0 "Навчений"
+ leader_trait_insightful_hive_desc:1 "Ця одиниця Розуму виконує детальний аналіз даних з аномалій."
+ leader_trait_insightful_machine:0 "Спостережливий"
+ leader_trait_insightful_machine_desc:1 "Цей модуль виконує детальний аналіз даних з аномалій."
+ leader_trait_insightful_2_hive:0 "$leader_trait_insightful_hive$ II"
+ leader_trait_insightful_2_hive_desc:0 "$leader_trait_insightful_hive_desc$"
+ leader_trait_insightful_2_machine:0 "$leader_trait_insightful_machine$ II"
+ leader_trait_insightful_2_machine_desc:0 "$leader_trait_insightful_machine_desc$"
+
+ leader_trait_maniacal_hive:0 "Оптимізація нейронів"
+ leader_trait_maniacal_hive_desc:1 "Завдяки стимулюванню цей вузол працює активніше, ніж від нього очікується, що підвищує ефективність досліджень."
+ leader_trait_maniacal_machine:0 "Розгін"
+ leader_trait_maniacal_machine_desc:1 "Цей модуль працює в режимах, що перевищують максимальне рекомендоване навантаження, що підвищує ефективність досліджень."
+
+ leader_trait_maniacal_2_hive:0 "$leader_trait_maniacal_hive$ II"
+ leader_trait_maniacal_2_hive_desc:0 "$leader_trait_maniacal_hive_desc$"
+ leader_trait_maniacal_2_machine:0 "$leader_trait_maniacal_machine$ II"
+ leader_trait_maniacal_2_machine_desc:0 "$leader_trait_maniacal_machine_desc$"
+
+ leader_trait_manufacturer_hive:0 "Помічник з утримання"
+ leader_trait_manufacturer_hive_desc:1 "Ця одиниця Розуму допомагає з утриманням і підтримкою населення в робочому стані."
+ leader_trait_manufacturer_machine:0 "Помічник з утримання"
+ leader_trait_manufacturer_machine_desc:1 "Цей модуль допомагає обслуговувати і підтримувати в робочому стані планетарні машинні модулі."
+
+ leader_trait_manufacturer_2_hive:0 "$leader_trait_manufacturer_hive$ II"
+ leader_trait_manufacturer_2_hive_desc:0 "$leader_trait_manufacturer_hive_desc$"
+ leader_trait_manufacturer_2_machine:0 "$leader_trait_manufacturer_machine$ II"
+ leader_trait_manufacturer_2_machine_desc:0 "$leader_trait_manufacturer_machine_desc$"
+
+ leader_trait_meticulous_hive:0 "Педант"
+ leader_trait_meticulous_hive_desc:1 "Ця одиниця Розуму особливо ґрунтовна в дослідженні невідомих феноменів."
+ leader_trait_meticulous_machine:0 "Педантичні розрахунки"
+ leader_trait_meticulous_machine_desc:1 "Цей модуль досліджує невідомі феномени з використанням просунутих підпроцесів."
+
+ leader_trait_meticulous_2_hive:0 "$leader_trait_meticulous_hive$ II"
+ leader_trait_meticulous_2_hive_desc:0 "$leader_trait_meticulous_hive_desc$"
+ leader_trait_meticulous_2_machine:0 "$leader_trait_meticulous_machine$ II"
+ leader_trait_meticulous_2_machine_desc:0 "$leader_trait_meticulous_machine_desc$"
+
+ leader_trait_observant_hive:0 "Спостережливий"
+ leader_trait_observant_hive_desc:1 "Цей вузол задіює механізми глибокого сканування, які підвищують шанси знайти планетарні аномалії."
+ leader_trait_observant_machine:0 "Глибоке сканування"
+ leader_trait_observant_machine_desc:1 "Цей модуль оптимізований для проведення глибокого сканування, що підвищує шанси знайти планетарні аномалії."
+
+ leader_trait_observant_2_hive:0 "$leader_trait_observant_hive$ II"
+ leader_trait_observant_2_hive_desc:0 "$leader_trait_observant_hive_desc$"
+ leader_trait_observant_2_machine:0 "$leader_trait_observant_machine$ II"
+ leader_trait_observant_2_machine_desc:0 "$leader_trait_observant_machine_desc$"
+
+ leader_trait_roamer_hive:0 "Інвентаризатор"
+ leader_trait_roamer_hive_desc:1 "Ця одиниця Розуму виведена спеціально для каталогізації даних про міжзоряний простір."
+ leader_trait_roamer_machine:0 "Інвентаризатор"
+ leader_trait_roamer_machine_desc:1 "Цей модуль спроектований спеціально для каталогізації даних про міжзоряний простір."
+
+ leader_trait_roamer_2_hive:0 "$leader_trait_roamer_hive$ II"
+ leader_trait_roamer_2_hive_desc:0 "$leader_trait_roamer_hive_desc$"
+ leader_trait_roamer_2_machine:0 "$leader_trait_roamer_machine$ II"
+ leader_trait_roamer_2_machine_desc:0 "$leader_trait_roamer_machine_desc$"
+
+ leader_trait_salvager_hive:0 "Утилізатор"
+ leader_trait_salvager_hive_desc:1 "Ця одиниця Розуму відмінно утилізує загиблі кораблі."
+ leader_trait_salvager_machine:0 "Утилізатор"
+ leader_trait_salvager_machine_desc:1 "Цей модуль оснащений оптимізованими протоколами утилізації загиблих кораблів."
+
+ leader_trait_slippery_hive:0 "Прохвост"
+ leader_trait_slippery_hive_desc:0 "У цієї одиниці Розуму добре розвинені інстинкти, що допомагають їй уникати небезпеки."
+ leader_trait_slippery_machine:0 "Протоколи безпеки"
+ leader_trait_slippery_machine_desc:0 "Протоколи безпеки цього модуля допомагають йому уникати небезпеки."
+
+ leader_trait_surveyor_hive:0 "Планетарне стеження"
+ leader_trait_surveyor_hive_desc:1 "Ця одиниця Розуму спеціалізується на підвищенні виробництва ресурсів у планетарних гніздах."
+ leader_trait_surveyor_machine:0 "Планетарне стеження"
+ leader_trait_surveyor_machine_desc:1 "Цей модуль оптимізований для підвищення виробництва ресурсів на планетарних підприємствах."
+
+ leader_trait_tuner_hive:0 "Наладчик"
+ leader_trait_tuner_hive_desc:0 "Ця одиниця Розуму переміщується природними гравітаційними полями, які існують у кожній зоряній системі."
+ leader_trait_tuner_machine:0 "Наладчик"
+ leader_trait_tuner_machine_desc:0 "Цей модуль переміщується природними гравітаційними полями, що існують у кожній зоряній системі."
+
+ leader_trait_tuner_2_hive:0 "$leader_trait_tuner_hive$ II"
+ leader_trait_tuner_2_hive_desc:0 "$leader_trait_tuner_hive_desc$"
+ leader_trait_tuner_2_machine:0 "$leader_trait_tuner_machine$ II"
+ leader_trait_tuner_2_machine_desc:0 "$leader_trait_tuner_machine_desc$"
+
+ trait_ruler_world_shaper_hive:0 "Змінює світи"
+ trait_ruler_world_shaper_hive_desc:0 "Цей вузол спеціалізується на поліпшенні колонізованих світів."
+ trait_ruler_world_shaper_machine:0 "Змінює світи"
+ trait_ruler_world_shaper_machine_desc:1 "Цей модуль спеціалізується на поліпшенні колонізованих світів."
+
+ leader_trait_bureaucrat_hive:0 "Вдумливість"
+ leader_trait_bureaucrat_hive_desc:1 "Ця одиниця Розуму підвищує стандарти діяльності та ефективність роботи всіх керівних одиниць."
+ leader_trait_bureaucrat_machine:0 "Підсилювач"
+ leader_trait_bureaucrat_machine_desc:1 "Цей модуль підвищує середню продуктивність і ефективність усіх адміністративних модулів."
+
+ trait_ruler_industrialist_hive:1 "Колекціонер"
+ trait_ruler_industrialist_hive_desc:1 "Основне завдання цієї одиниці Розуму це видобуток мінералів."
+ trait_ruler_industrialist_machine:1 "Акумулятор"
+ trait_ruler_industrialist_machine_desc:1 "Основне завдання цього модуля це видобуток мінералів."
+
+ leader_trait_industrial_focus_hive:0 "$leader_trait_industrial_focus$"
+ leader_trait_industrial_focus_hive_desc:0 "$trait_ruler_industrialist_hive_desc$"
+ leader_trait_industrial_focus_machine:0 "$leader_trait_industrial_focus$"
+ leader_trait_industrial_focus_machine_desc:0 "$trait_ruler_industrialist_machine_desc$"
+
+ leader_trait_pop_focused_hive:0 "Одиниця-принцепс"
+ leader_trait_pop_focused_hive_desc:0 "Ця одиниця Розуму інстинктивно знає, які одиниці більш схильні до виконання важливих завдань і ролей."
+ leader_trait_pop_focused_machine:0 "Алгоритм розподілу"
+ leader_trait_pop_focused_machine_desc:0 "Цей модуль вміє розраховувати, які машини схильні до виконання важливих завдань і ролей."
+
+ leader_trait_academic_hive:0 "$leader_trait_intellectual_hive$"
+ leader_trait_academic_hive_desc:0 "$leader_trait_intellectual_hive_desc$"
+ leader_trait_academic_machine:0 "$leader_trait_intellectual_machine$"
+ leader_trait_academic_machine_desc:0 "$leader_trait_intellectual_machine_desc$"
+
+ leader_trait_frontier_spirit_hive:0 "$trait_ruler_frontier_spirit$"
+ leader_trait_frontier_spirit_hive_desc:0 "Цей вузол виробив прагнення колонізувати нові планети і території."
+ leader_trait_frontier_spirit_machine:0 "Підпроцес колонізації"
+ leader_trait_frontier_spirit_machine_desc:0 "У цей модуль були завантажені особливі підпроцеси, що підвищують ефективність процесів колонізації."
+
+ leader_trait_distribution_lines_hive:0 "Розподільник ресурсів"
+ leader_trait_distribution_lines_hive_desc:0 "Ця одиниця Розуму швидко розраховує обсяги необхідних ресурсів і маршрути поставок для промислових комплексів."
+ leader_trait_distribution_lines_machine:0 "Розрахунки поставок"
+ leader_trait_distribution_lines_machine_desc:0 "Цей модуль оснащений високоефективним комплексом ПЗ для розрахунку поставок на вимогу."
+
+ leader_trait_border_guard_hive:0 "Захист"
+ leader_trait_border_guard_hive_desc:1 "Цей вузол вважає, що найкращий спосіб перемогти у війні - це організувати на кордонах ефективний і непроникний периметр оборони."
+ leader_trait_border_guard_machine:0 "Оборонні обчислення"
+ leader_trait_border_guard_machine_desc:1 "Цей модуль розрахував, що найкращий спосіб перемогти у війні - це організувати на кордонах ефективний і непроникний периметр оборони."
+
+ leader_trait_crew_trainer_hive:0 "Бойовий мозок"
+ leader_trait_crew_trainer_hive_desc:1 "Цей вузол прагне навчати флотські одиниці Розуму перед тим, як ті будуть відправлені на службу."
+ leader_trait_crew_trainer_machine:0 "Бойова база даних"
+ leader_trait_crew_trainer_machine_desc:1 "Цей модуль підтримує велику базу даних з тактики космічного бою, яка завантажується в кожен флотський модуль."
+
+ leader_trait_space_miner_hive:0 "Одиниця-геолог"
+ leader_trait_space_miner_hive_desc:0 "Ця одиниця Розуму вміє знаходити багаті жили для планетарних гірничодобувних об'єктів."
+ leader_trait_space_miner_machine:0 "Геолог-картопобудівник"
+ leader_trait_space_miner_machine_desc:0 "Цей модуль вміє знаходити багаті жили для планетарних гірничодобувних підприємств."
+
+ leader_trait_home_guard_hive:0 "Орієнтація на безпеку"
+ leader_trait_home_guard_hive_desc:1 "Цей вузол будує складні системи планетарної оборони на випадок ворожих вторгнень."
+ leader_trait_home_guard_machine:0 "Міжпланетна оборона"
+ leader_trait_home_guard_machine_desc:1 "Цей модуль будує складні планетарні оборонні споруди на випадок ворожих вторгнень."
+
+ trait_ruler_frontier_spirit_hive:0 "Спеціалізація на колоніях"
+ trait_ruler_frontier_spirit_hive_desc:1 "Основне завдання цієї одиниці Розуму це колонізація чужих планет."
+ trait_ruler_frontier_spirit_machine:0 "Спеціалізація на колоніях"
+ trait_ruler_frontier_spirit_machine_desc:1 "Програма цього модуля оптимізована для колонізації чужих планет."
+
+ leader_trait_army_veteran_machine:0 "Любитель бойових роботів"
+ leader_trait_army_veteran_machine_desc:1 "Спеціалізація цього модуля - обслуговування і модернізація активних бойових модулів."
+ leader_trait_army_veteran_hive:0 "Бойова одиниця Розуму"
+ leader_trait_army_veteran_hive_desc:1 "Цю одиницю Розуму було спеціально виведено і навчено для війни."
+
+ leader_trait_retired_fleet_officer_machine:1 "ШІ-проектувальник"
+ leader_trait_retired_fleet_officer_machine_desc:1 "Цей модуль був спеціально розроблений для створення нових проектів кораблів."
+ leader_trait_retired_fleet_officer_hive:0 "Суднобудівна одиниця"
+ leader_trait_retired_fleet_officer_hive_desc:1 "Цю одиницю Розуму було спеціально виведено для розробки новітніх проектів кораблів."
+
+ leader_trait_agrarian_upbringing_hive:0 "Спеціалізація: сільське господарство"
+ leader_trait_agrarian_upbringing_hive_desc:1 "Ця одиниця Розуму стимулює виробництво їжі на планетах."
+
+ trait_ruler_fertility_preacher_hive:0 "Динамічний ріст"
+ trait_ruler_fertility_preacher_hive_desc:1 "Цей вузол стимулює запліднення одиниць Розуму, тим самим підвищуючи зростання населення."
+ trait_ruler_fertility_preacher_machine:0 "Прискорені реплікатори"
+ trait_ruler_fertility_preacher_machine_desc:1 "Цей модуль ефективно підвищує темпи складання машинного населення."
+
+ trait_ruler_fertility_preacher_2_hive:0 "$trait_ruler_fertility_preacher_hive$ II"
+ trait_ruler_fertility_preacher_2_hive_desc:0 "$trait_ruler_fertility_preacher_hive_desc$"
+ trait_ruler_fertility_preacher_2_machine:0 "$trait_ruler_fertility_preacher_machine$ II"
+ trait_ruler_fertility_preacher_2_machine_desc:0 "$trait_ruler_fertility_preacher_machine_desc$"
+
+ leader_trait_environmental_engineer_hive_desc:1 "Цю одиницю Розуму було спеціально виведено для охорони довкілля."
+ leader_trait_environmental_engineer_machine:0 "Бульдозер"
+ leader_trait_environmental_engineer_machine_desc:1 "Цей модуль оснащений попередньо встановленими протоколами захисту навколишнього середовища."
+
+ leader_trait_enlister_hive:0 "Спеціалізація: розвиток армій"
+ leader_trait_enlister_hive_desc:1 "Ця одиниця Розуму - талановитий вербувальник, вона знижує витрати на навчання армій."
+ leader_trait_enlister_machine:0 "Спеціалізація: розвиток армій"
+ leader_trait_enlister_machine_desc:1 "Цей модуль - талановитий вербувальник, він знижує витрати на навчання армій."
+
+ leader_trait_enlister_2_hive:0 "$leader_trait_enlister_hive$ II"
+ leader_trait_enlister_2_hive_desc:0 "$leader_trait_enlister_hive_desc$"
+ leader_trait_enlister_2_machine:0 "$leader_trait_enlister_machine$ II"
+ leader_trait_enlister_2_machine_desc:0 "$leader_trait_enlister_machine_desc$"
+
+ leader_trait_shipwright_hive:0 "Спеціалізація на кораблебудуванні"
+ leader_trait_shipwright_hive_desc:1 "Ця одиниця Розуму спеціалізується на ефективному та економічному будівництві флотилій у системі."
+ leader_trait_shipwright_machine:0 "Спеціалізація на кораблебудуванні"
+ leader_trait_shipwright_machine_desc:1 "Цей модуль запрограмований на ефективне й економічне будівництво флотилій у системі."
+
+ leader_trait_shipwright_2_hive:0 "$leader_trait_shipwright_hive$ II"
+ leader_trait_shipwright_2_hive_desc:0 "$leader_trait_shipwright_hive_desc$"
+ leader_trait_shipwright_2_machine:0 "$leader_trait_shipwright_machine$ II"
+ leader_trait_shipwright_2_machine_desc:0 "$leader_trait_shipwright_machine_desc$"
+
+ leader_trait_architectural_interest_hive:0 "Ефективний будівельник"
+ leader_trait_architectural_interest_hive_desc:1 "Ця одиниця Розуму має досвід у будівництві та інженерній справі."
+ leader_trait_architectural_interest_machine:0 "Ефективний будівельник"
+ leader_trait_architectural_interest_machine_desc:1 "Цей модуль спроектований для будівництва та інженерної справи."
+
+ leader_trait_architectural_interest_2_hive:0 "$leader_trait_architectural_interest_hive$ II"
+ leader_trait_architectural_interest_2_hive_desc:0 "$leader_trait_architectural_interest_hive_desc$"
+ leader_trait_architectural_interest_2_machine:0 "$leader_trait_architectural_interest_machine$ II"
+ leader_trait_architectural_interest_2_machine_desc:0 "$leader_trait_architectural_interest_machine_desc$"
+
+ trait_ruler_architectural_sense_hive:0 "Спеціалізація на архітектурі"
+ trait_ruler_architectural_sense_hive_desc:1 "Цей вузол спеціалізується на теорії архітектури, чим скорочує терміни і вартість розвитку колоній."
+ trait_ruler_architectural_sense_machine:0 "Спеціалізація на архітектурі"
+ trait_ruler_architectural_sense_machine_desc:1 "Програму цього модуля оптимізовано для теорії архітектури; це скорочує терміни і вартість розвитку колоній."
+
+ trait_ruler_architectural_sense_2_hive:0 "$trait_ruler_architectural_sense_hive$ II"
+ trait_ruler_architectural_sense_2_hive_desc:0 "$trait_ruler_architectural_sense_hive_desc$"
+ trait_ruler_architectural_sense_2_machine:0 "$trait_ruler_architectural_sense_machine$ II"
+ trait_ruler_architectural_sense_2_machine_desc:0 "$trait_ruler_architectural_sense_machine_desc$"
+
+ leader_trait_mining_focus_hive:0 "Спеціалізація на видобутку"
+ leader_trait_mining_focus_hive_desc:1 "Ця одиниця Розуму використовує унікальні прийоми видобутку та переробки мінералів, чим збільшує наші запаси мінералів."
+ leader_trait_mining_focus_machine:0 "Спеціалізація на видобутку"
+ leader_trait_mining_focus_machine_desc:1 "Цей модуль використовує унікальні прийоми видобутку та переробки мінералів, чим збільшує наші запаси мінералів."
+
+ leader_trait_generator_focus_hive:0 "Спеціалізація на енергетиці"
+ leader_trait_generator_focus_hive_desc:1 "Ця одиниця Розуму має досвід у генерації та зберіганні енергії."
+ leader_trait_generator_focus_machine:0 "Спеціалізація на енергетиці"
+ leader_trait_generator_focus_machine_desc:1 "Цей модуль оптимізований для генерації та зберігання енергії."
+
+ leader_trait_farming_focus_2_hive:0 "$leader_trait_farming_focus_hive$ II"
+ leader_trait_farming_focus_2_hive_desc:0 "$leader_trait_farming_focus_hive_desc$"
+ leader_trait_farming_focus_2_machine:0 "$leader_trait_farming_focus_machine$ II"
+ leader_trait_farming_focus_2_machine_desc:0 "$leader_trait_farming_focus_machine_desc$"
+
+ leader_trait_mining_focus_2_hive:0 "$leader_trait_mining_focus_hive$ II"
+ leader_trait_mining_focus_2_hive_desc:0 "$leader_trait_mining_focus_hive_desc$"
+ leader_trait_mining_focus_2_machine:0 "$leader_trait_mining_focus_machine$ II"
+ leader_trait_mining_focus_2_machine_desc:0 "$leader_trait_mining_focus_machine_desc$"
+
+ leader_trait_generator_focus_2_hive:0 "$leader_trait_generator_focus_hive$ II"
+ leader_trait_generator_focus_2_hive_desc:0 "$leader_trait_generator_focus_hive_desc$"
+ leader_trait_generator_focus_2_machine:0 "$leader_trait_generator_focus_machine$ II"
+ leader_trait_generator_focus_2_machine_desc:0 "$leader_trait_generator_focus_machine_desc$"
+
+ leader_trait_farming_focus_hive:0 "Спеціалізація на землеробстві"
+ leader_trait_farming_focus_hive_desc:1 "Ця одиниця Розуму має досвід у вирощуванні та збереженні їжі."
+ leader_trait_farming_focus_machine:0 "Спеціалізація на землеробстві"
+ leader_trait_farming_focus_machine_desc:1 "Цей модуль оптимізований для вирощування та збереження їжі."
+
+ leader_trait_settler_hive:0 "Поселенець"
+ leader_trait_settler_hive_desc:1 "Ця одиниця Розуму має досвід в оптимізації витрат на обслуговування житла і гнізда."
+ leader_trait_settler_machine:0 "Поселенець"
+ leader_trait_settler_machine_desc:1 "Цей модуль призначений для оптимізації витрат на обслуговування житла і центру."
+
+ leader_trait_settler_2_hive:0 "$leader_trait_settler_hive$ II"
+ leader_trait_settler_2_hive_desc:0 "$leader_trait_settler_hive_desc$"
+ leader_trait_settler_2_machine:0 "$leader_trait_settler_machine$ II"
+ leader_trait_settler_2_machine_desc:0 "$leader_trait_settler_machine_desc$"
+
+ leader_trait_cartographer_hive:0 "Спеціалізація на тераформуванні"
+ leader_trait_cartographer_hive_desc:1 "Ця одиниця Розуму володіє унікальними уміннями в області тераформування."
+ leader_trait_cartographer_machine:0 "Спеціалізація на тераформуванні"
+ leader_trait_cartographer_machine_desc:1 "Цей модуль запрограмований удосконалювати наші процеси тераформування."
+
+ leader_trait_cartographer_2_hive:0 "$leader_trait_cartographer_hive$ II"
+ leader_trait_cartographer_2_hive_desc:0 "$leader_trait_cartographer_hive_desc$"
+ leader_trait_cartographer_2_machine:0 "$leader_trait_cartographer_machine$ II"
+ leader_trait_cartographer_2_machine_desc:0 "$leader_trait_cartographer_machine_desc$"
+
+ leader_trait_expeditionist_hive:0 "Планетарний відсікач"
+ leader_trait_expeditionist_hive_desc:1 "Ця одиниця Розуму спеціалізується на зміні ландшафту та землеустрої."
+ leader_trait_expeditionist_machine:0 "Планетарний відсікач"
+ leader_trait_expeditionist_machine_desc:1 "Цей модуль спеціалізується на зміні ландшафту та землеустрої."
+
+ leader_trait_life_support_systems_hive:0 "Системи життєзабезпечення"
+ leader_trait_life_support_systems_hive_desc:1 "Ця одиниця Розуму розгортає та обслуговує складні системи життєзабезпечення на чужих планетах."
+
+ leader_trait_forge_focus_hive:0 "Спеціалізація на ковальській справі"
+ leader_trait_forge_focus_hive_desc:1 "Ця одиниця Розуму відмінно розбирається в технологіях обробки сплавів."
+ leader_trait_forge_focus_machine:0 "Спеціалізація на ковальській справі"
+ leader_trait_forge_focus_machine_desc:1 "У програму цього модуля входять спеціальні технології обробки сплавів."
+
+ leader_trait_forge_focus_2_hive:0 "$leader_trait_forge_focus_hive$ II"
+ leader_trait_forge_focus_2_hive_desc:0 "$leader_trait_forge_focus_hive_desc$"
+ leader_trait_forge_focus_2_machine:0 "$leader_trait_forge_focus_machine$ II"
+ leader_trait_forge_focus_2_machine_desc:0 "$leader_trait_forge_focus_machine_desc$"
+
+ leader_trait_refinement_focus_hive:0 "Спеціалізація на обробці"
+ leader_trait_refinement_focus_hive_desc:1 "Ця одиниця Розуму - експерт у видобутку та обробці рідкісних планетарних ресурсів."
+ leader_trait_refinement_focus_machine:0 "Спеціалізація на обробці"
+ leader_trait_refinement_focus_machine_desc:1 "У програму цього модуля входять процеси видобутку та обробки рідкісних планетарних ресурсів."
+
+ leader_trait_refinement_focus_2_hive:0 "$leader_trait_refinement_focus_hive$ II"
+ leader_trait_refinement_focus_2_hive_desc:0 "$leader_trait_refinement_focus_hive_desc$"
+ leader_trait_refinement_focus_2_machine:0 "$leader_trait_refinement_focus_machine$ II"
+ leader_trait_refinement_focus_2_machine_desc:0 "$leader_trait_refinement_focus_machine_desc$"
+
+ leader_trait_urbanist_hive:0 "Урбаніст"
+ leader_trait_urbanist_hive_desc:1 "Ця одиниця Розуму спеціалізується на містобудуванні та управлінні районами."
+ leader_trait_urbanist_machine:0 "Урбаніст"
+ leader_trait_urbanist_machine_desc:1 "Цей модуль спеціалізується на містобудуванні та управлінні районами."
+
+
+ leader_trait_trickster_machine_desc:1 "Цей модуль оснащений протоколами дезорієнтації противника, які дають йому унікальну перевагу в бою."
+ leader_trait_trickster_hive_desc:1 "Ця одиниця Розуму навчена прийомам дезорієнтації противника, які дають їй унікальну перевагу в бою."
+
+ leader_trait_urbanist_2_hive:0 "$leader_trait_urbanist_hive$ II"
+ leader_trait_urbanist_2_hive_desc:0 "$leader_trait_urbanist_hive_desc$"
+ leader_trait_urbanist_2_machine:0 "$leader_trait_urbanist_machine$ II"
+ leader_trait_urbanist_2_machine_desc:0 "$leader_trait_urbanist_machine_desc$"
+
+ leader_trait_adventurous_spirit_hive:1 "Автономний дрон"
+ leader_trait_adventurous_spirit_hive_desc:1 "Ця одиниця Розуму від народження володіє нестандартною самостійністю і може ухвалювати спонтанні та незалежні рішення."
+ 
+ leader_trait_adventurous_spirit_machine:0 "Необмежений модуль"
+ leader_trait_adventurous_spirit_machine_desc:1 "Програма цього модуля повідомляє йому нестандартну самостійність."
+ 
+ leader_trait_resilient_hive:0 "Витривалий"
+ leader_trait_resilient_hive_desc:1 "Ця одиниця Розуму вирізняється витривалістю."
+ leader_trait_resilient_machine:0 "Витривалий"
+ leader_trait_resilient_machine_desc:1 "Конструкція цього модуля робить його особливо витривалим."
+
+ leader_trait_resilient_2_hive:1 "$leader_trait_resilient_hive$ II"
+ leader_trait_resilient_2_hive_desc:1 "$leader_trait_resilient_hive_desc$"
+ leader_trait_resilient_2_machine:1 "$leader_trait_resilient_machine$ II"
+ leader_trait_resilient_2_machine_desc:1 "$leader_trait_resilient_machine_desc$"
+
+ leader_trait_adaptable_machine:0 "Гнучка програма"
+ leader_trait_adaptable_machine_desc:1 "Цей модуль з готовністю випробовує нові методи та ідеї."
+ leader_trait_adaptable_hive_desc:1 "Ця одиниця Розуму з готовністю випробовує нові методи та ідеї."
+
+ leader_trait_adaptable_2_hive:0 "$leader_trait_adaptable$ II"
+ leader_trait_adaptable_2_hive_desc:0 "$leader_trait_adaptable_hive_desc$"
+
+ leader_trait_adaptable_2_machine:0 "$leader_trait_adaptable_machine$ II"
+ leader_trait_adaptable_2_machine_desc:0 "$leader_trait_adaptable_machine_desc$"
+
+ leader_trait_politician_hive:0 "Підсилювач вузлів"
+ leader_trait_politician_hive_desc:1 "Ця одиниця Розуму була спеціально виведена для підвищення згуртованості вулика."
+ leader_trait_politician_machine:0 "Збільшувач вузлів"
+ leader_trait_politician_machine_desc:1 "Програма цього модуля включає алгоритми підвищення згуртованості модулів."
+
+
+ leader_trait_politician_2_hive:0 "$leader_trait_politician_hive$ II"
+ leader_trait_politician_2_hive_desc:0 "$leader_trait_politician_hive_desc$"
+ leader_trait_politician_2_machine:0 "$leader_trait_politician_machine$ II"
+ leader_trait_politician_2_machine_desc:0 "$leader_trait_politician_machine_desc$"
+
+ leader_trait_capitalist_hive:0 "Субпостачальник енергії"
+ leader_trait_capitalist_hive_desc:1 "Ця одиниця Розуму управляє децентралізованими енергосистемами."
+ leader_trait_capitalist_machine:0 "Охоронець сервера"
+ leader_trait_capitalist_machine_desc:1 "Цей модуль запрограмований керувати децентралізованими енергосистемами."
+
+
+ leader_trait_capitalist_2_hive:0 "$leader_trait_capitalist_hive$ II"
+ leader_trait_capitalist_2_hive_desc:0 "$leader_trait_capitalist_hive_desc$"
+ leader_trait_capitalist_2_machine:0 "$leader_trait_capitalist_machine$ II"
+ leader_trait_capitalist_2_machine_desc:0 "$leader_trait_capitalist_machine_desc$"
+
+ leader_trait_private_mines_hive:0 "Субсинаптична експлуатація мінералів"
+ leader_trait_private_mines_hive_desc:1 "Ця одиниця Розуму управляє децентралізованими джерелами мінералів."
+ leader_trait_private_mines_machine:1 "Підпроцеси видобутку мінералів"
+ leader_trait_private_mines_machine_desc:1 "Цей модуль запрограмований керувати децентралізованими запасами мінералів."
+
+
+ leader_trait_private_mines_2_hive:0 "$leader_trait_private_mines_hive$ II"
+ leader_trait_private_mines_2_hive_desc:0 "$leader_trait_private_mines_hive_desc$"
+ leader_trait_private_mines_2_machine:0 "$leader_trait_private_mines_machine$ II"
+ leader_trait_private_mines_2_machine_desc:0 "$leader_trait_private_mines_machine_desc$"
+
+ leader_trait_homesteader_hive:1 "Аграрна одиниця"
+ leader_trait_homesteader_hive_desc:1 "Ця одиниця Розуму управляє ділянками землі для виробництва їжі."
+ leader_trait_homesteader_machine:0 "Модуль органічної підтримки"
+ leader_trait_homesteader_machine_desc:1 "Цей модуль запрограмований керувати землею для виробництва їжі."
+
+
+ leader_trait_homesteader_2_hive:0 "$leader_trait_homesteader_hive$ II"
+ leader_trait_homesteader_2_hive_desc:0 "$leader_trait_homesteader_hive_desc$"
+ leader_trait_homesteader_2_machine:0 "$leader_trait_homesteader_machine$ II"
+ leader_trait_homesteader_2_machine_desc:0 "$leader_trait_homesteader_machine_desc$"
+
+ leader_trait_scrapper_hive:0 "Одиниці-сміттярі"
+ leader_trait_scrapper_hive_desc:1 "Ця одиниця Розуму керує флотиліями кораблів-сміттярів."
+ leader_trait_scrapper_machine:0 "Модуль утилізації"
+ leader_trait_scrapper_machine_desc:1 "Цей модуль управляє флотиліями кораблів-сміттярів."
+
+ leader_trait_scrapper_2_hive:0 "$leader_trait_scrapper_hive$ II"
+ leader_trait_scrapper_2_hive_desc:0 "$leader_trait_scrapper_hive_desc$"
+ leader_trait_scrapper_2_machine:0 "$leader_trait_scrapper_machine$ II"
+ leader_trait_scrapper_2_machine_desc:0 "$leader_trait_scrapper_machine_desc$"
+
+ leader_trait_venerated_hive:0 "Провідник вулика"
+ leader_trait_venerated_hive_desc:1 "Ця одиниця Розуму має об'єднавчий вплив і підвищує згуртованість вулика."
+ leader_trait_venerated_machine:0 "Мережевий ретранслятор"
+ leader_trait_venerated_machine_desc:1 "Цей модуль служить ретранслятором, що зміцнює цілісність мережі машин."
+
+ leader_trait_venerated_2_hive:0 "$leader_trait_venerated_hive$ II"
+ leader_trait_venerated_2_hive_desc:0 "$leader_trait_venerated_hive_desc$"
+ leader_trait_venerated_2_machine:0 "$leader_trait_venerated_machine$ II"
+ leader_trait_venerated_2_machine_desc:0 "$leader_trait_venerated_machine_desc$"
+
+ leader_trait_melancholic_hive:0 "Хімічна засмученість"
+ leader_trait_melancholic_hive_desc:1 "Ця одиниця Розуму схильна до важких нападів самокопання."
+ leader_trait_melancholic_machine:0 "Глюки"
+ leader_trait_melancholic_machine_desc:1 "Цей модуль постійно проводить часозатратну детальну самодіагностику."
+
+ leader_trait_reclusive_hive:0 "Інстинктивна ізоляція"
+ leader_trait_reclusive_hive_desc:1 "Цей вузол неефективно обробляє інформацію і під час контактів з інопланетними расами не здатний формувати цінних аналітичних висновків."
+ leader_trait_reclusive_machine:0 "Збій дипломатичного протоколу"
+ leader_trait_reclusive_machine_desc:1 "Цей модуль неефективно опрацьовує інформацію і часто зависає при спробах формувати дипломатичну аналітику."
+
+ leader_trait_intolerant_hive:0 "Нетерпимий"
+ leader_trait_intolerant_hive_desc:1 "Цей вузол вирізняється вродженою підозрілістю і заражає інші одиниці Розуму своєю недовірою до інопланетян."
+ leader_trait_intolerant_machine:0 "Нетерпимий"
+ leader_trait_intolerant_machine_desc:1 "Цей модуль страждає від дефектів у протоколах довіри і відрізняється підвищеним скепсисом."
+
+ leader_trait_volatile_hive:0 "Інстинктивна жорстокість"
+ leader_trait_volatile_hive_desc:1 "Цей вузол генетично схильний до агресії та насильства."
+ leader_trait_volatile_machine:0 "Зациклений алгоритм агресії"
+ leader_trait_volatile_machine_desc:1 "Цей модуль вирізняється імпульсивністю і схильний до неврівноваженості."
+
+ leader_trait_passive_hive:0 "Пасивний"
+ leader_trait_passive_hive_desc:1 "Цей вузол не любить проявляти ініціативу."
+ leader_trait_passive_machine:0 "Пасивний"
+ leader_trait_passive_machine_desc:1 "Цей модуль демонструє нездатність до ініціативи."
+
+ leader_trait_emotional_support_pet_hive:0 "Симбіонт емоційної підтримки"
+ leader_trait_emotional_support_pet_hive_desc:1 "Завдяки хімічному секрету мутуалістичного симбіонта цей вузол піклується про благополуччя членів вулика."
+
+ subclass_governor_pioneer_hive:0 "Одиниця-першопроходець"
+ subclass_governor_pioneer_hive_desc:1 "Підготовка нових світів до появи вулика - небезпечне і дороге заняття, проте ця одиниця Розуму знає, як знизити пов'язані з ним ризики."
+ subclass_governor_pioneer_machine:0 "Модуль-першопроходець"
+ subclass_governor_pioneer_machine_desc:1 "Інтеграція нових світів у мережу - небезпечна і дорога справа, проте цей модуль запрограмований мінімізувати пов'язані з нею ризики."
+
+ subclass_governor_economist_hive:0 "Виробничий нагляд"
+ subclass_governor_economist_hive_desc:1 "Ця одиниця Розуму була спеціально виведена допомагати іншим одиницям у процесі виробництва."
+ subclass_governor_economist_machine:0 "Цикл ефективності"
+ subclass_governor_economist_machine_desc:1 "Цей модуль призначений для виявлення та усунення неефективних виробничих алгоритмів."
+
+ leader_trait_agrarian_upbringing_2_hive:0 "$leader_trait_agrarian_upbringing_hive$ II"
+ leader_trait_agrarian_upbringing_2_hive_desc:0 "$leader_trait_agrarian_upbringing_hive_desc$"
+
+ leader_trait_intellectual_hive:0 "Робочий керівник"
+ leader_trait_intellectual_hive_desc:1 "Ця одиниця Розуму вміє виконувати по кілька складних розумових завдань одночасно."
+ leader_trait_intellectual_machine:0 "Рівняння когнітивної підтримки"
+ leader_trait_intellectual_machine_desc:1 "За допомогою цього модуля дослідницькі одиниці працюють значно швидше."
+
+ leader_trait_bureaucrat_2_hive:0 "$leader_trait_bureaucrat_hive$ II"
+ leader_trait_bureaucrat_2_hive_desc:0 "$leader_trait_bureaucrat_hive_desc$"
+ leader_trait_bureaucrat_2_machine:0 "$leader_trait_bureaucrat_machine$ II"
+ leader_trait_bureaucrat_2_machine_desc:0 "$leader_trait_bureaucrat_machine_desc$"
+
+ leader_trait_courtroom_training_hive:0 "Виразник"
+ leader_trait_courtroom_training_hive_desc:0 "Цей вузол неймовірно красномовний і здатний втягувати розумні істоти в павутину полеміки."
+ leader_trait_courtroom_training_machine:0 "Механічна риторика"
+ leader_trait_courtroom_training_machine_desc:1 "Цей модуль стисло й органічно формулює промови з урахуванням комунікативних стилів, що допомагає йому під час дипломатичних зустрічей."
+
+ leader_trait_principled_hive:0 "Стабільний гул"
+ leader_trait_principled_hive_desc:1 "Цей вузол передає безперервний хімічний сигнал, що сприяє розвитку потрібних синапсів у підопічних одиниць Розуму."
+ leader_trait_principled_machine:0 "Під захистом"
+ leader_trait_principled_machine_desc:0 "Цей вузол знижує ймовірність псування файлів, втрати даних і подібних програмних помилок."
+ 
+ leader_trait_principled_2_hive:0 "$leader_trait_principled_hive$ II"
+ leader_trait_principled_2_hive_desc:0 "$leader_trait_principled_hive_desc$"
+ leader_trait_principled_2_machine:0 "$leader_trait_principled_machine$ II"
+ leader_trait_principled_2_machine_desc:0 "$leader_trait_principled_machine_desc$"
+
+ leader_trait_assembler_hive:0 "Нянька"
+ leader_trait_assembler_hive_desc:0 "Ця одиниця Розуму має схильність до догляду за потомством."
+ leader_trait_assembler_machine:0 "Програма складання"
+ leader_trait_assembler_machine_desc:1 "коректний код у потрібному розділі допомагає оптимізувати виробництво нових машин."
+
+ leader_trait_geologist_hive:0 "Бурильна одиниця"
+ leader_trait_geologist_hive_desc:1 "Ця одиниця Розуму має копальні кінцівки і здатна легко добиратися до підземних ресурсів на планетах."
+ leader_trait_geologist_machine:0 "Глибоке буріння"
+ leader_trait_geologist_machine_desc:1 "Цей модуль оснащено поліпшеними землерийними механізмами, він здатний легко добиратися до підземних ресурсів на планетах."
+
+ leader_trait_naturalist_hive:0 "Гармонія"
+ leader_trait_naturalist_hive_desc:1 "Пристосованість допомагає обертати будь-які несприятливі умови на благо вулика."
+ leader_trait_naturalist_machine:0 "Програма збереження"
+ leader_trait_naturalist_machine_desc:0 "Збереження наявних біомів забезпечує стабільність їхньої експлуатації."
+
+ leader_trait_cultural_focus_hive:0 "Спеціалізація на об'єднанні"
+ leader_trait_cultural_focus_hive_desc:1 "Цю одиницю Розуму було спеціально виведено для розуміння інопланетних культур і адаптації до них."
+ leader_trait_cultural_focus_machine:0 "Спеціалізація на об'єднанні"
+ leader_trait_cultural_cultural_focus_machine_desc:1 "Цей модуль адаптований для підтримки об'єднавчих процесів і позитивної атмосфери при спілкуванні."
+
+
+ leader_trait_cultural_focus_2_hive:0 "$leader_trait_cultural_focus_hive$ II"
+ leader_trait_cultural_focus_2_hive_desc:0 "$leader_trait_cultural_focus_hive_desc$"
+ leader_trait_cultural_focus_2_machine:0 "$leader_trait_cultural_focus_machine$ II"
+ leader_trait_cultural_focus_2_machine_desc:0 "$leader_trait_cultural_focus_machine_desc$"
+
+ leader_trait_expertise_materials_hive:0 "Талант: матеріали"
+ leader_trait_expertise_materials_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій у галузі матеріалів."
+ leader_trait_expertise_propulsion_hive:0 "Талант: реактивна тяга"
+ leader_trait_expertise_propulsion_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій у галузі реактивної тяги."
+ leader_trait_expertise_voidcraft_hive:0 "Талант: приручення порожнечі"
+ leader_trait_expertise_voidcraft_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій в області приручення порожнечі."
+ leader_trait_expertise_industry_hive:0 "Талант: промисловість"
+ leader_trait_expertise_industry_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій в галузі промисловості."
+ leader_trait_expertise_field_manipulation_hive:0 "Талант: управління полями"
+ leader_trait_expertise_field_manipulation_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій в області маніпуляції."
+ leader_trait_expertise_particles_hive:0 "Талант: частинки"
+ leader_trait_expertise_particles_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій в області частинок."
+ leader_trait_expertise_metaphysics_hive:0 "Талант: метафізика"
+ leader_trait_expertise_metaphysics_hive_desc:0 "Цей вузол спеціалізується на відкриттях у галузі метафізики."
+ leader_trait_expertise_psionics_hive:0 "Талант: псионіка"
+ leader_trait_expertise_psionics_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій у галузі псионіки."
+ leader_trait_expertise_computing_hive:0 "Талант: обчислювальна техніка"
+ leader_trait_expertise_computing_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій в галузі обчислювальної техніки."
+ leader_trait_expertise_new_worlds_hive:0 "Талант: нові світи"
+ leader_trait_expertise_new_worlds_hive_desc:1 "Цей вузол спеціалізується на пошуку нових технологій в області заселення нових світів."
+ leader_trait_expertise_statecraft_hive:0 "Талант: мистецтво управління"
+ leader_trait_expertise_statecraft_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій в області мистецтва управління."
+ leader_trait_expertise_biology_hive:0 "Талант: біологія"
+ leader_trait_expertise_biology_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій у галузі біології."
+ leader_trait_expertise_military_theory_hive:0 "Талант: військова теорія"
+ leader_trait_expertise_military_theory_hive_desc:0 "Цей вузол спеціалізується на пошуку нових технологій у галузі військової теорії."
+
+ leader_trait_expertise_materials_machine:0 "Талант: матеріали"
+ leader_trait_expertise_materials_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій у галузі матеріалів."
+ leader_trait_expertise_propulsion_machine:0 "Талант: реактивна тяга"
+ leader_trait_expertise_propulsion_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій у галузі реактивної тяги."
+ leader_trait_expertise_voidcraft_machine:0 "Талант: приручення порожнечі"
+ leader_trait_expertise_voidcraft_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій в області приручення порожнечі."
+ leader_trait_expertise_industry_machine:0 "Талант: промисловість"
+ leader_trait_expertise_industry_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій у галузі промисловості."
+ leader_trait_expertise_field_manipulation_machine:0 "Талант: управління полями"
+ leader_trait_expertise_field_manipulation_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій у сфері маніпуляції."
+ leader_trait_expertise_particles_machine:0 "Талант: частинки"
+ leader_trait_expertise_particles_machine_desc:1 "Цей модуль спеціалізується на пошуку нових технологій в області частинок."
+ leader_trait_expertise_metaphysics_machine:0 "Талант: метафізика"
+ leader_trait_expertise_metaphysics_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій у сфері метафізики."
+ leader_trait_expertise_psionics_machine:0 "Талант: псионіка"
+ leader_trait_expertise_psionics_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій у галузі псионіки."
+ leader_trait_expertise_computing_machine:0 "Талант: обчислювальна техніка"
+ leader_trait_expertise_computing_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій у галузі обчислювальної техніки."
+ leader_trait_expertise_new_worlds_machine:0 "Талант: нові світи"
+ leader_trait_expertise_new_worlds_machine_desc:1 "Цей модуль спеціалізується на пошуку нових технологій у сфері заселення нових світів."
+ leader_trait_expertise_statecraft_machine:0 "Талант: мистецтво управління"
+ leader_trait_expertise_statecraft_machine_desc:0 "Цей модуль спеціалізується на відкриттях у галузі мистецтва управління."
+ leader_trait_expertise_biology_machine:0 "Талант: біологія"
+ leader_trait_expertise_biology_machine_desc:0 "Цей модуль спеціалізується на пошуку нових технологій у галузі біології."
+ leader_trait_expertise_military_theory_machine:0 "Талант: військова теорія"
+ leader_trait_expertise_military_theory_machine_desc:1 "Цей модуль спеціалізується на відкриттях у галузі військової теорії."
+
+ leader_trait_polluter_hive:0 "Забруднювач"
+ leader_trait_polluter_hive_desc:1 "Ця одиниця Розуму ігнорує побічні продукти промисловості, що накопичуються і якими вона опікується."
+
+ leader_trait_sadistic_hive:0 "Життя - біль"
+ leader_trait_sadistic_hive_desc:1 "Ця одиниця Розуму фізично нездатна отримувати задоволення інакше як через стимуляцію больових рецепторів."
+ leader_trait_sadistic_machine:1 "Машина-мазохіст"
+ leader_trait_sadistic_machine_desc:1 "Цей модуль має залежність від частої стимуляції датчиків пошкоджень."
+
+ leader_trait_irenic_hive:0 "Відраза до конфліктів"
+ leader_trait_irenic_hive_desc:1 "Через вроджене неприйняття конфліктів ця одиниця Розуму активно уникає можливої військової ескалації."
+ leader_trait_irenic_machine:0 "Протоколи миру"
+ leader_trait_irenic_machine_desc:0 "Цей модуль пропагує мир і всіма силами перешкоджає будь-яким спробам підвищення боєготовності."
+
+ subclass_scientist_explorer_hive:0 "Дослідник космосу"
+ subclass_scientist_explorer_hive_desc:1 "Керівний імпульс цієї безстрашної одиниці Розуму - підкорювати невідомість, відкривати нові раси і знайомитися з іншими цивілізаціями."
+ subclass_scientist_explorer_machine:0 "Дослідник космосу"
+ subclass_scientist_explorer_machine_desc:1 "Керівний принцип програми цього безстрашного модуля - підкорювати невідомість, відкривати нові раси і знайомитися з іншими цивілізаціями."
+
+ subclass_scientist_analyst_hive:0 "Аналітик"
+ subclass_scientist_analyst_hive_desc:1 "Будь-який аналітик, що поважає себе, прагне бути в авангарді науки, проводити експерименти і вивчати нові технології на благо вулика."
+ subclass_scientist_analyst_machine:0 "Аналітик"
+ subclass_scientist_analyst_machine_desc:0 "Будь-який аналітик, що поважає себе, прагне бути в авангарді науки, проводити експерименти і вивчати нові технології для підвищення ефективності."
+
+ subclass_scientist_researcher_hive:0 "Науковий дослідник"
+ subclass_scientist_researcher_hive_desc:1 "Без дослідників були б неможливими робота наукових колективів і втілення проєктів. Ці одиниці Розуму невтомно прагнуть до знань."
+ subclass_scientist_researcher_machine:0 "Науковий дослідник"
+ subclass_scientist_researcher_machine_desc:1 "Без дослідників були б неможливі робота наукових колективів і втілення проєктів. Ці модулі невтомно прагнуть до знань."
+
+ leader_trait_physics_focus_hive:0 "Спеціалізація на фізиці"
+ leader_trait_physics_focus_hive_desc:0 "Цей вузол зайнятий дослідженнями в галузі фізики."
+ leader_trait_physics_focus_machine:0 "Спеціалізація на фізиці"
+ leader_trait_physics_focus_machine_desc:0 "Цей модуль зайнятий дослідженнями в галузі фізики."
+
+ leader_trait_physics_focus_2_hive:0 "$leader_trait_physics_focus_hive$ II"
+ leader_trait_physics_focus_2_hive_desc:0 "$leader_trait_physics_focus_hive_desc$"
+ leader_trait_physics_focus_2_machine:0 "$leader_trait_physics_focus_machine$ II"
+ leader_trait_physics_focus_2_machine_desc:0 "$leader_trait_physics_focus_machine_desc$"
+
+ leader_trait_society_focus_hive:0 "Спеціалізація на суспільстві"
+ leader_trait_society_focus_hive_desc:0 "Цей вузол зайнятий соціологічними дослідженнями."
+ leader_trait_society_focus_machine:0 "Спеціалізація на суспільстві"
+ leader_trait_society_focus_machine_desc:0 "Цей модуль зайнятий соціологічними дослідженнями."
+
+ leader_trait_society_focus_2_hive:0 "$leader_trait_society_focus_hive$ II"
+ leader_trait_society_focus_2_hive_desc:0 "$leader_trait_society_focus_hive_desc$"
+ leader_trait_society_focus_2_machine:0 "$leader_trait_society_focus_machine$ II"
+ leader_trait_society_focus_2_machine_desc:0 "$leader_trait_society_focus_machine_desc$"
+
+ leader_trait_archaeologist_hive:0 "Археологічна одиниця"
+ leader_trait_archaeologist_hive_desc:0 "Ця одиниця Розуму спеціалізується на археологічних операціях."
+ leader_trait_archaeologist_machine:0 "Археологічний модуль"
+ leader_trait_archaeologist_machine_desc:0 "Цей модуль спеціалізується на археологічних операціях."
+
+ leader_trait_archaeologist_2_hive:0 "$leader_trait_archaeologist_hive$ II"
+ leader_trait_archaeologist_2_hive_desc:0 "$leader_trait_archaeologist_hive_desc$"
+ leader_trait_archaeologist_2_machine:0 "$leader_trait_archaeologist_machine$ II"
+ leader_trait_archaeologist_2_machine_desc:0 "$leader_trait_archaeologist_machine_desc$"
+
+ leader_trait_archaeologist_3_hive:0 "$leader_trait_archaeologist_hive$ III"
+ leader_trait_archaeologist_3_hive_desc:0 "$leader_trait_archaeologist_hive_desc$"
+ leader_trait_archaeologist_3_machine:0 "$leader_trait_archaeologist_machine$ III"
+ leader_trait_archaeologist_3_machine_desc:0 "$leader_trait_archaeologist_machine_desc$"
+
+ leader_trait_prospector_hive:0 "Старатель"
+ leader_trait_prospector_hive_desc:0 "Ця одиниця Розуму отримала надпотужні сканери для пошуку найглибших покладів при вивченні планет."
+ leader_trait_prospector_machine:0 "Старатель"
+ leader_trait_prospector_machine_desc:0 "Цей модуль оснащений вбудованими сканерами для пошуку найглибших покладів при вивченні планет."
+ 
+ leader_trait_prospector_2_hive:0 "$leader_trait_prospector_hive$ II"
+ leader_trait_prospector_2_hive_desc:0 "$leader_trait_prospector_hive_desc$"
+ leader_trait_prospector_2_machine:0 "$leader_trait_prospector_machine$ II"
+ leader_trait_prospector_2_machine_desc:0 "$leader_trait_prospector_machine_desc$"
+ 
+ leader_trait_collective_wisdom_hive:0 "Колективний інстинкт"
+ leader_trait_collective_wisdom_hive_desc:1 "Ця одиниця Розуму підтримує міцний зв'язок з одиницями підтримки, вони діють, немов це одна одиниця."
+ leader_trait_collective_wisdom_machine:0 "Колективна база даних"
+ leader_trait_collective_wisdom_machine_desc:1 "Цей модуль підтримує закриту мережу з модулями підтримки, розширюючи їхній функціонал."
+
+ leader_trait_collective_wisdom_2_hive:0 "$leader_trait_collective_wisdom_hive$ II"
+ leader_trait_collective_wisdom_2_hive_desc:0 "$leader_trait_collective_wisdom_hive_desc$"
+ leader_trait_collective_wisdom_2_machine:0 "$leader_trait_collective_wisdom_machine$ II"
+ leader_trait_collective_wisdom_2_machine_desc:0 "$leader_trait_collective_wisdom_machine_desc$"
+ 
+ subclass_admiral_aggressor_hive:0 "Агресор"
+ subclass_admiral_aggressor_hive_desc:1 "Найкращий захист - це напад. Агресори люблять влаштовувати нещадні атаки, знищуючи ворожі флотилії ще до того, як ті встигнуть зорієнтуватися."
+ subclass_admiral_aggressor_machine:0 "Агресор"
+ subclass_admiral_aggressor_machine_desc:0 "$subclass_admiral_aggressor_hive_desc$"
+
+ subclass_admiral_tactician_hive:0 "Тактик"
+ subclass_admiral_tactician_hive_desc:0 "Особливо хитромудра одиниця Розуму. Її тактичні маневри зводять нанівець ворожу міць і обводять чужих командувачів навколо пальця."
+ subclass_admiral_tactician_machine:0 "Тактик"
+ subclass_admiral_tactician_machine_desc:0 "$subclass_admiral_tactician_hive_desc$"
+
+ subclass_admiral_strategist_hive:0 "Стратег"
+ subclass_admiral_strategist_hive_desc:0 "Стратеги дивляться на театр військових дій загалом. Замість того щоб рватися в бій самостійно, вони вважають за краще підтримувати згуртованість збройних сил і складати плани, що охоплюють цілу галактику."
+ subclass_admiral_strategist_machine:0 "Стратег"
+ subclass_admiral_strategist_machine_desc:0 "$subclass_admiral_strategist_hive_desc$"
+
+ leader_trait_cautious_hive:0 "Обережний"
+ leader_trait_cautious_hive_desc:0 "Ця одиниця Розуму проявляє особливу обережність."
+ leader_trait_cautious_machine:0 "Обережний"
+ leader_trait_cautious_machine_desc:0 "У програмі цього модуля головна директива - обережність."
+
+ leader_trait_cautious_2_hive:0 "$leader_trait_cautious_hive$ II"
+ leader_trait_cautious_2_hive_desc:0 "$leader_trait_cautious_hive_desc$"
+ leader_trait_cautious_2_machine:0 "$leader_trait_cautious_machine$ II"
+ leader_trait_cautious_2_machine_desc:0 "$leader_trait_cautious_machine_desc$"
+
+ leader_trait_watchdog_hive:0 "Захисник гнізда"
+ leader_trait_watchdog_hive_desc:1 "Ця одиниця Розуму керується непереборним бажанням обороняти рідну територію."
+ leader_trait_watchdog_machine:0 "Пильний"
+ leader_trait_watchdog_machine_desc:1 "Цей модуль пильно і невпинно охороняє зайняту територію."
+
+ leader_trait_unyielding_hive:0 "Завзятість"
+ leader_trait_unyielding_hive_desc:1 "Ця одиниця Розуму не здатна капітулювати."
+ leader_trait_unyielding_machine:0 "Завзятість"
+ leader_trait_unyielding_machine_desc:1 "У цього модуля немає протоколу капітуляції."
+
+ leader_trait_unyielding_2_hive:0 "$leader_trait_unyielding_hive$ II"
+ leader_trait_unyielding_2_hive_desc:0 "$leader_trait_unyielding_hive_desc$"
+ leader_trait_unyielding_2_machine:0 "$leader_trait_unyielding_machine$ II"
+ leader_trait_unyielding_2_machine_desc:0 "$leader_trait_unyielding_machine_desc$"
+
+ leader_trait_fleet_logistician_hive:0 "Логіст"
+ leader_trait_fleet_logistician_hive_desc:0 "Ця одиниця Розуму наділена унікальною здатністю осмислювати логістичні запити цілих флотилій."
+ leader_trait_fleet_logistician_machine:0 "Логістична формула"
+ leader_trait_fleet_logistician_machine_desc:0 "Цей модуль обробляє логістичні запити цілих флотилій."
+
+ leader_trait_fleet_logistician_2_hive:0 "$leader_trait_fleet_logistician_hive$ II"
+ leader_trait_fleet_logistician_2_hive_desc:0 "$leader_trait_fleet_logistician_hive_desc$"
+ leader_trait_fleet_logistician_2_machine:0 "$leader_trait_fleet_logistician_machine$ II"
+ leader_trait_fleet_logistician_2_machine_desc:0 "$leader_trait_fleet_logistician_machine_desc$"
+
+ leader_trait_wrecker_hive:0 "Руйнівник"
+ leader_trait_wrecker_hive_desc:1 "За багато поколінь точної селекції виведена одиниця Розуму, здатна наносити масованої шкоди зазначеній цілі."
+ leader_trait_wrecker_machine:0 "Руйнівник"
+ leader_trait_wrecker_machine_desc:0 "Цей модуль обходить захисні обмеження для максимального підвищення ефективності знарядь."
+
+ leader_trait_intimidator_hive:0 "Ворожа присутність"
+ leader_trait_intimidator_hive_desc:0 "Демонстрація сили і точно розраховані акти квазіагресії - основна тактика цієї одиниці Розуму."
+ leader_trait_intimidator_machine:0 "Індикатор загрози"
+ leader_trait_intimidator_machine_desc:1 "Ідеально розраховані загрози насильством - основа бойової стратегії цього модуля."
+
+ leader_trait_overseer_hive:0 "Око вулика"
+ leader_trait_overseer_hive_desc:0 "Ця одиниця Розуму - фізичне втілення влади вулика."
+ leader_trait_overseer_machine:0 "Механічний керуючий"
+ leader_trait_overseer_machine_desc:0 "Операційні протоколи цього модуля задають стандарт найвищої продуктивності."
+
+ leader_trait_overseer_2_hive:0 "$leader_trait_overseer_hive$ II"
+ leader_trait_overseer_2_hive_desc:0 "$leader_trait_overseer_hive_desc$"
+ leader_trait_overseer_2_machine:0 "$leader_trait_overseer_machine$ II"
+ leader_trait_overseer_2_machine_desc:0 "$leader_trait_overseer_machine_desc$"
+
+ leader_trait_consul_general_hive:0 "Консульська одиниця"
+ leader_trait_consul_general_hive_desc:1 "Ця одиниця Розуму надає дипломатії таку саму важливість, як будь-якому іншому способу вирішення конфліктів."
+ leader_trait_consul_general_machine:0 "Дипломатична бойова одиниця"
+ leader_trait_consul_general_machine_desc:0 "Перемога без насильства максимально ефективна."
+
+ leader_trait_consul_general_2_hive:0 "$leader_trait_consul_general$ II"
+ leader_trait_consul_general_2_hive_desc:0 "$leader_trait_consul_general_hive_desc$"
+ leader_trait_consul_general_2_machine:0 "$leader_trait_consul_general$ II"
+ leader_trait_consul_general_2_machine_desc:0 "$leader_trait_consul_general_machine_desc$"
+
+ leader_trait_uninspiring_hive:0 "Жорстока одиниця"
+ leader_trait_uninspiring_hive_desc:1 "Ця одиниця Розуму не піклується про підпорядковані одиниці Розуму."
+ leader_trait_uninspiring_machine:0 "Бездушна машина"
+ leader_trait_uninspiring_machine_desc:0 "Розрахунки цього модуля не враховують благополуччя підлеглих."
+
+ leader_trait_lawless_hive:0 "Схильність до продажності"
+ leader_trait_lawless_hive_desc:1 "Ця одиниця Розуму привласнює загальні ресурси вулика для власного блага."
+ leader_trait_lawless_machine:0 "Шкідливий код"
+ leader_trait_lawless_machine_desc:1 "Помилка в програмі цього модуля викликає відхилення в поведінці."
+
+ leader_trait_corrupt_hive:0 "Спотворена одиниця Розуму"
+ leader_trait_corrupt_machine:0 "Спотворений модуль"
+ leader_trait_corrupt_hive_desc:1 "Ця одиниця Розуму заражає своєю девіантною поведінкою оточуючих."
+ leader_trait_corrupt_machine_desc:1 "Цей модуль повідомляє свою девіантну поведінку оточуючим."
+
+ leader_trait_shadow_broker_hive:0 "Інформаційне скупчення"
+ leader_trait_shadow_broker_hive_desc:0 "Цей вузол оснащений інструментами, які збільшують наш потенціал до впровадження."
+ leader_trait_shadow_broker_machine:0 "Інструменти впровадження"
+ leader_trait_shadow_broker_machine_desc:0 "Цей модуль оснащений інструментами, які збільшують наш потенціал до впровадження."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ leader_trait_corsair_2_hive:0 "$leader_trait_corsair_hive$ II"
+ leader_trait_corsair_2_hive_desc:0 "$leader_trait_corsair_hive_desc$"
+ leader_trait_corsair_2_machine:0 "$leader_trait_corsair_machine$ II"
+ leader_trait_corsair_2_machine_desc:0 "$leader_trait_corsair_machine_desc$"
+ leader_trait_artillery_focus_hive:0 "Спеціалізація артилерія"
+ leader_trait_artillery_focus_machine:0 "Спеціалізація артилерії"
+ leader_trait_carrier_focus_hive:0 "Спеціалізація авіаносця"
+ leader_trait_carrier_focus_machine:0 "Спеціалізація авіаносця"
+ leader_trait_rocketry_focus_hive:0 "Спеціалізація: ракетна техніка"
+ leader_trait_rocketry_focus_machine:0 "Спеціалізація: ракетна техніка"
+ leader_trait_gunship_focus_hive:0 "Спеціалізація: кораблі вогневої підтримки"
+ leader_trait_gunship_focus_machine:0 "Спеціалізація: кораблі вогневої підтримки"
+ leader_trait_inspiring_2_machine:0 "$leader_trait_inspiring_machine$ II"
+ leader_trait_inspiring_2_machine_desc:0 "$leader_trait_inspiring_machine_desc$"
+ leader_trait_scramber_2_hive:0 "$leader_trait_scramber_hive$ II"
+ leader_trait_scramber_2_hive_desc:0 "$leader_trait_scramber_hive_desc$"
+ leader_trait_scramber_2_machine:0 "$leader_trait_scramber_machine$ II"
+ leader_trait_scramber_2_machine_desc:0 "$leader_trait_scramber_machine_desc$"
+ leader_trait_intellectual_2_hive:0 "$leader_trait_intellectual_hive$ II"
+ leader_trait_intellectual_2_hive_desc:0 "$leader_trait_intellectual_hive_desc$"
+ leader_trait_intellectual_2_machine:0 "$leader_trait_intellectual_machine$ II"
+ leader_trait_intellectual_2_machine_desc:0 "$leader_trait_intellectual_machine_desc$"

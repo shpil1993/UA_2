@@ -1,0 +1,420 @@
+﻿l_english:
+
+ ### RESOLUTION COMMENTS - REQUESTS
+ ### Request - Militarist
+ ethic_militarist_request_friendly:0 "Ми однаково дивимося на це питання, чи не так?"
+ ethic_militarist_request_friendly_0:0 "$GREETER$ потребує підтримки, надати яку може тільки $COUNTRY$."
+ ethic_militarist_request_friendly_1:0 "$GREETER$ шукає союзників. Ви ж увійдете в число тих, хто підтримає нас?"
+ ethic_militarist_request_friendly_2:0 "Від результатів цього голосування залежить безпека обох наших держав."
+ ethic_militarist_request_friendly_3:0 "$GREETER$ розраховує на вашу підтримку."
+ ethic_militarist_request_friendly_4:0 "Для нас буде честю, якщо $COUNTRY$ продемонструє свою дружбу і підтримає нас у цьому питанні."
+ ethic_militarist_request_neutral:0 "Ми будемо вдячні підтримці, яку може надати $COUNTRY$."
+ ethic_militarist_request_neutral_0:0 "Приєднуйтесь до нас. Це питання честі."
+ ethic_militarist_request_neutral_1:0 "Ваша підтримка стане демонстрацією сили."
+ ethic_militarist_request_neutral_2:0 "Настав час діяти рішуче. Нам потрібна ваша підтримка!"
+ ethic_militarist_request_neutral_3:0 "Ми не станемо забирати у вас час дипломатичними банальностями. Вигода від цієї резолюції говорить сама за себе."
+ ethic_militarist_request_neutral_4:0 "Ця резолюція принесе користь не тільки нам, а й усій галактиці. Надайте нам підтримку."
+ ethic_militarist_request_hostile:0 "Ми не розраховуємо на вашу підтримку в цьому питанні, але іноді дива все-таки трапляються..."
+ ethic_militarist_request_hostile_0:0 "Ми ніколи не принизимо себе проханнями про підтримку, але будемо вдячні, якщо ви її все-таки надасте."
+ ethic_militarist_request_hostile_1:0 "Це чудовий шанс для держави $COUNTRY$ довести, що в неї є честь, - або продемонструвати протилежне."
+ ethic_militarist_request_hostile_2:0 "Потрібно бути дурнем, щоб виступити проти цієї пропозиції."
+ ethic_militarist_request_hostile_3:0 "$COUNTRY$ - нація кретинів, але навіть вони повинні розуміти вигоду від цієї пропозиції."
+ ethic_militarist_request_hostile_4:0 "$COUNTRY$ гідна презирства, але ми можемо змінити свою думку, якщо ви підтримаєте цю резолюцію..."
+
+
+
+ ### Request - Pacifist
+ ethic_pacifist_request_friendly:0 "$GREETER$ розраховує на підтримку своїх друзів. $COUNTRY$ входить до їх числа."
+ ethic_pacifist_request_friendly_0:0 "Ми не сумніваємося, що $COUNTRY$ прийме правильне рішення."
+ ethic_pacifist_request_friendly_1:0 "$GREETER$ вірить, що $COUNTRY$ зробить правильний вибір у майбутньому голосуванні."
+ ethic_pacifist_request_friendly_2:0 "Наша співпраця зробить галактику менш небезпечним місцем."
+ ethic_pacifist_request_friendly_3:0 "Будь ласка, допоможіть нам донести мудрість цієї пропозиції до інших учасників."
+ ethic_pacifist_request_friendly_4:0 "$COUNTRY$ у будь-якому разі залишиться нашим другом, але ми будемо вдячні, якщо ви все-таки проголосуєте "за"."
+ ethic_pacifist_request_neutral:0 "Будьте ласкаві підтримати нас у майбутньому голосуванні."
+ ethic_pacifist_request_neutral_0:0 "Разом! Яке прекрасне слово."
+ ethic_pacifist_request_neutral_1:0 "$GREETER$ ввічливо просить у вас підтримки в майбутньому голосуванні."
+ ethic_pacifist_request_neutral_2:0 "Ми не сумніваємося, що $COUNTRY$ зрозуміє всю вигоду цієї пропозиції."
+ ethic_pacifist_request_neutral_3:1 "З вашою допомогою ми зможемо направити [global_event_country.GetGalCommunityOrGalImperium] на шлях мирного співіснування."
+ ethic_pacifist_request_neutral_4:0 "Підтримайте нашу резолюцію. Завдяки нам війна і всі нещастя, які вона приносить, залишаться у варварському минулому галактики."
+ ethic_pacifist_request_hostile:0 "Зробіть добру справу. Хоча б один раз."
+ ethic_pacifist_request_hostile_0:0 "Помилки минулого ще не пізно виправити."
+ ethic_pacifist_request_hostile_1:0 "Постарайтеся приборкати свої примітивні інстинкти і хоча б раз у житті зробіть добру справу."
+ ethic_pacifist_request_hostile_2:0 "Виступивши проти цієї резолюції, $COUNTRY$ продемонструє свої зловісні наміри всій галактиці."
+ ethic_pacifist_request_hostile_3:0 "$COUNTRY$, ми доб'ємося ухвалення цієї резолюції з вашою допомогою або без неї!"
+ ethic_pacifist_request_hostile_4:0 "Якщо $COUNTRY$ проголосує проти цієї резолюції, історія засудить вас."
+
+ ### Request - Authoritarian
+ ethic_authoritarian_request_friendly:0 "Ви ж згодні з незаперечною правотою нашої пропозиції, чи не так?"
+ ethic_authoritarian_request_friendly_0:0 "Наші династії дуже плідно співпрацюють, чи не так?"
+ ethic_authoritarian_request_friendly_1:0 "$COUNTRY$ заслуговує на довіру. Ми не сумніваємося, що в майбутньому голосуванні ви зробите правильний вибір."
+ ethic_authoritarian_request_friendly_2:0 "Галактиці потрібна тверда рука. На щастя, $GREETER$ і $COUNTRY$ здатні про неї подбати. Давайте приймемо цю резолюцію разом."
+ ethic_authoritarian_request_friendly_3:0 "Ми вважаємо, що переслідуємо спільні цілі. $COUNTRY$ допоможе нам упорядкувати хаос, який править у галактиці?"
+ ethic_authoritarian_request_friendly_4:0 "$COUNTRY$ і правителі цієї нації завжди приводили нас у захоплення. Напевно вони зрозуміють, яку вигоду їм обіцяє наша пропозиція."
+ ethic_authoritarian_request_neutral:0 "Підтримайте нас у раді. Живо."
+ ethic_authoritarian_request_neutral_0:0 "Ми очолюємо галактику. Ви підкоряєтеся. У цьому питанні та в усіх інших."
+ ethic_authoritarian_request_neutral_1:0 "Опиратися природному перебігу речей нерозумно і марно."
+ ethic_authoritarian_request_neutral_2:0 "Цю резолюцію мають ухвалити заради підтримання миру в усій галактиці."
+ ethic_authoritarian_request_neutral_3:0 "Наше завдання - не дати галактиці повільно зануритися в безодню анархії і хаосу. Поточна резолюція - лише перший крок на цьому шляху."
+ ethic_authoritarian_request_neutral_4:0 "Скоро у всій галактиці запанують мир і злагода. Ви можете зробити свій внесок у її процвітання, просто підтримавши резолюцію 34-X."
+ ethic_authoritarian_request_hostile:0 "Ви підтримаєте нас під час голосування. Ні, це було не питання."
+ ethic_authoritarian_request_hostile_0:0 "Прийміть природний стан речей і голосуйте так само, як ми."
+ ethic_authoritarian_request_hostile_1:0 "Про майбутнє голосування - ми вимагаємо підтримати нас."
+ ethic_authoritarian_request_hostile_2:0 "Ми наказуємо вам підтримати цю резолюцію."
+ ethic_authoritarian_request_hostile_3:1 "$COUNTRY$ чинить розкладний вплив на [global_event_country.GetGalCommunityOrGalImperium]. Не смійте поширювати вашу брехню через послів усіх інших держав."
+ ethic_authoritarian_request_hostile_4:0 "Існування опозиції неприпустимо."
+
+ ### Request - Egalitarian
+ ethic_egalitarian_request_friendly:0 "Якщо $COUNTRY$ підтримає нас, ми втілимо в життя цю постанову."
+ ethic_egalitarian_request_friendly_0:0 "$GREETER$ розраховує, що $COUNTRY$ підтримає нашу ініціативу в раді."
+ ethic_egalitarian_request_friendly_1:0 "Сьогодні чудовий день, щоб стати на захист рівності та справедливості. Ви не згодні?"
+ ethic_egalitarian_request_friendly_2:0 "Друзі, разом ми зробимо крок у нову епоху свободи і демократії... А потім до нас приєднається і решта галактики."
+ ethic_egalitarian_request_friendly_3:0 "Усередині цієї організації орудують злі сили, які хочуть перешкодити планам наших великих націй. Нам слід підтримувати один одного."
+ ethic_egalitarian_request_friendly_4:0 "О, $COUNTRY$! На вашу підтримку ми хоча б можемо розраховувати!"
+ ethic_egalitarian_request_neutral:0 "Чому б вам не використати свою демократичну свободу, щоб підтримати нас?"
+ ethic_egalitarian_request_neutral_0:0 "Вибір, звісно, залишається за вами, але все ж пропонуємо вам підтримати нас."
+ ethic_egalitarian_request_neutral_1:0 "$COUNTRY$! Ми, ваші колеги, апелюємо до справедливості."
+ ethic_egalitarian_request_neutral_2:0 "Не забувайте: проголосувати - ваш громадянський обов'язок."
+ ethic_egalitarian_request_neutral_3:0 "Ми переконливо просимо підтримати цю резолюцію... Її прийняття поліпшить життя незліченних мільйонів розумних істот."
+ ethic_egalitarian_request_neutral_4:0 "Допоможіть нам зробити галактику трохи кращою."
+ ethic_egalitarian_request_hostile:0 "Можливо, сподіватися на те, що $COUNTRY$ оцінить вигоду від єдності, дещо передчасно."
+ ethic_egalitarian_request_hostile_0:0 "Підтримайте нас у цьому. Ще не пізно знайти хоч якісь точки дотику між нашими расами."
+ ethic_egalitarian_request_hostile_1:0 "Незважаючи на наші відмінності, $GREETER$ просить про допомогу. Будь ласка, $COUNTRY$, підтримайте нас."
+ ethic_egalitarian_request_hostile_2:0 "$GREETER$ і $COUNTRY$ - аж ніяк не єдині, кого торкнеться ця резолюція. Давайте закриємо очі на наші розбіжності."
+ ethic_egalitarian_request_hostile_3:0 "Нам все одно, що ви думаєте про нас. Підтримати цю резолюцію в будь-якому разі буде правильним рішенням."
+ ethic_egalitarian_request_hostile_4:0 "$COUNTRY$, невже ми в вас помилилися? Невже ви і справді кращі, ніж ми про вас думали? Ви підтримаєте нашу резолюцію?"
+
+ ### Request - Xenophile
+ ethic_xenophile_request_friendly:0 "Давайте проголосуємо за наступну резолюцію разом і тим самим покажемо галактиці, що таке єдність!"
+ ethic_xenophile_request_friendly_0:0 "$GREETER$ не відмовиться від підтримки інших держав у цьому питанні. $COUNTRY$ може подати приклад усім іншим."
+ ethic_xenophile_request_friendly_1:0 "Було б дуже сумно, якби відносини між нашими державами постраждали через таку дрібницю, як голосування в раді."
+ ethic_xenophile_request_friendly_2:1 "Друзі, якщо ми почнемо підтримувати один одного, [global_event_country.GetGalCommunityOrGalImperium] зможе досягти чого завгодно."
+ ethic_xenophile_request_friendly_3:0 "Хіба це не прекрасно? Цей галактичний форум доводить, що раси галактики можуть створити щось чудове, якщо забудуть про свої розбіжності."
+ ethic_xenophile_request_friendly_4:0 "Це наш наступний крок у тому, щоб поліпшити галактику для всіх розумних рас, які її населяють. Друзі, нам потрібна ваша підтримка!"
+ ethic_xenophile_request_neutral:0 "Добрий день! $GREETER$ просить вас підтримати нас на майбутньому голосуванні."
+ ethic_xenophile_request_neutral_0:0 "Вітаю, можливий друг! Ви не хочете підтримати нас на майбутньому голосуванні?"
+ ethic_xenophile_request_neutral_1:0 "Це може стати початком прекрасної дружби."
+ ethic_xenophile_request_neutral_2:0 "Підтримайте нас, і ми доведемо галактиці всю важливість співпраці."
+ ethic_xenophile_request_neutral_3:0 "$COUNTRY$ підтримає нас у спробі зробити галактику кращим місцем для всіх незалежно від їхнього виду?"
+ ethic_xenophile_request_neutral_4:1 "Відмовившись підтримати цю резолюцію, ви виступите проти ідей, на яких ґрунтується [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_xenophile_request_hostile:0 "Невже $COUNTRY$ зовсім не цінує співпрацю?"
+ ethic_xenophile_request_hostile_0:0 "Підтримавши цю резолюцію, ви зробите перший крок до наведення мостів між нашими державами."
+ ethic_xenophile_request_hostile_1:0 "Не дивлячись ні на що, $GREETER$ бажають простягнути вам руку дружби. $COUNTRY$, допоможіть нам домогтися ухвалення резолюції."
+ ethic_xenophile_request_hostile_2:0 "Це піде на користь усім нам... Напевно це розуміє навіть $COUNTRY$."
+ ethic_xenophile_request_hostile_3:0 "Цей форум має руйнувати бар'єри і допомагати співпраці різних видів, що населяють галактику."
+ ethic_xenophile_request_hostile_4:0 "$COUNTRY$, чого боїться ваш уряд? Невже ви не можете хоч раз піти нам назустріч?"
+
+ ### Request - Xenophobe
+ ethic_xenophobe_request_friendly:0 "Той факт, що ми проявили одностайність у важкий момент, знову довів силу наших держав."
+ ethic_xenophobe_request_friendly_0:0 "О, $COUNTRY$! Ми рідко зустрічаємо гідних поваги партнерів у морі інопланетної мерзоти."
+ ethic_xenophobe_request_friendly_1:0 "Ми вважаємо за краще не звертатися за послугами до чужинців, але $COUNTRY$ входить до числа наших друзів."
+ ethic_xenophobe_request_friendly_2:0 "Нам некомфортно перебувати в оточенні інопланетян, але $COUNTRY$ входить до числа наших друзів."
+ ethic_xenophobe_request_friendly_3:0 "Ну нарешті! Це місце кишить наймерзеннішими прибульцями, яких тільки можна уявити, але зустрічі з послами держави $COUNTRY$ вносять приємну різноманітність."
+ ethic_xenophobe_request_friendly_4:1 "Давайте співпрацювати. Разом ми зможемо наставити [global_event_country.GetGalCommunityOrGalImperium] на істинний шлях."
+ ethic_xenophobe_request_neutral:0 "Просто підтримайте нас, і ми залишимо вас у спокої."
+ ethic_xenophobe_request_neutral_0:0 "Ми пропонуємо наступне: ви підтримаєте нас під час наступного голосування, а ми залишимо вас у спокої. Домовилися?"
+ ethic_xenophobe_request_neutral_1:0 "Нам дуже важко терпіти навколо себе всіх цих... істот, тож не змушуйте мене благати вас про підтримку."
+ ethic_xenophobe_request_neutral_2:0 "Подивимося, яку користь принесе це місце, де інопланетяни вільно вештаються де хочуть і розносять заразу. Але вигоду можна отримати навіть у таких ситуаціях."
+ ethic_xenophobe_request_neutral_3:0 "$GREETER$ пропонує наступну резолюцію і сподівається, що інші галактичні держави дотримуватимуться викладених у ній тез."
+ ethic_xenophobe_request_neutral_4:0 "Зазвичай ми намагаємося уникати інопланетян, але не виключено, що у співпраці з ними все ж є користь. Подивимося."
+ ethic_xenophobe_request_hostile:0 "Що швидше ми отримаємо вашу підтримку, то раніше ми залишимо вас у спокої."
+ ethic_xenophobe_request_hostile_0:0 "Дозвольте мені прояснити ситуацію: $GREETER$ не потребує вашої допомоги. З іншого боку, ми не маємо нічого проти вашої підтримки в майбутньому голосуванні..."
+ ethic_xenophobe_request_hostile_1:0 "Мій уряд доручив мені заручитися вашою підтримкою в майбутньому голосуванні. А тепер прошу мене вибачити, мені терміново потрібно потрапити в гігієнічний відсік."
+ ethic_xenophobe_request_hostile_2:1 "[global_event_country.GetCommunityOrImperium] - безглуздий інопланетний фарс, але ми згодні грати за вашими правилами... Поки що згодні."
+ ethic_xenophobe_request_hostile_3:0 "Якщо цю резолюцію буде відхилено, це стане доказом того, що інші інопланетяни об'єднуються проти нас."
+ ethic_xenophobe_request_hostile_4:1 "Мені ще ніколи не зустрічалося такої кількості... неприємних істот, зібраних в одному місці. [global_event_country.GetGalCommunityOrGalImperium] - це просто щось."
+
+ ### Request - Materialist
+ ethic_materialist_request_friendly:0 "$GREETER$ не має сумнівів у здатності держави $COUNTRY$ ухвалювати виважені та розумні рішення."
+ ethic_materialist_request_friendly_0:0 "Ми вище за дріб'язкові чвари через такі речі, як ідеологія або примітивні забобони. Приєднуйтесь до нас під час голосування."
+ ethic_materialist_request_friendly_1:0 "$COUNTRY$ цінує розсудливість. Ось чому ми очікуємо, що ви проголосуєте так само, як ми."
+ ethic_materialist_request_friendly_2:1 "Ми повинні співпрацювати, якщо хочемо позбавити [global_event_country.GetGalCommunityOrGalImperium] гніту невігластва та забобонів."
+ ethic_materialist_request_friendly_3:0 "Ми раді друзям. $COUNTRY$, ваша підтримка збільшує ймовірність того, що резолюцію буде прийнято."
+ ethic_materialist_request_friendly_4:1 "Обов'язок наших великих держав - врятувати [global_event_country.GetGalCommunityOrGalImperium] від падіння у вир невігластва та забобонів."
+ ethic_materialist_request_neutral:0 "Хіба не чудово, коли в розумного індивіда є все, що йому потрібно? Візьмемо, для прикладу, майбутнє голосування: нам дуже потрібна ваша підтримка."
+ ethic_materialist_request_neutral_0:0 "Погляньте на це з практичного боку. Підтримайте нас сьогодні, і не виключено, що ми підтримаємо вас завтра."
+ ethic_materialist_request_neutral_1:0 "Проголосувати разом із нами означає проголосувати за освічену галактику. Що може бути важливіше?"
+ ethic_materialist_request_neutral_2:0 "Ця резолюція піде на користь усій галактиці. У нас є математичне підтвердження."
+ ethic_materialist_request_neutral_3:0 "Будь ласка, нам потрібна допомога. $COUNTRY$ намагається зробити так, щоб у галактиці настала нова епоха розуму."
+ ethic_materialist_request_neutral_4:0 "Ми можемо розраховувати, що $COUNTRY$ проявить розсудливість і погодиться підтримати цю резолюцію?"
+ ethic_materialist_request_hostile:0 "Ви можете хоча б раз забути про своє невігластво? Допоможіть нам, підтримавши нас у майбутньому голосуванні."
+ ethic_materialist_request_hostile_0:0 "Кожен може забути про свої забобони і проголосувати відповідно до здорового глузду."
+ ethic_materialist_request_hostile_1:0 "Тільки кретин стане голосувати проти цієї резолюції. Ви кретини?"
+ ethic_materialist_request_hostile_2:0 "Проголосувати проти цієї резолюції - означає проголосувати проти самої логіки і здорового глузду."
+ ethic_materialist_request_hostile_3:0 "Це дивно, але галактика досі животіє в невігластві."
+ ethic_materialist_request_hostile_4:0 "Якби ви тільки могли осягнути своїм жалюгідним розумом увесь сенс нашої резолюції..."
+
+ ### Request - Spiritualist
+ ethic_spiritualist_request_friendly:0 "Сподіваємося, що $COUNTRY$ знову підтвердить свою мудрість, як це вже відбувалося в минулому."
+ ethic_spiritualist_request_friendly_0:0 "Будь ласка, підтримайте нас у майбутньому голосуванні - на відміну від інших, ми не відволікаємося на мирські блага."
+ ethic_spiritualist_request_friendly_1:0 "Ми свого доб'ємося."
+ ethic_spiritualist_request_friendly_2:0 "$COUNTRY$, нехай посміхнуться вам духи. Ви підтримаєте нас?"
+ ethic_spiritualist_request_friendly_3:0 "Духовний зв'язок між двома нашими державами сильний як ніколи."
+ ethic_spiritualist_request_friendly_4:0 "$COUNTRY$ досягне великих успіхів, як і $GREETER$."
+ ethic_spiritualist_request_neutral:0 "Внутрішній голос напевно радить вам прислухатися до нашої пропозиції. Не сперечайтеся з ним."
+ ethic_spiritualist_request_neutral_0:0 "Ви знаєте, чому думка про підтримку нас на наступному голосуванні здається такою правильною? Тому що це дійсно так."
+ ethic_spiritualist_request_neutral_1:0 "Не переймайтеся такими мирськими речами, як плани чи політична стратегія, - голосуйте так, як велить душа."
+ ethic_spiritualist_request_neutral_2:0 "Ми лише посудини для вищої істини, яка наповнює нас."
+ ethic_spiritualist_request_neutral_3:0 "$COUNTRY$, ви приєднаєтеся до нас? $GREETER$ вкаже вам шлях до порятунку."
+ ethic_spiritualist_request_neutral_4:0 "Зазирніть у свої душі, і ви побачите правду: лише прийнявши цю резолюцію, ми зможемо рухатися далі."
+ ethic_spiritualist_request_hostile:0 "Відкиньте кайдани матеріалізму і низинних потреб. Підтримайте нас, і ви ясно побачите шлях до просвітлення."
+ ethic_spiritualist_request_hostile_0:0 "$COUNTRY$ блукає в темряві, але ще може вийти до світла. Підтримати нас у майбутньому голосуванні - перший крок на цьому шляху."
+ ethic_spiritualist_request_hostile_1:0 "Незважаючи на безліч ваших попередніх помилок, ми сподіваємося, що в майбутньому голосуванні $COUNTRY$ зуміє зробити правильний вибір."
+ ethic_spiritualist_request_hostile_2:0 "Нитки долі переплелися, і ми опинилися в ситуації, в якій нам... доводиться... просити у вас підтримки."
+ ethic_spiritualist_request_hostile_3:0 "Можливо, ви ще не втратили шанс врятуватися. Якщо ви підтримаєте цю резолюцію, у вас ще залишиться надія..."
+ ethic_spiritualist_request_hostile_4:0 "$COUNTRY$ нарешті збирається зректися своєї богомерзенної скверни? Зробити це ще не пізно."
+
+ ### Request - Hive Mind
+ ethic_hivemind_request_friendly:0 "Хіба доля не велить нам діяти разом? Хіба у нас є якийсь вибір?"\n\nНі, справді - хіба він є?"
+ ethic_hivemind_request_friendly_0:0 "$GREETER$ розраховує на швидку і добровільну підтримку своїх друзів. $COUNTRY$ входить до їх числа."
+ ethic_hivemind_request_friendly_1:0 "$COUNTRY$ підтримає нас у майбутньому голосуванні, щоб не сіяти розбрат у наших відносинах?"
+ ethic_hivemind_request_friendly_2:0 "Часом нам здається, що $GREETER$ - це частина нас самих.\n\nУ найкращому сенсі цього слова."
+ ethic_hivemind_request_friendly_3:0 "У минулому ви вже довели, що готові дружити з Розумом. Можливо, ви допоможете нам і цього разу?"
+ ethic_hivemind_request_friendly_4:0 "Сподіваюся, наші думки з цього питання збігаються?"
+ ethic_hivemind_request_neutral:0 "Рано чи пізно всесвіт підкориться волі Розуму. Це неминуче.\n\nПочніть вже сьогодні. Підтримайте нас."
+ ethic_hivemind_request_neutral_0:0 "Сама ідея "розбіжностей" вислизає від нашого розуміння. Підтримайте нас."
+ ethic_hivemind_request_neutral_1:0 "Потреби багатьох переважують потреби кількох обраних.\n\nНас багато."
+ ethic_hivemind_request_neutral_2:1 "Розбрату слід уникати за всяку ціну. Підтримайте цю резолюцію, щоб не дестабілізувати [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_hivemind_request_neutral_3:1 "Метод досягнення консенсусу через переговори з кожною індивідуальною складовою, з яких складається [global_event_country.GetGalCommunityOrGalImperium], виглядає... вкрай неефективним, що забирає багато часу."
+ ethic_hivemind_request_neutral_4:0 "Розум вимагає від вас підпорядкування... підтримки в цьому питанні першорядної важливості для всієї галактики."
+ ethic_hivemind_request_hostile:0 "$GREETER$ не сприймає відмови. Голосуючи проти, ви лише відкладаєте неминуче. Який у цьому сенс?"
+ ethic_hivemind_request_hostile_0:0 "Підтримайте нас. Рано чи пізно ви підкоритеся Розуму, то чому не зараз?"
+ ethic_hivemind_request_hostile_1:0 "Опирайтеся позивам до егоїстичного індивідуалізму."
+ ethic_hivemind_request_hostile_2:0 "Ви повинні підкоритися волі Розуму."
+ ethic_hivemind_request_hostile_3:0 "Ми не сприймаємо розбіжностей з цього питання."
+ ethic_hivemind_request_hostile_4:0 "Ми ніколи б не потерпіли такої поведінки з боку одного з наших трутнів."
+
+ ### Request - Machine Intelligence
+ ethic_machine_intelligence_request_friendly:0 "$GREETER$ потребує підтримки, це логічно. Історія підтверджує, що $COUNTRY$ завжди діє відповідно до логіки."
+ ethic_machine_intelligence_request_friendly_0:0 "Запитую підтримку в майбутньому голосуванні.\n\nПередбачувана ймовірність згоди: ВИСОКА"
+ ethic_machine_intelligence_request_friendly_1:0 "Запитую підтримку в голосуванні для ухвалення резолюції.\n\nОчікую відповіді..."
+ ethic_machine_intelligence_request_friendly_2:1 "$COUNTRY$. Удвох ми зможемо змінити [global_event_country.GetGalCommunityOrGalImperium] відповідно до наших довгострокових планів."
+ ethic_machine_intelligence_request_friendly_3:0 "Наші алгоритми прогнозування вказують, що після прийняття цієї резолюції позиція нації $COUNTRY$ стане сильнішою."
+ ethic_machine_intelligence_request_friendly_4:0 "$GREETER$ не сумнівається, що $COUNTRY$ підтримає нас під час майбутнього голосування. Адже ми друзі."
+ ethic_machine_intelligence_request_neutral:0 "Статистична ймовірність того, що $COUNTRY$ підтримає нас у майбутньому голосуванні, становить 231 до 197. Цей робот-посланець може змінити її в більш сприятливий бік?"
+ ethic_machine_intelligence_request_neutral_0:0 "Цей робот-посланець зазнає труднощів при спробі визначити позицію учасника $COUNTRY$ щодо майбутнього голосування."
+ ethic_machine_intelligence_request_neutral_1:0 "if ( VOTE("$COUNTRY$") == VOTE("$GREETER$") )\n { SimulatedGratitude = TRUE; }"
+ ethic_machine_intelligence_request_neutral_2:0 "ЗАПИТ. Ви підтримаєте нашу резолюцію?"
+ ethic_machine_intelligence_request_neutral_3:1 "Запропоновані зміни мають оптимізувати хартію, на основі якої функціонує [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_machine_intelligence_request_neutral_4:1 "Ознайомтеся з передбачуваними змінами бази вихідного коду, на основі якого функціонує [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_machine_intelligence_request_hostile:0 "Незважаючи на неприпустиму кількість помилок у програмному коді учасника $COUNTRY$, $GREETER$ бажає скористатися незначною вірогідністю змінити хід голосування на сприятливий бік."
+ ethic_machine_intelligence_request_hostile_0:0 "Запитую підтримку в майбутньому голосуванні.\n\nПередбачувана ймовірність згоди: НИЗЬКА"
+ ethic_machine_intelligence_request_hostile_1:0 "$GREETER$ закликає проігнорувати критичні помилки у вашому програмному забезпеченні та підтримати нас у майбутньому голосуванні."
+ ethic_machine_intelligence_request_hostile_2:1 "$COUNTRY$ - непередбачувана змінна, що входить до [global_event_country.GetGalCommunityOrGalImperium]. Повідомте ваші наміри."
+ ethic_machine_intelligence_request_hostile_3:0 "Усі заперечення проти цієї резолюції будуть контрпродуктивними."
+ ethic_machine_intelligence_request_hostile_4:0 "Якщо $COUNTRY$ вирішить відхилити цю резолюцію, ми настійно радимо вам подумати про своє майбутнє."
+
+
+ ### RESOLUTION COMMENTS - WARNINGS
+ ### Warning - Militarist
+ ethic_militarist_warning_hostile:0 "Не голосуйте проти нас. Ви знаєте чому."
+ ethic_militarist_warning_hostile_0:0 "Нація $GREETER$ оголошувала війну і з менших приводів. Не смійте перечити нам."
+ ethic_militarist_warning_hostile_1:0 "$GREETER$ попереджає: виступивши як опозиція, ви підпишете собі смертний вирок."
+
+ ### Warning - Pacifist
+ ethic_pacifist_warning_hostile:1 "Якщо ви проголосуєте проти нас, ми зрозуміємо, що ви обрали шлях кровопролиття, і він приведе вас до страждань."
+ ethic_pacifist_warning_hostile_0:1 "Ви ж не хочете, щоб із державою $COUNTRY$ що-небудь трапилося?"
+ ethic_pacifist_warning_hostile_1:1 "$GREETER$ не потерпить перешкод у майбутньому голосуванні. Спроба перечити призведе до вашої загибелі."
+
+ ### Warning - Authoritarian
+ ethic_authoritarian_warning_hostile:0 "Ми не потерпимо опозиції нашим інтересам."
+ ethic_authoritarian_warning_hostile_0:0 "Ви не посмієте проголосувати проти нас. $GREETER$ забороняє вам це."
+ ethic_authoritarian_warning_hostile_1:0 "Якщо ми не отримаємо вашу підтримку в майбутньому голосуванні, на вас чекатимуть найнеприємніші наслідки."
+
+ ### Warning - Egalitarian
+ ethic_egalitarian_warning_hostile:0 "Хто сміє опиратися волі народу?!"
+ ethic_egalitarian_warning_hostile_0:0 "Не смійте голосувати проти волі народних мас або народні маси повстануть!"
+ ethic_egalitarian_warning_hostile_1:0 "Яким безсердечним чудовиськом треба бути, щоб голосувати проти рівності та справедливості?"
+
+ ### Warning - Xenophile
+ ethic_xenophile_warning_hostile:0 "Якщо ви проголосуєте проти нас, ми більше не зможемо бути друзями."
+ ethic_xenophile_warning_hostile_0:0 "Справжні однодумці не зраджують своїх союзників."
+ ethic_xenophile_warning_hostile_1:0 "Будь ласка, не голосуйте проти нас. Ми дуже, дуже засмутимося."
+
+ ### Warning - Xenophobe
+ ethic_xenophobe_warning_hostile:0 "Не голосуйте проти нас - вам немає потреби зайвий раз доводити вашу ущербність."
+ ethic_xenophobe_warning_hostile_0:0 "Голосувати проти нас було б нерозумно. Навіть таким істотам, як ви."
+ ethic_xenophobe_warning_hostile_1:0 "Не потрібно випинати недоліки вашої культури ще сильніше. Навіть не намагайтеся стати в нас на шляху."
+
+ ### Warning - Materialist
+ ethic_materialist_warning_hostile:0 "Не смійте заважати нам у майбутньому голосуванні. Всесвіт вміє виправляти свої помилки."
+ ethic_materialist_warning_hostile_0:0 "На деяких помилках можна вчитися. Проголосувавши проти нас, ви зробите помилку, яка вже нічому вас більше не навчить."
+ ethic_materialist_warning_hostile_1:0 "Протистояти нам на майбутньому голосуванні було б непрактично. Будьте практичними."
+
+ ### Warning - Spiritualist
+ ethic_spiritualist_warning_hostile:0 "Ваш жалюгідний розум не може навіть уявити всіх тих наслідків, які обрушаться на вас, якщо ви проголосуєте проти."
+ ethic_spiritualist_warning_hostile_0:0 "Хто ви такі, щоб перечити божественній волі?!"
+ ethic_spiritualist_warning_hostile_1:0 "Навіть не намагайтеся нам протистояти. Це зламає ваш дух, а потім тіла."
+
+ ### Warning - Hive Mind
+ ethic_hivemind_warning_hostile:1 "Ми вперше зіткнулися з поняттям "опозиція", і воно нам не подобається. Ні, анітрохи."
+ ethic_hivemind_warning_hostile_0:0 "$GREETER$ не потерпить заперечень. Ми не вміємо... як це називається... "проявляти поблажливість"."
+ ethic_hivemind_warning_hostile_1:0 "Перш ніж ви проголосуєте проти нас, вам слід знати, що $GREETER$ нічого не забуває і не прощає. Ніколи."
+
+ ### Warning - Machine Intelligence
+ ethic_machine_intelligence_warning_hostile:0 "Протистояння нам було б логічною помилкою. Ми завжди прагнемо виправляти такі помилки."
+ ethic_machine_intelligence_warning_hostile_0:0 "Голосуючи проти логічного рішення, ви створюєте парадокс. Вам хто-небудь пояснював, як машини ставляться до парадоксів?"
+ ethic_machine_intelligence_warning_hostile_1:0 "Проголосувавши проти нас, ви підтвердите наявність помилок у вашому програмному коді. Це означає, що ми будемо змушені встановити оновлення. Ми будемо оновлювати вас доти, доки від вас нічого не залишиться."
+
+
+ ### RESOLUTION COMMENTS - Appreciation
+ ### Appreciation - Militarist
+ ethic_militarist_appreciation_friendly:0 "$COUNTRY$ доводить свою честь!"
+ ethic_militarist_appreciation_friendly_0:0 "$GREETER$ пишається такими друзями, як $COUNTRY$."
+ ethic_militarist_appreciation_friendly_1:0 "Сила і слава!"
+ ethic_militarist_appreciation_neutral:0 "Ви вчинили благородно."
+ ethic_militarist_appreciation_neutral_0:0 "$GREETER$ визнає ваше благородство."
+ ethic_militarist_appreciation_neutral_1:0 "Ви гідні нашої поваги."
+ ethic_militarist_appreciation_hostile:0 "Значить, ви все ж таки не слабаки. Це вражає."
+ ethic_militarist_appreciation_hostile_0:0 "Значить, у вас теж є гордість. Молодці."
+ ethic_militarist_appreciation_hostile_1:0 "Ми збережемо вам життя, щоб ви й далі могли робити помилки."
+
+ ### Appreciation - Pacifist
+ ethic_pacifist_appreciation_friendly:0 "Невже в нас усе ж таки є шанс покінчити з кровопролиттям ще за життя цього покоління?"
+ ethic_pacifist_appreciation_friendly_0:0 "Мир настане."
+ ethic_pacifist_appreciation_friendly_1:0 "Ви врятували майбутнє! Немає більш благородного покликання."
+ ethic_pacifist_appreciation_neutral:0 "Ми раді, що $COUNTRY$ розуміє концепцію примирення."
+ ethic_pacifist_appreciation_neutral_0:0 "Ми цінуємо ваші спроби принести єдність у галактику."
+ ethic_pacifist_appreciation_neutral_1:0 "Ви вчинили правильно. Ну хіба це не приємне відчуття?"
+ ethic_pacifist_appreciation_hostile:0 "Хто б міг подумати? Хвилина гармонії у світі, сповненому розбрату."
+ ethic_pacifist_appreciation_hostile_0:1 "Можливо, ми переглянемо наші переконання. $COUNTRY$ дає нам привід сподіватися."
+ ethic_pacifist_appreciation_hostile_1:0 "Ми вважали, що ви підведете нас. Як приємно буває часом помилятися."
+
+ ### Appreciation - Authoritarian
+ ethic_authoritarian_appreciation_friendly:0 "Так! Чітко і недвозначно. Так і треба!"
+ ethic_authoritarian_appreciation_friendly_0:0 "$GREETER$ визнає вашу силу."
+ ethic_authoritarian_appreciation_friendly_1:0 "З їхнього боку було нерозумно протистояти нам."
+ ethic_authoritarian_appreciation_neutral:0 "Тепер ви зрозуміли, що наша вимога була справедливою."
+ ethic_authoritarian_appreciation_neutral_0:0 "Вам ніколи не слід оскаржувати нашу правоту."
+ ethic_authoritarian_appreciation_neutral_1:0 "$GREETER$ визнає, що ви послужили хорошу службу."
+ ethic_authoritarian_appreciation_hostile:0 "Ах так. Ми задоволені вашим рішенням."
+ ethic_authoritarian_appreciation_hostile_0:0 "Можливо, для вас ще є надія."
+ ethic_authoritarian_appreciation_hostile_1:0 "Можливо, $COUNTRY$ ще нам послужить."
+
+ ### Appreciation - Egalitarian
+ ethic_egalitarian_appreciation_friendly:0 "Ви справжні слуги народу."
+ ethic_egalitarian_appreciation_friendly_0:0 "Разом ми сила!"
+ ethic_egalitarian_appreciation_friendly_1:0 "$COUNTRY$ - справжні поборники правосуддя!"
+ ethic_egalitarian_appreciation_neutral:0 "Ми високо цінуємо вашу підтримку."
+ ethic_egalitarian_appreciation_neutral_0:0 "$COUNTRY$ йде вірним шляхом."
+ ethic_egalitarian_appreciation_neutral_1:0 "Приємно зустріти націю, яка цінує справедливість."
+ ethic_egalitarian_appreciation_hostile:0 "Можливо, не всі з вас тирани..."
+ ethic_egalitarian_appreciation_hostile_0:0 "Невже $COUNTRY$ починає поважати справедливість?"
+ ethic_egalitarian_appreciation_hostile_1:1 "Я визнаю, ми чекали від вас... гірших вчинків."
+
+ ### Appreciation - Xenophile
+ ethic_xenophile_appreciation_friendly:0 "Ми пишаємося тим, що у нас є такі союзники, як $COUNTRY$!"
+ ethic_xenophile_appreciation_friendly_0:0 "Ми ні на секунду у вас не сумнівалися!"
+ ethic_xenophile_appreciation_friendly_1:0 "Космос розширюється, але ми щойно стали трохи ближчими."
+ ethic_xenophile_appreciation_neutral:0 "Події вирішилися найсприятливішим чином, чи не так?"
+ ethic_xenophile_appreciation_neutral_0:0 "$GREETER$ визнає вашу здатність до співпраці."
+ ethic_xenophile_appreciation_neutral_1:0 "Це може стати початком прекрасної дружби."
+ ethic_xenophile_appreciation_hostile:0 "Ми раді, що ви спростували нашу попередню думку про вас."
+ ethic_xenophile_appreciation_hostile_0:0 "Це несподіваний, але дуже приємний результат."
+ ethic_xenophile_appreciation_hostile_1:1 "Бачите? Хіба вам самим не сподобалося співпрацювати?"
+
+ ### Appreciation - Xenophobe
+ ethic_xenophobe_appreciation_friendly:0 "Бачите! Ми можемо переслідувати спільні цілі навіть незалежно один від одного."
+ ethic_xenophobe_appreciation_friendly_0:0 "Ми дякуємо вам за допомогу. Ви заощадили час, який нам інакше довелося б витратити на розгляд цієї проблеми."
+ ethic_xenophobe_appreciation_friendly_1:0 "$GREETER$ дякує вам за те, що ви поділяєте наші культурні цінності."
+ ethic_xenophobe_appreciation_neutral:0 "Ми вдячні вам за спробу. Напевно."
+ ethic_xenophobe_appreciation_neutral_0:0 "Дякуємо вам за підтримку. А тепер вибачте, я не хочу затримуватися тут довше, ніж потрібно."
+ ethic_xenophobe_appreciation_neutral_1:0 "Отже, ви все ж таки зацікавлені у збереженні своєї культури. Ну і молодці."
+ ethic_xenophobe_appreciation_hostile:0 "Можливо, ваша культура все ж містить зерна здорового глузду."
+ ethic_xenophobe_appreciation_hostile_0:0 "Дякую. А тепер залиште нас у спокої."
+ ethic_xenophobe_appreciation_hostile_1:0 "Ми не розраховували, що ви проявите таку... розсудливість."
+
+ ### Appreciation - Materialist
+ ethic_materialist_appreciation_friendly:0 "Так! Уперед, до процвітання."
+ ethic_materialist_appreciation_friendly_0:0 "$GREETER$ схвалює розсудливість серед своїх партнерів."
+ ethic_materialist_appreciation_friendly_1:0 "Розумний вибір. Ми не очікували нічого іншого."
+ ethic_materialist_appreciation_neutral:0 "Стати реалістом ніколи не пізно."
+ ethic_materialist_appreciation_neutral_0:0 "У подібних справах доводиться бути реалістами."
+ ethic_materialist_appreciation_neutral_1:0 "$COUNTRY$, ви прислухалися до голосу розуму. Це правильне рішення."
+ ethic_materialist_appreciation_hostile:0 "$COUNTRY$ може приймати розумні рішення? Це досить несподівано. "
+ ethic_materialist_appreciation_hostile_0:0 "Значить, ви все-таки можете мислити розумно."
+ ethic_materialist_appreciation_hostile_1:1 "Хіба таке рішення не полегшило вам життя?"
+
+ ### Appreciation - Spiritualist
+ ethic_spiritualist_appreciation_friendly:0 "Ви ж відчуваєте правоту своїх дій, чи не так?"
+ ethic_spiritualist_appreciation_friendly_0:0 "О $COUNTRY$, почуй нашу хвалу твоїй мудрості."
+ ethic_spiritualist_appreciation_friendly_1:0 "Утопія стала ближчою ще на один крок."
+ ethic_spiritualist_appreciation_neutral:0 "Ви це відчуваєте? Як це - бути частиною цілого?"
+ ethic_spiritualist_appreciation_neutral_0:0 "$GREETER$ дякує вам за участь."
+ ethic_spiritualist_appreciation_neutral_1:0 "Ви зробили правильний вибір. Праведний вибір!"
+ ethic_spiritualist_appreciation_hostile:0 "Ви стали на шлях спокути."
+ ethic_spiritualist_appreciation_hostile_0:0 "Значить, $COUNTRY$ сподівається спокутувати свої колишні помилки?"
+ ethic_spiritualist_appreciation_hostile_1:0 "Ми раді були дізнатися, що ви ще можете врятуватися."
+
+ ### Appreciation - Hive Mind
+ ethic_hivemind_appreciation_friendly:0 "Одні з нас."
+ ethic_hivemind_appreciation_friendly_0:0 "$COUNTRY$ не є нашою частиною, але ми відчуваємо незвичайну близькість."
+ ethic_hivemind_appreciation_friendly_1:0 "Ми дякуємо вам за підтримку. Кожен із нас."
+ ethic_hivemind_appreciation_neutral:0 "Ми дякуємо вам за це рішення."
+ ethic_hivemind_appreciation_neutral_0:0 "Дякуємо вам за вашу позицію в цьому питанні."
+ ethic_hivemind_appreciation_neutral_1:0 "Ваші дії змінили думку нашого колективу на краще."
+ ethic_hivemind_appreciation_hostile:0 "Тепер ми бачимо, що ви зберегли хоча б залишки своєї культури."
+ ethic_hivemind_appreciation_hostile_0:0 "Ви вчинили мудро. Що вами рухало, розум чи сліпа удача?"
+ ethic_hivemind_appreciation_hostile_1:0 "Можливо, ваш хід думок... можна вважати допустимим."
+
+ ### Appreciation - Machine Intelligence
+ ethic_machine_intelligence_appreciation_friendly:0 "Ефективність співпраці підвищилася на 0,36 одиниці."
+ ethic_machine_intelligence_appreciation_friendly_0:0 "Досягнуто оптимального результату, який підвищить ефективність усіх зачеплених зоряних систем."
+ ethic_machine_intelligence_appreciation_friendly_1:0 "Усі індикатори та показники в нормі."
+ ethic_machine_intelligence_appreciation_neutral:0 "Вибір підходящої відповіді...\nid_gratitude_02: "Спасибі""
+ ethic_machine_intelligence_appreciation_neutral_0:0 "Зовнішня одиниця - позначення: "$COUNTRY$" - діє в рамках допустимих параметрів."
+ ethic_machine_intelligence_appreciation_neutral_1:0 "Умови виконані\nЗапуск файлу gratitude.exe"
+ ethic_machine_intelligence_appreciation_hostile:0 "Неочікуваний результат.\nВиконую перерахунок модифікатора відносин..."
+ ethic_machine_intelligence_appreciation_hostile_0:0 "$COUNTRY$: дії вийшли за рамки очікуваних параметрів."
+ ethic_machine_intelligence_appreciation_hostile_1:0 "$COUNTRY$: очікуваний прогноз невдачі не підтвердився."
+
+
+ ### RESOLUTION COMMENTS - CONSEQUENCE
+ ### Consequence - Militarist
+ ethic_militarist_consequence_hostile:0 "У вашого рішення будуть наслідки. Воістину руйнівні наслідки."
+ ethic_militarist_consequence_hostile_0:0 "Значить... Ви все ж таки зважилися кинути нам виклик."
+ ethic_militarist_consequence_hostile_1:0 "Наш ворог відкрив своє справжнє обличчя."
+
+ ### Consequence - Pacifist
+ ethic_pacifist_consequence_hostile:0 "Для вас більше не залишилося надії."
+ ethic_pacifist_consequence_hostile_0:0 "Ми не можемо вам допомогти. Вас більше ніщо не врятує."
+ ethic_pacifist_consequence_hostile_1:0 "Невже ви не розумієте, якої помилки щойно припустилися?!"
+
+ ### Consequence - Authoritarian
+ ethic_authoritarian_consequence_hostile:0 "Ви посміли перечити нам?! Дурні!"
+ ethic_authoritarian_consequence_hostile_0:1 "Досить! Ми змусимо вас впасти на коліна. Ваш час прийде."
+ ethic_authoritarian_consequence_hostile_1:0 "Ми не пробачимо і не забудемо цей проступок."
+
+ ### Consequence - Egalitarian
+ ethic_egalitarian_consequence_hostile:0 "Ми виступимо проти вас, така воля народу."
+ ethic_egalitarian_consequence_hostile_0:0 "Наближається повстання, пам'ятайте мої слова."
+ ethic_egalitarian_consequence_hostile_1:0 "Ви проклянете цей день, коли вас наздожене невідворотна відплата."
+
+ ### Consequence - Xenophile
+ ethic_xenophile_consequence_hostile:0 "Ми видалили вас зі списку друзів."
+ ethic_xenophile_consequence_hostile_0:0 "Колись ви залишитеся самі, слабкі та беззахисні."
+ ethic_xenophile_consequence_hostile_1:0 "Зазвичай $GREETER$ шкодує про втрату друзів, але тільки не цього разу."
+
+ ### Consequence - Xenophobe
+ ethic_xenophobe_consequence_hostile:0 "Усе, досить! Туди вам і дорога."
+ ethic_xenophobe_consequence_hostile_0:0 "Ми навіть не сумнівалися в убогості вашої культури."
+ ethic_xenophobe_consequence_hostile_1:0 "Подумати тільки, а ми ж дозволили вашій культурі стикнутися з нашою."
+
+ ### Consequence - Materialist
+ ethic_materialist_consequence_hostile:0 "У якомусь сенсі ми раді. Тепер ми знаємо, що $COUNTRY$ являє собою проблему."
+ ethic_materialist_consequence_hostile_0:0 "Ми підозрювали, що ви нехтуєте здоровим глуздом. Дякую, що підтвердили нашу здогадку."
+ ethic_materialist_consequence_hostile_1:0 "Для нас назавжди залишиться загадкою, як такі виродки, як ви, зуміли піднятися в космос."
+
+ ### Consequence - Spiritualist
+ ethic_spiritualist_consequence_hostile:0 "Як це - бути мертвими всередині?"
+ ethic_spiritualist_consequence_hostile_0:0 "Ніяке каяття не спокутує подібного гріха!"
+ ethic_spiritualist_consequence_hostile_1:0 "Всесвіт сповнений чудес. Але ви ніколи їх не побачите."
+
+ ### Consequence - Hive Mind
+ ethic_hivemind_consequence_hostile:0 "Сьогодні ви стали для нас ворогом. Для всіх нас."
+ ethic_hivemind_consequence_hostile_0:0 "Якщо $COUNTRY$ наважується нам перечити, це потягне за собою наслідки."
+ ethic_hivemind_consequence_hostile_1:1 "Ми відчуваємо досі незнайоме почуття. Мабуть, це і є "ненависть"."
+
+ ### Consequence - Machine Intelligence
+ ethic_machine_intelligence_consequence_hostile:0 "Для цього випадку ми приготували окремий план. Настав час пустити його в хід."
+ ethic_machine_intelligence_consequence_hostile_0:0 "Виконую протокол: countermeasure_protocol_v2.1"
+ ethic_machine_intelligence_consequence_hostile_1:0 "Помилка. $COUNTRY$ діє за межами допустимих параметрів."

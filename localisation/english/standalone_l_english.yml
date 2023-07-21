@@ -1,0 +1,9 @@
+﻿l_english:
+ ENTERING_GAME_LOBBY:0 "Вхід у налаштування гри"
+ SERVER_LAUNCHING_MP:0 "Запуск мережевої гри"
+ SERVER_NAME:0 "Ім'я сервера: $NAME$"
+ SERVER_PASSWORD:0 "Пароль сервера: $PASSWORD$"
+ LAUNCHING_GAME:0 "Запуск гри"
+ STANDALONE_WAITING_FOR_PLAYERS:0 "Очікування гравців: $NUM$"
+ RECEIVED_GAMESERVER_ID:0 "Отримано ID сервера: $SERVERID$"
+ RECEIVED_LOBBY_SERVER:0 "Отримано лобі сервера"

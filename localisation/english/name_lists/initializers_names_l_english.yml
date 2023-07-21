@@ -1,0 +1,515 @@
+﻿l_english:
+# See also: english\random_names\random_names_l_english.yml, which contains the names used for randomly-generated stars. The stars named in this file belong to particular, scripted star systems.
+
+######################
+# PRESCRIPTED SYSTEMS
+######################
+
+# United Nations of Earth
+ NAME_United_Nations_of_Earth:0 "Об'єднанні Нації Землі"
+ NAME_Sol:0 "Сонце|||gen:Сонце"
+ NAME_1_Ceres:0 "(1) Церера"
+ NAME_2_Pallas:0 "(2) Палада"
+ NAME_3_Juno:0 "(3) Юнона"
+ NAME_4_Vesta:0 "(4) Веста"
+ NAME_Mercury:0 "Меркурій"
+ NAME_Venus:0 "Венера"
+ NAME_Earth:0 "Земля|||gen:Землі"
+ NAME_Luna:0 "Луна"
+ NAME_Mars:0 "Марс"
+ NAME_Jupiter:0 "Юпітер"
+ NAME_Io:0 "Іо"
+ NAME_Europa:0 "Європа"
+ NAME_Ganymede:0 "Ганімед"
+ NAME_Callisto:0 "Калісто"
+ NAME_Saturn:0 "Сатурн"
+ NAME_Titan:0 "Титан"
+ NAME_Uranus:0 "Уран"
+ NAME_Neptune:0 "Нептун"
+ NAME_Triton:0 "Тритон"
+ NAME_134340_Pluto:0 "134340 Плутон"
+
+# UNE neighboring systems
+ NAME_Alpha_Centauri:0 "Альфа Центавра"
+ NAME_Alpha_Centauri_A:0 "Альфа Центавра A"
+ NAME_Alpha_Centauri_B:0 "Альфа Центавра B"
+ NAME_Alpha_Centauri_B_I:0 "Альфа Центавра B I"
+ NAME_Alpha_Centauri_B_II:0 "Альфа Центавра B II"
+ NAME_Alpha_Centauri_B_III:0 "Альфа Центавра B III"
+ NAME_Barnards_Star:0 "Зірка Барнарда"
+ NAME_Polaris:0 "Полярна зірка"
+ NAME_PolarisAa:0 "Полярна зірка Aa"
+ NAME_PolarisAb:0 "Полярна зірка Ab"
+ NAME_PolarisB:0 "Полярна зірка B"
+ NAME_Procyon:0 "Проціон"
+ NAME_Procyon_A:0 "Проціон A"
+ NAME_Procyon_B:0 "Проціон B"
+ NAME_Proxima_Centauri:0 "Проксима Центавра"
+ NAME_Proxima_Centauri_b:0 "Проксима Центавра b"
+ NAME_Proxima_Centauri_c:0 "Проксима Центавра c"
+ NAME_Sirius:0 "Сіріус"
+ NAME_Sirius_A:0 "Сіріус A"
+ NAME_Sirius_B:0 "Сіріус B"
+
+ NAME_136472_Makemake:0 "136472 Макемаке"
+ NAME_136108_Haumea:0 "136108 Хаумеа"
+ NAME_20000_Varuna:0 "20000 Варуна"
+
+# Deneb (Commonwealth of Man/UNE)
+ NAME_Deneb:0 "Денеб" #star
+ NAME_Inferno:0 "Пекло" #planet
+ NAME_DT4-298:0 "DT4-298" #asteroid
+ NAME_LR-2129:0 "LR-2129" #asteroid
+ NAME_GR-345:0 "GR-345" #asteroid
+ NAME_Olympus:0 "Олімп" #planet
+ NAME_New_Luna:0 "Новий Місяць" #moon, as in 'NAME_Luna'
+ NAME_Unity:0 "Єдність" #moon
+ NAME_Marble:0 "Мрамор" #planet
+ NAME_Hyperion:0 "Гіперіон" #planet
+ NAME_Helios:0 "Геліос" #moon
+ NAME_Tumbleweed:0 "Перекотиполе" #planet
+ NAME_Jackson's_Planet:0 "Планета Джексона" #planet
+
+# Sol (Void Dweller origin)
+ NAME_Sol_Void_Dweller:0 "Сонце (жителі порожнечі)" #system
+ NAME_Old_Earth:0 "Стара Земля" #planet
+ NAME_Earth_Habitat:0 "Поселення Земля"
+ NAME_Mars_Habitat:0 "Поселення Марс"
+ NAME_Saturn_Habitat:0 "Поселення Сатурн"
+
+# Sol (Knights of the Toxic God)
+ NAME_Luna_Habitat:0 "Поселення Нова Луна"
+
+#L-Cluster
+ NAME_Final_Egress:0 "Останній Вихід" #star
+ NAME_Sel-Ufaan:0 "Сел-Уфаан"
+ NAME_Ten-Aard-Shel:0 "Тен-Аард-Шел"
+ NAME_Diim-Fu-Rem:0 "Діім-Фа-Рем"
+ NAME_Dora-Fu-Rem:0 "Дора-Фа-Рем"
+ NAME_Naal-Di-Kor:0 "Наал-Ді-Кор"
+ NAME_Tao-Enar-Vi:0 "Тао-Енар-Ві"
+ NAME_Tao-Fun-Vi:0 "Тао-Фан-Ві"
+ NAME_Tao-Arl-Vi:0 "Тао-Арл-Ві"
+ NAME_Tao-Got-Vi:0 "Тао-Гот-Ві"
+ NAME_Gol-Unda-Fiir:0 "Гол-Унда-Фіір"
+ NAME_Dora-Enar-Fiir:0 "Дора-Енар-Фіір"
+ NAME_Dora-Fun-Fiir:0 "Дора-Фан-Фіір"
+ NAME_Dora-Arl-Fiir:0 "Дора-Арл-Фіір"
+ NAME_Dora-Got-Fiir:0 "Дора-Гот-Фіір"
+ NAME_Gol-Umn-Toor:0 "Гол-Умн-Тоор"
+ NAME_Dora-Enar-Toor:0 "Дора-Енар-Тоор"
+ NAME_Gol-Salm-Ri:0 "Гол-Салм-Рі"
+ NAME_Gol-Mel-Rood:0 "Гол-Мел-Роод"
+ NAME_Dora-Enar-Rood:0 "Дора-Енар-Роод"
+
+##############
+# CARAVANEERS
+##############
+
+# Ship names
+ NAME_Caravaneer_Starbase:0 "Маяк караванщиків"
+
+###########
+# ENCLAVES
+###########
+
+# Artisans
+ NAME_Artisan_Troupe:0 "Трупа майстрів" #empire
+ NAME_Artisan_adj:0 "Майстер" #empire, e.g. 'an Artisan starbase'
+ NAME_Ars_Artem:0 "Арс Артем"
+
+# Curators
+ NAME_Curator_Order:0 "Орден кураторів" #empire
+ NAME_Curator_adj:0 "Куратор" #empire, e.g. 'a Curator starbase'
+ NAME_Curator_Alpha_Enclave:0 "Анклав Кураторів Альфа" #starbase
+ NAME_Curator_Lambda_Enclave:0 "Анклав Кураторів Лямбда" #starbase
+ NAME_Curator_Sigma_Enclave:0 "Анклав Кураторів Сигма" #starbase
+
+# Traders
+ NAME_Muutagan_Merchant_Guild:0 "Муутаганська торгова гільдія" #empire
+ NAME_Muutagan_adj:0 "Муутаган" #empire
+ NAME_Muutagan:0 "Муутаган" #species
+ NAME_Muutagan_plural:0 "Муутаганці"
+ NAME_Muutag_Station:0 "Станція Муутаг" #starbase
+ NAME_Riggan_Commerce_Exchange:0 "Ригганська торгова біржа" #empire
+ NAME_Riggan_adj:0 "Ригган" #empire
+ NAME_Riggan:0 "Ригган" #species
+ NAME_Riggan_plural:0 "Ригганці"
+ NAME_Grand_Bazaar:0 "Великий базар" #starbase
+ NAME_XuraCorp:0 "Корпорація "Ксура"" #empire
+ NAME_XuraCorp_adj:0 "Ксур" #empire
+ NAME_Xuri:0 "Ксур" #species
+ NAME_Xuri_plural:0 "Ксурі"
+ NAME_XuraCorp_HQ:0 "Штаб корпорації "Ксура"" #starbase
+
+# Salvagers
+ NAME_Asters_Workshop:0 "Майстерня Астера" #starbase
+
+# Shroudwalkers
+ NAME_Shroud_Teachers:0 "Локус Покрову" #starbase
+
+#################
+# FALLEN EMPIRES
+#################
+# See also: entries in event_names_l_<language>.yml, which pertain to Awakened Empires.
+
+# Star system names
+ NAME_Alpha_Refuge:0 "Притулок Альфа"
+ NAME_Beta_Refuge:0 "Притулок Бета"
+ NAME_Gamma_Refuge:0 "Притулок Гама"
+ NAME_Delta_Refuge:0 "Притулок Дельта"
+ NAME_Great_Nexus:0 "Джерело Знань"
+ NAME_Custodian_Nexus:0 "Центральний процесор"
+
+# Planet names
+ NAME_Apostasy:0 "Зречення"
+ NAME_Boundary:0 "Межа"
+ NAME_Brother:0 "Брат"
+ NAME_Celestial_Throne:0 "Небесний трон"
+ NAME_The_Core:0 "Ядро"
+ NAME_Cradle:0 "Колиска"
+ NAME_The_Mistake:0 "Помилка"
+ NAME_Mother:0 "Мати"
+ NAME_The_Preserve:0 "Заповідник"
+ NAME_Pristine_Jewel:0 "Первозданна Перлина"
+ NAME_Prophets_Retreat:0 "Притулок Пророка"
+ NAME_Sister:0 "Сестра"
+ NAME_Sky_Father:0 "Батько-небо"
+ NAME_Sky_Temple:0 "Небесний храм"
+ NAME_Walled_Garden:0 "Огороджений Сад"
+ NAME_Wanderer:0 "Блукач"
+ NAME_Alpha_Complex:0 "Комплекс Альфа"
+ NAME_The_Archives:0 "Архіви"
+ NAME_Production_Unit:0 "Виробничий модуль"
+ NAME_Processing_Unit:0 "Обчислювальний Модуль"
+ NAME_Circuit_I:0 "Контур I" #ringworld segment
+ NAME_Circuit_II:0 "Контур II" #ringworld segment
+ NAME_Circuit_III:0 "Контур III" #ringworld segment
+ NAME_Superstructure_I:0 "Проліт I" #ringworld segment
+ NAME_Superstructure_II:0 "Проліт II" #ringworld segment
+ NAME_Superstructure_III:0 "Проліт III" #ringworld segment
+
+# Species names
+ NAME_Dead_Species:0 "Мертва раса"
+ NAME_Synthetic:0 "Синтетик" #servant robot
+ NAME_Synthetic_plural:0 "Синтетики"
+
+# Ship names
+ NAME_Adjuster:0 "Регулювальник"
+ NAME_Alpha:0 "Альфа"
+ NAME_Archivist:0 "Архіваріус"
+ NAME_Avatar:0 "Аватар"
+ NAME_Benevolence:0 "Милосердя"
+ NAME_Beta:0 "Бета"
+ NAME_Cleanser:0 "Чистильник"
+ NAME_Cloaker:0 "Скритень"
+ NAME_Delta:0 "Дельта"
+ NAME_Enforcer:0 "Примушувач"
+ NAME_Librarian:0 "Бібліотекар"
+ NAME_Sage:0 "Мудрець"
+ NAME_Savant:0 "Савант"
+ NAME_Scholar:0 "Вчений"
+ NAME_Seeker:0 "Шукач"
+ NAME_Epsilon:0 "Епсилон"
+ NAME_Gamma:0 "Гама"
+ NAME_Omega:0 "Омега"
+ NAME_Progress:0 "Прогрес"
+ NAME_Surplus_I:0 "Надлишок"
+ NAME_Surplus_II:1 "$NAME_Surplus_I$"
+ NAME_Surplus_III:1 "$NAME_Surplus_I$"
+ NAME_Tau:0 "Тау"
+ NAME_Theta:0 "Тета"
+
+###########################
+# LEVIATHANS & SPACE FAUNA
+###########################
+# See also: event_names_l_english.yml, which caontains names used for when additional entities spawn, typically around mid-game.
+
+# Guardians/Leviathans
+ NAME_Automated_Dreadnought:0 "Автоматизований дредноут" #fleet
+ NAME_JuukTidir:0 "Джуук'Тидір" #ship/entity
+
+ NAME_Enigmatic_Fortress:0 "Загадкова фортеця"
+
+ NAME_Infinity_Machine:0 "Машина нескінченності" #empire, ship design
+ NAME_I_O:0 "I-O" #ship/entity
+ NAME_The_Infinity_Machine:0 "Машина нескінченності" #fleet
+ NAME_Gargantua:0 "Ґарґантюа" #black hole
+
+ NAME_Voidwyrm:0 "Змій порожнечі" #empire
+ NAME_Ether_Drake:0 "Ефірний дракон" #fleet
+ NAME_Avice:0 "Авічі" #ship/entity (named dragon)
+ NAME_Grand_Dragon:0 "Великий дракон" #'ship' type
+ NAME_Dragons_Hoard:0 "Драконяча кладка" #planet
+
+# Ancient Mining Drones
+ NAME_Mineral_Extraction_Operation:0 "Система видобутку мінералів" #empire
+ NAME_Central_Processing:0 "Центральний процесор" #planet
+ NAME_Ore_Grinder:0 "Рудоподрібнювач" #planet
+ NAME_Asset_Protection_Unit:0 "Одиниця захисту активів" #fleet
+ NAME_Mining_Corps:0 "Добувний корпус" #fleet
+
+# Space Amoebae
+ NAME_Spaceborne_Organics:0 "Космічні організми" #empire
+ NAME_Space_Amoebas_United:0 "Скупчення космічних амеб" #empire
+ NAME_Amor_Alveo:0 "Амор Альвео" #star
+ NAME_Amor_Toreo:0 "Амор Торео" #planet
+ NAME_Amor_Dareetheo:0 "Амор Дарітео" #planet
+ NAME_Veronax:0 "Веронакс" #planet
+ NAME_Evor_Aras:0 "Евор Арас" #planet
+ NAME_Evor_Tomos:0 "Евор Томос" #planet
+ NAME_Eberax:0 "Еберакс" #planet
+ NAME_Tharonax:0 "Таронакс" #planet
+ NAME_Narnax:0 "Нарнакс" #planet
+ NAME_Tior:0 "Тіор" #planet
+ NAME_Lemior:0 "Леміор" #planet
+ NAME_Isior:0 "Ісіор" #planet
+ NAME_Selor:0 "Селор" #planet
+ NAME_Theresior:0 "Тересіор" #planet
+ NAME_Pesior:0 "Песіор" #planet
+ NAME_Amoeba_Swarm:0 "Рій амеб" #fleet
+ NAME_Space_Amoeba_Hunters:0 "Космічні амеби-мисливці" #fleet
+
+# Space Crystals
+ NAME_Prism:0 "Призма" #empire
+ NAME_Crystal_Nidus:0 "Кришталеве гніздо" #ship
+ NAME_Kappa:0 "Капа" #ship
+ NAME_Shardlings:0 "Черепки" #fleet
+ NAME_Shardling:0 "Черепок" #ship
+ NAME_Emerald_Guardians:0 "Смарагдові стражі" #fleet
+ NAME_Emerald_Mausoleum:0 "Смарагдовий мавзолей" #planet
+ NAME_Emerald_Roamers:0 "Смарагдові блукачі" #fleet
+ NAME_Ruby_Guardians:0 "Рубінові вартові" #fleet
+ NAME_Ruby_Stack:0 "Рубінове скупчення" #fleet
+ NAME_Ruby_Swarm:0 "Рубіновий рій" #fleet
+ NAME_Sapphire_Guardians:0 "Сапфірові стражі" #fleet
+ NAME_Sapphire_Lurkers:0 "Сапфірові мандрівники" #fleet
+ NAME_Topaz_Guardians:0 "Топазові стражі" #fleet
+ NAME_Shards_of_Diamond:0 "Алмазні уламки" #fleet
+ NAME_Shards_of_Obsidian:0 "Обсидіанові уламки" #fleet
+ NAME_Shards_of_Onyx:0 "Оніксові уламки" #fleet
+ NAME_Shards_of_Sapphire:0 "Сапфірові уламки" #fleet
+ NAME_Yormak's_Belly:0 "Черево Йормака" #planet
+ NAME_Yormak's_Eye:0 "Око Йормака" #planet
+ NAME_Yormak's_Fist:0 "Кулак Йормака" #planet
+ NAME_Yormak's_Heart:0 "Серце Йормака" #planet
+ NAME_Yormak's_Snout:0 "Хобот Йормака" #planet
+ NAME_Yormak's_Tail:0 "Хвіст Йормака" #planet
+ NAME_Yormak's_Tongue:0 "Язик Йормака" #planet
+ NAME_Yormak's_Tusk:0 "Бивень Йормака" #planet
+
+# Tiyanki
+ NAME_Placid_Leviathans:0 "Мирні левіафани" #empire
+ NAME_Tiyanki_Space_Whale:0 "Космічний кит тіянки" #fleet
+ NAME_Tiyanki_Bull:0 "Самець тіянки"
+ NAME_Tiyanki_Cow:0 "Самка тіянки"
+ NAME_Tiyanki_Hatchling:0 "Дитинча тіянки"
+
+ NAME_Tiyana_Vek:0 "Тіяна Вік" #star
+ NAME_Zathika_Mev:0 "Затіка Мев" #planet
+ NAME_Surribzha:0 "Сарріб'Ж" #planet
+ NAME_Yllarv:0 "Яларв" #planet
+ NAME_Khetzhavu:0 "Хет'Жаву" #planet
+ NAME_Dulna:0 "Дулна" #planet
+ NAME_Valzhuva:0 "Вал'жу'Ва" #planet
+
+ NAME_Tiyun_Ort:0 "Тіюн Орт" #star
+ NAME_Ghanek:0 "Ганек" #planet
+ NAME_Zhaduva:0 "Жадува" #planet
+ NAME_Orek_Vuul:0 "Орек Вуул" #planet
+
+# Void Clouds
+ NAME_Enigmatic_Energy:0 "Загадкова енергія" #empire
+ NAME_Great_Wound:0 "Велика рана" #star/black hole
+ NAME_Subspace_Rupture_1:0 "Підпросторовий розрив F-49" #black hole
+ NAME_Subspace_Rupture_2:0 "Підпросторовий розрив RX-199" #black hole
+ NAME_Subspace_Rupture_3:0 "Підпросторовий розрив G-12" #black hole
+ NAME_Subspace_Rupture_4:0 "Підпросторовий розрив NL-889" #black hole
+ NAME_Subspace_Rupture_5:0 "Підпросторовий розрив QX-3" #black hole
+ NAME_Subspace_Rupture_6:0 "Підпросторовий розрив NGR-412" #black hole
+ NAME_Subspace_Rupture_7:0 "Підпросторовий розрив ZT-34" #black hole
+ NAME_Subspace_Rupture_8:0 "Підпросторовий розрив F-311" #black hole
+ NAME_Subspace_Rupture_9:0 "Підпросторовий розрив SX-77" #black hole
+ NAME_Subspace_Rupture_10:0 "Підпросторовий розрив PL-4499" #black hole
+
+##################
+# PRE-FTL SPECIES
+##################
+# See also: entries in event_names_l_<language>.yml
+
+# Earth
+ NAME_Human:0 "Людина|||gen:Людини" #species
+ NAME_Human_plural:0 "Люди|||gen:Людей" #species
+ NAME_ISS_II:0 "МКС-2" #International Space Station (2nd generation)
+ NAME_British_Armed_Forces:0 "Збройні Сили Великої Британії" #army
+ NAME_Chinese_PLA:0 "Народно-визвольна армія Китаю" #People's Liberation Army
+ NAME_EU_Combined_Forces:0 "Об'єднана армія ЄС" #European Union army
+ NAME_Feudal_Levies:0 "Феодальне ополчення" #army
+ NAME_German_Wehrmacht:0 "Німецький вермахт" #army
+ NAME_Imperial_Japanese_Forces:0 "Імператорська армія Японії" #army
+ NAME_Russian_Armed_Forces:0 "Збройні сили українського залежного формування "Росія"" #army
+ NAME_Soviet_Red_Army:0 "Червона армія" #army
+ NAME_US_Armed_Forces:0 "Збройні Сили США" #army
+ NAME_US_Armed_Forces_East:0 "Збройні Сили США - Схід" #army
+ NAME_US_Armed_Forces_West:0 "Збройні Сили США - Захід" #army
+ NAME_Sol_III:0 "Сонце III" #star
+
+################
+# OTHER CONTENT
+################
+
+# Guardians of Zanaam
+ NAME_Guardians_of_Zanaam:0 "Хранителі Занаама" #country, fleet
+ NAME_Zanaam:0 "Занаам" #planet
+ NAME_Defensive_Alpha:0 "Захисник Альфа" #ship
+ NAME_Defensive_Beta:0 "Захисник Бета" #ship
+ NAME_Defensive_Chi:0 "Захисник Хі" #ship
+ NAME_Defensive_Delta:0 "Захисник Дельта" #ship
+ NAME_Defensive_Epsilon:0 "Захисник Епсілон" #ship
+ NAME_Defensive_Eta:0 "Захисник Ета" #ship
+ NAME_Defensive_Gamma:0 "Захисник Гама" #ship
+ NAME_Defensive_Iota:0 "Захисник Йота" #ship
+ NAME_Defensive_Kappa:0 "Захисник Каппа" #ship
+ NAME_Defensive_Ksi:0 "Захисник Ксі" #ship
+ NAME_Defensive_Lambda:0 "Захисник Лямбда" #ship
+ NAME_Defensive_Mu:0 "Захисник Мю" #ship
+ NAME_Defensive_Nu:0 "Захисник Ню" #ship
+ NAME_Defensive_Omega:0 "Захисник Омега" #ship
+ NAME_Defensive_Omicron:0 "Захисник Омікрон" #ship
+ NAME_Defensive_Phi:0 "Захисник Фі" #ship
+ NAME_Defensive_Pi:0 "Захисник Пі" #ship
+ NAME_Defensive_Psi:0 "Захисник Псі" #ship
+ NAME_Defensive_Rho:0 "Захисник Ро" #ship
+ NAME_Defensive_Sigma:0 "Захисник Сигма" #ship
+ NAME_Defensive_Tau:0 "Захисник Тау" #ship
+ NAME_Defensive_Theta:0 "Захисник Тета" #ship
+ NAME_Defensive_Upsilon:0 "Захисник Іпсілон" #ship
+ NAME_Defensive_Zeta:0 "Захисник Дзета" #ship
+
+# The Sanctuary
+ NAME_Sanctuary:0 "Заповідник" #star
+ NAME_Administrator:0 "Адміністратор" #ship
+ NAME_Sanctuary_Core:0 "Ядро Заповідника" #ship design/type
+ NAME_Sanctuary_A:0 "Заповідник A" #ringworld section
+ NAME_Sanctuary-B:0 "Заповідник B" #ringworld section
+ NAME_Sanctuary-C:0 "Заповідник C" #ringworld section
+ NAME_Sanctuary-D:0 "Заповідник D" #ringworld section
+ NAME_Sanctuary-E:0 "Заповідник E" #ringworld section
+ NAME_Sanctuary-F:0 "Заповідник F" #ringworld section
+ NAME_Sanctuary-G:0 "Заповідник G" #ringworld section
+ NAME_Sanctuary-H:0 "Заповідник H" #ringworld section
+ NAME_Sanctuary-I:0 "Заповідник I" #ringworld section
+ NAME_Sanctuary-J:0 "Заповідник J" #ringworld section
+ NAME_Sanctuary-K:0 "Заповідник K" #ringworld section
+ NAME_Sanctuary-L:0 "Заповідник L" #ringworld section
+
+# Trappist system
+ NAME_Trappist:0 "Трапіст" #system
+
+# Ratling systems
+ NAME_Decayed_Hub:0 "Застарілий вузол" #planet
+
+# Hauer system (Rutger Hauer tribute)
+ NAME_Hauer:0 "Хауер" #star
+ NAME_Aureyon:0 "Ау'Рейон" #planet
+ NAME_Baage:0 "Баадж" #planet
+ NAME_Baelte:0 "Бель'те" #planet
+ NAME_Bhete:0 "Бете" #planet
+ NAME_Snaaraa:0 "Фанж" #planet
+ NAME_Floe:0 "Флое" #planet
+ NAME_Piyhl:0 "Пі'Юль" #planet
+ NAME_Snaara:0 "Снаара" #planet
+ NAME_Straeng:0 "Стренг" #planet
+ NAME_Stykkia:0 "Стікія" #planet
+
+# Kept Grounds (Wenkwort Artem)
+ NAME_Gardeners:0 "Доглядачі Аудона" #empire
+ NAME_Wenkwort_Keeper:0 "Аудонський хранитель" #species
+ NAME_Wenkwort_Keeper_plural:0 "Аудонські хранителі" #species
+ NAME_Warder_of_the_Ruins:0 "Хранитель руїн" #ship
+ NAME_Wenkwort:0 "Венкворт" #star
+ NAME_wenkwort_prime:0 "Венкворт Артем" #planet
+ NAME_wenkwort_moon:0 "Мілфод" #planet
+ NAME_wenkwort_2:0 "Реллрайт" #planet
+ NAME_wenkwort_3:0 "Бураве" #planet
+ NAME_wenkwort_4:0 "Макрен" #planet
+ NAME_wenkwort_asteroid:0 "Трайн" #planet
+ NAME_Gardener_Drone:0 "Модуль-доглядач Аудона" #ship
+ NAME_Gardener_Drone_plural:0 "Загін доглядачів 14-WW" #fleet
+ NAME_Gardener1:0 "Доглядач Пертон" #ship
+ NAME_Gardener2:0 "Доглядач Спартон-Брон" #ship
+ NAME_Gardener3:0 "Доглядач Візентон" #ship
+ NAME_Wenkwort_Enforcer:0 "Аудонський крейсер" #ship design
+ NAME_Wenkwort_Enforcer_plural:0 "Загін охоронців порядку 61-VL" #fleet
+
+# Ruins of Shallash
+ NAME_Darad:0 "Дарад" #planet
+ NAME_Shallash:1 "Курінь" #planet
+ NAME_Shallasha:0 "Курінь a" #moon
+ NAME_Shallashb:0 "Курінь b" #moon
+ NAME_Shallashc:0 "Курінь c" #moon
+ NAME_Shallashd:0 "Курінь d" #moon
+ NAME_Shallashe:0 "Курінь e" #moon
+ NAME_Shallashf:0 "Курінь f" #moon
+ NAME_Parvus:0 "Парвус" #planet
+
+# Fumongus
+ NAME_Fumongus_System:0 "Орвалль" #star
+ NAME_Grazing_Tiyanki:0 "Пасовищні тіянки" #fleet
+ NAME_Fumongus_Star:0 "Козмог-1" #star (also a personality/vanity system)
+ NAME_Fumongus_Planet01:0 "Блем-Сел"
+ NAME_Fumongus_Planet02:0 "Гай-Міг"
+ NAME_Fumongus_Planet02a:0 "Гай-Міг a"
+ NAME_Fumongus_PlanetDig:0 "Мур-Хсретту"
+ NAME_Fumongus_Planet03:0 "Ан-Май"
+ NAME_Fumongus_Planet03a:0 "Ан-Май a"
+
+# Ghost Ship
+ NAME_Hillos:0 "Ілос" #system
+ NAME_Hillos_Star:0 "Ілос" #star
+ NAME_HillosA:0 "Ілос I"
+ NAME_HillosB:0 "Ілос II"
+ NAME_HillosC:0 "Ілос III"
+ NAME_HillosA_moon:0 "Шир'я"
+
+# Surveillance Supercomputer
+ NAME_Ultima_Vigilis:0 "Ультіма Віджиліс"
+ NAME_Observation_Terminal:0 "Термінал спостереження"
+ NAME_Repurposed_Surveillance_Network:0 "Переобладнана мережа спостереження"
+
+# Larionessi Refuge
+ NAME_Unique_System_1:0 "Межа Федерації" #star
+ NAME_Unique_System_2:0 "Притулок Ларіонців" #star
+ NAME_Unique_System_2_Planet:0 "Ларіон"
+
+# Zevox (Shrouded planet)
+ NAME_Unique_System_3:0 "Зівокс" #star
+ NAME_Unique_System_3_Planet:0 "Нуль-Один"
+ NAME_Unique_System_3_Moon:0 "Нуль-Два"
+
+# Ancient Battlefields
+ NAME_Unique_System_4:0 "Опора Фенракса" #star
+ NAME_Unique_System_5:0 "Притулок Жанрокса" #star
+ NAME_Unique_System_6:0 "Афарі" #star
+
+# Triple Planet systems
+ NAME_Unique_System_7:0 "Хрест Трагули"
+ NAME_Unique_System_8:0 "Обіцянка Тріни"
+ NAME_Unique_System_9:0 "Ло"
+
+# Lost Swarm System
+ NAME_Lost_Swarm_System:0 "Юбоглілт"
+ NAME_Ubogleelt:0 "Юбоглілт"
+ NAME_UbogleeltA:0 "Юбоглілт I"
+ NAME_UbogleeltB:0 "Юбоглілт II"
+ NAME_UbogleeltC:0 "Юбоглілт III"
+ NAME_UbogleeltD:0 "Юбоглілт IV"
+ NAME_UbogleeltE:0 "Юбоглілт V"
+ NAME_Lost_Swarm:0 "Рій сарани"
+ NAME_Lost_Swarm_Ship:0 "Сарана"
+ NAME_Lost_Swarm_Adult:0 "Сарана"
+
+# Holibrae
+ NAME_Holibrae:0 "Холібре"
+ NAME_Holibrae_Corps:0 "Корпус Холібре" #fleet
+ NAME_Holibrae_Destroyer:0 "Есмінець Холібре" #ship type

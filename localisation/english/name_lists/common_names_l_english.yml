@@ -1,0 +1,74 @@
+﻿l_english:
+# The following names are applied to generic ships, Megastructures, and space creatures ('fauna') which populate the galaxy and are related to features, rather than particular events.
+
+# Generic ships
+ NAME_Constructor:0 "Збирач"
+
+# Space Fauna 'countries' (describing e.g. the Tiyanki, Space Crystals, Mining Drones...)
+
+# Galactic Imperium
+ NAME_Rebellion:0 "Коаліція повстанців" #federation
+ NAME_Loyalists:0 "Імперські лоялісти" #federation
+ NAME_The_Civil_War:0 "Галактичне повстання" #war
+ NAME_Declared_Crisis_War:0 "[This.MainDefender.GetAdj&fem] війна кризи" #war
+ NAME_Crisis_Star_Eater:0 "Пожирач"
+ NAME_GDF:0 "Сили галактичної оборони"
+ NAME_Imperial_Crusade_War:0 "Імперський хрестовий похід" #war
+
+#################
+# MEGASTRUCTURES
+#################
+
+# Ring World sections
+ NAME_Ring_Section_A:0 "Секція миру-кільця A"
+ NAME_Ring_Section_B:0 "Секція миру-кільця B"
+ NAME_Ring_Section_C:0 "Секція миру-кільця C"
+ NAME_Ring_Section_D:0 "Секція миру-кільця D"
+ NAME_Ring_Section_E:0 "Секція миру-кільця E"
+ NAME_Ring_Section_F:0 "Секція миру-кільця F"
+ NAME_Ring_Section_G:0 "Секція миру-кільця G"
+ NAME_Ring_Section_H:0 "Секція миру-кільця H"
+ NAME_Ring_Section_I:0 "Секція миру-кільця I"
+ NAME_Ring_Section_K:0 "Секція миру-кільця K"
+ NAME_Ring_Section_L:0 "Секція миру-кільця L"
+ NAME_Ring_Section:0 "Секція миру-кільця"
+ NAME_Habitable_Section_A:0 "Житлова секція A"
+ NAME_Habitable_Section_B:0 "Житлова секція B"
+ NAME_Habitable_Section_C:0 "Житлова секція C"
+ NAME_Habitable_Section_D:0 "Житлова секція D"
+
+##########
+# ORIGINS
+##########
+
+# Galactic Doorstep
+ NAME_Galactic_Doorstep:0 "Чорний Вінець" #megastructure
+ NAME_Gateway_Vermin:0 "Нечисть із брами" #empire
+
+# On the Shoulders of Giants
+ NAME_Theros:0 "Терос" #planet
+ NAME_Melidas:0 "Мелідас" #planet
+ NAME_Koras:0 "Корас" #planet
+ NAME_Haradas:0 "Харадас" #planet
+ NAME_Islena:0 "Іслена" #planet
+
+# Shattered Ring
+ NAME_Irreparable_Damage:0 "Непоправна шкода" #ringworld segment
+ NAME_The_Interloper:0 "Незваний Гість" #shattered planet
+
+# Here Be Dragons
+ NAME_Sky_Dragon:0 "Небесний дракон"
+ NAME_Sky_Dragon_Baby:0 "Молодий небесний дракон"
+ NAME_Hrozgar_of_the_Endless_Flames:0 "Хрозгар Вічне Полум'я"
+
+# Imperial Fiefdom
+ NAME_Imperial_Origin_Empire:0 "Священна [origin_imperial_species.GetAdj&fem] Імперія"
+ NAME_Imperial_Origin_Empire_2:0 "Королівство [origin_imperial_species_2.GetNamePlural&gen]"
+ NAME_Imperial_Origin_Empire_3:0 "Курфюршество [origin_imperial_species_3.GetNamePlural&gen]"
+ NAME_Imperial_Origin_Empire_4:0 "Пфальцграфство [origin_imperial_species_4.GetNamePlural&gen]"
+ NAME_Imperial_Origin_Empire_5:0 "[origin_imperial_species_5.GetAdj&fem] Ліга"
+ NAME_Aix:0 "Экс" #planet
+
+ # Toxic Knights
+ NAME_Sinople:0 "Синопль"
+ NAME_Syamelle:0 "Сіамелль"

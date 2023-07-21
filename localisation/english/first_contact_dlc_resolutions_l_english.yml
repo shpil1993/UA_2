@@ -1,0 +1,65 @@
+﻿l_english:
+# Pre-FTL Stances
+# Resolutions 
+ resolution_category_pre_ftl_stances:1 "Ставлення до досвітових цивілізацій"
+ resolution_pre_ftl_stances_repeal_1:0 "§RАнулювати резолюцію $resolution_pre_ftl_stances_equal_standing$§!"
+ resolution_pre_ftl_stances_repeal_1_desc:1 "Ідея ставитися до "цивілізацій", нездатних навіть покинути свою планету, як до рівних, здається нам сміховинною. Тому [global_event_country.GetGalCommunityOrGalImperium] вчинить правильно, якщо дозволить своїм державам ставитися до недорозвинених народів у внутрішніх кордонах так, як вони самі вважатимуть за потрібне."
+ resolution_pre_ftl_stances_repeal_1_effect_success:1 "Анулює резолюцію §Y$resolution_pre_ftl_stances_equal_standing$§!."
+
+ resolution_pre_ftl_stances_repeal_2:0 "§RАнулювати резолюцію $resolution_pre_ftl_stances_non_interference$§!"
+ resolution_pre_ftl_stances_repeal_2_desc:1 "Якщо [global_event_country.GetGalCommunityOrGalImperium] заборонятиме своїм державам користуватися ресурсами, що належать їм по праву, лише тому, що їх захопили якісь варвари, то наші інтелектуальні та майнові права будуть порушені."
+ resolution_pre_ftl_stances_repeal_2_effect_success:1 "Анулює резолюцію §Y$resolution_pre_ftl_stances_non_interference$§!."
+
+ resolution_pre_ftl_stances_repeal_3:1 "§RАнулювати резолюцію $resolution_pre_ftl_stances_exploitation$§!"
+ resolution_pre_ftl_stances_repeal_3_desc:1 "Ставлення до інших цивілізацій як до джерела ресурсів лише через нашу технологічну перевагу не можна назвати інакше, ніж мерзенним. Нехай [global_event_country.GetGalCommunityOrGalImperium] забезпечить державам, які потягнуться до зірок слідом за нами, ті самі права, що й у всіх інших."
+ resolution_pre_ftl_stances_repeal_3_effect_success:1 "Анулює резолюцію §Y$resolution_pre_ftl_stances_exploitation$§!."
+
+ resolution_pre_ftl_stances_equal_standing:1 "Закон про рівне ставлення"
+ resolution_pre_ftl_stances_equal_standing_desc:1 "Кожна цивілізація, яка ще не опанувала надсвітлових перельотів, може колись вийти в космос і стати частиною чогось більшого, ім'я якому - [global_event_country.GetGalCommunityOrGalImperium]. Такі народи заслуговують тільки на повагу."
+ resolution_pre_ftl_stances_equal_standing_tooltip:1 "Політики "§Y$interference_not_allowed$§!" і "§Y$interference_aggressive$§!" §Rзаборонені§!.\nПідвищує ефективність дипломатичної угоди "§Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§!" з досвітовими цивілізаціями.\n§YДосвітлові цивілізації§!, які вийшли в космос завдяки угоді "§Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§!", отримають §G+100§! до £loyalty£ §Yвірності§!.\n§YКомерційні угоди§! з досвітовими цивілізаціями більш ефективні."
+
+ resolution_pre_ftl_stances_non_interference:1 "Закон про невтручання"
+ resolution_pre_ftl_stances_non_interference_desc:1 "Досвітлові цивілізації мають право на самостійний розвиток без втручання з боку."
+ resolution_pre_ftl_stances_non_interference_tooltip:1 "Політики "§Y$interference_active$§!" і "§Y$interference_aggressive$§!" §Rзаборонені§!.\nВідкриває доступ до політики "§Y$interference_not_allowed$§!" безвідносно принципів або громадянської моделі.\nВсі §Yдипломатичні угоди§! з досвітовими цивілізаціями вважатимуться §Rпорушенням галактичного закону§!.\nНевдалі §Yшпигунські операції§! проти досвітлових цивілізацій вважатимуться §Rпорушенням галактичного закону§!."
+
+ resolution_pre_ftl_stances_non_interference_modifier:0 "На §G25%§! більше прогресу §Yзнань§! від спостереження за досвітовими цивілізаціями."
+
+ resolution_pre_ftl_stances_exploitation:1 "Закон про експлуатацію"
+ resolution_pre_ftl_stances_exploitation_desc:1 "Планети цивілізацій, що не опанували надсвітлових перельотів, входять до складу держави, що контролює їхню систему. Вона має право розпоряджатися своєю власністю так, як вважатиме за потрібне."
+ resolution_pre_ftl_stances_exploitation_tooltip:1 "Спостережні форпости дають невелику кількість £physics£ £engineering£ §Hочок досліджень§! при §Yспостереженні§! за досвітовими цивілізаціями. Ухвалення резолюції "§Y$resolution_galacticstudies_advanced_xenostudies$§!" збільшить кількість одержуваних £physics£ £engineering£ §Hочок досліджень§!.\n\nПолітика "§Y$interference_not_allowed$§!" §Rзаборонена§!.\nВзаємодія з досвітовими цивілізаціями в рамках дипломатичної угоди "§Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§!" вважатиметься §Rпорушенням галактичного закону§!.\nСвідоцтва про шпигунські операції типу "§Y$operation_plant_advanced_knowledge$§!" вважатимуться §Rпорушенням галактичного закону§!."
+
+# Events
+ preftl.10000.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] ухвалює нову резолюцію, §Y$resolution_pre_ftl_stances_equal_standing$§!, яка забороняє державам слідувати таким політикам, як §Y$interference_not_allowed$§! або §Y$interference_aggressive$§!.\n\nЗараз наша держава порушує цю резолюцію. Чи слід нам змінити поточну політику відповідно до нових вимог?"
+ preftl.10050.name:0 "Порушення резолюції "$resolution_pre_ftl_stances_equal_standing$""
+ preftl.10050.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] постановляє, що наше ставлення до §H[pre_ftl_country.GetName&dat]§! порушує резолюцію §Y$resolution_pre_ftl_stances_equal_standing$§! безвідносно наших намірів.\n\n$preftl.10050.outro$"
+ preftl.10050.outro:0 "[Root.GetName] вважатиметься порушником §Rгалактичного закону§! протягом наступних 10 років. Крім того, нам виписали великий штраф."
+
+ preftl.10055.name:0 "$preftl.10050.name$"
+ preftl.10055.desc:0 "За підсумками порушення резолюції §Y$resolution_pre_ftl_stances_equal_standing$§! зважаючи на наше ставлення до §H[pre_ftl_country.GetName&dat]§! ми надали чиновникам усі необхідні документи. Ми сподіваємося, що [global_event_country.GetGalCommunityOrGalImperium] ставитиметься до нас більш прихильно після щиросердного зізнання.\n\n$preftl.10055.outro$"
+ preftl.10055.outro:0 "[Root.GetName] вважатиметься порушником §Rгалактичного закону§! протягом наступних 5 років. Крім того, нам виписали великий штраф."
+
+ preftl.10100.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] ухвалює нову резолюцію, §Y$resolution_pre_ftl_stances_non_interference$§!, яка забороняє державам слідувати будь-яким політикам із розряду "§Y$policy_interference$§!". Дозволяється тільки §Y$interference_not_allowed$§!.\n\nНаразі наша держава порушує цю резолюцію. Чи слід нам змінити поточну політику відповідно до нових вимог?"
+ preftl.10150.name:0 "Порушення резолюції "$resolution_pre_ftl_stances_non_interference$""
+ preftl.10150.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] знає про наше втручання в природний розвиток §H[pre_ftl_country.GetName&gen]§!. Нас поінформували, що такі дії безпосередньо порушують резолюцію §Y$resolution_pre_ftl_stances_non_interference$§! безвідносно наших намірів.\n\n$preftl.10050.outro$"
+
+ preftl.10155.name:0 "$preftl.10150.name$"
+ preftl.10155.desc:0 "За підсумками порушення резолюції §Y$resolution_pre_ftl_stances_non_interference$§! по відношенню до §H[pre_ftl_country.GetName&dat]§! ми надали чиновникам детальний звіт. Ми сподіваємося, що [global_event_country.GetGalCommunityOrGalImperium] і прокуратура проявлять поблажливість до нашої справи у світлі щиросердного зізнання."
+
+ preftl.10157.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] знає про наше вторгнення на §H[pre_ftl_country.GetAdj&masc]§! рідний світ. Нас поінформували, що такі дії безпосередньо порушують резолюцію §Y$resolution_pre_ftl_stances_non_interference$§!.\n\n$preftl.10050.outro$"
+ preftl.10161.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] знає про наше бомбардування, що накрило §H[pre_ftl_country.GetAdj&masc]§! рідний світ. Нас поінформували, що такі дії безпосередньо порушують резолюцію §Y$resolution_pre_ftl_stances_non_interference$§!.\n\n$preftl.10050.outro$"
+
+ preftl.10200.desc:1 "[global_event_country.GetGalCommunityOrGalImperium] Ухвалює нову резолюцію, §Y$resolution_pre_ftl_stances_exploitation$§!, яка забороняє державам таку практику, як §Y$interference_not_allowed$§!.\n\nЗараз наша держава порушує цю резолюцію. Чи слід нам змінити поточну політику відповідно до нових вимог?"
+ preftl.10250.name:0 "Порушення резолюції "$resolution_pre_ftl_stances_exploitation$""
+ preftl.10250.desc:0 "[global_event_country.GetGalCommunityOrGalImperium] знає, що ми поділилися технологічними даними з §H[pre_ftl_country.GetName&inst]§!. Нас поінформували, що такі дії безпосередньо порушують резолюцію §Y$resolution_pre_ftl_stances_exploitation$§! безвідносно наших намірів.\n\n$preftl.10050.outro$"
+
+ preftl.10255.name:0 "$preftl.10250.name$"
+ preftl.10255.desc:0 "За підсумками порушення резолюції §Y$resolution_pre_ftl_stances_exploitation$§! по відношенню до §H[pre_ftl_country.GetName&dat]§! ми надали чиновникам детальний звіт. Ми сподіваємося, що [global_event_country.GetGalCommunityOrGalImperium] і прокуратура проявлять поблажливість до нашої справи у світлі щиросердного зізнання."
+
+ pre_ftl_stances_fix_breach_not_allowed:1 "Пусть §Y$policy_interference$§! припиниться, а замість цього стане діяти §Y$interference_not_allowed$§!."
+ pre_ftl_stances_fix_breach_subtle:1 "Пусть §Y$policy_interference$§! припиниться, а замість цього стане діяти §Y$interference_subtle$§!."
+ pre_ftl_stances_fix_breach_active:1 "Пусть §Y$policy_interference$§! припиниться, а замість цього стане діяти §Y$interference_active$§!."
+ pre_ftl_stances_fix_breach_aggressive:1 "Пусть §Y$policy_interference$§! припиниться, а замість цього стане діяти §Y$interference_aggressive$§!."
+
+ breach_resolution_pre_ftl_stances_equal_standing_tt:0 "§RЦим ми порушимо резолюцію "$resolution_pre_ftl_stances_equal_standing$"!§!"
+ breach_resolution_pre_ftl_stances_non_interference_tt:0 "§RЦим ми порушимо резолюцію "$resolution_pre_ftl_stances_non_interference$"!§!"
+ breach_resolution_pre_ftl_stances_exploitation_tt:0 "§RЦим ми порушимо резолюцію "$resolution_pre_ftl_stances_exploitation$"!§!"

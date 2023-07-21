@@ -1,0 +1,533 @@
+﻿l_english:
+ ####################################
+ # Constructions
+ ####################################
+ MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE:1 "Будівництво завершено"
+ MESSAGE_BUILDING_CONSTRUCTION:1 "На планеті $PLANET|Y$ завершено чергу будівництва."
+ MESSAGE_BUILDING_CONSTRUCTION_MESSAGE_TYPE_TITLE:2 "Зведення споруди"
+ MESSAGE_CONSTRUCTION_FINISH:0 "Планета $PLANET|Y$ завершила свою чергу будівництва."
+ MESSAGE_CONSTRUCTION_FINISH_SPACEPORT:0 "Космопорт планети $PLANET|Y$ завершив свою чергу будівництва."
+ MESSAGE_CONSTRUCTION_FINISH_STARBASE:0 "Космічна база в системі $SYSTEM|Y$ завершила свою чергу будівництва."
+ MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 "Ми заснували колонію $COLONY|Y$ у системі $SYSTEM|Y$."
+ MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "Будівництво завершено"
+ MESSAGE_STARBASE_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "Будівництво завершено"
+ MESSAGE_ARMY_RECRUITMENT_TITLE:0 "Завершення призову в армію"
+ MESSAGE_ARMY_RECRUITMENT:0 "Призов до армії завершено на планеті $PLANET|Y$."
+ MESSAGE_POP_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "$MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE$"
+ MESSAGE_POP_CONSTRUCTION_FINISH:0 "Поселення побудовано на планеті $PLANET|Y$."
+
+ ####################################
+ # Fleet Orders
+ ####################################
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION:1 "Флотилія §Y$FLEET$§! завершила будівництво ($SHIPCLASS|H$) на орбіті планети $PLANET|Y$."
+ MESSAGE_FLEET_ORDER_ANOMALY:1 "Флотилія §Y$FLEET$§! виявила §Наномалію§! на планеті $PLANET|Y$."
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION:1 "Флотилії §Y$FLEET$§! завершила будівництво ($SHIPCLASS|Y$) у системі $STAR|Y$."
+ MESSAGE_FLEET_ORDER_ANALYZE_FAIL:1 "Флотилія §Y$FLEET$§! не змогла проаналізувати надсвітловий слід."
+ MESSAGE_FLEET_ORDER_ANALYZE_FINISH:1 "Флотилія §Y$FLEET$§! виконала аналіз надсвітлового сліду."
+ MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED:0 "Система $SYSTEM|Y$ повністю вивчена."
+ MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "Виконання завдання"
+ MESSAGE_SYSTEM_SURVEYED_TITLE:1 "Систему вивчено"
+ AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE:0 "Наказ флотиліям скасовано"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:3 "Наказ про автоматизацію наукового корабля для флотилії §Y$FLEET$§! скасовано. Флотилія не може досягти необхідних цілей або виявити нові."
+ AUTO_EXPLORE_FALLBACK_MESSAGE_TYPE_TITLE:0 "Флотилія повертається до дослідження"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_FALLBACK:1 "§Y$FLEET$§! не може досягти невивчених систем, але спробує відшукати нові."
+ FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$"
+ MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:1 "Корабель $FLEET|Y$ не зміг побудувати станцію в системі $SYSTEM|Y$. Ресурси повернуто."
+ MESSAGE_BYPASS_EXPLORED:0 "Досліджено червоточину"
+ BYPASS_EXPLORED_MESSAGE:0 "Досліджено червоточину в системі $SYSTEM1|Y$. Вона має зв'язок із системою $SYSTEM2|Y$."
+ MESSAGE_ESN_ARRIVED_TITLE:0 "Експериментальна підпросторова навігація"
+ MESSAGE_ESN_ARRIVED:0 "Флотилія $FLEET_NAME|Y$ прибула в систему $SYSTEM|Y$"
+ MESSAGE_ESN_ABORTED_TITLE:0 "Експериментальну підпросторову навігацію припинено"
+ MESSAGE_ESN_ABORTED:0 "Наказ для флотилії $FLEET_NAME|Y$ скасовано. Система $SYSTEM|Y$ стала недоступною."
+
+ ####################################
+ # Misc Fleet
+ ####################################
+ MESSAGE_FLEET_REPARATIONS_DONE_MESSAGE_TYPE_TITLE:0 "Завершення ремонту"
+ MESSAGE_REPARATIONS_DONE:0 "Кораблі флотилії $FLEET|Y$ повністю відновлені."
+ MESSAGE_FLEET_UPGRADE_DONE_MESSAGE_TYPE_TITLE:0 "Поліпшення флотилії"
+ MESSAGE_UPGRADE_DONE:0 "Усі кораблі флотилії $FLEET|Y$ модернізовані."
+ MESSAGE_EMERGENCY_FTL_CASUALTIES_TITLE:0 "Втрати в ході екстреного маневру"
+ EMERGENCY_FTL_CASUALTIES_DESC:1 "Флотилія зазнала втрат.\nКораблів втрачено: $LOST$\nКораблів пошкоджено: $NEAR_LOST$"
+
+ ####################################
+ # Diplomacy
+ ####################################
+ RIVALRY_INVALID_TITLE:0 "Суперництво стало неприпустимим"
+ RIVALRY_INVALID_DESC:0 "$COUNTRY|Y$ більше не є допустимим суперником для нашої держави"
+ MESSAGE_MADE_FIRST_CONTACT_WE:0 "Ми зіткнулися з цивілізацією §H$WHO$§! у системі §H$STAR$§!!"
+ MESSAGE_MADE_FIRST_CONTACT_THEM:0 "Ми встановили контакт із цивілізацією §H$WHO$§! у системі §H$STAR$§!!"
+ ACTION_DECLARE_WAR_VOTE_PASSED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] за оголошення війни, і тепер ми вступили §Yу війну§! з §H[Recipient.GetName&inst]§!!"
+ ACTION_DECLARE_WAR_VOTE_FAILED:0 "Альянс проголосував проти війни з §H[Recipient.GetName&inst]§!."
+ ACTION_INVITE_TO_ALLIANCE_VOTE_PASSED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] за то, чтобы пригласить §H[Recipient.GetName&acc]§! в альянс."
+ ACTION_INVITE_TO_ALLIANCE_VOTE_FAILED:0 "Альянс проголосував проти запрошення §H[Recipient.GetName&gen]§! в §H[Actor.GetAllianceName&acc]§!."
+ ACTION_KICK_FROM_ALLIANCE_VOTE_PASSED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] за виключення §H[Recipient.GetName&gen]§!."
+ ACTION_KICK_FROM_ALLIANCE_VOTE_FAILED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] проти виключення §H[Recipient.GetName&gen]§!."
+ ACTION_KICK_FROM_FEDERATION_VOTE_PASSED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] за виключення §H[Recipient.GetName&gen]§! з федерації."
+ ACTION_KICK_FROM_FEDERATION_VOTE_FAILED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] проти виключення §H[Recipient.GetName&gen]§!."
+ ACTION_INVITE_TO_FEDERATION_VOTE_PASSED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] за те, щоб запросити §H[Recipient.GetName&acc]§! до федерації."
+ ACTION_INVITE_TO_FEDERATION_VOTE_FAILED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] проти запрошення §H[Recipient.GetName&gen]§!."
+ ACTION_ASK_TO_JOIN_ALLIANCE_VOTE_PASSED:0 "[Actor.GetAllianceName:§H<1>§! проголосував|||fem:§H<1>§! проголосувала|||neut:§H<1>§! проголосувало|||pl:§H<1>§! проголосували] за те, щоб запросити §H[Recipient.GetName&acc]§! до альянсу."
+ ACTION_ASK_TO_JOIN_ALLIANCE_VOTE_FAILED:0 "Альянс проголосував проти запрошення §H[Actor.GetName&gen]§! в §H[Recipient.GetAllianceName&acc]§!."
+ ACTION_FORM_FEDERATION_VOTE_PASSED:0 "Альянс §H[Actor.GetAllianceName]§! проголосував за перетворення на федерацію."
+ ACTION_FORM_FEDERATION_VOTE_FAILED:0 "Альянс проголосував проти перетворення на федерацію."
+ ACTION_RELEASE_SUBJECT_PASSED:0 "[Actor.GetName:§H<1>§! звільнив|||fem:§H<1>§! звільнила|||neut:§H<1>§! звільнило|||pl:§H<1>§! звільнили] нас від статусу підданого."
+ ACTION_OFFER_PEACE_VOTE_PASSED:0 "Держава §H[Actor.GetAllianceName]§! проголосувала за підписання миру з державою §H[Recipient.GetName]§!."
+ ACTION_OFFER_PEACE_VOTE_FAILED:0 "Держава §H[Actor.GetAllianceName]§! проголосувала проти підписання миру з державою §H[Recipient.GetName]§!."
+
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_TITLE:0 "Кінець торговельної угоди: у нас немає ресурсів"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM_TITLE:0 "Кінець торговельної угоди: у них немає ресурсів"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_TITLE:0 "Торговельна угода завершилася, торговельна дія недійсна"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_THEM_TITLE:0 "Торговельна угода завершилася, торговельна дія недійсна"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_TITLE:0 "Кінець торговельної угоди: ми закрили кордони"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM_TITLE:0 "Кінець торговельної угоди: вони закрили кордони"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_TITLE:0 "Кінець торговельної угоди: ми вступили в альянс"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM_TITLE:0 "Кінець торговельної угоди: вони вступили в альянс"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_TITLE:0 "Завершення підтримки їхнього суверенітету"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_THEM_TITLE:0 "Завершення підтримки нашого суверенітету"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_TITLE:0 "Кінець торговельної угоди: ми стали підданими"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM_TITLE:0 "Кінець торговельної угоди: вони стали підданими"
+ MESSAGE_TRADE_DEAL_END_CANCELED_TITLE:0 "Розірвання торговельної угоди"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT_TITLE:1 "Кінець терміну дії торговельної угоди"
+ MESSAGE_CANCEL_SUBJECT_INTEGRATION_TITLE:0 "Скасування інтеграції"
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція оголосити війну §H[Third_party.GetName&dat]§! отклонено."
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_ALLIANCE:0 "Пропозиція §H[Actor.GetName&gen]§! оголосити війну альянсу §H[Third_party.GetName]§! відхилено."
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція §H[Actor.GetName&gen]§! оголосити війну альянсу §H[Third_party.GetName]§! була прострочена й автоматично відхилена."
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ACTOR:0 "Наше запрошення §H[Third_party.GetName&gen]§! відхилено."
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ALLIANCE:0 "Пропозиція §H[Actor.GetName&gen]§! запросити §H[Third_party.GetName&acc]§! відхилено."
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_RECIPIENT:1 "Запрошення від §H[Actor.GetName&gen]§! до альянсу §H[Third_party.GetName]§! була прострочена й автоматично відхилена."
+ ACTION_OFFER_PEACE_PROPOSAL_FAILED_ACTOR:1 "Наша пропозиція миру §H[Recipient.GetName&dat]§! була прострочена й автоматично відхилена."
+ ACTION_OFFER_PEACE_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція миру від §H[Actor.GetName&gen]§!  була прострочена й автоматично відхилена."
+ ACTION_OFFER_PEACE_DIPLOMACY_VIEW_PROPOSAL_FAILED_ACTOR:0 "$ACTION_OFFER_PEACE_PROPOSAL_FAILED_ACTOR$" # Should never be shown in-game
+ ACTION_OFFER_PEACE_DIPLOMACY_VIEW_PROPOSAL_FAILED_RECIPIENT:0 "$ACTION_OFFER_PEACE_PROPOSAL_FAILED_RECIPIENT$" # Should never be shown in-game
+ ACTION_MAKE_CLAIMS_DIPLOMACY_VIEW_PROPOSAL_FAILED_ACTOR:0 "Час нашої спроби пред'явити домагання на §H[Recipient.GetName&acc]§! спливло, і її було автоматично відхилено." # Should never be shown in-game
+ ACTION_MAKE_CLAIMS_DIPLOMACY_VIEW_PROPOSAL_FAILED_RECIPIENT:0 "Час спроби пред'явити претензії з боку §H[Actor.GetName&gen]§!, спливло, і її було автоматично відхилено." # Should never be shown in-game
+ ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_ACTOR:1 "Наша пропозиція укласти пакт про взаємний захист із §H[Recipient.GetName&inst]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція укласти пакт про взаємний захист від §H[Actor.GetName&gen]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_ACTOR:1 "Наша пропозиція укласти пакт про ненапад з §H[Recipient.GetName&inst]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція укласти пакт про ненапад від §H[Actor.GetName&gen]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція укласти комерційний пакт з §H[Recipient.GetName&inst]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_RECIPIENT:0 "Пропозиція укласти комерційний пакт від §H[Actor.GetName&gen]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція укласти угоду про дослідження з §H[Recipient.GetName&inst]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_RECIPIENT:0 "Пропозиція укласти угоду про дослідження від §H[Actor.GetName&gen]§! була прострочена й автоматично відхилена."
+ ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція гарантувати суверенітет §H[Recipient.GetName&gen]§! було відхилено."
+ ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_RECIPIENT:0 "Пропозиція гарантії нашого суверенітету від §H[Actor.GetName&gen]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_ACTOR:1 "Наша пропозиція укласти договір про міграцію з §H[Recipient.GetName&inst]§! була прострочена й автоматично відхилена."
+ ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція укласти договір про міграцію від §H[Actor.GetName&gen]§! була прострочена й автоматично відхилена."
+ ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція §H[Recipient.GetName&dat]§! вступити до альянсу відхилено."
+ ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:1 "Запрошення вступити в альянс від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилена."
+ ACTION_KICK_FROM_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "Нашу пропозицію виключити §H[Recipient.GetName&acc]§! з альянсу відхилено."
+ ACTION_KICK_FROM_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція §H[Actor.GetName&gen]§! виключити нас з альянсу було прострочено й автоматично відхилена."
+ ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "Нашу пропозицію виключити §H[Recipient.GetName&acc]§! з федерації відхилено."
+ ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція §H[Actor.GetName&gen]§! виключити нас із федерації було прострочено й автоматично відхилена."
+ ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція §H[Recipient.GetName&dat]§! вступити в альянс відхилено."
+ ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_RECIPIENT:1 "Запрошення вступити в альянс від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_PROPOSAL_FAILED_ACTOR:0 "Наше прохання про статус асоціації з федерацією §H[Recipient.GetAllianceName]§! відхилено."
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_PROPOSAL_FAILED_RECIPIENT:1 "Запит від §H[Actor.GetName&gen]§! о статусе ассоциации с федерацией §H[Recipient.GetAllianceName]§! был просрочен и автоматически отклонен."
+ ACTION_DEMAND_SUBJUGATION_PROPOSAL_FAILED_ACTOR:0 "Наша вимога підпорядкування від §H[Recipient.GetName&gen]§! відхилено."
+ ACTION_DEMAND_SUBJUGATION_PROPOSAL_FAILED_RECIPIENT:0 "Вимога §H[Actor.GetName&gen]§! про підпорядкування було прострочено й автоматично відхилено."
+ ACTION_DEMAND_SUBSIDIARY_PROPOSAL_FAILED_ACTOR:0 "Наша вимога, щоб [Recipient.GetName:§H<1>§! став|||fem:§H<1>§! стала|||neut:§H<1>§! стало|||pl:§H<1>§! стали] нашою дочірньою компанією, відхилено."
+ ACTION_DEMAND_SUBSIDIARY_PROPOSAL_FAILED_RECIPIENT:0 "Вимога стати дочірньою компанією від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+ ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція дати статус протекторату §H[Recipient.GetName&dat]§! відхилено."
+ ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція про статус протекторату від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+ ACTION_DEMAND_TRIBUTARY_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція дати статус данника §H[Recipient.GetName&dat]§! відхилено."
+ ACTION_DEMAND_TRIBUTARY_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція про статус данника сторони від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+ ACTION_DEMAND_THRALL_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція дати статус невільника §H[Recipient.GetName&dat]§! відхилено."
+ ACTION_DEMAND_THRALL_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція про статус невільника від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+ ACTION_DEMAND_DOMINION_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція дати статус домініону §H[Recipient.GetName&dat]§! відхилено."
+ ACTION_DEMAND_DOMINION_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція про статус домініону від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+ ACTION_DEMAND_SIGNATORY_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція дати статус підписанту §H[Recipient.GetName&dat]§! відхилено."
+ ACTION_DEMAND_SIGNATORY_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція дати статус підписанту від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+ ACTION_DEMAND_SATELLITE_PROPOSAL_FAILED_ACTOR:0 "Наша пропозиція дати статус сателіта §H[Recipient.GetName&dat]§! відхилено."
+ ACTION_DEMAND_SATELLITE_PROPOSAL_FAILED_RECIPIENT:1 "Пропозиція про статус сателіта від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+ ACTION_ASK_TO_BECOME_SUBJUGATED_PROPOSAL_FAILED_ACTOR:0 "Наше прохання стати підданими §H[Recipient.GetName&gen]§! відхилена."
+ ACTION_ASK_TO_BECOME_SUBJUGATED_PROPOSAL_FAILED_RECIPIENT:0 "Прохання §H[Actor.GetName&gen]§! стати васалом була прострочена й автоматично відхилена."
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_PROPOSAL_FAILED_ACTOR:1 "Наше прохання про звільнення від підпорядкування §H[Recipient.GetName&dat]§! відхилена."
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_PROPOSAL_FAILED_RECIPIENT:1 "Наше прохання про звільнення від підпорядкування §H[Actor.GetName&gen]§! була прострочена й автоматично відхилена."
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "Наше прохання про вступ до альянсу §H[Recipient.GetAllianceName]§! відхилена."
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_ALLIANCE:0 "Прохання §H[Actor.GetName&gen]§! про вступ до альянсу §H[Recipient.GetAllianceName]§! відхилена."
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "Прохання §H[Actor.GetName&gen]§! про вступ до альянсу §H[Recipient.GetAllianceName]§! була прострочена й автоматично відхилена."
+ ACTION_ASK_TO_JOIN_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "Наше прохання про вступ до альянсу §H[Recipient.GetAllianceName]§! відхилена."
+ ACTION_ASK_TO_JOIN_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:0 "Прохання §H[Actor.GetName&gen]§! про вступ до альянсу §H[Recipient.GetAllianceName]§! була прострочена й автоматично відхилена."
+ ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_ACTOR:0 "Наше прохання про звільнення від §H[Recipient.GetName&gen]§! відхилена."
+ ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_RECIPIENT:1 "Прохання про звільнення від §H[Actor.GetName&gen]§! була прострочена й автоматично відхилена."
+ ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_ACTOR:0 "Наша торгова пропозиція до §H[Recipient.GetName&dat]§! відхилено."
+ ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_RECIPIENT:1 "Торгова пропозиція від §H[Actor.GetName&gen]§! було прострочено й автоматично відхилено."
+
+ MESSAGE_MAKE_RIVAL_TITLE:0 "$RIVALRY$"
+ MESSAGE_RECALL_EMBASSY_TITLE:0 "Закриття посольства"
+ MESSAGE_END_RIVALRY_TITLE:0 "$RIVALRY$: припинення"
+ MESSAGE_EMBASSY_TITLE:1 "Заснувати посольство"
+ MESSAGE_DECLARE_WAR_TITLE:0 "Оголошення війни"
+ MESSAGE_OFFER_PEACE_TITLE:0 "Пропозиція миру"
+ MESSAGE_INVITE_TO_ALLIANCE_TITLE:0 "Запрошення в альянс"
+ MESSAGE_KICK_FROM_ALLIANCE_TITLE:0 "Виключення члена альянсу"
+ MESSAGE_KICK_FROM_FEDERATION_TITLE:0 "Виключення члена федерації"
+ MESSAGE_ASK_TO_JOIN_ALLIANCE_TITLE:0 "Запит про вступ до альянсу"
+ MESSAGE_LEAVE_ALLIANCE_TITLE:0 "Вихід з альянсу"
+ DIPLO_ACTION_LEAVE_ALLIANCE_DESC:0 "$COUNTRY|Y$ залишає альянс $ALLIANCE|Y$"
+ DIPLO_ACTION_LEAVE_FEDERATION_DESC:0 "$COUNTRY|Y$ залишає федерацію $ALLIANCE|Y$"
+ MESSAGE_DEMAND_SUBJUGATION_TITLE:1 "Зажадали підпорядкування"
+ MESSAGE_ASK_TO_BECOME_SUBJUGATED_TITLE:1 "Прохання про підданство"
+ MESSAGE_ASK_TO_BE_RELEASED_SUBJECT_TITLE:0 "Прохання звільнити від статусу підданого"
+ MESSAGE_FORM_FEDERATION_TITLE:0 "Пропозиція заснувати федерацію"
+ MESSAGE_INVITE_TO_FEDERATION_TITLE:0 "Запрошення до федерації"
+ MESSAGE_ASK_TO_JOIN_FEDERATION_TITLE:0 "Запит про входження до федерації"
+ MESSAGE_LEAVE_FEDERATION_TITLE:0 "Вихід із федерації"
+ MESSAGE_OFFER_TRADE_DEAL_TITLE:0 "Пропозиція торговельної угоди"
+ MESSAGE_REQUEST_WAR_TITLE:0 "Пропозиція оголосити війну"
+ MESSAGE_PROPOSE_INVITE_TITLE:0 "Запрошення"
+ MESSAGE_ASK_TO_BECOME_RELEASED_SUBJECT_TITLE:0 "Прохання про звільнення від статусу підданого"
+ MESSAGE_RELEASE_SUBJECT_TITLE:0 "Звільнення підданого"
+ MESSAGE_WARNING_NOT_ACTIVE_IN_WAR_TITLE:0 "Увага! Не діє під час війни!"
+ MESSAGE_NOT_ACTIVE_IN_WAR_TITLE:0 "Не діє під час війни"
+ MESSAGE_DIPLOMATIC_INSULT_TITLE:0 "Дипломатична образа"
+ MESSAGE_INTEGRATE_SUBJECT_TITLE:0 "Початок інтеграції підданого"
+ MESSAGE_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:0 "Інтеграція підданих почалася"
+ MESSAGE_FORM_DEFENSIVE_PACT_TITLE:0 "Пропозиція пакту про взаємний захист"
+ MESSAGE_BREAK_DEFENSIVE_PACT_TITLE:0 "Закінчення пакту про взаємний захист"
+ MESSAGE_FORM_NON_AGGRESSION_PACT_TITLE:0 "Пропозиція пакту про ненапад"
+ MESSAGE_BREAK_NON_AGGRESSION_PACT_TITLE:0 "Розірвання пакту про ненапад"
+ MESSAGE_FORM_COMMERCIAL_PACT_TITLE:0 "Пропозиція комерційного пакту"
+ MESSAGE_BREAK_COMMERCIAL_PACT_TITLE:0 "Розірвання комерційного пакту"
+ MESSAGE_FORM_RESEARCH_AGREEMENT_TITLE:0 "Угода про дослідження"
+ MESSAGE_BREAK_RESEARCH_AGREEMENT_TITLE:0 "Угоду розірвано"
+ MESSAGE_FORM_MIGRATION_PACT_TITLE:0 "Пропозиція договору про міграцію"
+ MESSAGE_BREAK_MIGRATION_PACT_TITLE:0 "Розірвання договору про міграцію"
+ MESSAGE_GUARANTEE_INDEPENDENCE_TITLE:0 "Гарантія суверенітету"
+ MESSAGE_BREAK_GUARANTEE_TITLE:0 "Відкликання гарантії"
+ MESSAGE_SUPPORT_INDEPENDENCE_TITLE:0 "Підтримка суверенітету"
+ MESSAGE_BREAK_SUPPORT_TITLE:0 "Відкликання підтримки"
+ MESSAGE_OPEN_BORDERS_TITLE:0 "Відкриття кордонів"
+ MESSAGE_CLOSE_BORDERS_TITLE:0 "Закриття кордонів"
+ MESSAGE_FORM_SOCIETAL_ENLIGHTENMENT_PACT_TITLE:0 "Пропозиція суспільної просвіти"
+ MESSAGE_BREAK_SOCIETAL_ENLIGHTENMENT_PACT_TITLE:0 "Завершення суспільної просвіти"
+ MESSAGE_FORM_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE:0 "Пропозиція технологічної просвіти"
+ MESSAGE_BREAK_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE:0 "Завершення технологічної просвіти"
+ MESSAGE_FORM_PRE_FTL_TRADE_PACT_TITLE:0 "Пропозиція комерційної угоди"
+ MESSAGE_BREAK_PRE_FTL_TRADE_PACT_TITLE:0 "Завершення комерційної угоди"
+
+ ACTION_MAKE_RIVAL_NOTIFICATION:1 "[From.GetName:§H<1>§! оголосив|||fem:§H<1>§! оголосила|||neut:§H<1>§! оголосило|||pl:§H<1>§! оголосили] §H[Root.GetName&acc]§! своїм §Hсуперником§!!\n\nЦе значно погіршить їхні дипломатичні відносини."
+ ACTION_END_RIVALRY_NOTIFICATION:2 "[From.GetName:§H<1>§! припинив|||fem:§H<1>§! припинила|||neut:§H<1>§! припинило|||pl:§H<1>§! припинили] суперництво з §H[Root.GetName&inst]§!.\n\nМожливо, вони на шляху до примирення."
+ ACTION_EMBASSY_NOTIFICATION:1 "[From.GetName:§H<1>§! відкрив|||fem:§H<1>§! відкрила|||neut:§H<1>§! відкрило|||pl:§H<1>§! відкрили] посольство у §H[Root.GetName&prep]§!.\n\nЦе з часом поліпшить їхні стосунки."
+ ACTION_RECALL_EMBASSY_NOTIFICATION:2 "§H[From.GetName]§! закриває своє посольство в §H[Root.GetName&prep]§!.\n\nЦе знак ворожих намірів?"
+ ACTION_DECLARE_WAR_NOTIFICATION:3 "§H[From.GetName]§! оголошує війну §H[Root.GetName&dat]§!!\n\nТепер ми дізнаємося, хто з них сильніший."
+ ACTION_OFFER_PEACE_NOTIFICATION:1 "§H[From.GetName]§! укладає мир із §H[Root.GetName&inst]§!."
+ ACTION_INVITE_TO_ALLIANCE_NOTIFICATION:2 "§H[Root.GetName]§! приєднується до альянсу §H[From.GetAllianceName]§!.\n\nТепер вони стоять проти своїх ворогів пліч-о-пліч."
+ ACTION_LEAVE_ALLIANCE_NOTIFICATION:2 "§H[From.GetName]§! залишає альянс §H[From.GetAllianceName]§!.\n\nЦе може бути вдалою можливістю для нас..."
+ ACTION_DEMAND_SUBJUGATION_NOTIFICATION:3 "§H[From.GetName]§! підпорядковує державу §H[Root.GetName]§!.\n\nЗа безпеку вони заплатили своєю свободою."
+ ACTION_ASK_TO_BECOME_SUBJUGATED_NOTIFICATION:3 "§H[Root.GetName]§! підпорядковує державу §H[From.GetName]§!.\n\nЗа безпеку вони заплатили своєю свободою."
+ ACTION_FORM_FEDERATION_NOTIFICATION:2 "§H[From.GetAllianceName]§! голосує за перетворення в таке об'єднання, як $FEDERATION$.\n\nВони вирішили просуватися вглиб галактики спільно."
+ ACTION_INVITE_TO_FEDERATION_NOTIFICATION:2 "§H[Root.GetName]§! приєднується до альянсу §H[From.GetAllianceName]§!.\n\nТепер вони стоять проти своїх ворогів пліч-о-пліч."
+ ACTION_ASK_TO_JOIN_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§! приєднується до альянсу §H[Root.GetAllianceName]§!.\n\nТепер вони стоять проти своїх ворогів пліч-о-пліч."
+ ACTION_ASK_TO_LEAVE_FEDERATION_NOTIFICATION:0 "$ACTION_LEAVE_FEDERATION_NOTIFICATION$"
+ ACTION_LEAVE_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§! залишає альянс §H[Root.GetAllianceName]§!.\n\nЦе може бути вдалою можливістю для нас..."
+ ACTION_KICK_FROM_FEDERATION_NOTIFICATION:1 "Федерація §H[From.GetAllianceName]§! проголосувала за виключення §H[Root.GetName&gen]§! зі свого складу."
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_NOTIFICATION:2 "§H[Root.GetName]§! надає суверенітет §H[From.GetName&dat]§!.\n\nСхоже, їм не вистачає сил контролювати своїх підданих."
+ ACTION_RELEASE_SUBJECT_NOTIFICATION:2 "§H[From.GetName]§! надає суверенітет §H[Root.GetName&dat]§!.\n\nСхоже, їм не вистачає сил контролювати своїх підданих."
+ ACTION_INSULT_NOTIFICATION:2 "[From.GetName:§H<1>§! образив|||fem:§H<1>§! образила|||neut:§H<1>§! образило|||pl:§H<1>§! образили] §H[Root.GetName&acc]§!.\n\nНапруга наростає..."
+ ACTION_INTEGRATE_SUBJECT_NOTIFICATION:2 "§H[From.GetName]§! починає інтеграцію §H[Root.GetName&gen]§!.\n\nСкоро останні крихти [Root.GetAdj&fem,gen] незалежності кануть у Лету."
+ ACTION_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:2 "§H[From.GetName]§! припиняє інтеграцію §H[Root.GetName&gen]§!.\n\nСхоже, від цих [Root.GetSpeciesNamePlural] більше шкоди, ніж користі."
+ MESSAGE_TYPE_RELICS_GAINED_INTEGRATION_TITLE:0 "Реліквії, отримані під час інтеграції"
+ MESSAGE_RELICS_GAINED_INTEGRATION:0 "Ми отримали всі реліквії §H[From.GetName&gen]§!, інтегрувавши [From.GetName:його|||fem:її|||pl:їх]."
+ ACTION_FORM_DEFENSIVE_PACT_NOTIFICATION:1 "§H[From.GetName]§! і §H[Root.GetName]§! уклали пакт про взаємний захист.\n\nТепер вони захищатимуть одне одного від будь-яких ворогів."
+ ACTION_BREAK_DEFENSIVE_PACT_NOTIFICATION:1 "§H[From.GetName]§! розриває пакт про взаємний захист із §H[Root.GetName&inst]§!.\n\nСхоже, вони вважають, що й самі впораються."
+ ACTION_FORM_NON_AGGRESSION_PACT_NOTIFICATION:1 "§H[From.GetName]§! і §H[Root.GetName]§! уклали пакт про ненапад.\n\nПодивимося, скільки протримається мир між ними."
+ ACTION_BREAK_NON_AGGRESSION_PACT_NOTIFICATION:1 "§H[From.GetName]§! розриває пакт про ненапад із §H[Root.GetName&inst]§!.\n\nСхоже, мир їм набрид..."
+ ACTION_FORM_COMMERCIAL_PACT_NOTIFICATION:0 "§H[From.GetName]§! і §H[Root.GetName]§! уклали комерційний пакт.\n\nТепер вони прагнуть до процвітання разом."
+ ACTION_BREAK_COMMERCIAL_PACT_NOTIFICATION:0 "§H[From.GetName]§! розриває комерційний пакт із §H[Root.GetName&inst]§!.\n\nСхоже, їхні фінансові інтереси розійшлися..."
+ ACTION_FORM_RESEARCH_AGREEMENT_NOTIFICATION:0 "§H[From.GetName]§! вступає в угоду про дослідження з §H[Root.GetName&inst]§!.\n\nВони можуть багато чого навчитися одне в одного."
+ ACTION_BREAK_RESEARCH_AGREEMENT_NOTIFICATION:0 "§H[From.GetName]§! розриває угоду про дослідження з §H[Root.GetName&inst]§!.\n\nСхоже, вони більше не бажають ділитися своїми секретами..."
+ ACTION_FORM_MIGRATION_PACT_NOTIFICATION:1 "§H[From.GetName]§! і §H[Root.GetName]§! уклали договір про міграцію.\n\nЇхнє населення тепер може вільно переміщатися між територіями обох держав."
+ ACTION_BREAK_MIGRATION_PACT_NOTIFICATION:1 "§H[From.GetName]§! розриває договір про міграцію з §H[Root.GetName&inst]§!.\n\nСхоже, вони пошкодували про відкриття своїх кордонів."
+ ACTION_GUARANTEE_INDEPENDENCE_NOTIFICATION:1 "§H[From.GetName]§! гарантує суверенітет §H[Root.GetName&gen]§!.\n\nВони тепер захищатимуть їх від усіх атак."
+ ACTION_BREAK_GUARANTEE_NOTIFICATION:1 "§H[From.GetName]§! припиняє гарантувати суверенітет §H[Root.GetName&gen]§!.\n\nЦе може бути вдалою можливістю для нас..."
+ ACTION_SUPPORT_INDEPENDENCE_NOTIFICATION:1 "§H[From.GetName]§! тепер підтримує суверенітет §H[Root.GetName&gen]§!.\n\nЇї сюзерена це зовсім не потішить..."
+ ACTION_BREAK_SUPPORT_NOTIFICATION:1 "§H[From.GetName]§! припиняє підтримувати суверенітет §H[Root.GetName&gen]§!.\n\nСхоже, [Root.GetName] так і залишиться підданим."
+ ACTION_OPEN_BORDERS_NOTIFICATION:1 "§H[From.GetName]§! відкриває кордони для флотилій §H[Root.GetName&gen]§!.\n\nЦе поліпшить їхні дипломатичні відносини."
+ ACTION_CLOSE_BORDERS_NOTIFICATION:1 "§H[From.GetName]§! закриває кордони для флотилій §H[Root.GetName&gen]§!.\n\nЦе погіршить їхні дипломатичні відносини."
+
+ MESSAGE_OFFER_FEDERATION_ASSOCIATION_TITLE:0 "Пропозиція статусу асоціації"
+ ACTION_OFFER_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§! отримує статус асоціації з федерацією §H[From.GetAllianceName]§!.\n\nСхоже, їм потрібні ближчі стосунки."
+ MESSAGE_ASK_FOR_FEDERATION_ASSOCIATION_TITLE:0 "Запит про статус асоціації з федерацією"
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§! отримує статус асоціації з федерацією §H[From.GetAllianceName]§!.\n\nСхоже, їм потрібні ближчі стосунки."
+ MESSAGE_REVOKE_FEDERATION_ASSOCIATION_TITLE:0 "Відкликання асоціації з федерацією"
+ ACTION_REVOKE_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§! позбавляється свого статусу асоціації з федерацією §H[From.GetAllianceName]§! в результаті відкликання.\n\nЦе знак ворожих намірів?"
+ MESSAGE_END_FEDERATION_ASSOCIATION_TITLE:0 "Припинення статусу асоціації з федерацією"
+ ACTION_END_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[From.GetName]§! вирішує припинити свій статус асоціації з федерацією §H[Root.GetAllianceName]§!.\n\nЦе знак ворожих намірів?"
+ DIPLO_ACTION_END_FEDERATION_ASSOCIATION_DESC:0 "§H$COUNTRY$§! вирішує припинити свій статус асоціації з федерацією §H$ALLIANCE$§!.\n\nЦе знак ворожих намірів?"
+
+
+ MESSAGE_DIPLOMACY_TITLE:0 "Дипломатія"
+
+ ACTION_FORM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "$ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_RECIPIENT$"
+ ACTION_FORM_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "$ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_ACTOR$"
+
+ ####################################
+ # War
+ ####################################
+ SURRENDER_OUR_SIDE:0 "Наш воєначальник беззастережно капітулював, підписано угоду про припинення вогню. У противника є до 6 місяців, щоб висунути свої вимоги."
+ SURRENDER_THEIR_SIDE:0 "Їхній воєначальник беззастережно капітулював, підписано угоду про припинення вогню. У нас є 6 місяців, щоб висунути свої вимоги."
+ WAR_END_VICTORY:0 "Ми перемогли в цій війні"
+ WAR_END_DEFEAT:0 "Ми програли в цій війні"
+ WAR_END_STATUS_QUO:0 "Війна завершилася статусом-кво"
+ MESSAGE_OUR_SURRENDER_TITLE:0 "Наша капітуляція"
+ MESSAGE_THEIR_SURRENDER_TITLE:0 "Їхня капітуляція"
+ MESSAGE_VICTORY_TITLE:1 "§GПеремога§!"
+ MESSAGE_DEFEAT_TITLE:1 "§RПоразка§!"
+ MESSAGE_ALLIED_ENTERED_WAR:1 "Держава $ATTACKER|Y$ оголосила війну нашим союзникам, державі $CALLER|Y$.\nВідтепер ми в стані §Yвійни§! з державою $ATTACKER|Y$!"
+ MESSAGE_GUARANTEED_ENTERED_WAR:0 "Підтримувана держава атакована"
+ MESSAGE_GUARANTEER_ENTERED_WAR_DESC:1 "Держава $ATTACKER|Y$ оголосила війну державі $CALLER|Y$, гарантом суверенітету якої є ми. \nВідповідально, відтепер ми у стані §Yвійни§! з державою $ATTACKER|Y$!"
+ MESSAGE_GUARANTEER_ENTERED_WAR_TITLE:0 "Вступ у війну гаранта"
+ MESSAGE_ALLIED_ENTERED_WAR_TITLE:0 "Вступ у війну союзника"
+ MESSAGE_OVERLORD_ENTERED_WAR_TITLE:0 "Вступ у війну сюзерена"
+ MESSAGE_OVERLORD_ENTERED_WAR_DESC:1 "Держава $ATTACKER|Y$ оголосила війну нашому сюзерену - державі $CALLER|Y$.\nВідтепер ми в стані §Yвійни§! з державою $ATTACKER|Y$!"
+ MESSAGE_SUBJECT_ENTERED_WAR_TITLE:0 "Вступ у війну підданого"
+ MESSAGE_SUBJECT_ENTERED_WAR_DESC:1 "Держава $ATTACKER|Y$ оголосила війну державі $CALLER|Y$, а це наш $SUBJECT_TYPE$.\nВіднині ми в стані §Yвійни§! з державою $ATTACKER|Y$!"
+ MESSAGE_OVERLORD_DECLARED_WAR:0 "Сюзерен оголосив війну"
+ MESSAGE_OVERLORD_DECLARED_WAR_DESC:1 "Держава $CALLER|Y$, наш сюзерен, оголосила війну державі $DEFENDER|Y$.\nВідтепер ми в стані §Yвійни§! з державою $DEFENDER|Y$!"
+ MESSAGE_FEDERATION_DECLARED_WAR:0 "Президент федерації оголосив війну"
+ MESSAGE_FEDERATION_DECLARED_WAR_DESC:1 "Держава $CALLER|Y$, президент нашої федерації, оголосила війну державі $DEFENDER|Y$.\nВідтепер ми в стані §Yвійни§! з державою $DEFENDER|Y$!"
+ MESSAGE_SUPPORTED_DECLARED_WAR:1 "Підданий оголосив війну"
+ MESSAGE_SUPPORTED_DECLARED_WAR_DESC:1 "Держава $CALLER|Y$, чий суверенітет ми підтримуємо, оголосила війну державі $DEFENDER|Y$!"
+ MESSAGE_OFFENSIVE_PACT_DECLARED_WAR:0 "Приєднання до наступальної війни"
+ MESSAGE_OFFENSIVE_PACT_DECLARED_WAR_DESC:1 "Держава $CALLER|Y$, яку ми погодилися підтримувати в її наступальній війні, оголосила війну державі $DEFENDER|Y$!"
+ MESSAGE_WAR_ENDED:0 "Війну закінчено"
+ MESSAGE_WAR_ENDED_DESC_1:2 "Війну, в якій брали участь $ATTACKER|Y$ і $DEFENDER|Y$, припинено, тому що $DEFENDER|Y$ стає васалом або анексується третьою стороною."
+ MESSAGE_WAR_ENDED_DESC_2:3 "Війну, в якій брали участь ми і $ENEMY|Y$, припинено, оскільки $OVERLORD|Y$ робить їх васалом або анексує. Ми не уклали перемир'я."
+ MESSAGE_WAR_ENDED_DESC_3:2 "Ми виходимо з війни, в якій нашим супротивником є $ENEMY|Y$, тому що $OVERLORD|Y$ робить їх васалом."
+ MESSAGE_VASSAL_ENTER_WAR:0 "Підданий вступає у війну"
+ MESSAGE_VASSAL_ENTER_WAR_DESC_1:1 "$VASSAL|Y$, васал одного з наших союзників, вступає у війну, в якій їхнім противником є $ENEMY|Y$."
+ MESSAGE_VASSAL_ENTER_WAR_DESC_2:1 "$VASSAL|Y$, наш васал, вступає у війну, в якій їхнім противником є $ENEMY|Y$."
+ MESSAGE_ENEMY_VASSAL_ENTER_WAR:0 "Підданий противника вступає у війну"
+ MESSAGE_ENEMY_VASSAL_ENTER_WAR_DESC:1 "$ENEMY|Y$, підданий одного з наших супротивників, вступає у війну з нами."
+ MESSAGE_ENEMY_LEAVES_WAR:0 "Противник виходить із війни"
+ MESSAGE_ENEMY_LEAVES_WAR_DESC:3 "$ENEMY|Y$ виходить з війни, оскільки $OVERLORD|Y$ робить їх васалом або анексує."
+
+ ####################################
+ # Fleet Detected
+ ####################################
+ MESSAGE_FLEET_DETECTED_WE:0 "Виявлено флотилію §H$FLEET$§! держави $WHO|Y$, що рухається прямим курсом до §Yсистеми $TARGET$§!!"
+ MESSAGE_FLEET_DETECTED_MESSAGE_TYPE_TITLE:0 "Виявлення флотилії"
+ MESSAGE_OBJECT_DETECTED_WE:0 "Виявлено невстановлений об'єкт, що рухається прямим курсом до §Yсистеми $TARGET$§!!"
+ MESSAGE_OBJECT_DETECTED_MESSAGE_TYPE_TITLE:0 "Виявлення об'єкта"
+
+ ####################################
+ # Fleet Evade
+ ####################################
+ MESSAGE_FLEET_EVADE_HOSTILE:0 "$FLEET$ стикається з ворожою флотилією ($HOSTILE|R$) в системі $SYSTEM|H$ і намагається втекти від неї!"
+ MESSAGE_FLEET_EVADE_HOSTILE_FLEET_TYPE:0 "$TYPE$ $NAME|H$"
+ MESSAGE_FLEET_EVADE_HOSTILE_MESSAGE_TYPE_TITLE:0 "Ухилення від ворожої флотилії"
+
+ ####################################
+ # Leaders
+ ####################################
+ FLEET_LEADER_DEATH:1 "$CLASS|H$ $LEADER|Y$ гине при знищенні корабля $SHIP|Y$."
+ ARMY_LEADER_DEATH:1 "Наш $CLASS|H$ $LEADER|Y$ гине, командуючи армією $ARMY|Y$."
+ PLANET_LEADER_DEATH:1 "Наш $CLASS|H$ $LEADER|Y$ помирає на планеті $PLANET|Y$."
+ COUNTRY_LEADER_DEATH:1 "Наш $CLASS|H$ $LEADER|Y$ помирає!"
+ HEIR_DEATH:1 "§H$HEIR$§! нашої держави, $HEIRNAME|Y$, помирає!"
+ RULER_ELECTED:0 "Нового правителя обрано! $TITLE$ $LEADER|Y$ очолить державу до наступних виборів, які пройдуть $TIME|Y$."
+ RULER_ELECTED_UNTIL_DEATH:1 "$TITLE$ $LEADER|Y$! стає новим правителем і правитиме до своєї смерті."
+ RULER_ELECTED_HEIR:1 "Згідно з традицією престолонаслідування, новим правителем стає $TITLE$ $LEADER|Y$!".
+ MESSAGE_LEADER_DEATH_TITLE:0 "Смерть лідера"
+ MESSAGE_LEADER_RETIRED_TITLE:0 "Вихід лідера у відставку"
+ MESSAGE_RULER_ELECTED_TITLE:0 "Обрання правителя"
+ MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE:0 "Обрання правителя"
+ MESSAGE_RULER_ELECTED_HEIR_TITLE:0 "Передача престолу"
+ MESSAGE_ELECTION_MESSAGE_TYPE_TITLE:0 "Вибори"
+ MESSAGE_DEMOCRATIC_ELECTION_DESC:0 "Вибори, що відбуваються зараз, визначать, кому дістанеться посада $TITLE$.\nРезультати будуть оголошені $DATE|Y$."
+ MESSAGE_OLIGARCHIC_ELECTION_DESC:0 "Дебати, що відбуваються зараз, визначать, кому дістанеться пост $TITLE$.\nРішення буде оголошено $DATE|Y$."
+ ELECTION_CLICK_FOR_MORE_INFO:0 "Клацніть, щоб дізнатися подробиці."
+ LEADER_DEATH_AGE:0 "$CLASS|Y$ $LEADER|Y$ помирає у віці $AGE|Y$."
+ LEADER_RETIRED_DESC:0 "$CLASS|Y$ $LEADER|Y$ йде у відставку у віці $AGE|Y$ років."
+ TOOLTIP_KILL_LEADER:0 "$CLASS|Y$ $LEADER|Y$ §Rумирає§!"
+ MESSAGE_LEADER_EXPERIENCE_TITLE:0 "Новий досвід лідера"
+ LEADER_EXPERIENCE_NOTIFICATION_DESC:0 "§T$CLASS|Y$ $LEADER|Y$ отримує досвід у бою\n$STATS$§!"
+ MESSAGE_LEADER_LEVEL_UP_TITLE:1 "Підвищення рівня лідера"
+ LEADER_LEVEL_UP_DESC:0 "$CLASS|Y$ $LEADER|Y$ одержує новий рівень.\nПоточна навичка: $LEVEL|Y$\n "
+ LEADER_LEVEL_UP_NEXT_LEVEL_DESC:0 "$CLASS|Y$ $LEADER|Y$ отримує новий рівень.\nПоточна навичка: $LEVEL|Y$\nДосвіду для наступного рівня: $EXP|Y0$"
+
+ LEADER_ADMIRAL_BASE_EXPERIENCE:0 "§ТКосмічні битви: $VAL|0H$ досвіду§!"
+ LEADER_ADMIRAL_HOSTILE_KILLED_EXPERIENCE:0 "§ТЗнищення сил противника: $VAL|0H$ досвіду§!"
+ LEADER_ADMIRAL_FRIENDLY_LOST_EXPERIENCE:0 "§Втрата союзницьких військ: $VAL|0H$ досвіду§!"
+
+ LEADER_GENERAL_BASE_EXPERIENCE:0 "§ТНаземні битви: $VAL|0H$ досвіду§!"
+ LEADER_GENERAL_HOSTILE_KILLED_EXPERIENCE:0 "§Тзнищення сил противника: $VAL|0H$ досвіду§!"
+ LEADER_GENERAL_FRIENDLY_LOST_EXPERIENCE:0 "§Втрата союзницьких військ: $VAL|0H$ досвіду§!"
+ MESSAGE_NEW_HEIR_TITLE:0 "§HНаступник§!"
+ NEW_HEIR_TEXT:0 "§Y$HEIR$§! є спадкоємцем престолу нашої держави і займе його після смерті нинішнього правителя."
+ MESSAGE_LEADER_POOL_REFRESHED_MESSAGE_TYPE_TITLE:0 "Оновлення пулу лідерів"
+ LEADER_POOL_REFRESHED_TITLE:0 "Пул державних лідерів оновився. Можна найняти нових лідерів."
+ LEADER_POOL_REFRESHED_INSTRUCTION:0 "Клацніть, щоб відкрити вікно лідерів"
+
+ ####################################
+ # Technology
+ ####################################
+ MESSAGE_TECHNOLOGY_RESEARCH_FINISH:0 "Ми завершили вивчення технології $TECHNOLOGY|H$."
+ MESSAGE_TECHNOLOGY_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "Вивчення технології"
+
+ ####################################
+ # Debris
+ ####################################
+ MESSAGE_DEBRIS_ANALYZED_FINISH:0 "Ми завершили аналіз уламків у системі $SYSTEM|Y$."
+ MESSAGE_DEBRIS_ANALYZED_FINISH_BONUS:1 "£$AREA_KEY$£ §YДослідження: $AREA$§! §G+$VAL|0$§! очків"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_TECH_PROGRESS:1 "$TECH|Y$: §G+$VAL|%0$§! прогресу"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "Вивчення уламків"
+
+ MESSAGE_DEBRIS_SCAVENGED_FINISH:0 "Ми завершили розбір уламків у системі $SYSTEM|Y$."
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_RESOURCE:0 "£$RESOURCE_KEY$£ §Y$NAME$§!: §G+$VAL$§!"
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_MESSAGE_TYPE_TITLE:0 "Уламки розібрані"
+
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH:0 "Ми завершили розбирання та аналіз уламків у системі $SYSTEM|Y$."
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "Уламки розібрані та вивчені"
+
+ ####################################
+ # Anomaly
+ ####################################
+ MESSAGE_ANOMALY_DETECTED_TYPE_TITLE:0 "Аномалія"
+
+ ####################################
+ # No Access
+ ####################################
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS:0 "Червоточина в системі $FROM|Y$ була закрита при відкритті в бік системи $TARGET|Y$, тому що вона знаходиться на території держави $WHO|Y$."
+ MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS:0 "Флотилії $FLEET|Y$ довелося повернутися в систему $RETURN|Y$ із системи $FROM|Y$, оскільки вона знаходиться на території держави $WHO|Y$."
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS_TITLE:0 "Закриття червоточини"
+ MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS_TITLE:0 "Немає доступу"
+
+ ####################################
+ # Revolt
+ ####################################
+ MESSAGE_REVOLT:1 "Жителі планети $PLANET|Y$! зчинили заколот!"
+ MESSAGE_PLANET_REVOLT_TITLE:0 "Заколот!"
+
+ ####################################
+ # Planet Destruction
+ ####################################
+ MESSAGE_PLANET_DESTROYED:0 "Планета опустошена"
+ MESSAGE_PLANET_DESTROYED_DESC:0 "Планета $PLANET|Y$ $WEAPON_DESC$: колосс ($ADJ$) и $WEAPON_NAME|R$ не оставили ей шанса."
+
+ ####################################
+ # Terraforming
+ ####################################
+ MESSAGE_TERRAFORMATION_FINISH:1 "Планета $PLANET|Y$ терраформована в клас $PLANET_CLASS|Y$."
+ MESSAGE_TERRAFORMATION_CANCELED:0 "Тераформування планети $PLANET|Y$ перервано!"
+ MESSAGE_TERRAFORM_MESSAGE_TYPE_TITLE:0 "Тераформування"
+
+ ####################################
+ # Trade
+ ####################################
+ MESSAGE_TRADE_DEAL_END_NO_ENERGY:0 "Наша торговельна угода з державою $WITH|Y$ втратила чинність, оскільки у нас немає енергокредитів для її підтримки."
+ MESSAGE_TRADE_DEAL_END_NO_ENERGY_THEM:0 "Держава $WITH|Y$ припинила дію торговельної угоди з нами, оскільки у неї немає енергокредитів для її підтримки."
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE:0 "Наша торговельна угода з державою $WITH|Y$ втратила чинність, оскільки ми не маємо ресурсу $RESOURCE|Y$ для її підтримки."
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM:0 "Держава $WITH|Y$ припинила дію торговельної угоди з нами, оскільки у неї немає ресурсу $RESOURCE|Y$ для її підтримки."
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION:0 "Наша торговельна угода з державою $WITH|Y$ втратила чинність, оскільки торговельна дія $ACTION|Y$ більше не дійсна."
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_THEM:0 "Держава $WITH|Y$ припинила дію торговельної угоди з нами, оскільки торговельна дія $ACTION|Y$ більше не дійсна."
+ MESSAGE_TRADE_DEAL_TITLE:0 "Торговельна угода"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT:2 "Термін дії нашої торговельної угоди з державою $WITH|Y$ минув. \n\nНаша частина угоди:\n$OUR_OFFER$\n\nІх частина угоди:\n$THEIR_OFFER$"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS:0 "Наша торговельна угода з державою $WITH|Y$ втратила чинність, оскільки ми закрили для них кордони."
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM:0 "Наша торговельна угода з державою $WITH|Y$ втратила чинність, оскільки вони закрили для нас кордони."
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS:0 "Наша торговельна угода з державою $WITH|Y$ втратила чинність, тому що ми стали підданими і більше не можемо контролювати доступ на свою територію."
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM:0 "Наша торговельна угода з державою $WITH|Y$ втратила чинність, так як вони стали підданими і більше не можуть контролювати доступ на свою територію."
+ MESSAGE_TRADE_DEAL_END_CANCELED_FLEET:0 "Наша торгова угода з $WITH|Y$ завершилася, тому що договір про підпорядкування було скасовано.\n\nМи обміняли:\n$OUR_OFFER$\n\nОни обміняли:\n$THEIR_OFFER$"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE:0 "Наша гарантована торговельна угода з державою $WITH|Y$ більше не діє, оскільки ми вступили в альянс."
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM:0 "Держава $WITH|Y$ припинила дію гарантованої торговельної угоди з нами, оскільки вступила в альянс."
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE:1 "Наша торговельна угода з державою $WITH|Y$ більше не діє, оскільки ми втратили свою незалежність і не можемо підтримувати її суверенітет."
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE_THEM:1 "Держава $WITH|Y$ припинила дію торговельної угоди з нами, оскільки втратила незалежність і не може підтримувати наш суверенітет."
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE:0 "Наша торговельна угода з державою $WITH|Y$ більше не діє, оскільки ми вступили до альянсу і не можемо гарантувати її суверенітет."
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE_THEM:0 "Держава $WITH|Y$ припинила дію торговельної угоди з нами, оскільки вступила в альянс і не може гарантувати наш суверенітет."
+
+ ####################################
+ # Special Project
+ ####################################
+ MESSAGE_UPLIFTING_FAILED_TITLE:0 "Провал особливого проекту з перетворення"
+ MESSAGE_UPLIFTING_FAILED:1 "Наш проект з перетворення раси $SPECIES|Y$ на планеті $PLANET|Y$ зазнав невдачі."
+ MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "Провал особливого проекту з модифікування раси"
+ MESSAGE_SPECIES_MODIFICATION_FAILED:3 "Проект зі зміни $POPS|Y$ поселень на $PLANETS|Y$ планетах згідно з шаблоном "$TEMPLATE|Y$" провалений."
+ MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "Новий особливий проект"
+ SPECIAL_PROJECT_AVAILABLE:0 "Є особливий проект для вивчення."
+
+
+ ####################################
+ # Event
+ ####################################
+ MESSAGE_EVENT_MESSAGE_TYPE_TITLE:0 "Подія"
+
+ ####################################
+ # Invasion
+ ####################################
+ MESSAGE_INVASION_TITLE:0 "Завершення вторгнення"
+ MESSAGE_INVASION_ATTACKER_WIN:1 "Наше вторгнення на планету $PLANET|Y$ пройшло успішно!"
+ MESSAGE_INVASION_ATTACKER_LOSE:0 "Нам не вдалося вторгнутися на планету $PLANET|H$."
+ MESSAGE_INVASION_DEFENDER_WIN:1 "Ми успішно відбили вторгнення на планету $PLANET|Y$."
+ MESSAGE_INVASION_DEFENDER_LOSE:1 "Нам не вдалося відбити вторгнення на планету $PLANET|Y$."
+ MESSAGE_RETREAT_CASUALTIES_TITLE:0 "Втрата армій під час відступу"
+ RETREAT_CASUALTIES_DESC:1 "Ми втратили $NUM|Y$ із нашої загальної кількості армій ($TOTAL|Y$) при спробі відступити з планети $PLANET|Y$\n$LOST$"
+ MESSAGE_LOST_ARMY:0 "$NUMBER$. $NAME|R$"
+
+
+ ####################################
+ # Subject changes
+ ####################################
+ MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "Зміна статусу підданого"
+ MESSAGE_SUBJECT_CHANGED_DESC:0 "$REASON$$SUBJECT|Y$ тепер $NEW_TYPE|Y$ для держави $OVERLORD|Y$"
+ MESSAGE_SUBJECT_CHANGE_REASON_preset_protectorate_me:0 "У зв'язку з нашими технологічними досягненнями "
+ MESSAGE_SUBJECT_CHANGE_REASON_preset_protectorate:0 "У зв'язку з їхніми технологічними досягненнями "
+
+ ####################################
+ # Triggered Modifiers
+ ####################################
+ MESSAGE_TRIGG_MOD_LOST_TITLE:0 "Втрата умовного ефекту"
+ TRIGG_MOD_LOST:1 "Умовний ефект "$NAME|H$" більше не діє."
+ MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "Отримання умовного ефекту"
+ TRIGG_MOD_GAINED:1 "$NAME|H$\n\n$DESC$"
+
+ ####################################
+ # Combat Stats
+ ####################################
+ MESSAGE_COMBAT_STATS_TITLE:0 "Бойова статистика флотилії"
+
+ ####################################
+ # Edicts
+ ####################################
+ MESSAGE_INVALIDATED_EDICT_TITLE:0 "Скасування указу"
+ COUNTRY_EDICT_BECAME_INVALID:1 "Указ $EDICT|Y$ втратив чинність, оскільки більше не задовольняє необхідним умовам."
+ MESSAGE_EXPIRED_EDICT_TITLE:0 "Кінець терміну дії указу"
+ COUNTRY_EDICT_EXPIRED:0 "Закінчився термін дії указу $EDICT|Y$, що впливає на нашу державу."
+ PLANET_EDICT_EXPIRED:0 "Закінчився термін дії указу $EDICT|Y$, що впливає на планету $PLANET$."
+
+#####################################
+# Megastructures
+#####################################
+
+ MESSAGE_MEGASTRUCTURE_BUILT_TITLE:0 "Побудовано мегаспоруду"
+ MESSAGE_MEGASTRUCTURE_BUILT:4 "Завершено будівництво мегаспоруди $MEGASTRUCTURE|H$ у системі $SYSTEM|Y$."
+ MESSAGE_MEGASTRUCTURE_UPGRADED_TITLE:0 "Покращено мегаспоруду"
+ MESSAGE_MEGASTRUCTURE_UPGRADED:3 "Завершено поліпшення мегаспоруди $MEGASTRUCTURE|H$ у системі $SYSTEM|Y$."
+ MESSAGE_ALIEN_MEGASTRUCTURE_BUILT_TITLE:0 "Побудовано інопланетну мегаспоруду"
+ MESSAGE_ALIEN_MEGASTRUCTURE_BUILT:1 "Держава $COUNTRY|Y$ завершила будівництво мегаспоруди $MEGASTRUCTURE|H$ у системі $SYSTEM|Y$."
+
+ #####################################
+# Casus Belli
+#####################################
+ MESSAGE_NEW_CASUS_BELLI_HOLDER_TITLE:1 "Новий привід до війни"
+ MESSAGE_NEW_CASUS_BELLI_HOLDER:1 "$CASUS_BELLI|H$ тепер може послужити приводом до війни з державою $COUNTRY|H$"
+
+ MESSAGE_NEW_CASUS_BELLI_TARGET_TITLE:1 "Мета приводу до війни"
+ MESSAGE_NEW_CASUS_BELLI_TARGET:1 "Держава $COUNTRY|H$ тепер має привід до війни з нами: $CASUS_BELLI|H$!"
+ MESSAGE_NEW_CASUS_BELLI_TRIAL_OF_ADVANCEMENT_TARGET:0 "Усі члени §HІмперії§!, що не входять до §Hради§!, тепер мають привід до війни з нами: $CASUS_BELLI|H$!"
+
+ MESSAGE_LOST_CASUS_BELLI_TITLE:0 "Привід до війни втрачено"
+ MESSAGE_LOST_CASUS_BELLI:1 "$CASUS_BELLI|H$ більше не може слугувати для нас приводом до війни з державою $COUNTRY|H$"
+
+ #####################################
+# Claims
+#####################################
+ MESSAGE_NEW_CLAIM_ON_SYSTEM_TITLE:1 "Оголошено претензії на нашу систему"
+ MESSAGE_NEW_CLAIM_ON_SYSTEM:2 "Держава $COUNTRY|Y$ наважилася оголосити претензії на систему $SYSTEM|Y$, яка по праву належить нам!"
+
+#####################################
+# Star Destroyed
+#####################################
+ MESSAGE_STAR_DESTROYED:0 "Систему знищено"
+ MESSAGE_STAR_DESTROYED_DESC:1 "Колосальний вибух наднової, спричинений $ADJ$ §RПожирачем зірок§!, знищив світ $PLANET|Y$."

@@ -1,0 +1,401 @@
+﻿l_english:
+
+# Observation Events from base game
+# Refactored as part of the 3.7 "Canis Minor" update.
+
+# Asteroid Sighted!
+ observation.2.name:1 "Астероїд наближається до [pre_ftl_planet.GetPlanetHabitatDE2] [pre_ftl_planet.GetName]"
+ observation.2.desc:2 "Невелика астрометрична лабораторія на нашому спостережному форпості над [pre_ftl_planet.GetPlanetHabitatDE4] [pre_ftl_planet.GetName] виявила астероїд класу 4 на траєкторії прямого зіткнення. Якщо ми нічого не зробимо, він вріжеться в [GetRandomCompassDirection] півкуля [pre_ftl_planet.GetPlanetHabitatDE1] з такою силою, що це призведе до знищення всього живого.\n\nЗгідно з політикою невтручання, ми обмежуємося пасивним спостереженням, але в даному випадку більшість наших науковців переконані, що слід зробити виняток. Бездіяльність означає страшну смерть для [pre_ftl_country.GetName&gen] на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]."
+ observation.2.a:1 "Непроста ситуація."
+# Asteroid Impacts Pre-FTL planet.
+ observation.4.name:1 "Астероїд врізається в [pre_ftl_planet.GetPlanetHabitatDE3] [pre_ftl_planet.GetName]"
+ observation.4.desc:1 "Як і прогнозувалося, астероїд, що прямував до [pre_ftl_planet.GetPlanetHabitatDE2] [pre_ftl_planet.GetName], врізався і завдав непоправної шкоди всій екосистемі. Ученим на спостережному форпості залишалося лише мовчки споглядати, як гине далеко внизу велика частина [GetPreFTLLower&fem,gen] цивілізації, яку вони вивчали."
+ observation.4.a:1 "Трагічно, але ми не мали права втручатися."
+ observation.4.a.tt:0 "§Y[pre_ftl_country.GetName]§! відкочується в §Yкам'яний вік§!."
+# Asteroid Collides with Observation Post.
+ observation.5.name:1 "Спостережний форпост знищено"
+ observation.5.desc:1 "Дослідники зі спостережного форпосту над [pre_ftl_planet.GetPlanetHabitatDE4] [pre_ftl_planet.GetName] використовували свої орбітальні двигуни для виходу на траєкторію прямого зіткнення з астероїдом, що наближається. Вони пожертвували собою, щоб зберегти [pre_ftl_planet.GetPlanetHabitatDE3]. Ніхто з персоналу не вижив.\n\nОчевидно, вони не могли змиритися з думкою про те, що цивілізація, яку вивчали стільки років, загине."
+ observation.5.a:1 "Це удар для науки!"
+# Observing Empire Destroys Asteroid
+ observation.7.name:1 "Астероїд знищено"
+ observation.7.desc:1 "Астероїд, що прямував до [pre_ftl_planet.GetPlanetHabitatDE2] [pre_ftl_planet.GetName], був знищений перш, ніж він встиг досягти поверхні. Фрагменти, що потрапили в атмосферу, згоріли, не заподіявши нікому шкоди.\n\nАборигени [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_country.GetName] змогли помилуватися видовищним метеоритним дощем. Вони навіть і не здогадуються, що дивом уникли знищення..."
+ observation.7.a:1 "Так і має бути."
+# Third Party Destroys Asteroid (Event for Third Party)
+ observation.8.name:0 "$observation.7.name$"
+ observation.8.desc:0 "$observation.7.desc$"
+ observation.8.a:0 "$observation.7.a$"
+# Third Party Destroys Asteroid (Event for Observing Empire)
+ observation.9.name:0 "$observation.7.name$"
+ observation.9.desc:0 "$observation.7.desc$"
+ observation.9.a:0 "$observation.7.a$"
+# Pre-FTL civilization Diverts Asteroid (Event for Observing Empire)
+ observation.10.name:0 "Астероїд відхилено"
+ observation.10.desc:0 "[pre_ftl_country.GetName] в останній відчайдушній спробі врятувати свій рідний світ б'є по астероїду ядерними ракетами. Незважаючи на недостатній бойовий заряд, орбітальна механіка зробила свою справу: [GetPreFTLLowerPlural&plain] істоти з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] успішно збили астероїд з курсу."
+ observation.10.a:0 "Немає слів!"
+ observation.10.a.tt:0 "§Y[pre_ftl_country.GetName]§! отримує §G+25%§! до науково-технічного прогресу на 24 місяці."
+
+# Missing Scientist
+ observation.101.name:1 "[missing_scientist.GetAXX:Зниклий вчений|||fem:Зникла вчена]"
+ observation.101.desc:2 "Нам доповіли про зникнення [missing_scientist.GetAXX:вченого|||fem:вченой] зі спостережного форпосту на орбіті [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName]. [missing_scientist.GetHeSheCap] [missing_scientist.GetAXX:приймав|||fem:приймала] участь у скритній операції зі збору зразків рослинності на поверхні [pre_ftl_planet.GetPlanetHabitatDE1], але не [missing_scientist.GetAXX:повернувся|||fem:повернулася] на корабель з рештою [missing_scientist.GetHisHer] групою.\n\nМи ведемо пошуки акуратно, щоб місцеві [GetPreFTLLowerPlural&plain] мешканці не стривожилися, але поки безуспішно."
+ observation.101.a:1 "Продовжуйте пошуки."
+ observation.102.name:1 "[missing_scientist.GetAXX:Вченого знайдено мертвим|||fem:Вчену знайдено мертвою]"
+ observation.102.desc:1 "Нам нарешті вдалося відшукати тіло [missing_scientist.GetAXX:вченого|||fem:вченой], [missing_scientist.GetAXX:зниклого|||fem:зниклої] на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]... принаймні, те, що від н[missing_scientist.GetHerHis] залишилося. Судячи з усього, [missing_scientist.GetSheHe] [missing_scientist.GetAXX:став|||fem:стала] жертвою місцевого великого хижака. Це велика втрата для наукової групи, зате тепер ми можемо бути впевнені, що [GetPreFTLLowerPlural&plain] істоти, як і раніше, не підозрюють про нашу присутність."
+ observation.102.a:1 "Директиву не порушено."
+ observation.103.name:1 "Дивні звістки з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName]"
+ observation.103.desc:1 "Ми отримали дивні донесення від спостерігачів зі станції на орбіті [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName]. Одне з місцевих королівств очолив якийсь загадковий релігійний діяч, і тепер там використовують технології, що багаторазово перевершують рівень розвитку цієї цивілізації. Чи не пов'язано це з наш[missing_scientist.GetEyuIm] пропавш[missing_scientist.GetEyuIm] [missing_scientist.GetAXX:співробітником|||fem:співробітницею]?"
+ observation.104.desc:1 "Здрастуйте, друзі. Як багато часу минуло...\n\nСпочатку я [missing_scientist.GetAXX:хотів|||fem:хотіла] б вибачитися, що вам довелося витратити на пошуки так багато часу і сил. Моє зникнення на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] було цілком навмисним.\n\nРозумієте, ці [GetPreFTLLowerPlural&plain] істоти вважають мене божеством... а чому б і ні? Після довгих роздумів я [missing_scientist.GetAXX:зрозумів|||fem:зрозуміла], що мій обов'язок - принести їм справжню цивілізацію."
+ observation.104.a:1 "Що на вас найшло?!"
+ observation.104.a.response:1 "Я [missing_scientist.GetAXX:втомився|||fem:втомилася]. Мене втомили всі ці недалекоглядні етичні обмеження і постійні знущання колег. Але найбільше мені набридла ця проклята директива про невтручання.\n\nХА! Це ж повна маячня! Наш ДОЛГ - втручатися в [GetPreFTLLowerPlural&plain] культури, навчати їх, створювати з них щось прекрасне! Тихо спостерігати здалеку - всього лише ганебний спосіб уникнути відповідальності."
+ observation.104.b:1 "Ви повинні негайно покинути [pre_ftl_planet.GetPlanetHabitatDE3]!"
+ observation.104.b.response:1 "Боюся, для цього занадто пізно. Я більше не [missing_scientist.GetAXX:маю наміру|||fem:маю намір] підкорятися наказам тих, кого не вважаю собі рівнею. Мій інтелект був у вашому розпорядженні, і як БЕЗДАРНО ви ним розпоряджалися!\n\nТут до мене ставляться з повагою, на яку я заслуговую. Тепер це мій дім. Накопичені знання і прихоплені з собою креслення дозволять мені прискорити розвиток цієї раси і привести її до золотого віку."
+ observation.104.c:1 "Ви збожеволіли."
+ observation.104.c.response:1 "Аж ніяк! Я в абсолютно здоровому глузді. [Root.GetName] неминуче загине. Ви сліпці, якщо не бачите всіх ознак цього.\n\nТак, можливо, на це піде ще десять або сто років, але такий результат неминучий, ваш світ завалиться. І коли ви нарешті самі себе знищите вашою бездіяльністю, галактика належатиме молодим расам, сповненим сил і енергії. Саме таку цивілізацію я створюю зараз.\n\nМені більше нічого сказати. Прощавайте."
+ observation.105.name:1 "[missing_scientist.GetAXX:Вчений-втікач|||fem:Вчена-втікачка] збирається з силами"
+ observation.105.desc:2 "Нещодавно ми отримали тривожні новини з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName]. Схоже, [missing_scientist.GetAXX:наш вчений-втікач|||fem:наша вчена-втікачка] збирається з силами. [missing_scientist.GetSheHeCap] [missing_scientist.GetAXX:дав|||fem:дала] одному з феодальних королівств доступ до просунутої зброї, і тепер воно намагається завоювати всю [pre_ftl_planet.GetPlanetMoon]у в ім'я свого "божества".\n\nМи склали план щодо [missing_scientist.GetHerHis] насильницької екстрадиції, але для цього буде потрібна наземна операція. Важко сказати, який вплив це матиме на місцеве населення, адже багато хто боготворить [missing_scientist.GetHerHis]."
+ observation.105.a:1 "Запускайте операцію. [missing_scientist.GetHerHisCap] треба усунути."
+ observation.105.b:1 "Все стане тільки гірше..."
+ observation.106.name:1 "Успішна евакуація"
+ observation.106.desc:1 "Операція з повернення [missing_scientist.GetAXX:вченого-втікача|||fem:вченої-втікачки] із [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] пройшла успішно! [owner.GetPreFTLUpperPlural&plain] створення гинули сотнями. Вони кидалися на наші війська із самовбивчим відчаєм, щоб врятувати [missing_scientist.GetAXX:свого "бога"|||fem:свою "богиню"].\n\nТепер [missing_scientist.GetEyuIm] займуться судові органи, але не можна забувати про те, який вплив усі ці події справили на цивілізацію [pre_ftl_planet.GetPlanetHabitatDE1]. Мало того, що в них залишилися деякі наші технології, так ще їхнє божество викрали прибульці з зірок."
+ observation.106.a:1 "Принаймні, з однією проблемою ми розібралися."
+ observation.107.name:1 "Релігійні конфлікти на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+ observation.107.desc:1 "Після успішної екстрадиції [missing_scientist.GetAXX:нашого вченого-втікача|||fem:нашої вченої-втікачки] на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] вибухнула війна. Створене [missing_scientist.GetEyuIm] держава розкололася на ворогуючі фракції, кожна зі своєю інтерпретацією релігійних догм.\n\nБитви ведуться з особливою жорстокістю через те, що в руках аборигенів опинилася зброя масового знищення. Ворогуючі сторони вже підірвали кілька радіоактивних "брудних бомб", і, судячи з усього, конфлікт лише розгорається."
+ observation.107.a:1 "Усе це добром не скінчиться..."
+ observation.108.name:1 "[pre_ftl_planet.GetName] потроху заспокоюється"
+ observation.108.desc:1 "Після того як ми забрали з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] [missing_scientist.GetAXX:вченого-втікача|||fem:вчену-втікачку], обстановка там поступово стає спокійнішою. Без н[missing_scientist.GetHisHer] аборигени не зможуть розібратися з кресленнями, що залишилися. Тепер вони повертаються до своїх [GetPreFTLLowerPlural&pl,dat] звичаїв і способу життя."
+ observation.108.a:1 "Хоч якісь хороші новини."
+ observation.109.name:1 "Ракета збила спостережний форпост!"
+ observation.109.desc:1 "Лічені години тому кілька ракет "земля - космос" були випущені з поверхні [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] по нашому спостережному форпосту! Станцію знищено, ніхто не вцілів.\n\nНемає жодних сумнівів, що [GetPreFTLLower&neut] населення [pre_ftl_planet.GetPlanetHabitatDE1], продовжує розвиватися небаченими темпами, незважаючи на те що ми позбавили їх так [missing_scientist.GetAXX:так званого "бога"|||fem:так званої "богині"]. Ймовірно, технології, які [missing_scientist.GetSheHe] їм [missing_scientist.GetAXX:надав|||fem:надала], спричинили наукову революцію."
+ observation.109.a:1 "Ось тому ми дотримуємося політики невтручання."
+ observation.110.desc:1 "Хай захистять мене духи! Ти схожий на [missing_scientist.GetAXX:нашого Рятівника|||fem:нашу Рятівницю], але я бачу різницю. [missing_scientist.GetSheHeCap] [missing_scientist.GetAXX:казав|||fem:казала] про демонів, які спробують видати себе за Н[missing_scientist.GetHerHis]. [missing_scientist.GetSheHeCap] [missing_scientist.GetAXX:віщував|||fem:віщувала], що одного разу вони можуть зійти з небес і спробувати викрасти [missing_scientist.GetHerHisCap]. Пророцтво збулося, і я не сумніваюся, що це ваших рук справа.\n\nДе [missing_scientist.GetAXX:наш Рятівник|||fem:наша Рятівниця], презирлива істота? Я вимагаю, щоб ти негайно [missing_scientist.GetHerHisCap] звільнив!"
+ observation.110.a:1 "[missing_scientist.GetAXX:Ваш "Рятівник" - інопланетний вчений|||fem:Ваша "Рятівниця" - інопланетна вчена]."
+ observation.110.a.response:1 "Залиш богохульні промови! Порочити ім'я [missing_scientist.GetAXX:Святого Рятівника|||fem:Святої Рятівниці] - непростимий гріх, за який карають смертю. Лише завдяки [missing_scientist.GetHerHis] священним інструментам наша цивілізація зуміла піднятися так високо. Я готовий пробачити ваш злочин, але ви повинні повернути нам [missing_scientist.GetAXX:Святого Рятівника|||fem:Святу Рятівницю]."
+ observation.110.b:1 "[missing_scientist.GetHeSheCap] [missing_scientist.GetAXX:страчений|||fem:страчена] за злочини проти вашого народу."
+ observation.110.b.response:1 "Вбивці. Підлі, безчесні демони.\n\nПригадайте мої слова: цей злочин не залишиться безкарним. Нехай навіть на це в нас піде тисяча років, але мій народ зітре в пил вашу нечисту державу."
+ observation.110.c:1 "Добре. Ми готові віддати [missing_scientist.GetHisHer] вам."
+ observation.110.c.response:1 "Хай пробачить [missing_scientist.GetAXX:Святий Рятівник|||fem:Свята Рятівниця] всі твої гріхи, демоне. Можливо, для тебе ще є надія."
+ observation.111.desc:1 "Гадаю, мені слід подякувати вам за те, що ви дозволили повернутися до послідовників. Я навіть забуду старі образи, незважаючи на життя в ув'язненні, недолугі методи психодіагностики та несправедливе ставлення загалом. Головне, залиште мій народ у спокої, і ми зможемо співіснувати мирно. Космосу вистачить на всіх."
+ observation.111.a:1 "Подивимося."
+ observation.112.desc:1 "Лічені години тому ракети "земля - космос" були випущені з поверхні [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] по нашому спостережному форпосту, що знаходився на високій орбіті! Станцію знищено, ніхто не вцілів.\n\nЦивілізація на [pre_ftl_planet.GetPlanetHabitatDE5] розвивається небаченими темпами - їм допомагає [missing_scientist.GetAXX:наш вчений-втікач|||fem:наша вчена-втікачка]. Пора почати розглядати їх як потенційну загрозу. І ми втратили можливість відсторонити [missing_scientist.GetHerHis] від влади."
+
+# Shuttle Intercepted
+ observation.201.name:1 "Аварія шлюпки на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+ observation.201.reg_pre_ftl.desc:0 "Під час потайної операції зі збору даних на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] одну з наших шлюпок перехопила ескадрилья винищувачів місцевої держави. Двигун шлюпки постраждав від попадання ракети, і вона впала в безлюдній місцевості.\n\nМи повинні діяти швидко, щоб евакуювати всіх, хто вижив, перш ніж [GetPreFTLLowerPlural&plain] місцеві доберуться до місця катастрофи. Необхідно знищити всі сліди нашої присутності!"
+ observation.201.hive_pre_ftl.desc:0 "Під час потайної операції зі збору даних на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] одну з наших шлюпок перехопила ескадрилья винищувачів, що належить непізнаному розуму. Двигун шлюпки постраждав від попадання ракети, і вона впала в безлюдній місцевості.\n\nМи повинні діяти швидко, щоб евакуювати всіх, хто вижив, перш ніж [GetPreFTLLowerPlural&plain] місцеві доберуться до місця катастрофи. Необхідно знищити всі сліди нашої присутності!"
+ observation.201.reg_pre_ftl.desc.gestalt:0 "Шлюпка XB-23-968H, послана для операції з прихованого спостереження V45-BM на [pre_ftl_planet.GetPlanetHabitatDE3] [pre_ftl_planet.GetName], повідомила про критичні неполадки після її перехоплення ескадрильєю атмосферних винищувачів, що належать непізнаній державі. Ми виявили, що шлюпка перебуває в безлюдному регіоні.\n\nУсі автономні одиниці потрібно евакуювати, а будь-які свідчення нашої присутності - знищити, перш ніж [GetPreFTLLowerPlural&plain] місцеві доберуться до місця катастрофи."
+ observation.201.hive_pre_ftl.desc.gestalt:0 "Наша шлюпка, відправлена виконувати операцію з прихованого спостереження на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], була перехоплена ескадрильєю атмосферних винищувачів, після чого повідомила про критичні неполадки. Ми виявили, що вона впала в безлюдному регіоні.\n\nУсі автономні одиниці потрібно евакуювати, а будь-які свідчення нашої присутності - знищити, поки [GetPreFTLLowerPlural&plain] істоти не дісталися до місця аварії..."
+ observation.201.a:1 "У нас мало часу."
+
+ observation.202.name:1 "Оперативники евакуйовані з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName]"
+
+ observation.202.start:0 "Оперативникам корабля [Root.GetName] вдалося евакуювати всіх, хто вижив, з місця падіння шлюпки на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]. Уламки, що залишилися, були знищені контрольованим вибухом, після якого не залишилося нічого, крім невеликого кратера. Його і виявлять [GetPreFTLLowerPlural&plain] істоти."
+ observation.202.gestalt.start:0 "Оперативникам корабля [Root.GetName] вдалося евакуювати кілька автономних одиниць з місця падіння шлюпки на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]. Уламки, що залишилися, були знищені контрольованим вибухом, після якого не залишилося нічого, крім невеликого кратера. Його і виявлять [GetPreFTLLowerPlural&plain] істоти."
+ observation.202.reg.end:0 "Держава, де стався інцидент, без сумніву, звинуватить у порушенні кордону сусідів. Ми сподіваємося, що ця подія не матиме суттєвого впливу на його природний розвиток."
+ observation.202.hive_mind.end:0 "Колективна свідомість, на території якої стався інцидент, без сумніву, звинуватить у порушенні кордону сусідів. Ми сподіваємося, що ця подія не матиме суттєвого впливу на її природний розвиток."
+
+ observation.202.reg_pre_ftl.desc:0 "$observation.202.start$\n\n$observation.202.reg.end$"
+ observation.202.hive_pre_ftl.desc:0 "$observation.202.start$\n\n$observation.202.hive_mind.end$"
+ observation.202.reg_pre_ftl.desc.gestalt:0 "$observation.202.gestalt.start$\n\n$observation.202.reg.end$"
+ observation.202.hive_pre_ftl.desc.gestalt:0 "$observation.202.gestalt.start$\n\n$observation.202.hive_mind.end$"
+
+ observation.203.name:1 "Оперативники захоплені на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+
+ observation.203.start:0 "[GetPreFTLUpper&plain] народ з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] послав війська. Вони прибули на місце аварії шлюпки раніше, ніж ми встигли евакуювати дослідницьку групу, і захопили тих, хто вижив, у полон."
+ observation.203.gestalt.start:0 "[GetPreFTLUpper&plain] народ з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName], послав війська. Вони прибули на місце аварії шлюпки раніше, ніж ми встигли евакуювати дослідницьку групу, і захопили оперативників, які діяли незалежно, у полон."
+ observation.203.reg.end:0 "[GetPreFTLUpperPlural&plain] сили [pre_ftl_planet.GetPlanetHabitatDE1] охороняють усі підходи до місця катастрофи, і немає сумніву в тому, що їхні найкращі вчені зараз вивчають усе, що їм вдалося там знайти.\n\nТепер у них є незаперечні докази того, що в космосі існує розумне життя. Невідомо, як це позначиться на їхньому розвитку..."
+ observation.203.hive_mind.end:0 "[GetPreFTLUpperPlural&plain] сили [pre_ftl_planet.GetPlanetHabitatDE1] охороняють усі підходи до місця катастрофи і, безсумнівно, вивчають усе, що їм вдалося там знайти.\n\nТепер у них є незаперечні докази того, що в космосі існує розумне життя. Невідомо, як це позначиться на їхньому розвитку..."
+
+ observation.203.reg_pre_ftl.desc:0 "$observation.203.start$\n\n$observation.203.reg.end$"
+ observation.203.hive_pre_ftl.desc:0 "$observation.203.start$\n\n$observation.203.hive_mind.end$"
+ observation.203.reg_pre_ftl.desc.gestalt:0 "$observation.203.gestalt.start$\n\n$observation.203.reg.end$"
+ observation.203.hive_pre_ftl.desc.gestalt:0 "$observation.203.gestalt.start$\n\n$observation.203.hive_mind.end$"
+ observation.203.a:1 "Це недобре."
+
+# Nuclear War, everyone dead, planet is a tomb world
+ observation.205.name:0 "Ядерна війна на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+
+ observation.205.reg.start:0 "Кілька держав на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] об'єдналися проти сусіда, який збив нашу шлюпку, а потім відмовився ділитися технологіями, здобутими на місці аварії."
+ observation.205.hive_mind.start:0 "За безпрецедентного збігу обставин кілька видів свідомостей на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] об'єдналися проти сусіда, який збив нашу шлюпку, а потім відмовився ділитися технологіями, здобутими на місці аварії."
+ observation.205.end:0 "Після швидкоплинної війни із застосуванням звичайної зброї обидві сторони обмінялися потужними ядерними ударами. Тепер [pre_ftl_planet.GetPlanetHabitat] майже цілком лежить у руїнах.\n\nНа поверхні не залишилося вцілілих. Загинули всі, включно з нашими вченими, захопленими в полон. Навколишньому середовищу завдано значної шкоди."
+ observation.205.gestalt.end:0 "Після швидкоплинної війни із застосуванням звичайної зброї обидві сторони обмінялися потужними ядерними ударами. Тепер [pre_ftl_planet.GetPlanetHabitat] майже цілком лежить у руїнах.\n\nНа поверхні не залишилося вцілілих. Загинули всі, включно з нашими одиницями, захопленими в полон. Навколишньому середовищу завдано значної шкоди."
+
+ observation.205.reg_pre_ftl.desc:0 "$observation.205.reg.start$\n\n$observation.205.end$"
+ observation.205.hive_pre_ftl.desc:0 "$observation.205.hive_mind.start$\n\n$observation.205.end$"
+ observation.205.reg_pre_ftl.desc.gestalt:0 "$observation.205.reg.start$\n\n$observation.205.gestalt.end$"
+ observation.205.hive_pre_ftl.desc.gestalt:0 "$observation.205.hive_mind.start$\n\n$observation.205.gestalt.end$"
+
+ observation.205.a:1 "Ех, якби нам тоді вдалося врятувати шлюпку..."
+
+# Nuclear War, everyone dead, planet is a toxic world
+ observation.206.name:0 "$observation.205.name$"
+
+ observation.206.reg.start:0 "$observation.205.reg.start$"
+ observation.206.hive_mind.start:0 "$observation.205.hive_mind.start$"
+ observation.206.end:0 "Після швидкоплинної війни із застосуванням звичайної зброї обидві сторони обмінялися потужними ядерними ударами. Тепер [pre_ftl_planet.GetPlanetHabitat] майже цілком лежить у руїнах.\n\nВід населення на поверхні залишився тільки попіл. [pre_ftl_planet.GetName] більше не зможе підтримувати життя. Серед мільярдів загиблих опинилися і наші вчені, захоплені в полон"
+ observation.206.gestalt.end:0 "Після швидкоплинної війни із застосуванням звичайної зброї обидві сторони обмінялися потужними ядерними ударами. Тепер [pre_ftl_planet.GetPlanetHabitat] майже цілком лежить у руїнах.\n\nВід населення на поверхні залишився тільки попіл. [pre_ftl_planet.GetName] більше не зможе підтримувати життя. Серед мільярдів загиблих опинилися і наші одиниці, захоплені в полон."
+
+ observation.206.reg_pre_ftl.desc:0 "$observation.206.reg.start$\n\n$observation.206.end$"
+ observation.206.hive_pre_ftl.desc:0 "$observation.206.hive_mind.start$\n\n$observation.206.end$"
+ observation.206.reg_pre_ftl.desc.gestalt:0 "$observation.206.reg.start$\n\n$observation.206.gestalt.end$"
+ observation.206.hive_pre_ftl.desc.gestalt:0 "$observation.206.hive_mind.start$\n\n$observation.206.gestalt.end$"
+
+ observation.206.a:1 "$observation.205.a$"
+
+# Nuclear War, pre-ftls regress to stone age, planet is a tomb world
+ observation.207.name:0 "$observation.205.name$"
+
+ observation.207.reg.start:0 "$observation.205.reg.start$"
+ observation.207.hive_mind.start:0 "$observation.205.hive_mind.start$"
+ observation.207.end:0 "Після швидкоплинної війни із застосуванням звичайної зброї обидві сторони обмінялися потужними ядерними ударами. Тепер [pre_ftl_planet.GetPlanetHabitat] майже цілком лежить у руїнах.\n\nВід такого [pre_ftl_planet.GetPlanetHabitat] оговтається ще не скоро: усі великі міста перетворилися на пил, а понад 90% населення загинуло. З-під завалів уже вибралися нечисленні вцілілі, але наші дослідники прогнозують, що місцева цивілізація тепер відкотиться до менш розвиненого стану. Серед мільярдів загиблих опинилися і наші вчені, захоплені в полон."
+ observation.207.gestalt.end:0 "Після швидкоплинної війни із застосуванням звичайної зброї обидві сторони обмінялися потужними ядерними ударами. Тепер [pre_ftl_planet.GetPlanetHabitat] майже цілком лежить у руїнах.\n\nВід такого [pre_ftl_planet.GetPlanetHabitat] оговтається ще не скоро: усі великі міста перетворилися на пил, а понад 90% населення загинуло. З-під завалів уже вибралися нечисленні вцілілі, але наші спостерігачі прогнозують, що місцева цивілізація тепер відкотиться до менш розвиненого стану. Серед мільярдів загиблих опинилися і наші одиниці, захоплені в полон."
+
+ observation.207.reg_pre_ftl.desc:0 "$observation.207.reg.start$\n\n$observation.207.end$"
+ observation.207.hive_pre_ftl.desc:0 "$observation.207.hive_mind.start$\n\n$observation.207.end$"
+ observation.207.reg_pre_ftl.desc.gestalt:0 "$observation.207.reg.start$\n\n$observation.207.gestalt.end$"
+ observation.207.hive_pre_ftl.desc.gestalt:0 "$observation.207.hive_mind.start$\n\n$observation.207.gestalt.end$"
+
+ observation.207.a:1 "$observation.205.a$"
+
+ observation.209.name:1 "Нова зброя на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+
+ observation.209.reg_pre_ftl.desc:0 "Держава на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], що збила нашу шлюпку, примусила захоплених у полон учених розробляти для них нову зброю. Отримавши таку перевагу, вони захопили кількох сусідів, а тепер намагаються об'єднати [pre_ftl_planet.GetPlanetHabitatDE3] під своєю владою."
+ observation.209.hive_pre_ftl.desc:0 "Свідомість на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], що збила нашу шлюпку, примусила захоплених у полон учених розробляти для його армії нову зброю. Отримавши таку перевагу, вони захопили кілька сусідніх вуликів, а тепер намагаються об'єднати [pre_ftl_planet.GetPlanetHabitatDE3] під своєю владою."
+ observation.209.reg_pre_ftl.desc.gestalt:0 "Держава на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], що збила нашу шлюпку, примусила захоплені в полон одиниці розробляти для його армії нову зброю. Отримавши таку перевагу, вони захопили кількох сусідів, а тепер намагаються об'єднати [pre_ftl_planet.GetPlanetHabitatDE3] під своєю владою."
+ observation.209.hive_pre_ftl.desc.gestalt:0 "Свідомість на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], що збила нашу шлюпку, примусила захоплені в полон одиниці розробляти для його армії нову зброю. Отримавши таку перевагу, вони захопили кілька сусідніх вуликів, а тепер намагаються об'єднати [pre_ftl_planet.GetPlanetHabitatDE3] під своєю владою."
+
+ observation.209.a:1 "Це неприпустимо!"
+
+ observation.211.name:1 "Угода із заручниками"
+
+ observation.211.reg.start:0 "Держава на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], яка збила нашу шлюпку, направила в космос відкрите повідомлення через один зі своїх супутників. Судячи з усього, воно призначене нам."
+ observation.211.hive_mind.start:0 "Свідомість на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], яка збила нашу шлюпку, направила в космос відкрите повідомлення через один зі своїх супутників. Судячи з усього, воно призначене нам."
+ observation.211.end:0 "Вони вимагають, щоб ми поділилися з ними просунутими технологіями, а натомість обіцяють повернути вчених, захоплених на місці аварії шлюпки. Якщо ми відмовимося, вони публічно стратять бранців і покажуть це в прямому ефірі по своєму примітивному телебаченню."
+ observation.211.gestalt.end:0 "Вони вимагають, щоб ми поділилися з ними просунутими технологіями, а натомість обіцяють повернути одиниці, захоплені на місці аварії шлюпки. Якщо ми відмовимося, вони публічно стратять бранців і покажуть це в прямому ефірі по своєму примітивному телебаченню"
+
+ observation.211.reg_pre_ftl.desc:0 "$observation.211.reg.start$\n\n$observation.211.end$"
+ observation.211.hive_pre_ftl.desc:0 "$observation.211.hive_mind.start$\n\n$observation.211.end$"
+ observation.211.reg_pre_ftl.desc.gestalt:0 "$observation.211.reg.start$\n\n$observation.211.gestalt.end$"
+ observation.211.hive_pre_ftl.desc.gestalt:0 "$observation.211.hive_mind.start$\n\n$observation.211.gestalt.end$"
+ observation.211.a:1 "Безпека вчених понад усе."
+ observation.211.a.gestalt:1 "Безпека наших автономних одиниць понад усе."
+ observation.211.b:1 "Вони ще до такого не готові."
+
+ observation.212.name:1 "Заручників страчено"
+
+ observation.212.desc:1 "Наші вчені, захоплені в полон на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], стали жертвами жахливого спектаклю. Їх продемонстрували в прямому ефірі як "інопланетних чудовиськ"."
+ observation.212.desc.mach:1 "Наші наукові одиниці, захоплені в полон на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], стали жертвами жахливого спектаклю. Їх продемонстрували в прямому ефірі як "жахливі машини, що прилетіли із зірок"."
+ observation.212.a:1 "Сумно!"
+
+# Smuggler Outpost
+ observation.301.name:1 "Форпост контрабандистів"
+ observation.301.desc:1 "Наш спостережний форпост над астероїдом [pre_ftl_planet.GetName] виявила нелегальне поселення на поверхні [pre_ftl_planet.GetPlanetHabitatDE1]. Судячи з усього, на цьому форпості мешкають [Root.GetSpeciesName]-контрабандисти та інші кримінальні елементи, якими так славиться [Root.GetName].\n\nКонтрабандисти вже знайшли, де знаходяться місцеві [GetPreFTLLowerPlural&plain] мешканці, і кілька разів це закінчувалося кровопролиттям. Ми повинні якнайшвидше вирішити ситуацію і не дозволити злочинцям завдати ще більшої шкоди."
+ observation.301.a:1 "Провести зачистку."
+ observation.301.b:1 "Що такого може накоїти жменька контрабандистів?"
+ observation.302.name:1 "Рейд проти контрабандистів"
+ observation.302.desc:1 "Наші наземні сили завдали стрімкого удару по форпосту контрабандистів на астероїді [pre_ftl_planet.GetName]. Після короткої перестрілки вцілілі злочинці були заарештовані і відправлені на орбіту. Порожні будівлі знищено за допомогою вибухових пристроїв.\n\nМи вважаємо, що культурне зараження вдалося зберегти на мінімальному рівні. Крім того, було вилучено велику кількість нелегальних товарів. Прибуток від операції надійде до бюджету."
+ observation.302.a:1 "Це гідна перемога."
+ observation.303.name:1 "Контрабандна торгівля зброєю"
+ observation.303.desc:3 "Ми запізнилися: [GetPreFTLLowerPlural&plain] істоти на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] почали отримувати від контрабандистів сучасну зброю і найпростіші наркотичні стимулятори в обмін на дорогоцінні метали і рабів.\n\nМіж місцевими угрупованнями почалася війна. Дорвавшись до нової високотехнологічної зброї, вони практично перебили одне одного. На цьому етапі культурне зараження можна вважати незворотнім."
+ observation.303.a:1 "Це катастрофа."
+
+# Scientist Abduction
+ observation.1001.name:0 "Пропозиція про викрадення"
+ observation.1001.desc:1 "На [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] мешкають [owner.GetPreFTLLowerPlural&plain] [pre_ftl_country.GetSpeciesNamePlural], але серед них є [abducted_scientist.GetAXX:вчений, що подає|||fem:вчена, що подає] великі надії. У своїх блискучих дослідженнях [abducted_scientist.GetSheHe] значно [abducted_scientist.GetAXX:випередив|||fem:випередила] колег, а дещо з [abducted_scientist.GetHerHis] ідей революційно навіть за нашими мірками.\n\nХоча завдяки [abducted_scientist.GetHerHim] технічний прогрес [pre_ftl_country.GetSpeciesNamePlural&gen] явно прискориться, [abducted_scientist.GetHerHis] потенціал лише розтрачується на цей [owner.GetPreFTLLower&plain] народ. У наших вдосконалених лабораторіях [abducted_scientist.GetAXX:він міг|||fem:вона могла] би зайнятися справжньою наукою."
+ observation.1001.a:0 "Складіть сценарій викрадення."
+ observation.1001.b:1 "[abducted_scientist.GetHeSheCap] все ще [owner.GetPreFTLLower&plain] мешканець. Не варто відбирати [abducted_scientist.GetHisHer] у народу."
+ observation.1002.name:0 "Викрадення вдалося"
+ observation.1002.desc:2 "Наші агенти успішно викрали [abducted_scientist.GetAXX:вченого|||fem:вчену] із [pre_ftl_country.GetName&gen]! Один із наших наземних човників перехопив [abducted_scientist.GetHerHis] автомобіль, коли [abducted_scientist.GetAXX:він повертався|||fem:вона поверталася] додому пізно вночі після роботи, і вивів її з ладу за допомогою електромагнітного імпульсу.\n\nТимчасово [abducted_scientist.GetAXX:паралізованого вченого|||fem:паралізовану вчену] доставили на човник, а його охоронцям вибірково почистили пам'ять. Ми впевнені, що зможемо "переконати" [abducted_scientist.GetAXX:хорошого вченого|||fem:хорошу вчену] попрацювати на нас."
+ observation.1002.tt:0 "До нас приєднається §Y$leader_trait_spark_of_genius$ [abducted_scientist.GetAXX:вчений|||fem:вчена]-[pre_ftl_country.GetSpeciesName] 6-го рівня§!."
+ observation.1003.name:0 "Викрадення не вдалося"
+ observation.1003.desc:2 "На жаль, наша спроба викрасти [abducted_scientist.GetAXX:вченого|||fem:вчену] із [pre_ftl_country.GetName&gen] провалилася. Один із наших наземних човників перехопив [abducted_scientist.GetHerHis] автомашину, але коли промінь левітації переносив [abducted_scientist.GetAXX:паралізованого вченого|||fem:паралізовану вчену] у вантажний відсік, з'явився [pre_ftl_country.GetSpeciesAdj&masc] атмосферний винищувач.\n\nЧовник зумів безпечно повернутися на орбіту, але промінь левітації довелося відключити, і [abducted_scientist.GetAXX:вчений|||fem:вчена]... коротше кажучи, падіння було довгим. Будемо сподіватися, що провину за його смерть [pre_ftl_country.GetSpeciesName] покладуть на країни, що змагаються з ними."
+ observation.1004.name:0 "Прорив на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]!"
+ observation.1004.desc:0 "Вчений, якого ми вперше впізнали ще на планеті [pre_ftl_planet.GetName], проявляє неабиякий талант. Завдяки [abducted_scientist.GetHisHer] гострому аналітичному розуму і нестандартному підходу до досліджень [pre_ftl_country.GetName] переживає технічну революцію."
+ observation.1004.a:0 "Немає слів!"
+
+# Defense Force
+ observation.1101.name:1 "[pre_ftl_planet.GetName]: Оперативна група з боротьби з інопланетянами"
+ observation.1101.desc:1 "Явно у відповідь на наші дії багато [GetPreFTLLowerPlural&plain] держав [pre_ftl_country.GetSpeciesName] на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] моментально забули про свої чвари і заснували нову наддержавну військову організацію.\n\nЗгідно з місцевими ЗМІ, ця оперативна група несе відповідальність за захист [pre_ftl_planet.GetPlanetHabitatDE1] від "ворожої діяльності, яку невідоме інопланетне відомство веде проти раси [pre_ftl_country.GetSpeciesName] в цілому"."
+# Interceptions
+ observation.1102.name:1 "[pre_ftl_planet.GetName]: Діяльність оперативної групи"
+ observation.1102.desc:1 "Розвідувальні відеоматеріали, відзняті нашим спостережним форпостом на орбіті [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName], підтвердили будівництво на її поверхні кількох нових військових баз і радіолокаційних комплексів під контролем наддержавної оперативної групи по боротьбі з інопланетянами, яку заснували [pre_ftl_country.GetSpeciesNamePlural].\n\nМи спостерігаємо безпрецедентний рівень співпраці між місцевими державами, адже нашим польотам, що виконуються з метою викрадення, тепер регулярно заважають атмосферні винищувачі, що належать цій групі. Незважаючи на нашу технологічну перевагу, вони лише через свою кількість змогли збити кілька наших викрадальних човників!"
+ observation.1102.a:0 "Це зашкодить нашим активним спостереженням."
+# Observation Post Lost 
+ observation.1103.name:1 "[pre_ftl_planet.GetName]: Втрата спостережного форпосту"
+ observation.1103.desc:1 "Наш спостережний форпост на орбіті [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] знищено! Причиною стала велика ракета класу "Земля - космос", випущена з однієї з військових баз під контролем наддержавної оперативної групи, яку заснували [pre_ftl_country.GetSpeciesName].\n\nМи досі не можемо точно сказати, як їм вдалося з'ясувати місцезнаходження форпосту, оскільки було вжито масштабних запобіжних заходів, щоб [pre_ftl_country.GetSpeciesNamePlural] не дізналися про її існування. Згідно з однією теорією, аборигени зуміли здійснити інженерний аналіз технологій, отриманих від наших збитих човників."
+ observation.1103.a:0 "Це обурливо!"
+# Strike
+ observation.1105.name:1 "[pre_ftl_planet.GetName]: Точковий удар"
+ observation.1105.desc:1 "Персонал нашого спостережного форпосту на орбіті [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] попросив допомогти їм вирішити проблему з оперативною групою з боротьби з інопланетянами, яку [pre_ftl_country.GetSpeciesNamePlural] створили у відповідь на наші активні спостереження. Незважаючи на те що ця організація є архаїчною за нашими мірками, вона навчилася ефективно заважати викраденням, які ми проводимо.\n\nМісцезнаходження їхньої основної бази - [pre_ftl_planet.GetAMountainFeature], у самій глибині. Орбітальне бомбардування буде неефективним, але стрімкий наліт, виконаний добре озброєним ударним загоном, дозволить захопити базу зненацька. З її руйнуванням оперативна група [pre_ftl_country.GetSpeciesName], що приносить стільки незручностей, припинить своє існування."
+ observation.1105.a:1 "Так і зробіть."
+ observation.1105.b:1 "Ні, нам не слід ще більше спрямовувати їх проти нас..."
+ observation.1106.name:2 "[pre_ftl_planet.GetName]: Успішний удар"
+ observation.1106.desc:2 "Наша місія зі знищення основної бази наддержавної оперативної групи, яку заснували [pre_ftl_country.GetSpeciesName], завершилася повним успіхом! Коли наш ударний загін проник на базу, її захисники зі своїм мізерним озброєнням не змогли впоратися з нашими кваліфікованими оперативниками.\n\nЗаклавши заряди вибухової речовини глибоко всередині бази, ударний загін був поспіхом евакуйований очікуючими на нього човниками. Від цієї настирливої оперативної групи тепер нічого не залишилося."
+ observation.1106.a:1 "Місію виконано успішно."
+ observation.1107.name:3 "[pre_ftl_planetGetName]: Невдалий удар"
+ observation.1107.desc:2 "Наша місія зі знищення основної бази наддержавної оперативної групи, яку заснували [pre_ftl_country.Owner.GetSpeciesName], зазнала фіаско! Кілька човників, що перевозили наш ударний загін, були збиті прихованими зенітними засобами ще до того, як долетіли до бази. Коли оперативники, що залишилися, нарешті дісталися до входу на базу, вони зустріли несподівано завзятий опір.\n\nОскільки [pre_ftl_country.Owner.GetSpeciesName] очікували на швидке прибуття підкріплення, командир ударного загону врешті-решт віддав наказ відступати. На жаль, коли наші евакуаційні човники проривалися на орбіту, їх перехопило велике з'єднання атмосферних винищувачів. Втрати були величезними."
+ observation.1107.a:1 "Це катастрофа!"
+# Disbanded 
+ observation.1104.name:1 "[pre_ftl_planet.GetName]: Розпуск оперативної групи"
+ observation.1104.desc:1 "Наддержавна оперативна група, яку держави [pre_ftl_country.GetSpeciesName] заснували для зриву нашої діяльності на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], розпущено! Хоча вони якимось чином змогли здобути кілька важливих перемог у бою з нашими човниками і командами викрадачів, деякі засновники організації вирішили припинити фінансування і відмовитися від цього проекту.\n\nРозвідка пояснює такий несподіваний поворот подій внутрішніми чварами і дипломатичними хитрощами між державами [pre_ftl_country.GetSpeciesName]."
+ observation.1104.a:1 "Приємно, нехай і несподівано."
+
+# Malfunctioning Implants
+ observation.1201.name:1 "[pre_ftl_planet.GetName]: Збій імплантатів"
+ observation.1201.desc:1 "У рамках нашої діяльності зі спостереження на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] команди викрадачів провели хірургічні операції зі встановлення імплантатів у мозок деяких піддослідних [pre_ftl_country.GetSpeciesName&gen], щоб відстежувати їх і спостерігати за їхньою поведінкою. На жаль, через виробничий дефект багато з цих імплантатів дали збій і зараз мають... негативний ефект на поведінку наших піддослідних.\n\nБуло чимало самогубств і не менше трьох випадків буйної істерії. Наші [root.GetResearcherPlural] зі спостережного форпосту попросили допомоги в зборі піддослідних, які залишилися, і видаленні імплантатів, поки інцидентів не побільшало."
+ observation.1201.a:0 "Потрібно вирішити цю ситуацію."
+ observation.1201.b:0 "Це не наша проблема."
+ observation.1202.name:3 "[pre_ftl_planet.GetName]: Імплантати видалено"
+ observation.1202.desc:2 "Команди викрадачів із нашого спостережного форпосту на орбіті [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] спільно з екіпажем корабля [Root.GetName] швидко зібрали решту піддослідних [pre_ftl_country.GetSpeciesName&gen], яким у мозок було встановлено несправні імплантати.\n\nХірургічний персонал спостережного форпосту замінив імплантати на справні, і піддослідні повернулися на поверхню. Провідний учений [Root.GetLeaderName] повідомляє про несподіваний бонус, оскільки з витягнутих імплантатів, незважаючи на їхні дефекти, вдалося отримати масу інформації."
+ observation.1202.a:0 "Хоч якась користь."
+ observation.1203.name:3 "[pre_ftl_planet.GetName]: Імплантати не видалені"
+ observation.1203.desc:2 "Дефектні імплантати мозку впливали на останніх із наших піддослідних [pre_ftl_country.GetSpeciesName&gen] на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]. Багато хто прийшов у повну несамовитість, вигукуючи випадкові сегменти коду з мови програмування, яку [Root.GetSpeciesName] використовували в їхніх імплантатах, і люто нападаючи на будь-який об'єкт у безпосередній близькості."
+ observation.1203.a:0 "Як таке могло статися?"
+ observation.1205.name:0 "[pre_ftl_planet.GetName]: імплантати прийняті"
+ observation.1205.desc:1 "Раса [pre_ftl_country.GetSpeciesName] на планеті [pre_ftl_planet.GetName] зайнялася власними дослідженнями залишених нами імплантатів. Якимось чином ці [GetPreFTLLower] істоти змогли випередити нас і розробити кібертехнології, більш сумісні з їхньою анатомією."
+ observation.1205.a:0 "Немає слів!"
+ observation.1205.tt:0 "Раса §Y[pre_ftl_country.GetSpeciesName]§! освоює §Yкібернетику§!."
+
+# Ethic Shifts
+ observation.1301.name:1 "Зміна принципів на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+ observation.1301.xenophobe:0 "Ми помітили значні зміни в поведінці [GetPreFTLLower&masc,gen] народа [pre_ftl_country.GetSpeciesNamePlural] на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]. Їхнє суспільство стало більш зверненим всередину, і тепер вони набагато менш прихильні до незнайомців.\n\nСхоже, певну роль у цьому зіграли наші польоти і викрадення в рамках активного спостереження за їхнім [pre_ftl_planet.GetPlanetHabitatDE4], в результаті чого [pre_ftl_country.GetSpeciesNamePlural] тепер більш насторожено ставляться до всього невідомого."
+ observation.1301.xenophile:0 "Ми помітили значні зміни в поведінці [pre_ftl_country.GetSpeciesNamePlural&gen] на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]. Це [GetPreFTLLower&neut] суспільство стало більш відкритим, і тепер воно набагато прихильніше до незнайомців.\n\nСхоже, певну роль у цьому зіграли наші спостережні польоти, внаслідок чого [pre_ftl_country.GetSpeciesNamePlural] тепер виявляють більше цікавості до всього невідомого."
+ observation.1301.spiritualist:0 "Деякі з наших команд викрадачів, що базуються на спостережному форпості на орбіті [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName], очевидно, використовували двигуни своїх човників, щоб випалювати великі кола і складні фігури на полях зернових, які на [GetPreFTLLower&femprep] [pre_ftl_planet.GetPlanetHabitatDE5] вирощують [pre_ftl_country.GetSpeciesNamePlural].\n\nЕкіпажі човників отримали серйозну догану за цю витівку, але кола на полях, схоже, набули якогось духовного значення для місцевих жителів. Через ці фігури [pre_ftl_country.GetSpeciesNamePlural] створили нову релігію, яка набуває популярності серед них з лякаючою швидкістю."
+ observation.1301.materialist:0 "Деякі з наших команд викрадачів, що базуються на спостережному форпості над поселенням [pre_ftl_planet.GetName], очевидно, використовували двигуни своїх човників, щоб випалювати великі кола і складні фігури на полях зернових, які на [GetPreFTLLower&femprep] [pre_ftl_planet.GetPlanetHabitatDE5] вирощують [pre_ftl_country.GetSpeciesNamePlural].\n\nЕкіпажі човників дістали серйозну догану за цю витівку, але, схоже, місцеві жителі тепер упевнені, що в колах на полях прихований якийсь математичний сенс. У народі виник новий науковий рух, що вивчає ці фігури, і [pre_ftl_country.GetSpeciesNamePlural] все частіше поповнюють його лави."
+
+# Nuclear War, everyone dead, planet is a tomb world
+ observation.1402.name:0 "Ядерна війна на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+
+ observation.1402.reg.start:0 "На [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] нещодавно почалися масштабні військові дії між кількома найбільшими державами."
+ observation.1402.hive_mind.start:0 "На [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] нещодавно почалися масштабні воєнні дії між кількома свідомостями."
+ observation.1402.end:0 "Наші дослідники вели спостереження з орбіти за стрімкою ескалацією ядерного конфлікту.\n\nНаскільки ми можемо судити, у вогні війни загинуло все населення [pre_ftl_planet.GetPlanetHabitatDE1], а навколишньому середовищу завдано суттєвої шкоди."
+ observation.1402.gestalt.end:0 "Наші одиниці вели спостереження з орбіти за стрімкою ескалацією ядерного конфлікту.\n\nНаскільки ми можемо судити, у вогні війни загинуло все населення [pre_ftl_planet.GetPlanetHabitatDE1], а навколишньому середовищу завдано суттєвої шкоди."
+
+ observation.1402.reg_pre_ftl.desc:0 "$observation.1402.reg.start$\n\n$observation.1402.end$"
+ observation.1402.hive_pre_ftl.desc:0 "$observation.1402.hive_mind.start$\n\n$observation.1402.end$"
+ observation.1402.reg_pre_ftl.desc.gestalt:0 "$observation.1402.reg.start$\n\n$observation.1402.gestalt.end$"
+ observation.1402.hive_pre_ftl.desc.gestalt:0 "$observation.1402.hive_mind.start$\n\n$observation.1402.gestalt.end$"
+
+ observation.1402.a:1 "Трагічний урок."
+
+# Nuclear War, everyone dead, planet is a toxic world
+ observation.1404.name:0 "$observation.1402.name$"
+
+ observation.1404.reg.start:0 "$observation.1402.reg.start$"
+ observation.1404.hive_mind.start:0 "$observation.1402.hive_mind.start$"
+ observation.1404.end:0 "З орбіти наші дослідники спостерігали, як конфлікт швидко переріс у ядерну війну планетарного масштабу.\n\nУсе життя на поверхні [pre_ftl_planet.GetPlanetHabitatDE1] знищена. Тепер це безлюдна пустка."
+ observation.1404.gestalt.end:0 "З орбіти наші одиниці стежили, як конфлікт швидко переріс у ядерну війну планетарного масштабу.\n\nУсе життя на поверхні [pre_ftl_planet.GetPlanetHabitatDE1] знищена. Тепер це безлюдна пустка."
+
+ observation.1404.reg_pre_ftl.desc:0 "$observation.1404.reg.start$\n\n$observation.1404.end$"
+ observation.1404.hive_pre_ftl.desc:0 "$observation.1404.hive_mind.start$\n\n$observation.1404.end$"
+ observation.1404.reg_pre_ftl.desc.gestalt:0 "$observation.1404.reg.start$\n\n$observation.1404.gestalt.end$"
+ observation.1404.hive_pre_ftl.desc.gestalt:0 "$observation.1404.hive_mind.start$\n\n$observation.1404.gestalt.end$"
+
+ observation.1404.a:1 "$observation.1402.a$"
+
+# Nuclear War, pre-ftls regress to stone age, planet is a tomb world
+ observation.1406.name:0 "$observation.1402.name$"
+
+ observation.1406.reg.start:0 "$observation.1402.reg.start$"
+ observation.1406.hive_mind.start:0 "$observation.1402.hive_mind.start$"
+ observation.1406.end:0 "Наші дослідники вели спостереження з орбіти за стрімкою ескалацією ядерного конфлікту.\n\nПланеті завдано великої шкоди, знищено всі великі міста і понад 90% населення. Деякі вцілілі ховаються серед руїн, і наші дослідники прогнозують, що незабаром ця цивілізація скотиться до куди менш розвиненого рівня."
+ observation.1406.gestalt.end:0 "Наші одиниці вели спостереження з орбіти за стрімкою ескалацією ядерного конфлікту.\n\nПланеті завдано великої шкоди, знищено всі великі міста і понад 90% населення. Деякі вцілілі ховаються серед руїн, і наші одиниці прогнозують, що незабаром ця цивілізація скотиться до куди менш розвиненого рівня."
+
+ observation.1406.reg_pre_ftl.desc:0 "$observation.1406.reg.start$\n\n$observation.1406.end$"
+ observation.1406.hive_pre_ftl.desc:0 "$observation.1406.hive_mind.start$\n\n$observation.1406.end$"
+ observation.1406.reg_pre_ftl.desc.gestalt:0 "$observation.1406.reg.start$\n\n$observation.1406.gestalt.end$"
+ observation.1406.hive_pre_ftl.desc.gestalt:0 "$observation.1406.hive_mind.start$\n\n$observation.1406.gestalt.end$"
+
+ observation.1406.a:1 "$observation.1402.a$"
+
+# Research Proposal
+ observation.1501.name:1 "Дослідницька пропозиція"
+ observation.1501.desc:2 "Наші вчені зі спостережного форпосту над [pre_ftl_planet.GetPlanetHabitatDE4] [pre_ftl_planet.GetName] запросили допомогу наукового корабля, щоб зібрати зразки з поверхні [pre_ftl_planet.GetPlanetHabitatDE1]. Для досліджень їм потрібні [GetPreFTLLowerPlural&plain] істоти, яких треба таємно викрасти і провести над ними експерименти. Потім піддослідним зітруть пам'ять і повернуть їх на [pre_ftl_planet.GetPlanetHabitatDE3]."
+ observation.1501.a:1 "Це допоможе нам краще пізнати їх."
+ observation.1501.b:1 "Ні, їх потрібно залишити в спокої."
+ observation.1501.b.tt:0 "§Y$mission_passive_observation$§! тепер виробляє §G+2§! $r_unity$\n$t$§R$mission_passive_observation$ не можна буде змінити!§!"
+ observation.1502.desc:2 "Корабель [Root.GetName] виконав наукове завдання на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]. Опустившись якомога ближче до поверхні під покровом ночі, шлюпки наукового корабля за допомогою ЕМ-випромінювання зупинили кілька архаїчних автомобілів, оснащених двигунами внутрішнього згоряння. Істоти, що перебували там [GetPreFTLLowerPlural&plain], були приспані і взяті на борт. Інші групи в цей час провели анатомічний розтин кількох великих домашніх тварин.\n\nОперація пройшла майже непомітно для населення [pre_ftl_planet.GetPlanetHabitatDE1], якщо не брати до уваги кількох повідомлень про "дивні вогні" та інциденту з колами на полях, що були навмисно випалені двигунами однієї зі шлюпок. Ця група отримала догану."
+ observation.1502.a:0 "Гарна робота."
+
+# Special Projects for events above.
+ EXTRACT_MISSING_SCIENTIST:1 "Витягнути зниклого вченого"
+ EXTRACT_MISSING_SCIENTIST_DESC:1 "Один із наших вчених утік, і [GetPreFTLLowerPlural&plain] суспільства на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] тепер шанують його як живе божество. Ми повинні провести операцію з його усунення - силою, якщо буде потрібно."
+ SHUTTLE_INTERCEPTED:1 "Врятувати тих, хто вижив із човника"
+ SHUTTLE_INTERCEPTED_DESC:1 "Аборигени [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] збили один із наших човників, і нам потрібно евакуювати оперативників, які вижили, перш ніж їх захопить місцева влада."
+ ABDUCT_SCIENTIST_PROJECT:1 "Викрасти [GetPreFTLLower&masc,gen] вченого"
+ ABDUCT_SCIENTIST_PROJECT_DESC:1 "На [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] мешкає [GetPreFTLLower&plain] народ - [pre_ftl_country.GetSpeciesNamePlural], але серед них виявлено блискучого вченого. Він марнує свої видатні здібності на [GetPreFTLLower&plain] світ, хоча міг би стати підмогою в наших власних науково-дослідних проектах. Приводиться у виконання план, згідно з яким ми повинні його викрасти і "переконати" працювати на нас."
+ DEFENSE_FORCE_STRIKE_PROJECT:1 "Знищити місцеву оборонну групу"
+ DEFENSE_FORCE_STRIKE_PROJECT_DESC:1 "Держави [pre_ftl_country.GetSpeciesName] на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] об'єдналися і створили оперативну групу по боротьбі з інопланетянами, у завдання якої входить зрив нашої діяльності в їхньому рідному світі. Ми цього не потерпимо. Ми повинні завдати карального удару по основній базі цієї організації."
+ IMPLANT_MALFUNCTIONS_PROJECT:1 "Видалити несправні імплантати"
+ IMPLANT_MALFUNCTIONS_PROJECT_DESC:1 "Деякі [GetPreFTLLowerPlural&plain] [pre_ftl_country.GetSpeciesNamePlural], що мешкають на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], стали нашими піддослідними: ми встановили їм у мозок імплантати, але тепер у нас проблеми. Було чимало несправностей, результатом чого ставала буйна поведінка і, в деяких випадках, смертельний результат. Нам потрібно видалити ці імплантати, поки через них не виникло ще більше проблем."
+ PROBE_ALIENS_PROJECT:1 "Провести зондування чужинців"
+ PROBE_ALIENS_PROJECT_DESC:1 "Наші вчені хочуть набрати групу піддослідних з числа аборигенів на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]. Після завершення експериментів їх висадять на поверхню [pre_ftl_planet.GetPlanetHabitatDE1], стерши спогади про те, що сталося."
+
+ # Custom Tooltips
+ cannot_reveal_tt:1 "§RМи не зможемо розкрити себе, поки ця подія не закінчиться.§!"
+ cannot_dismantle_outpost_tt:1 "§RМи не зможемо розібрати спостережний форпост, поки ця подія не закінчиться.§!"
+ tech_progress_gain_tt:0 "§Y[pre_ftl_country.GetName]§!: §G+[pre_ftl_country.TechProgressPercentage]%§! до науково-технічного прогресу."
+ tech_progress_loss_tt:0 "§Y[pre_ftl_country.GetName]§!: §R-[pre_ftl_country.TechProgressPercentage]%§! науково-технічного прогресу."
+ locked_to_passive_observation:0 "Єдина мета спостережного форпосту - $mission_passive_observation$"
+ acquired_tech_tooltip:1 "§Y[pre_ftl_country.GetName]§! отримала §G+50%§! до темпів технологічного розвитку."
+ acquired_tech_tooltip_five_years:0 "§Y[pre_ftl_country.GetName]§!: §G+50%§! до науково-технічного прогресу на §Y5 років§!."
+ advance_to_age_tt:0 "§Y[pre_ftl_country.GetName]§! переходить у §Y[pre_ftl_country.GetNewAge]§!."
+ regress_to_age_tt:0 "§Y[pre_ftl_country.GetName]§! відкочується в §Y[pre_ftl_country.GetNewAge]§!."
+
+# Scripted Loc
+ mountain:0 "гора"
+ mountain_habitat:0 "гірське середовище проживання"
+
+ #Refactored Observation Events
+
+ observation.2011.name:2 "Технологічний розвиток: проблеми на світі [pre_ftl_planet.GetName]"
+ observation.2011.desc:1 "Наші радники на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] мають проблеми з аборигенами, яких ніяк не вдається вивести на вищий рівень розвитку технологій. [pre_ftl_planet.Owner.GetSpeciesNamePlural] здебільшого не бажають мати з нами нічого спільного, і навіть ті, хто готовий чогось навчатися, дивляться на наших вчених із підозрою та огидою.\n\nМи вибудовували свої графіки без урахування ксенофобії. На жаль, [pre_ftl_planet.Owner.GetSpeciesNamePlural] навчатимуться куди довше, ніж планувалося."
+ observation.2014.name:1 "Технологічний розвиток: прогрес на світі [pre_ftl_planet.GetName]"
+ observation.2014.desc:1 "Мешканці світу [pre_ftl_planet.GetName] у захваті від подарованих нами технологій. Вони стікаються в анклави, створені на поверхні світу, і завалюють наших вчених питаннями про наші культуру та історію.\n\nТе, з якою готовністю [pre_ftl_planet.Owner.GetSpeciesNamePlural] вчаться у нас, значно прискорило нашу місію з технологічного розвитку їхньої цивілізації. Ми переглянули свої початкові плани."
+ observation.2014.tt:0 "§Y[pre_ftl_country.GetName]§!: §G+20%§! науково-технічного прогресу."
+ observation.2016.name:1 "Технологічний розвиток: проблеми на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+ observation.2016.desc:1 "[pre_ftl_species.GetName] з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName], на жаль, виявилися поганими учнями. За повідомленнями наших наукових радників, чужинці не бажають відмовлятися від своїх звичаїв і сприймати нові концепції та ідеї. Схоже, наша просвітницька місія займе більше часу, ніж ми припускали."
+ observation.2016.tt:0 "§Y[pre_ftl_country.GetName]§!: §R-20%§! науково-технічного прогресу."
+ observation.2018.name:1 "Технологічний розвиток: проблеми на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+ observation.2018.desc:1 "Нам дедалі складніше знаходити наукових радників, готових брати участь у програмі технологічного розвитку на світі [pre_ftl_planet.GetName]. З урахуванням того що [pre_ftl_species.GetName] мають... своєрідним зовнішнім виглядом і запахом, перебувати з ними поруч - це випробування для будь-кого з нас.\n\nПризначення на [pre_ftl_planet.GetPlanetHabitatDE3] стало розглядатися як покарання. На жаль, усе це уповільнює здійснення нашої місії."
+ observation.2018.tt:0 "§Y[pre_ftl_country.GetName]§!: §R-20%§! науково-технічного прогресу."
+ observation.2020.desc:1 "[pre_ftl_species.GetNamePlural] з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] виявилися природженими вченими. Наші радники, що базуються на їхніх [pre_ftl_planet.GetPlanetHabitatDE5], вражені тим, як швидко вони розвиваються. У звітах вказується, що наша просвітницька програма може зайняти значно менше часу, ніж планувалося, і [pre_ftl_species.GetName] скоро досягне космічної ери."
+ observation.2022.desc:0 "Наша місія з технологічного розвитку світу [pre_ftl_planet.GetName] просувається стрімкими темпами. [pre_ftl_species.GetNamePlural] наділені незвичайними розумовими здібностями і швидко вчаться новому. Хоча ця цивілізація ще порівняно молода, наші вчені стверджують, що [pre_ftl_species.GetName] мають великий потенціал."
+ observation.2030.name:0 "Етичні зміни на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+ observation.2030.desc:0 "Тривалі контакти з нашими науковими радниками на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] зробили аборигенів більш терпимими до інших рас і культур. [pre_ftl_species.GetNamePlural] більше не відчувають миттєвої відрази, коли бачать щось незвичне."
+ observation.2031.desc:1 "Попрацювавши пліч-о-пліч із нашими вченими та радниками на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName], [pre_ftl_species.GetNamePlural] почали виявляти непідробний інтерес до всього, що для них є чужим."
+ observation.2031.tt:0 "Мешканці [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] більше схиляться до ксенофілії."
+ observation.social.intro:0 "Аборигени з [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] захоплені нашими технологіями. Ба більше, за повідомленнями радників, вони починають наслідувати наші звичаї."
+ observation.2032.desc:0 "$observation.social.intro$\n\nПредставники раси [pre_ftl_species.GetName] переймають у нас миролюбну філософію і принципи ненасильства. Після нашої появи конфлікти між різними культурними групами практично зійшли нанівець."
+ observation.2032.tt:0 "Мешканці [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] схиляться до пацифізму."
+ observation.2033.desc:1 "$observation.social.intro$\n\nМи надаємо їм новітню зброю, і тепер [pre_ftl_species.GetNamePlural] стали ще вище цінувати мистецтво війни. Після нашої появи їхнє суспільство стало куди більш мілітаристським."
+ observation.2033.tt:0 "Мешканці [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] схиляться до мілітаризму."
+ observation.2034.desc:0 "$observation.social.intro$\n\nМи подали їм чудовий приклад і показали, що таке справжня сильна влада, яка не страждає від розбіжностей. Тепер [pre_ftl_species.GetNamePlural] усвідомлюють, що тільки так їхня цивілізація може досягти величі."
+ observation.2034.tt:0 "Мешканці [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] схиляться до авторитаризму."
+ observation.2035.desc:1 "$observation.social.intro$\n\nНатхненні шедеврами нашого мистецтва і культури, [pre_ftl_species.GetName] стали набагато більше цінувати рівність. Після нашої появи їхнє суспільство навчилося поважати свободу особистості."
+ observation.2035.tt:0 "Мешканці [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] схиляться до егалітаризму."
+ observation.2036.desc:0 "$observation.social.intro$\n\nНаше завдання піднести расі [pre_ftl_species.GetName] наукові цінності виконана більш ніж успішно: релігія почала втрачати популярність, а суспільство відкидає одне марновірство за іншим."
+ observation.2036.tt:0 "Мешканці [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] схиляться до матеріалізму."
+ observation.2037.desc:1 "$observation.social.intro$\n\nСтавши свідками того, наскільки міцна наша віра, багато хто [pre_ftl_species.GetNamePlural] тепер звертаються до стародавніх релігій своєї цивілізації і намагаються поєднати їх з елементами наших вірувань."
+ observation.2037.tt:0 "Мешканці [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] стануть більш релігійними."
+ observation.2038.desc:0 "Деякі вчені, яких ми направили на [pre_ftl_planet.GetPlanetHabitatDE3] [pre_ftl_planet.GetName], висловлюють сумнів у розумності нашої місії. За їхніми донесеннями, [pre_ftl_species.GetNamePlural] зацікавлені тільки в новій зброї. Вони не полишають марних спроб використати у військових цілях усі мирні технології, що ми їм пропонуємо. Усе це затягує нашу місію."
+ observation.2039.desc:1 "Наша місія з просвітництва аборигенів на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] пішла не зовсім так, як було задумано. Вчені-[pre_ftl_species.GetName] постійно приходять у жах, коли ми намагаємося навчати їх нових збройових технологій.\n\nУ наших учених пішло кілька тижнів на те, щоб заспокоїти їх після демонстрації ефекту вибуху ядерної бомби над населеним пунктом. На жаль, це суттєво уповільнює наш прогрес."
+ observation.2040.desc:0 "Нам нелегко дається робота з просвіти населення [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] і розвитку їхньої цивілізації. [pre_ftl_species.GetNamePlural] відрізняються забобонністю, і заплутаність їхніх релігійних традицій часто ставить наших учених у глухий кут. Вони вперто відмовляються прийняти матеріальні свідчення.\n\nНа жаль, це означає, що ми були занадто оптимістичні в первинних оцінках."
+ observation.2041.desc:1 "Усі наші зусилля з просвітництва [pre_ftl_species.GetNamePlural] поки що ні до чого не приводять. Наші релігійні та вчені радники на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] стурбовані повною відсутністю віри у місцевого населення. Вони готові перейняти наші технології, але не духовні принципи, щоб користуватися цими технологіями розумно.\n\nЦе суттєво ускладнює нашу місію. Схоже, [pre_ftl_species.GetNamePlural] йтимуть до просвіти довше, ніж ми припускали."
+ observation.2042.desc:0 "Авторитарне і деспотичне суспільство на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] не піддається жодним просвітницьким зусиллям. [pre_ftl_species.GetNamePlural] не бажають розвивати технології. Індивідуалізм та ініціативність, необхідні для розвитку науки, вони жорстоко переслідують.\n\nЇхній лютуючий авторитаризм істотно гальмує нашу місію. Наукові радники повідомляють, що вона, ймовірно, займе значно більше часу, ніж передбачалося."
+ observation.2043.desc:1 "На [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] панує цілковита анархія, і [pre_ftl_species.GetNamePlural] з великими труднощами освоюють ази сучасної науки навіть за допомогою наших радників. Іноді здається, що їхні вчені колективи нездатні домовитися навіть про найпростіші проєкти і кожен гне власну лінію.\n\nМи продовжуємо просвітницькі зусилля, незважаючи на безглуздий егалітаризм місцевого населення, але ця місія явно займе більше часу, ніж передбачалося."
+
+ ### New events which fire before nuclear war/apocalypse gatekeepers, giving the player a final chance to stop pre-FTLs from blowing themselves up! ###
+ # This event appears prior to observation.107 (religious nuclear war) #
+ observation.3205.name:0 "Неминуча загибель [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName]"
+ observation.3205.desc:0 "Ставши свідками вознесіння [missing_scientist.GetAXX:свого рятівника|||fem:своєї рятівниці], мешканці [pre_ftl_planet.GetPlanetHabitatDE1] [pre_ftl_planet.GetName] впали у відчай. Їхнє суспільство розколоте, а протиріччя досягли неможливих висот.\n\nЯкщо ми нічого не зробимо, вони візьмуть на озброєння наші технології і знищать один одного в планетарній релігійній війні."
+ observation.3205.a:0 "Забрати наші технології."
+ observation.3205.b:0 "Подальшого культурного забруднення допускати не можна."
+ # This event appears prior to observation.204 (nuclear war following downed shuttle and stolen tech) #
+ observation.3210.name:0 "На [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] зріє катастрофа"
+ observation.3210.desc:0 "Технології, видобуті з нашого впавшого на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] човника, становлять загрозу самому існуванню місцевих жителів. Вони не мають у своєму розпорядженні нашого наукового досвіду, і в їхніх руках наші технології можуть легко знищити все живе на [pre_ftl_planet.GetPlanetHabitatDE5].\n\nЯкщо ми не втрутимося, все закінчиться катастрофою."
+ observation.3210.a:0 "Запустити самознищення човника."
+ observation.3210.b:0 "Завдану шкоду вже не виправити."
+ # This event appears prior to observation.1400 (random nuclear war) #
+ observation.3215.name:0 "Ядерна гонка озброєнь на [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName]"
+ observation.3215.desc:0 "На [pre_ftl_planet.GetPlanetHabitatDE5] [pre_ftl_planet.GetName] зростає напруженість. У будь-який момент може початися ядерна війна. Якщо ми нічого не зробимо, вони винищать один одного.\n\nМи - їхня єдина надія."
+ observation.3215.a:0 "Таємно впровадити агентів і розрядити обстановку."
+ observation.3215.b:0 "Досить із нас шпигунства."

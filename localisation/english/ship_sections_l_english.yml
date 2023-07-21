@@ -1,0 +1,129 @@
+﻿l_english:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+ 
+
+ ####################################
+ # Juggernaut
+ ####################################
+ 
+ CORE_JUGGERNAUT_SECTION:0 "Джаггернаут"
+ 
+ ####################################
+ # Titan
+ ####################################
+ 
+ TITAN_BOW:0 "Ніс титана"
+ TITAN_MID:0 "Корпус титана"
+ TITAN_STERN:1 "Корма титана"
+ 
+ ####################################
+ # Battleship
+ ####################################
+ BATTLESHIP_BOW_L1M1S2:1 "Носова батарея"
+ BATTLESHIP_BOW_L1S4:1 "Ніс титановий руйнівник"
+ BATTLESHIP_BOW_L2:1 "Носова артилерія"
+ BATTLESHIP_BOW_M1S2SHB:1 "Носові ангари"
+ BATTLESHIP_BOW_M2S4:1 "Головний калібр"
+ BATTLESHIP_BOW_M3S2:1 "Ніс "Руйнівник душ""
+ BATTLESHIP_MID_L2S4:1 "Корпус "Наднова""
+ BATTLESHIP_MID_L1M4:1 "Корпус "Буревісник""
+ BATTLESHIP_MID_L2M2:1 "Гарматна палуба"
+ BATTLESHIP_MID_L3:1 "Артилерійська палуба"
+ BATTLESHIP_MID_M4SHB:1 "Ангарна палуба"
+ BATTLESHIP_MID_S4LHB:1 "Корпус корабля-носія"
+ BATTLESHIP_STERN_M1S2:1 "Фальшборт "Аеон""
+ BATTLESHIP_STERN_L1:1 "Кормова артилерія"
+ BATTLESHIP_STERN_M2:1 "Кормові гармати"
+ BATTLESHIP_STERN_S4:1 "Фальшборт "Зеніт""
+
+ ####################################
+ # Colonizer
+ ####################################
+ COLONIZER_MID_M1S1:1 "Корпус колоніального корабля"
+ COLONIZER_MID_S3:0 "Корпус "Джерело""
+ COLONIZER_MID_MU1:0 "Корпус "Ідеал""
+
+ ####################################
+ # Constructor
+ #################################### 
+ CONSTRUCTOR_MID_M1S1:1 "Корпус будівельного корабля"
+ CONSTRUCTOR_MID_S3:0 "Корпус "Будівельник""
+ CONSTRUCTOR_MID_MU1:0 "Корпус "Зварювальник""
+
+ ####################################
+ # Corvette
+ #################################### 
+ CORVETTE_MID_M1S1:3 "Торпедний катер"
+ CORVETTE_MID_S3:1 "Перехоплювач"
+ CORVETTE_MID_S1:1 "Корпус "Спритник""
+ CORVETTE_MID_S2PD1:0 "Корабель перехоплення"
+
+ ####################################
+ # Cruiser
+ #################################### 
+ CRUISER_BOW_L1:1 "Носова артилерія"
+ CRUISER_BOW_M1S2:3 "Носові торпеди"
+ CRUISER_BOW_M2:1 "Носова батарея"
+ CRUISER_MID_S2HB:1 "Ангарна палуба"
+ CRUISER_MID_L1M1:1 "Артилерійська палуба"
+ CRUISER_MID_M3:1 "Гарматна палуба"
+ CRUISER_MID_M2S2:3 "Торпедна палуба"
+ CRUISER_STERN_M1:1 "Кормові гармати"
+ CRUISER_STERN_S2:1 "Важкі кормові гармати"
+
+ ####################################
+ # Destroyer
+ #################################### 
+ DESTROYER_BOW_M1S2:1 "Важкі носові знаряддя"
+ DESTROYER_BOW_S3:1 "Носовий локатор"
+ DESTROYER_BOW_L1:1 "Носова артилерія"
+ DESTROYER_STERN_PD2:0 "Кормовий локатор"
+ DESTROYER_STERN_S2:0 "Локатор-перехоплювач"
+ DESTROYER_STERN_M1:1 "Важкі кормові знаряддя"
+
+ ####################################
+ # Science
+ #################################### 
+ SCIENCE_MID_M1S1:1 "Науковий корабель"
+ SCIENCE_MID_S3:0 "Корпус "Першопроходець""
+ SCIENCE_MID_MU1:0 "Корпус "Осяяння""
+ 
+ ####################################
+ # Science
+ #################################### 
+ LIGHT_MILITARY_STATION_SECTION:0 "Легка секція"
+ PD_MILITARY_STATION_SECTION:0 "Оборонна секція"
+ MEDIUM_MILITARY_STATION_SECTION:0 "Середня секція"
+ MISSILE_MILITARY_STATION_SECTION:0 "Ракетна секція"
+ HEAVY_MILITARY_STATION_SECTION:0 "Важка секція"
+ HANGAR_MILITARY_STATION_SECTION:0 "Ангарна секція"
+ LIGHT_LARGE_MILITARY_STATION_SECTION:0 "Легка секція"
+ MEDIUM_LARGE_MILITARY_STATION_SECTION:0 "Середня секція"
+ HEAVY_LARGE_MILITARY_STATION_SECTION:0 "Важка секція"
+ HANGAR_LARGE_MILITARY_STATION_SECTION:0 "Ангарна секція"
+ OUTPOST_STATION_SECTION:0 "Корпус прикордонного форпосту"
+
+ ####################################
+ # Other
+ #################################### 
+ MISSILE_DEFAULT:1 "Торпедний модуль"
+ DEFAULT_CONSTRUCTION_SECTION:1 "Корпус будівельного корабля"
+ DEFAULT_COLONIZATION_SECTION:1 "Корпус колоніального корабля"
+ DEFAULT_SCIENCESHIP_SECTION:1 "Науковий корабель"
+ DEFAULT_ORBITAL_STATION_SECTION:0 "Корпус орбітальної станції"
+ DEFAULT_MINING_STATION_SECTION:0 "Корпус видобувної станції"
+ DEFAULT_RESEARCH_STATION_SECTION:0 "Корпус наукової станції"
+ DEFAULT_WORMHOLE_STATION_SECTION:0 "Корпус станції червоточин"
+ DEFAULT_MILITARY_STATION_SECTION:0 "Базова бойова платформа"
+ DEFAULT_TRANSPORT_SECTION:1 "Транспортний корабель"
+ SHIP_COLOSSUS_SECTION:0 "Колос"
+ GHOST_SHIP_SECTION:0 "Корпус корабля-привида"
+ lost_swarm_adult:0 "Сарана"
+ lost_swarm_adult_plural:0 "Сарана"
